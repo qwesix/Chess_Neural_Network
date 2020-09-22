@@ -1,6 +1,7 @@
 import re
 from Pieces import Pieces as P
 
+
 class Board:
     def __init__(self):
         self.board = [
@@ -20,7 +21,7 @@ class Board:
             "e": 4, "f": 5, "g": 6, "h": 7
         }
         self.letters = "abcdefgh"
-        self.notation = re.compile("^[a-h][0-8][a-h][0-8]$")
+        self.notation = re.compile("^[a-h][1-8][a-h][1-8]$")
         self.rules = Rules()
 
     def move_algebraic(self, move_str: str):
@@ -39,13 +40,7 @@ class Board:
         self.rules.move_possible(self.board, old_pos, new_pos)
 
     def print(self):
-        for nr in range(8):
-            row = self.board[7 - nr]
-            to_print = ""
-            for piece in row:
-                to_print += P.switcher[piece]
-                to_print += " "
-            print(to_print)
+        print(self.__str__())
 
     def __str__(self):
         string = ""
@@ -62,10 +57,38 @@ class Board:
         return string
 
 
-
 class Rules:
     def __init__(self):
-        pass
+        self.figures = {
+            P.empty: self.empty,
+            P.wKing or P.bKing: self.king,
+            P.wQueen or P.bQueen: self.queen,
+            P.wBishop or P.bBishop: self.bishop,
+            P.wRook or P.bRook: self.rook,
+            P.wKnight or P.bKnight: self.knight,
+            P.wPawn or P.bPawn: self.pawn
+        }
 
-    def move_possible(self, board: list, move_from: (int, int), move_to: (int, int)) -> bool:
-        print("Board: ", board[move_from[0]][move_from[1]])
+    def move_possible(self, board: list, old_pos: (int, int), new_pos: (int, int)) -> bool:
+        return self.figures[board[old_pos[0]][old_pos[1]]]()
+
+    def empty(self, move_to: (int, int)) -> bool:
+        return False
+
+    def pawn(self, move_to: (int, int)) -> bool:
+        return False
+
+    def rook(self, move_to: (int, int)) -> bool:
+        return False
+
+    def knight(self, move_to: (int, int)) -> bool:
+        return False
+
+    def bishop(self, move_to: (int, int)) -> bool:
+        return False
+
+    def queen(self, move_to: (int, int)) -> bool:
+        return False
+
+    def king(self, move_to: (int, int)) -> bool:
+        return False
