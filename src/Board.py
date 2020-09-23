@@ -58,6 +58,9 @@ class Board:
         if self.field[old_y][old_x] == FREE:
             return "There is no piece! (" + str(old_x) + ", " + str(old_y) + ")"
 
+        if self.field[old_y][old_x].color != self.on_turn:
+            return ("White" if self.on_turn == WHITE else "Black") + " is on turn!"
+
         if self.field[old_y][old_x].move_possible(self.field, old_pos, new_pos):
             self.field[new_y][new_x] = self.field[old_y][old_x]
             self.field[old_y][old_x] = FREE
