@@ -12,7 +12,8 @@ class King:
     def move_possible(self, board: list, old_pos: (int, int), new_pos: (int, int)):
         if abs(old_pos[0] - new_pos[0]) < 1 and abs(old_pos[1] - new_pos[1]) < 1:
             return True
-        return False
+        # return False
+        return True
 
     def __str__(self):
         return "wKi" if self.color == WHITE else "bKi"

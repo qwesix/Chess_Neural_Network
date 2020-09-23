@@ -3,7 +3,9 @@ import re
 
 if __name__ == '__main__':
     board = Board.Board()
-    # board.move_algebraic("g1f3")
+    successful = board.move_algebraic("a2a3")
+    successful = board.move_algebraic("g7g5")
+    print(successful)
 
     board.print()
 

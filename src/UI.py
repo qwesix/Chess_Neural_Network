@@ -1,5 +1,6 @@
 import Board
 
+
 class UI:
     def update(self, board):
         pass

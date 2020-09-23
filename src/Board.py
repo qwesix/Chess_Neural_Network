@@ -4,7 +4,7 @@ from Pieces import *
 
 class Board:
     def __init__(self):
-        self.board = [
+        self.field = [
             [Rook(WHITE), Knight(WHITE), Bishop(WHITE), Queen(WHITE), King(WHITE), Bishop(WHITE), Knight(WHITE), Rook(WHITE)],
             [Pawn(WHITE), Pawn(WHITE), Pawn(WHITE), Pawn(WHITE), Pawn(WHITE), Pawn(WHITE), Pawn(WHITE), Pawn(WHITE)],
 
@@ -16,8 +16,8 @@ class Board:
             [Pawn(BLACK), Pawn(BLACK), Pawn(BLACK), Pawn(BLACK), Pawn(BLACK), Pawn(BLACK), Pawn(BLACK), Pawn(BLACK)],
             [Rook(BLACK), Knight(BLACK), Bishop(BLACK), Queen(BLACK), King(BLACK), Bishop(BLACK), Knight(BLACK), Rook(BLACK)]
         ]
-        assert len(self.board) == 8
-        for row in self.board:
+        assert len(self.field) == 8
+        for row in self.field:
             assert len(row) == 8
 
         self.decoder = {
@@ -28,35 +28,67 @@ class Board:
         self.notation = re.compile("^[a-h][1-8][a-h][1-8]$")
 
     def move_algebraic(self, move_str: str):
+        """
+        The string must have the size 4 and consists of letter+number of olf position followed by letter+number of new
+        position. e.g. "a1a4" or "h7d7"
+        :param move_str: The string that holds the information of the move to do.
+        :return: True if the move was successful, otherwise a string with a error message.
+        """
         if len(move_str) != 4:
             return "Wrong length!"
 
         if not self.notation.match(move_str):
             return "Syntax violated!"
 
-        self.move((self.decoder[move_str[0]], 8 - int(move_str[1])), (self.decoder[move_str[2]], 8 - int(move_str[3])))
-        return True
+        return self.move((self.decoder[move_str[0]], int(move_str[1]) - 1),
+                         (self.decoder[move_str[2]], int(move_str[3]) - 1))
 
-    def move(self, old_pos: (int, int), new_pos: (int, int)) -> bool:
+    def move(self, old_pos: (int, int), new_pos: (int, int)):
+        """
+        Makes move from old_pos to new_pos. The first specifies the position on the alphabetical scale (a=0, ..., h=7)
+        and the second specifies the position on the numeric scale (0 to 7).
+        :param old_pos: The position the piece is standing now.
+        :param new_pos: The position to move to.
+        :return: True if the move was successful, otherwise a string with a error message.
+        """
         print(old_pos)
         print(new_pos)
         old_x, old_y = old_pos
         new_x, new_y = new_pos
-        if self.board[old_x][old_y] == FREE:
-            return False
+        if self.field[old_y][old_x] == FREE:
+            return "There is no piece! (" + str(old_x) + ", " + str(old_y) + ")"
 
-        if self.board[old_x][old_y].move_possible(self.board, old_pos, new_pos):
-            self.board[new_x][new_y] = self.board[old_x][old_y]
-            self.board[old_x][old_y] = FREE
+        if self.field[old_y][old_x].move_possible(self.field, old_pos, new_pos):
+            self.field[new_y][new_x] = self.field[old_y][old_x]
+            self.field[old_y][old_x] = FREE
+            return True
 
+        return "Unknown problem!"
 
-    def print(self):
-        print(self.__str__())
+    def print(self, show_labeling=True):
+        string = ""
+        for nr in range(8):
+            row = self.field[7 - nr]
+            if show_labeling:
+                string += str(8 - nr) + " "
+
+            to_print = ""
+            for piece in row:
+                to_print += "[ ]" if piece == FREE else piece.__str__()
+                to_print += " "
+            string += to_print
+            if nr < 7:
+                string += "\n"
+
+        if show_labeling:
+            string += "\n   a   b   c   d   e   f   g   h"
+
+        print(string)
 
     def __str__(self):
         string = ""
         for nr in range(8):
-            row = self.board[7 - nr]
+            row = self.field[7 - nr]
             to_print = ""
             for piece in row:
                 to_print += "[ ]" if piece == FREE else piece.__str__()
