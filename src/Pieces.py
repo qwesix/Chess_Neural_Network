@@ -1,7 +1,6 @@
 
 WHITE = 0
 BLACK = 1
-
 FREE = 0
 
 

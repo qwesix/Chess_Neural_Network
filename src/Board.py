@@ -27,6 +27,8 @@ class Board:
         self.letters = "abcdefgh"
         self.notation = re.compile("^[a-h][1-8][a-h][1-8]$")
 
+        self.on_turn = WHITE
+
     def move_algebraic(self, move_str: str):
         """
         The string must have the size 4 and consists of letter+number of olf position followed by letter+number of new
@@ -51,8 +53,6 @@ class Board:
         :param new_pos: The position to move to.
         :return: True if the move was successful, otherwise a string with a error message.
         """
-        print(old_pos)
-        print(new_pos)
         old_x, old_y = old_pos
         new_x, new_y = new_pos
         if self.field[old_y][old_x] == FREE:
@@ -61,6 +61,7 @@ class Board:
         if self.field[old_y][old_x].move_possible(self.field, old_pos, new_pos):
             self.field[new_y][new_x] = self.field[old_y][old_x]
             self.field[old_y][old_x] = FREE
+            self.on_turn = (self.on_turn + 1) % 2
             return True
 
         return "Unknown problem!"
@@ -84,6 +85,7 @@ class Board:
             string += "\n   a   b   c   d   e   f   g   h"
 
         print(string)
+        print("On turn: ", "white" if self.on_turn == WHITE else "black", "\n")
 
     def __str__(self):
         string = ""
