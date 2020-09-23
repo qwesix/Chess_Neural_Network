@@ -61,13 +61,17 @@ class Board:
         if self.field[old_y][old_x].color != self.on_turn:
             return ("White" if self.on_turn == WHITE else "Black") + " is on turn!"
 
-        if self.field[old_y][old_x].move_possible(self.field, old_pos, new_pos):
+        # turn x and y around for the piece:
+        if self.field[old_y][old_x].move_possible(self.field, (old_y, old_x), (new_y, new_x)):
+            if self.field[new_y][new_x] is King:
+                self.field[new_y][new_x].was_moved = True
+
             self.field[new_y][new_x] = self.field[old_y][old_x]
             self.field[old_y][old_x] = FREE
             self.on_turn = (self.on_turn + 1) % 2
             return True
 
-        return "Unknown problem!"
+        return "Move not possible!"
 
     def print(self, show_labeling=True):
         string = ""
