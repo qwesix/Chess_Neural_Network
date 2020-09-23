@@ -1,13 +1,11 @@
+import Board
+
 class UI:
     def update(self, board):
         pass
 
-    def get_black_turn(self):
+    def make_turn(self):
         pass
-
-    def get_white_turn(self):
-        pass
-
 
 
 class TerminalUI(UI):
