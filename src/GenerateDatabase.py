@@ -5,8 +5,8 @@ import chess.pgn
 import sys
 import os
 import multiprocessing as mp
-from multiprocessing.dummy import Pool as ThreadPool
-import time
+import functools
+import operator
 
 
 # Stores for every piece the channel it gets saved in and the value:
@@ -25,8 +25,6 @@ channel_encoder = {
     'b': [1, 4],
     'p': [1, 5]
 }
-
-STATES = mp.Queue()
 
 
 def process_epd(epd_: str) -> torch.Tensor:
@@ -51,9 +49,10 @@ def process_epd(epd_: str) -> torch.Tensor:
     return tensor
 
 
-def process_file(path):
-    pgn = open(path)
-    print("Processing file ", path, "...")
+def process_file(path) -> list:
+    pgn = open(path, encoding="iso-8859-15")
+    print("Processing file ", path)
+    states_ = list()
 
     while (game := chess.pgn.read_game(pgn)) is not None:
         white = game.headers["White"]
@@ -75,7 +74,7 @@ def process_file(path):
             on_turn = epd[1]  # 'w' or 'b'
             board_tensor = process_epd(game.board().epd())
 
-            STATES.put({'white': white,
+            states_.append({'white': white,
                         'black': black,
                         'result': result_encoded,
                         'state': board_state,
@@ -84,21 +83,20 @@ def process_file(path):
                         })
 
     print("Successfully processed ", path)
+    return states_
 
 
-def add_to_database(db_: TinyDB, states_: mp.Queue):
+def add_to_database(db_: TinyDB, states_: list) -> int:
     """
     Constantly inserts the game states created by the other processes into the TinyDB
-    :param states_: Queue with the data collected by the processes
-    :param db_: The TinyDB to add the data in.
+    :param states_: List with the states collected by the processes
+    :param db_: The TinyDB to add the states in.
     """
     index = 0
-    while not states_.empty():
-        print("Data to db")
-        data = states_.get()
-        data["index"] = index
+    for state in states:
+        state["index"] = index
         index += 1
-        db_.insert(data)
+        db_.insert(state)
 
     return index
 
@@ -114,12 +112,15 @@ if __name__ == '__main__':
     for x in os.scandir(pgn_folder):
         paths.append(x.path)
 
-    db = TinyDB(database_path)
     states = mp.Queue()
+    # results = None
 
     with mp.Pool(mp.cpu_count()) as pool:
         results = pool.map_async(process_file, paths[0:2])
-        results.get()
+        results = results.get()
 
+    states = functools.reduce(operator.iconcat, results, [])
+
+    db = TinyDB(database_path)
     nr_examples_added = add_to_database(db, states)
     print(f"Examples in the database: {len(db)} ({nr_examples_added} newly added)")
