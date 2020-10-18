@@ -1,4 +1,4 @@
-import Board
+from own import Board
 
 
 class UI:

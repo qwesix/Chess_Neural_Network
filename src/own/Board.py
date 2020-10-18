@@ -1,5 +1,5 @@
 import re
-from Pieces import *
+from own.Pieces import *
 
 
 class Board:

@@ -1,23 +1,19 @@
-import Board
-from Pieces import *
-import re
+import chess.pgn
 
 if __name__ == '__main__':
-    board = Board.Board()
-    board.print()
+    # board = chess.Board()
+    pgn = open("../pgn/Magnus-Carlsen_vs_Jeffery-Xiong_2020.01.13.pgn", encoding="utf-8")
+    game = chess.pgn.read_game(pgn)
 
-    successful = board.move_algebraic("e2e4")
-    print(successful)
-    board.print()
+    print(game.headers["Event"])
+    print("White:  ", game.headers["White"])
+    print("Black:  ", game.headers["Black"])
+    print("Result: ", game.headers["Result"])
 
-    successful = board.move_algebraic("g7g5")
-    print(successful)
-    board.print()
+    board = game.board()
+    print(board)
 
-    successful = board.move_algebraic("e1e2")
-    print(successful)
-    board.print()
+    for move in game.mainline_moves():
+        board.push(move)
+        print(board)
 
-    print(horizontal_free(board.field, 1, 5, 7))
-    print(horizontal_free(board.field, 4, 0, 4))
-    print(horizontal_free(board.field, 4, 0, 7))
