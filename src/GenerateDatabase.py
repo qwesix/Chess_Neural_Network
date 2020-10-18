@@ -55,38 +55,42 @@ def process_file(path) -> list:
     states_ = list()
 
     while (game := chess.pgn.read_game(pgn)) is not None:
-        white = game.headers["White"]
-        black = game.headers["Black"]
+        try:
+            white = game.headers["White"]
+            black = game.headers["Black"]
 
-        result_ = game.headers["Result"]
-        result_encoded = 0
-        if result_ == "1-0":  # white won
-            result_encoded = 1
-        elif result_ == "0-1":
-            result_encoded = -1
+            result_ = game.headers["Result"]
+            result_encoded = 0
+            if result_ == "1-0":  # white won
+                result_encoded = 1
+            elif result_ == "0-1":
+                result_encoded = -1
 
-        board = game.board()
+            board = game.board()
 
-        for move in game.mainline_moves():
-            board.push(move)
-            epd = game.board().epd().split(" ")
-            board_state = epd[0]
-            on_turn = epd[1]  # 'w' or 'b'
-            board_tensor = process_epd(game.board().epd())
+            for move in game.mainline_moves():
+                board.push(move)
+                epd = game.board().epd().split(" ")
+                board_state = epd[0]
+                on_turn = epd[1]  # 'w' or 'b'
+                board_tensor = process_epd(game.board().epd())
 
-            states_.append({'white': white,
-                        'black': black,
-                        'result': result_encoded,
-                        'state': board_state,
-                        'tensor': board_tensor.tolist(),
-                        'on_turn': on_turn
-                        })
+                states_.append({'white': white,
+                                'black': black,
+                                'result': result_encoded,
+                                'state': board_state,
+                                'tensor': board_tensor.tolist(),
+                                'on_turn': on_turn
+                                })
 
-    print("Successfully processed ", path)
+        except Exception:
+            print("Something gone wrong!")
+
+        print("Successfully processed ", path)
     return states_
 
 
-def add_to_database(db_: TinyDB, states_: list) -> int:
+def add_to_database(db_, states_: list) -> int:
     """
     Constantly inserts the game states created by the other processes into the TinyDB
     :param states_: List with the states collected by the processes
@@ -96,7 +100,7 @@ def add_to_database(db_: TinyDB, states_: list) -> int:
     for state in states:
         state["index"] = index
         index += 1
-        db_.insert(state)
+    db_.insert_multiple(states)
 
     return index
 
@@ -116,11 +120,16 @@ if __name__ == '__main__':
     # results = None
 
     with mp.Pool(mp.cpu_count()) as pool:
-        results = pool.map_async(process_file, paths[0:2])
+        results = pool.map_async(process_file, paths)
         results = results.get()
 
     states = functools.reduce(operator.iconcat, results, [])
 
+    print("Add collected data to database...")
     db = TinyDB(database_path)
-    nr_examples_added = add_to_database(db, states)
-    print(f"Examples in the database: {len(db)} ({nr_examples_added} newly added)")
+    db.drop_tables()
+    table = db.table('default_table', cache_size=50000)
+    nr_examples_added = add_to_database(table, states)
+    print(f"Examples in the database: {len(table)} ({nr_examples_added} newly added)")
+    db.close()
+
