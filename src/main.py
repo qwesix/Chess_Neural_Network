@@ -1,9 +1,6 @@
 import chess.pgn
 import torch
 
-
-
-
 if __name__ == '__main__':
     # board = chess.Board()
     pgn = open("../pgn/Magnus-Carlsen_vs_Jeffery-Xiong_2020.01.13.pgn", encoding="utf-8")
@@ -19,9 +16,7 @@ if __name__ == '__main__':
 
     print(game.board().epd())
 
-    print(process_epd(game.board().epd()))
-
-    # for move in game.mainline_moves():
-    #     board.push(move)
-    #     print(board)
+    for move in game.mainline_moves():
+        board.push(move)
+        print(board)
 
