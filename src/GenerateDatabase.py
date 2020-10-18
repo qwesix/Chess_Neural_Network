@@ -85,7 +85,7 @@ def process_file(path) -> list:
         except Exception:
             print("Something gone wrong!")
 
-        print("Successfully processed ", path)
+    print("Successfully processed ", path)
     return states_
 
 
