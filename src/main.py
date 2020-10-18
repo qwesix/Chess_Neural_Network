@@ -1,4 +1,8 @@
 import chess.pgn
+import torch
+
+
+
 
 if __name__ == '__main__':
     # board = chess.Board()
@@ -13,7 +17,11 @@ if __name__ == '__main__':
     board = game.board()
     print(board)
 
-    for move in game.mainline_moves():
-        board.push(move)
-        print(board)
+    print(game.board().epd())
+
+    print(process_epd(game.board().epd()))
+
+    # for move in game.mainline_moves():
+    #     board.push(move)
+    #     print(board)
 
