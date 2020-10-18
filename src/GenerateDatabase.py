@@ -1,8 +1,7 @@
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 import torch
 import chess.pgn
 
-import sys
 import os
 import multiprocessing as mp
 import functools
@@ -115,9 +114,6 @@ if __name__ == '__main__':
     paths = list()
     for x in os.scandir(pgn_folder):
         paths.append(x.path)
-
-    states = mp.Queue()
-    # results = None
 
     with mp.Pool(mp.cpu_count()) as pool:
         results = pool.map_async(process_file, paths)
