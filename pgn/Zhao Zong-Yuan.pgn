@@ -1,0 +1,6169 @@
+[Event "Wch U12"]
+[Site "Oropesa del Mar"]
+[Date "1998.10.25"]
+[EventDate "?"]
+[Round "7"]
+[Result "1-0"]
+[White "Teimour Radjabov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A04"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+[ChessgamesWhiteID "49796"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1398492"]
+
+1.Nf3 Nf6 2.b3 g6 3.Bb2 Bg7 4.g3 O-O 5.Bg2 d6 6.d4 e5 7.dxe5
+Nfd7 8.Qd2 Nc6 9.Nc3 dxe5 10.O-O-O a5 11.h4 h6 12.g4 a4
+13.Nxa4 Qe7 14.Kb1 Rd8 15.Qc1 b5 16.Nc3 Qb4 17.Nxe5 Ncxe5
+18.Bxa8 c6 19.Qe3 Nxg4 20.Qg3 Nge5 21.f4 Qa5 22.fxe5 Qxa8
+23.e6 fxe6 24.Qxg6 Kh8 25.Rhg1 Rg8 26.Ne4 e5 27.Rxd7 Bxd7
+28.Bxe5 1-0
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.02"]
+[EventDate "?"]
+[Round "1"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Darryl K Johansen"]
+[ECO "C02"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "47022"]
+[ChessgamesGameID "1009726"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. e5 Bd7 5. d4 Nc6 6. Bd3 cxd4
+7. cxd4 Qb6 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 11. Qe2 Ne7
+12. Rd1 Nc6 13. Bxa6 Qxe5 14. Qxe5 Nxe5 15. Bxb7 Ra7 16. Bxd5
+exd5 17. Re1 f6 18. f4 Bc5+ 19. Kh1 d4 20. Nd5 Be6 21. b4 Bf8
+22. fxe5 Bxd5 23. exf6+ Kf7 24. Bb2 gxf6 25. a3 Rg8 26. Re2
+Bxb4 27. Bxd4 Rxa3 28. Rf1 Ra6 29. Ref2 Be7 30. h3 Rg3 31. Kh2
+Rd3 32. Bb2 Bd6+ 0-1
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.03"]
+[EventDate "?"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Joel Harp"]
+[ECO "C02"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "117"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "12067"]
+[ChessgamesGameID "1009767"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. e5 Nc6 5. d4 Nh6 6. Bxh6 gxh6
+7. a3 a5 8. Bb5 Bd7 9. a4 cxd4 10. cxd4 Bg7 11. O-O Nb4
+12. Na3 O-O 13. Rc1 Rc8 14. Qd2 Qe7 15. Rc3 Bc6 16. b3 Rc7
+17. Rfc1 Rfc8 18. Bf1 Kh8 19. Ne1 f6 20. exf6 Qxf6 21. Nb5 Rd7
+22. Nf3 Qf5 23. Re3 Rg8 24. Ne5 Bxe5 25. Rxe5 Qg6 26. Rc3 Rdg7
+27. Rg3 Qf6 28. Qe3 Bd7 29. Rxg7 Rxg7 30. g3 Rg5 31. Nd6 Nc6
+32. Rxg5 hxg5 33. Nxb7 Nxd4 34. Bg2 g4 35. Nxa5 Nf3+ 36. Bxf3
+gxf3 37. h4 e5 38. Qg5 Qxg5 39. hxg5 Kg7 40. Kf1 Kf7 41. Nb7
+Ke7 42. Ke1 Bc6 43. Nc5 Kd6 44. b4 e4 45. Kd2 d4 46. Nb3 Kd5
+47. b5 Ba8 48. a5 Kc4 49. a6 e3+ 50. Ke1 exf2+ 51. Kxf2 Kxb5
+52. Nxd4+ Kxa6 53. Nxf3 Kb6 54. Nh2 Be4 55. Ke3 Bg6 56. Ng4
+Kc7 57. Kf4 Kd6 58. Ne3 Ke6 59. g4 1/2-1/2
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.03"]
+[EventDate "?"]
+[Round "4"]
+[Result "1-0"]
+[White "Slavica Sarai"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B18"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "109"]
+[ChessgamesWhiteID "12079"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1009784"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6
+7. Nf3 Nf6 8. c3 e6 9. Bd3 Bxd3 10. Qxd3 c5 11. Qb5+ Qd7
+12. Qxd7+ Nbxd7 13. O-O Be7 14. Rd1 O-O 15. Nf1 Rfd8 16. Bf4
+Rac8 17. Ne3 Nb6 18. dxc5 Bxc5 19. Rxd8+ Rxd8 20. Rd1 Rxd1+
+21. Nxd1 Nbd5 22. Be5 Ne4 23. Bd4 Bxd4 24. Nxd4 a6 25. Nb3 Kf8
+26. f3 Nd6 27. Na5 b6 28. Nc6 Ke8 29. Kf2 f6 30. g4 e5 31. b3
+a5 32. c4 Nf4 33. Nc3 Kd7 34. Na7 Kc7 35. h5 Kb7 36. Nab5 Nxb5
+37. Nxb5 Kc6 38. Ke3 Kc5 39. Nc7 Kc6 40. Nb5 Kc5 41. Nc3 Ne6
+42. Ke4 Nd4 43. Na4+ Kc6 44. f4 Ne2 45. fxe5 fxe5 46. Kxe5 b5
+47. cxb5+ Kxb5 48. Kf5 Kb4 49. Kg6 Ka3 50. Kxg7 Kxa2 51. Nc5
+Nd4 52. Kxh6 Nxb3 53. Nxb3 Kxb3 54. g5 a4 55. g6 1-0
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.04"]
+[EventDate "?"]
+[Round "5"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Shaun Davies"]
+[ECO "C02"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "159"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "12045"]
+[ChessgamesGameID "1009811"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 6. Be2 Bb5
+7. c4 Bxc4 8. Bxc4 dxc4 9. d5 Nd7 10. O-O Ne7 11. d6 Nf5
+12. Na3 Qc6 13. g4 Nh6 14. h3 b5 15. Qe2 a6 16. Bf4 Nb6
+17. Rfd1 Nd5 18. Bg3 g6 19. Nc2 Bg7 20. Ne3 O-O 21. Rab1 Rfd8
+22. Nxd5 exd5 23. e6 Re8 24. e7 Ra7 25. Ng5 Rd7 26. Qf3 Bd4
+27. Re1 Rxd6 28. Bxd6 Qxd6 29. Qe2 Bf6 30. Qd2 Be5 31. Rbd1
+Rxe7 32. Qxd5 Bh2+ 33. Kf1 Rxe1+ 34. Kxe1 Qe5+ 35. Qxe5 Bxe5
+36. Rd8+ Kg7 37. Ne4 Bxb2 38. Nxc5 a5 39. Kd1 b4 40. Na4 Ba3
+41. Rd5 b3 42. axb3 cxb3 43. Rxa5 Ng8 44. Rb5 Nf6 45. Rxb3 Bd6
+46. Nc3 h5 47. f3 hxg4 48. hxg4 Nd7 49. Ke2 Bf4 50. Nd5 Bd6
+51. f4 Nf6 52. Nxf6 Kxf6 53. Kf3 Bc7 54. Ke4 Ba5 55. Rb5 Bd2
+56. Rb6+ Ke7 57. Ke5 Bc3+ 58. Kd5 Bd2 59. Ke4 Bc3 60. Ra6 Bb2
+61. Kd5 Bc3 62. Ra7+ Kf6 63. Kd6 Bd2 64. Ra4 Bc3 65. g5+ Kg7
+66. Ke7 Bd2 67. Ke8 Bc1 68. Ra7 Kg8 69. Rxf7 Be3 70. Rf6 Kg7
+71. Ke7 Bd4 72. Rf7+ Kg8 73. Ke6 Bc3 74. Rb7 Bd4 75. f5 gxf5
+76. Kxf5 Bc3 77. Kg6 Be5 78. Re7 Bd6 79. Re8+ Bf8 80. Rd8 1-0
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.04"]
+[EventDate "?"]
+[Round "6"]
+[Result "0-1"]
+[White "Miodrag Zdravkovic"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B13"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "48"]
+[ChessgamesWhiteID "12075"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1009832"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nc3 Nf6 5. Bd3 Nc6 6. Nf3 g6
+7. Bb5 Bg7 8. Ne5 Qb6 9. Bg5 O-O 10. Bxc6 bxc6 11. Na4 Qc7
+12. Nc5 Ne4 13. Nxe4 dxe4 14. Bf4 Qb6 15. b3 Rd8 16. c3 Ba6
+17. Qc2 c5 18. Qxe4 cxd4 19. Nc4 Bxc4 20. bxc4 dxc3 21. O-O
+Qd4 22. Qxd4 Rxd4 23. Bc1 Rxc4 24. Ba3 e6 0-1
+
+
+[Event "37th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "1999.04.05"]
+[EventDate "?"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Kerry Corker"]
+[ECO "B30"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "52"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "12046"]
+[ChessgamesGameID "1009852"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. O-O g6 6. c4 Bg7
+7. d4 cxd4 8. Nxd4 Qb6 9. Nb3 d6 10. Be3 c5 11. Nc3 Nf6 12. f3
+Bb7 13. Rb1 O-O 14. Qc2 a5 15. a3 Bc6 16. a4 Rfb8 17. Nb5 Nd7
+18. Rbe1 Ne5 19. Nd2 Bd7 20. Kh1 Nc6 21. f4 Nb4 22. Qb3 Qc6
+23. Bg1 e6 24. Nf3 d5 25. cxd5 exd5 26. e5 Bf5 1/2-1/2
+
+
+[Event "Australian Open"]
+[Site "Australia"]
+[Date "1999.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Gregory J Canfell"]
+[ECO "B40"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "41"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "13853"]
+[ChessgamesGameID "1566171"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 b6
+7. Nc3 Bb7 8. Bd3 d6 9. O-O Be7 10. Re1 Nd7 11. exd6 Bxd6
+12. Ne4 Be7 13. Bg5 N5f6 14. Bxf6 gxf6 15. Ng3 O-O 16. Nh4 Re8
+17. Bxh7+ Kxh7 18. Qh5+ Kg8 19. Ngf5 exf5 20. Re3 Bd6 21. Rh3
+1-0
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Queensland, Australia"]
+[Date "1999.??.??"]
+[EventDate "?"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Aleksei Kulashko"]
+[ECO "B40"]
+[WhiteElo "?"]
+[BlackElo "2396"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "61503"]
+[ChessgamesGameID "1585724"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. e5 d4 5. cxd4 cxd4 6. Bb5+ Bd7
+7. Bxd7+ Qxd7 8. d3 Nc6 9. O-O Nge7 10. Re1 Ng6 11. Re4 Qd5
+12. Qe2 O-O-O 13. h4 Bc5 14. h5 Nf8 15. h6 gxh6 16. Bf4 Ng6
+17. Bg3 Rd7 18. Nbd2 h5 19. Rc1 Kb8 20. a3 Rg8 21. Nc4 Be7
+22. Kh1 h4 23. Bh2 Rc8 24. b4 h3 25. gxh3 b6 26. Bg3 Kb7
+27. Kh2 a6 28. Nfd2 Na7 29. f4 Rg8 30. Nf3 Nb5 31. Qf2 f5
+32. exf6 Bxf6 33. a4 Nd6 34. Nxd6+ Rxd6 35. a5 b5 36. Rc5 Qb3
+37. f5 exf5 38. Rxf5 Rc6 39. Nxd4 Bxd4 40. Rf7+ Ka8 41. Rxd4
+Ne5 42. Rd8+ 1-0
+
+
+[Event "Wch U20"]
+[Site "Yerevan"]
+[Date "1999.09.28"]
+[EventDate "1999.09.18"]
+[Round "11"]
+[Result "1-0"]
+[White "Simon Kim Williams"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A03"]
+[WhiteElo "2421"]
+[BlackElo "?"]
+[PlyCount "59"]
+[ChessgamesWhiteID "48986"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1730400"]
+
+1. f4 d5 2. Nf3 g6 3. e3 Bg7 4. Be2 c5 5. O-O Nc6 6. d3 Nf6
+7. a4 O-O 8. Kh1 Qc7 9. Nc3 a6 10. e4 dxe4 11. dxe4 Rd8
+12. Qe1 Nd4 13. Bc4 Nxc2 14. Qh4 Nxa1 15. f5 b5 16. axb5 axb5
+17. Nxb5 Qb7 18. Ng5 e6 19. Nxh7 Nxh7 20. Qxd8+ Nf8 21. Qh4 f6
+22. e5 g5 23. Qg4 Qe7 24. Bxg5 fxg5 25. f6 Qf7 26. Bd3 Bxf6
+27. exf6 Nh7 28. Nd6 Qd7 29. f7+ Kf8 30. Bxh7 1-0
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.24"]
+[EventDate "2000.07.24"]
+[Round "1"]
+[Result "1-0"]
+[White "Guy West"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C01"]
+[WhiteElo "2372"]
+[BlackElo "2178"]
+[PlyCount "63"]
+[ChessgamesWhiteID "14415"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1233211"]
+
+1. d4 e6 2. e4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nc3 Nc6 6. Nxd5
+Be6 7. Nf4 Bxf4 8. Bxf4 Qxd4 9. Ne2 Qxb2 10. Rb1 Qxa2 11. Rxb7
+Nge7 12. O-O O-O 13. Bxc7 Nd5 14. Nf4 Ndb4 15. Nxe6 Qxe6
+16. Bd6 Nxd3 17. Bxf8 Nf4 18. Bc5 Ne2+ 19. Kh1 Rd8 20. Qb1 Qc4
+21. Qb5 Qe4 22. Qb3 Qf5 23. Bxa7 h5 24. Be3 h4 25. Rb5 Ne5
+26. Qb2 h3 27. f3 Qg6 28. gxh3 Nxf3 29. Rb8 Qe4 30. Qb7 Qxe3
+31. Rxd8+ Kh7 32. Qxf3 1-0
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.25"]
+[EventDate "2000.07.24"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Stephen John Solomon"]
+[ECO "C42"]
+[WhiteElo "2178"]
+[BlackElo "2359"]
+[PlyCount "51"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58833"]
+[ChessgamesGameID "1233217"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Be7
+7. O-O Nc6 8. c4 Nb4 9. Be2 O-O 10. Nc3 Be6 11. Be3 f5 12. a3
+Nxc3 13. bxc3 Nc6 14. Rb1 Rb8 15. Qa4 f4 16. Bd2 Kh8 17. Rfe1
+Qe8 18. Bd3 Qf7 19. c5 Bf5 20. Rxb7 Nxd4 21. Ne5 Nf3+ 22. gxf3
+Qh5 23. Rxb8 Rxb8 24. Bxf5 Qxf5 25. Qxf4 Qxf4 26. Bxf4 1-0
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.26"]
+[EventDate "2000.07.24"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Erik O M C Teichmann"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A00"]
+[WhiteElo "2369"]
+[BlackElo "2178"]
+[PlyCount "90"]
+[ChessgamesWhiteID "27120"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1233221"]
+
+1. b4 e5 2. Bb2 Bxb4 3. Bxe5 Nf6 4. c4 O-O 5. e3 d5 6. cxd5
+Nxd5 7. Nf3 Re8 8. Bb2 Nf4 9. a3 Bd6 10. g3 Nh3 11. Bg2 Nc6
+12. d4 Qe7 13. Qd3 Bg4 14. Nbd2 Nd8 15. Nc4 f6 16. Nh4 Qf7
+17. Rc1 Bf8 18. e4 g5 19. Nf3 Ne6 20. Nfd2 Rad8 21. Ne3 f5
+22. e5 Nxd4 23. Qc4 Qxc4 24. Rxc4 Nc6 25. Bxc6 bxc6 26. Nxg4
+fxg4 27. Rxg4 Bg7 28. Nc4 Rd1+ 29. Kxd1 Nxf2+ 30. Kc2 Nxg4
+31. h3 Nf2 32. Rh2 Ne4 33. g4 Kf7 34. Re2 Nc5 35. Bc3 Ne6
+36. Rf2+ Ke7 37. Ne3 Nf4 38. Nf5+ Kf8 39. Nxg7 Kxg7 40. h4 Nd5
+41. Bd4 gxh4 42. Rh2 Nf4 43. Rxh4 Ne6 44. Bc3 c5 45. Kd3 Rf8
+1/2-1/2
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.27"]
+[EventDate "2000.07.24"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Mirko Rujevic"]
+[ECO "B09"]
+[WhiteElo "2178"]
+[BlackElo "2350"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "51334"]
+[ChessgamesGameID "1233227"]
+
+1. e4 d6 2. Nc3 g6 3. d4 Bg7 4. f4 Nf6 5. Nf3 O-O 6. Bd3 c5
+7. dxc5 dxc5 8. e5 Nd5 9. Nxd5 Qxd5 10. Qe2 Nc6 11. Be4 Qd8
+12. Be3 Qb6 13. c3 Qc7 14. Qb5 f5 15. Bd5+ e6 16. Bxc6 bxc6
+17. Qxc5 Rd8 18. Nd4 Bd7 19. O-O Bf8 20. Qc4 Kf7 21. b4 a5
+22. a4 Rdc8 23. Nb3 c5 24. b5 Rd8 25. Rad1 Be8 26. Nxc5 Qb6
+27. Rd6 Rxd6 28. exd6 Qxd6 29. Nd3 Bg7 30. Bd4 Rd8 31. Rd1 Qe7
+32. Re1 Bd7 33. Bxg7 Kxg7 34. Ne5 Bc8 35. Nc6 Qc7 36. Qe2 Rd5
+37. c4 Rc5 38. Qb2+ Kh6 39. Qd4 Qb6 40. Re3 e5 41. Nxe5 Rxb5
+42. Nf7+ 1-0
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.28"]
+[EventDate "2000.07.24"]
+[Round "5"]
+[Result "1/2-1/2"]
+[White "Benjamin Martin"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D91"]
+[WhiteElo "2377"]
+[BlackElo "2178"]
+[PlyCount "85"]
+[ChessgamesWhiteID "12059"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1233232"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 d5 5. Bg5 Ne4 6. cxd5
+Nxg5 7. Nxg5 e6 8. Nf3 exd5 9. e3 O-O 10. b4 a5 11. b5 Be6
+12. Be2 Nd7 13. O-O f5 14. Qd2 Rf7 15. Na4 Bf8 16. Rac1 b6
+17. Nb2 Bd6 18. Nd3 Qf6 19. Nf4 h6 20. Ne1 g5 21. Nxe6 Qxe6
+22. Nd3 Raf8 23. f4 Nf6 24. Ne5 Ne4 25. Qd3 Rg7 26. Rc6 Kh7
+27. Rfc1 h5 28. Bf3 Qh6 29. Rf1 Rfg8 30. Qe2 gxf4 31. exf4 h4
+32. Rc2 Ng3 33. hxg3 hxg3 34. Bh5 Bxe5 35. fxe5 Rg5 36. Rc6
+Qxh5 37. Rxc7+ Kh6 38. Qxh5+ Rxh5 39. Rf7 Rg4 40. Rf6+ Kg7
+41. Rc1 Rxd4 42. Rc7+ Kg8 43. Rc8+ 1/2-1/2
+
+
+[Event "Australian Masters"]
+[Site "Melbourne AUS"]
+[Date "2000.07.29"]
+[EventDate "2000.07.24"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Eddy Levi"]
+[ECO "A90"]
+[WhiteElo "2178"]
+[BlackElo "2258"]
+[PlyCount "113"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "30693"]
+[ChessgamesGameID "1233239"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. c4 Bb4+ 5. Nd2 O-O 6. Ngf3 d5
+7. O-O c6 8. Ne5 Nbd7 9. Ndf3 Qe7 10. Qc2 Ne4 11. Nd3 Bd6
+12. Bf4 Bxf4 13. Nxf4 g5 14. Nd3 dxc4 15. Nde5 Nb6 16. Rfd1
+Bd7 17. Nxc4 Nxc4 18. Qxc4 Be8 19. Ne5 Nf6 20. Qc5 Qxc5
+21. dxc5 Nd5 22. Bxd5 exd5 23. f4 h6 24. e3 Kg7 25. Kf2 Kf6
+26. Rd4 Rg8 27. Rb1 Rc8 28. a4 Rc7 29. Rb4 Bd7 30. a5 a6
+31. Rd1 Bc8 32. Rb6 Be6 33. Rd4 h5 34. Nf3 g4 35. Nh4 Re7
+36. Ng2 Bc8 37. Rxd5 Re4 38. Rd6+ Kg7 39. Rd4 Rge8 40. Rbb4
+R4e7 41. Rd6 Be6 42. Nh4 Bc8 43. Ng2 Be6 44. Rbd4 Kf7 45. Nh4
+Kg7 46. e4 fxe4 47. Rxe4 Kf7 48. Re5 Bd5 49. Ng6 Re6 50. Rexe6
+Rxe6 51. Ne5+ Ke8 52. Ke3 Rxd6 53. cxd6 c5 54. f5 Bg8 55. Kf4
+c4 56. Ke3 Bh7 57. f6 1-0
+
+
+[Event "Gold Coast Parkroyal op"]
+[Site "Gold Coast"]
+[Date "2000.06.07"]
+[EventDate "?"]
+[Round "8"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Arianne Caoili"]
+[ECO "B42"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "63"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "70222"]
+[ChessgamesGameID "1390301"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Bc5 6.Nb3 Be7 7.Qg4
+g6 8.Qe2 d6 9.O-O Nd7 10.Nc3 Qc7 11.a4 b6 12.Bd2 Bb7 13.Rae1
+h5 14.f4 Ngf6 15.Nd4 Qc5 16.Be3 Ng4 17.Nf5 Nxe3 18.Nxe3 Nf6
+19.Kh1 h4 20.f5 gxf5 21.exf5 h3 22.fxe6 hxg2+ 23.Nxg2 O-O-O
+24.Bf5 Rh5 25.exf7+ Kb8 26.Qxe7 Rxh2+ 27.Kxh2 Rh8+ 28.Kg3 Nh5+
+29.Kg4 Qd4+ 30.Nf4 Qg7+ 31.Ng6 Qd4+ 32.Ne4 1-0
+
+
+[Event "34th Olympiad"]
+[Site "Istanbul TUR"]
+[Date "2000.10.29"]
+[EventDate "2000.10.28"]
+[Round "2"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Robert Kempinski"]
+[ECO "B90"]
+[WhiteElo "2341"]
+[BlackElo "2522"]
+[PlyCount "78"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "11643"]
+[ChessgamesGameID "1401523"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4
+7. Bg5 h6 8. Bh4 g5 9. Bg3 Bg7 10. Be2 h5 11. Nf5 Bxf5
+12. exf5 Nf6 13. h4 gxh4 14. Rxh4 Qa5 15. Bd3 Ng4 16. Kf1 Nc6
+17. Kg1 O-O-O 18. Rb1 Be5 19. Bxe5 Qxe5 20. Qe2 Qf6 21. Rh3 d5
+22. Re1 e5 23. fxe6 Nd4 24. Qf1 fxe6 25. f3 Ne5 26. Kh1 Rdg8
+27. Bxa6 Ng6 28. Nb5 Nf4 29. Nxd4 Qxd4 30. Rh4 Qf6 31. Bxb7+
+Kb8 32. Rh2 Kxb7 33. Re3 Kc7 34. Rc3+ Kd6 35. Qa6+ Ke5 36. Qb6
+Kf5 37. Qf2 h4 38. Kg1 Rxg2+ 39. Rxg2 Nh3+ 0-1
+
+
+[Event "34th Olympiad"]
+[Site "Istanbul TUR"]
+[Date "2000.10.31"]
+[EventDate "2000.10.28"]
+[Round "4"]
+[Result "1-0"]
+[White "Vladimir Olegovich Baklan"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C18"]
+[WhiteElo "2599"]
+[BlackElo "2341"]
+[PlyCount "201"]
+[ChessgamesWhiteID "64696"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1401704"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Ba5 6. Qg4 Ne7
+7. dxc5 Bxc3+ 8. bxc3 Qc7 9. Nf3 Nd7 10. Qxg7 Rg8 11. Qxh7
+Nxe5 12. Be3 Ng4 13. Bb5+ Bd7 14. Bxd7+ Kxd7 15. Qd3 Nxe3
+16. Qxe3 Nf5 17. Qe5 Rxg2 18. Qxc7+ Kxc7 19. Rb1 Rh8 20. Rb4
+Rh3 21. Kf1 Rg7 22. Ke2 f6 23. Rf4 Kc6 24. Nd4+ Nxd4+ 25. cxd4
+f5 26. Rf3 Rh4 27. c3 f4 28. Kd3 Rg5 29. Re1 Kd7 30. c4 Rf5
+31. h3 Rfh5 32. cxd5 exd5 33. Re5 Rxe5 34. dxe5 Ke6 35. Kd4 a6
+36. Rb3 f3+ 37. Ke3 Kxe5 38. Rxb7 Rc4 39. Re7+ Kf6 40. Ra7
+Rxc5 41. Rxa6+ Kg5 42. Kxf3 Rc3+ 43. Kg2 d4 44. Rd6 Rxa3
+45. Rxd4 Rb3 46. f3 Kf6 47. Rd5 Rb4 48. Ra5 Rc4 49. Kg3 Rb4
+50. h4 Kg6 51. Rg5+ Kf6 52. Rg4 Rb5 53. Rf4+ Kg6 54. Kg4 Rb1
+55. h5+ Kh6 56. Rf6+ Kg7 57. Rg6+ Kf7 58. Ra6 Kg7 59. f4 Rc1
+60. Kg5 Rg1+ 61. Kf5 Rb1 62. Rg6+ Kf7 63. Rd6 Rb5+ 64. Kg4 Kg7
+65. Rg6+ Kf7 66. Rg5 Rb1 67. h6 Ra1 68. Rb5 Kg6 69. Rb6+ Kh7
+70. Re6 Rg1+ 71. Kf5 Ra1 72. Ke5 Ra5+ 73. Ke4 Ra4+ 74. Kf3
+Ra3+ 75. Kg4 Ra1 76. f5 Rb1 77. Kf4 Ra1 78. Rd6 Ra4+ 79. Kg5
+Ra1 80. Rd7+ Kg8 81. Kg6 Rg1+ 82. Kf6 Ra1 83. Re7 Rb1 84. Ra7
+Rb6+ 85. Kg5 Rb1 86. f6 Rg1+ 87. Kf5 Rf1+ 88. Ke6 Re1+ 89. Kd6
+Rd1+ 90. Ke7 Re1+ 91. Kd8 Rf1 92. Rg7+ Kh8 93. Rf7 Ra1 94. Re7
+Kg8 95. h7+ Kh8 96. Re8+ Kxh7 97. f7 Ra8+ 98. Ke7 Ra7+ 99. Ke6
+Ra6+ 100. Kd5 Ra5+ 101. Ke4 1-0
+
+
+[Event "34th Olympiad"]
+[Site "Istanbul TUR"]
+[Date "2000.11.12"]
+[EventDate "2000.10.28"]
+[Round "14"]
+[Result "0-1"]
+[White "Davor Rogic"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B40"]
+[WhiteElo "2501"]
+[BlackElo "2341"]
+[PlyCount "90"]
+[ChessgamesWhiteID "24745"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1402492"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 a6 6. O-O d6
+7. Qe2 Bd7 8. c4 Nc6 9. Nb3 Ne5 10. Nc3 Be7 11. Bf4 Rc8
+12. Rac1 O-O 13. Rfd1 Qc7 14. Nd2 Rfd8 15. h3 Qb8 16. a4 b6
+17. Bb1 Bc6 18. Be3 Ned7 19. Bc2 Qa8 20. f3 Bf8 21. Qf2 Re8
+22. Kh1 d5 23. cxd5 exd5 24. exd5 Nxd5 25. Nxd5 Bxd5 26. Ne4
+Nc5 27. Nxc5 Bxc5 28. Bxc5 Rxc5 29. b4 Rcc8 30. Bf5 Rxc1
+31. Rxc1 g6 32. Bd7 Rd8 33. Rc7 Qb8 34. Qc2 a5 35. bxa5 bxa5
+36. Bb5 Be6 37. Qc3 Qb6 38. Qc5 Qb8 39. Qa7 Rd1+ 40. Kh2 Qd8
+41. Qc5 Qd2 42. Kg3 h5 43. Re7 h4+ 44. Kxh4 Qf4+ 45. g4 Rd5
+0-1
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "1"]
+[Result "1-0"]
+[White "Aleksandar H Wohl"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A04"]
+[WhiteElo "2438"]
+[BlackElo "2242"]
+[PlyCount "47"]
+[ChessgamesWhiteID "35004"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1591624"]
+
+1. Nf3 e6 2. b3 f5 3. Bb2 Nf6 4. d3 b6 5. g3 Bb7 6. Bg2 d5
+7. O-O Bd6 8. Nbd2 O-O 9. e4 fxe4 10. dxe4 Nxe4 11. Nxe4 dxe4
+12. Nd2 Nd7 13. Nxe4 Qe7 14. Qh5 Rf5 15. Qe2 Be5 16. Bxe5 Nxe5
+17. f4 Nc6 18. Rad1 e5 19. Bh3 Rff8 20. Rd7 Qb4 21. c3 Qa3
+22. Rxc7 Bc8 23. Bxc8 Raxc8 24. Qc4+ 1-0
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "David Guthrie"]
+[ECO "B22"]
+[WhiteElo "2242"]
+[BlackElo "2138"]
+[PlyCount "73"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "101214"]
+[ChessgamesGameID "1591658"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 b6
+7. Nc3 Nxc3 8. bxc3 Qc7 9. Bd2 Bb7 10. Bd3 d6 11. O-O Nd7
+12. Ng5 dxe5 13. Qh5 g6 14. Qh3 Be7 15. Rae1 Bxg5 16. Bxg5 O-O
+17. dxe5 Nxe5 18. Bf4 f6 19. Bxe5 fxe5 20. Qxe6+ Qf7 21. Bc4
+Qxe6 22. Bxe6+ Kg7 23. Rxe5 Rfe8 24. Rfe1 Rad8 25. Bb3 Rxe5
+26. Rxe5 Rd7 27. f3 Kf6 28. Re6+ Kf5 29. Kf2 Bd5 30. Re2 Bxb3
+31. axb3 Rd3 32. Rc2 Rd1 33. Ke3 a5 34. Rb2 h5 35. b4 axb4
+36. Rxb4 Rg1 37. Rb5+ 1-0
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Stephen G Lukey"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D85"]
+[WhiteElo "2235"]
+[BlackElo "2242"]
+[PlyCount "101"]
+[ChessgamesWhiteID "58806"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1591669"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3
+Bg7 7. Nf3 c5 8. Be3 O-O 9. Rc1 cxd4 10. cxd4 Qa5+ 11. Qd2
+Qxd2+ 12. Nxd2 Nc6 13. Nb3 Rd8 14. d5 Nb4 15. a3 Na2 16. Rc2
+Nc3 17. Bd3 e6 18. Bg5 Rd6 19. Kd2 exd5 20. e5 Bxe5 21. Rxc3
+f6 22. Bh4 Bxc3+ 23. Kxc3 Bf5 24. Bxf5 gxf5 25. Bg3 Rc8+
+26. Kb2 Re6 27. Rd1 Re2+ 28. Rd2 Rxd2+ 29. Nxd2 d4 30. Bf4 Kf7
+31. Nf3 Re8 32. g3 Re2+ 33. Kb3 Rxf2 34. Nxd4 Rxh2 35. Nxf5
+Ke6 36. Nd6 Rf2 37. Nxb7 Rxf4 38. gxf4 h5 39. Kc3 h4 40. Kd2
+h3 41. Nc5+ Kf5 42. Ke3 h2 43. Ne4 Kg4 44. Nf2+ Kg3 45. f5 Kg2
+46. Ke2 Kg3 47. Ke3 a6 48. a4 a5 49. Nh1+ Kg2 50. Ke2 Kxh1
+51. Kf1 1/2-1/2
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Robert Wayne Smith"]
+[ECO "B06"]
+[WhiteElo "2242"]
+[BlackElo "2300"]
+[PlyCount "109"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "83511"]
+[ChessgamesGameID "1607354"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 c6 5. Qd2 Nd7 6. Nf3 h6
+7. Bd3 Qc7 8. O-O Ngf6 9. h3 a6 10. a4 a5 11. Nh2 e5 12. Rae1
+Nh5 13. d5 g5 14. dxc6 bxc6 15. Be2 Ndf6 16. Rd1 Bf8 17. Ng4
+Nxg4 18. Bxg4 Nf4 19. Bxf4 gxf4 20. Bxc8 Qxc8 21. Qe2 Qe6
+22. Rd3 Rb8 23. b3 Rg8 24. Nb1 Qg6 25. Qf3 Rc8 26. Re1 Be7
+27. Nd2 Bd8 28. Nc4 Bc7 29. Red1 Rd8 30. Kf1 Ke7 31. g3 fxg3
+32. fxg3 Qe6 33. Kg2 d5 34. Ne3 dxe4 35. Qxe4 Rxd3 36. Rxd3
+Rg5 37. g4 h5 38. Nf5+ Kf8 39. Kf3 hxg4+ 40. hxg4 Kg8 41. Rc3
+Qd7 42. Ke2 Rg6 43. Rxc6 Rxc6 44. Qxc6 Qxc6 45. Ne7+ Kg7
+46. Nxc6 f5 47. gxf5 Kf6 48. b4 axb4 49. a5 Kxf5 50. a6 Bb6
+51. a7 Bxa7 52. Nxa7 b3 53. cxb3 Ke4 54. Nb5 Kd5 55. Na3 1-0
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "5"]
+[Result "0-1"]
+[White "Eddy Levi"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C15"]
+[WhiteElo "2246"]
+[BlackElo "2242"]
+[PlyCount "72"]
+[ChessgamesWhiteID "30693"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1613519"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Qd3 dxe4 5. Qxe4 Nf6 6. Qh4
+O-O 7. Bd3 c5 8. dxc5 Qa5 9. Nge2 Nbd7 10. O-O Nxc5 11. Bc4
+Ncd7 12. Bg5 h6 13. Be3 Ne5 14. Bb3 Ng6 15. Qg3 b6 16. Rfe1
+Kh7 17. a3 Be7 18. Nd4 Bb7 19. Rad1 Rac8 20. Ncb5 Ne4 21. Qg4
+a6 22. Nc3 Nf6 23. Qh3 Rfd8 24. f4 Bc5 25. f5 Nf4 26. Bxf4
+Rxd4 27. Rxd4 Bxd4+ 28. Kh1 Bxc3 29. bxc3 Rxc3 30. Bg3 Ne4
+31. fxe6 Nf2+ 32. Bxf2 Rxh3 33. exf7 Qg5 34. Rg1 Qf4 35. f8=N+
+Qxf8 36. Bg3 Qf5 0-1
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "6"]
+[Result "0-1"]
+[White "Aleksei Kulashko"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A04"]
+[WhiteElo "2382"]
+[BlackElo "2242"]
+[PlyCount "114"]
+[ChessgamesWhiteID "61503"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1613526"]
+
+1. Nf3 Nf6 2. b3 g6 3. Bb2 Bg7 4. g3 O-O 5. Bg2 d6 6. d4 e5
+7. dxe5 Nfd7 8. Nc3 dxe5 9. Qd2 Qe7 10. O-O-O a5 11. Nd5 Qc5
+12. Qc3 Qxf2 13. Rhf1 Qxg2 14. Ne7+ Kh8 15. Nxe5 f6 16. N5xg6+
+hxg6 17. Nxg6+ Kg8 18. Nxf8 Kxf8 19. Ba3+ Kg8 20. Qc4+ Kh7
+21. Rf5 Ne5 22. Rh5+ Kg6 23. Qg8 Kxh5 24. Qxg7 Nbc6 25. Qxf6
+Bg4 26. h4 Rg8 27. Bf8 Bc8 28. Bg7 Kg4 29. Qf4+ Kh3 30. h5 Bg4
+31. h6 Qxe2 32. Rh1+ Kg2 33. h7 Nb4 34. Qf1+ Qxf1+ 35. Rxf1
+Rd8 36. Rf6 Nd5 37. Rh6 Nf7 38. h8=Q Nxh8 39. Bxh8 Kxg3
+40. Be5+ Kf3 41. c4 Ke4 42. Bh2 Nf4 43. Bxf4 Kxf4 44. Rh7 Rd7
+45. Rh8 b6 46. c5 b5 47. Ra8 Rd5 48. Rxa5 Rxc5+ 49. Kb2 Ke5
+50. a4 Bd7 51. axb5 Rxb5 52. Ra7 Kd6 53. Kc3 Rh5 54. Ra6+ c6
+55. Kb4 Be6 56. Ka4 Rh3 57. b4 Bb3+ 0-1
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Anthony F Ker"]
+[ECO "B07"]
+[WhiteElo "2242"]
+[BlackElo "2321"]
+[PlyCount "93"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "14539"]
+[ChessgamesGameID "1613537"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 b5 6. Bd3 Bg7
+7. Nf3 Nbd7 8. Bh6 O-O 9. O-O-O Nb6 10. Bxg7 Kxg7 11. h4 h5
+12. e5 Nfd5 13. Nxd5 Nxd5 14. Ng5 f6 15. exf6+ exf6 16. Nh3
+Be6 17. Nf4 Nxf4 18. Qxf4 Qa5 19. g4 hxg4 20. h5 b4 21. hxg6
+Qg5 22. Rh7+ Kg8 23. Qxg5 fxg5 24. Rdh1 Rac8 25. R1h6 Bf5
+26. Rh2 Bxd3 27. cxd3 c5 28. Rxa7 cxd4+ 29. Kd2 Rc5 30. Rhh7
+Rxf2+ 31. Kd1 Rf1+ 32. Ke2 Rcf5 33. Ra8+ Rf8 34. Rxf8+ Rxf8
+35. Rf7 Re8+ 36. Kf2 Re3 37. Rf5 g3+ 38. Kg2 Rxd3 39. Rxg5 Kg7
+40. Rxg3 Rd2+ 41. Kf3 Rxb2 42. Ke4 Rxa2 43. Kxd4 Ra3 44. Rg1
+Rh3 45. Kd5 b3 46. Kxd6 b2 47. Rb1 1/2-1/2
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Auckland, NZ"]
+[Date "2000.??.??"]
+[EventDate "?"]
+[Round "8"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Bruce R Watson"]
+[ECO "B47"]
+[WhiteElo "2242"]
+[BlackElo "2260"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "87151"]
+[ChessgamesGameID "1613539"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6
+7. O-O b5 8. Be3 Bb7 9. f4 Bc5 10. Qd3 Qb6 11. Rfd1 Nge7
+12. a4 b4 13. a5 Qa7 14. Na4 Bxd4 15. Bxd4 Qxd4+ 16. Qxd4 Nxd4
+17. Rxd4 Nc6 18. Rd6 Ra7 19. Nc5 Bc8 20. e5 g5 21. Bf3 Ne7
+22. fxg5 Nf5 23. Rb6 Ne3 24. Re1 Nxc2 25. Rc1 Nd4 26. Ne4 Ke7
+27. Nd6 Nc6 28. Bxc6 dxc6 29. Rcxc6 Bd7 30. Rxa6 Rxa6 31. Rxa6
+h6 32. gxh6 Rxh6 33. Ra7 Rh4 34. a6 Rd4 35. Rb7 Rd1+ 36. Kf2
+Rd2+ 37. Ke3 Rxb2 38. a7 Ra2 39. Nc8+ Kd8 40. Rxd7+ Kxc8
+41. Rxf7 b3 42. Kd3 1-0
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.13"]
+[EventDate "2001.07.13"]
+[Round "1"]
+[Result "0-1"]
+[White "Matthew P Broomfield"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D91"]
+[WhiteElo "2271"]
+[BlackElo "2390"]
+[PlyCount "74"]
+[ChessgamesWhiteID "50410"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1172206"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Bg5 Ne4 6. Bf4 Nxc3
+7. bxc3 c5 8. cxd5 cxd4 9. cxd4 Qxd5 10. e3 O-O 11. Be2 Nc6
+12. O-O Bf5 13. Qa4 Qa5 14. Qxa5 Nxa5 15. Ne5 Rfc8 16. Rfc1
+Be6 17. h4 f6 18. Nd3 Bc4 19. Bg4 f5 20. Be2 Ba6 21. Kf1 Bf6
+22. g3 Kf7 23. Nc5 Bxe2+ 24. Kxe2 Rc6 25. Nb3 Nc4 26. Nc5 Rxc5
+27. dxc5 Bxa1 28. Rxc4 Rc8 29. Rc1 Bg7 30. e4 fxe4 31. Be3 Ke6
+32. Rb1 Rc7 33. a4 Bc3 34. Rb3 Bf6 35. a5 Kd5 36. Kd2 Kc4
+37. Kc2 Bd4 0-1
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.14"]
+[EventDate "2001.07.13"]
+[Round "2"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Thorbjorn Bromann"]
+[ECO "C12"]
+[WhiteElo "2390"]
+[BlackElo "2321"]
+[PlyCount "32"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50418"]
+[ChessgamesGameID "1172214"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. e5 h6 6. Bd2 Bxc3
+7. bxc3 Ne4 8. Qg4 g6 9. Bd3 Nxd2 10. Kxd2 c5 11. Nf3 Bd7
+12. dxc5 Qe7 13. Rhb1 Bc6 14. Ke2 Nd7 15. a4 Nxc5 16. Qb4 O-O
+1/2-1/2
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.15"]
+[EventDate "2001.07.13"]
+[Round "3"]
+[Result "1-0"]
+[White "James Vigus"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E67"]
+[WhiteElo "2281"]
+[BlackElo "2390"]
+[PlyCount "77"]
+[ChessgamesWhiteID "123170"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1172226"]
+
+1. g3 g6 2. Bg2 Bg7 3. c4 Nf6 4. Nc3 O-O 5. Nf3 d6 6. d4 Nbd7
+7. O-O e5 8. Qc2 Re8 9. Rd1 Qe7 10. b3 Nf8 11. e4 Bg4 12. d5
+N8d7 13. Bd2 c6 14. Rdc1 Rac8 15. Ne1 cxd5 16. cxd5 Be2
+17. Qb2 Ba6 18. Qa3 Nb6 19. Nc2 Nfd7 20. Nb4 Nc5 21. Nxa6 bxa6
+22. Bf1 f5 23. f3 Qf8 24. b4 Ncd7 25. Qxa6 Bh6 26. Qd3 Rc4
+27. Nb5 Rec8 28. Rxc4 Rxc4 29. Bxh6 Qxh6 30. Qb3 Rc1 31. Rxc1
+Qxc1 32. Nxd6 Nc5 33. bxc5 Qxc5+ 34. Kg2 Qxd6 35. a4 Kg7
+36. a5 Nd7 37. Qb7 Kh6 38. Qxa7 g5 39. Qa6 1-0
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.16"]
+[EventDate "2001.07.13"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Thomas R J Hinks-Edwards"]
+[ECO "E41"]
+[WhiteElo "2390"]
+[BlackElo "2316"]
+[PlyCount "79"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "48996"]
+[ChessgamesGameID "1172238"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. Nf3 Bxc3+
+7. bxc3 d6 8. e4 e5 9. d5 Ne7 10. Nd2 Ng6 11. g3 Bh3 12. Rb1
+b6 13. f3 h5 14. Nf1 h4 15. Qe2 Bd7 16. Rg1 Nh7 17. Ne3 Qf6
+18. Rf1 Ne7 19. Bd2 hxg3 20. hxg3 Qg6 21. Qf2 Nf6 22. Ke2 Kd8
+23. g4 Kc7 24. Rh1 Rxh1 25. Rxh1 Nfg8 26. Rh8 f6 27. Qh4 Re8
+28. Nf5 Nxf5 29. exf5 Qf7 30. Rh7 Ne7 31. Be4 Rg8 32. Qh1 Qf8
+33. Kf2 Qe8 34. Qh2 Qf8 35. f4 g6 36. fxg6 f5 37. gxf5 Bxf5
+38. Bxf5 Qxf5 39. Rxe7+ Kb8 40. Qh7 1-0
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.17"]
+[EventDate "2001.07.13"]
+[Round "5"]
+[Result "1-0"]
+[White "Simon Kim Williams"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D31"]
+[WhiteElo "2369"]
+[BlackElo "2390"]
+[PlyCount "49"]
+[ChessgamesWhiteID "48986"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1173406"]
+
+1. c4 e6 2. Nc3 d5 3. d4 c6 4. e4 dxe4 5. Nxe4 Bb4+ 6. Bd2
+Qxd4 7. Bxb4 Qxe4+ 8. Be2 Na6 9. Ba5 b6 10. Bc3 f6 11. Qd6 Nh6
+12. Bxf6 gxf6 13. O-O-O Rg8 14. Bh5+ Rg6 15. Qd8+ Kf7 16. Qh8
+Nf5 17. Rd8 Qxc4+ 18. Kb1 Qe4+ 19. Ka1 Qe1+ 20. Rd1 Qe4 21. f3
+Qc2 22. Ne2 Nc5 23. Nf4 Ke7 24. Nxg6+ hxg6 25. Qh7+ 1-0
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.18"]
+[EventDate "2001.07.13"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Dean Ippolito"]
+[ECO "D45"]
+[WhiteElo "2390"]
+[BlackElo "2394"]
+[PlyCount "145"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "36804"]
+[ChessgamesGameID "1173421"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Qc2 Bd6
+7. g4 dxc4 8. Bxc4 Nd5 9. Bd2 b6 10. Nxd5 cxd5 11. Bd3 Bb7
+12. g5 Rc8 13. Qa4 a6 14. Ke2 b5 15. Qb3 e5 16. dxe5 Nxe5
+17. Nxe5 Bxe5 18. Rhg1 O-O 19. a4 Bc6 20. axb5 Bxb5 21. Bxb5
+axb5 22. f4 Bd6 23. Qxd5 Rc2 24. Qd3 Rxb2 25. Rgb1 Rxb1
+26. Rxb1 Qe7 27. Rxb5 Re8 28. Kf2 Bc5 29. Qc3 Bd6 30. Qd4 Qc7
+31. Qd5 Be7 32. Rb7 Qc8 33. Qd7 Qxd7 34. Rxd7 Rd8 35. Rxe7
+Rxd2+ 36. Kg3 h6 37. h4 hxg5 38. hxg5 g6 39. Kf3 Kf8 40. Rc7
+Rd6 41. Kg4 Re6 42. Kf3 Rd6 43. Rc5 Re6 44. Rc8+ Kg7 45. Rd8
+Re7 46. Ke2 Ra7 47. Kd3 Ra4 48. Rc8 Ra7 49. Re8 Ra4 50. Kc3
+Kh7 51. Kb3 Ra7 52. Kc4 Rd7 53. Re5 Rd1 54. Rd5 Re1 55. Kd4
+Kg7 56. Rc5 Rd1+ 57. Ke5 Re1 58. Rc3 Rd1 59. Ra3 Rd2 60. Ra4
+Rd7 61. Ra5 Rd2 62. Ra3 Rd1 63. Rc3 Rd2 64. e4 Rd1 65. Re3 Rf1
+66. f5 gxf5 67. exf5 Rg1 68. Kf4 Rf1+ 69. Kg4 Rg1+ 70. Rg3 Ra1
+71. Rg2 Rb1 72. Rh2 Rg1+ 73. Kf4 1/2-1/2
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.19"]
+[EventDate "2001.07.13"]
+[Round "7"]
+[Result "0-1"]
+[White "Craig A Hanley"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A10"]
+[WhiteElo "2278"]
+[BlackElo "2390"]
+[PlyCount "66"]
+[ChessgamesWhiteID "50408"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1173433"]
+
+1. c4 g5 2. d4 Bg7 3. Nc3 c5 4. d5 h6 5. g3 d6 6. Qc2 e5 7. e4
+Ne7 8. Bg2 f5 9. exf5 Nxf5 10. Nge2 O-O 11. Bd2 Nd4 12. Nxd4
+exd4 13. Ne4 Bf5 14. O-O Nd7 15. f4 g4 16. Rae1 Qc7 17. Qd1
+Rae8 18. b3 a6 19. Nf2 Nf6 20. h3 h5 21. Rxe8 Rxe8 22. Re1 Qd7
+23. hxg4 hxg4 24. Bf1 Ne4 25. Nxe4 Bxe4 26. Bg2 Bf5 27. Re2
+Kf7 28. Kf2 d3 29. Rxe8 Qxe8 30. Qe1 Bd4+ 31. Kf1 Qh8 32. a4
+a5 33. Bc1 d2 0-1
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.20"]
+[EventDate "2001.07.13"]
+[Round "8"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Petr Sinkevich"]
+[ECO "B30"]
+[WhiteElo "2390"]
+[BlackElo "2346"]
+[PlyCount "61"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50414"]
+[ChessgamesGameID "1173441"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Nc3 a6 6. Bxc6
+Nxc6 7. d4 cxd4 8. Nxd4 Qc7 9. Re1 Be7 10. Nxc6 bxc6 11. e5
+O-O 12. Bf4 f6 13. exf6 Qxf4 14. fxe7 Qxf2+ 15. Kh1 Re8
+16. Ne4 Qh4 17. Nd6 Rxe7 18. Re4 Qf6 19. Qd2 a5 20. Rf4 Qe5
+21. Re1 Qc5 22. Rc4 Qh5 23. Qe3 h6 24. h3 a4 25. Qb6 Ba6
+26. Rxa4 Qd5 27. Rxa6 Rxa6 28. Qd8+ Kh7 29. Qxe7 Rxa2 30. Rf1
+Rxb2 31. Ne8 1-0
+
+
+[Event "SWYM"]
+[Site "Witley ENG"]
+[Date "2001.07.21"]
+[EventDate "2001.07.13"]
+[Round "9"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Karl C C Mah"]
+[ECO "C00"]
+[WhiteElo "2390"]
+[BlackElo "2404"]
+[PlyCount "81"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "128632"]
+[ChessgamesGameID "1173450"]
+
+1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7 5. d4 c5 6. dxc5 Bxc5
+7. Bd3 Nc6 8. Bf4 a6 9. Qe2 Nb4 10. O-O Be7 11. Qd2 Nxd3
+12. cxd3 O-O 13. Rfe1 b5 14. Ne2 a5 15. Qe3 Bc5 16. d4 Bb4
+17. Rec1 Nb6 18. Bg5 Qd7 19. Bf6 gxf6 20. exf6 Kh8 21. Qh6 Rg8
+22. Ng5 Rxg5 23. Qxg5 Bf8 24. Rc3 h6 25. Rh3 Kh7 26. Rc1 e5
+27. Qxe5 Qd6 28. Qxd6 Bxd6 29. Rc6 Bxh3 30. Rxb6 Rg8 31. Rxd6
+Rxg2+ 32. Kf1 Rxh2+ 33. Ke1 Rh1+ 34. Kd2 Rb1 35. Nf4 Bg4
+36. Rxd5 Rxb2+ 37. Ke3 Rxa2 38. Rxb5 a4 39. Rb7 Ra3+ 40. Kd2
+Ra2+ 41. Ke3 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.07.30"]
+[EventDate "2001.07.02"]
+[Round "1"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Lorin A R D'Costa"]
+[ECO "B57"]
+[WhiteElo "2359"]
+[BlackElo "2155"]
+[PlyCount "36"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50651"]
+[ChessgamesGameID "1180144"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bc4
+Qb6 7. Nb3 e6 8. Bf4 Ne5 9. Be2 a6 10. Qd2 Be7 11. O-O-O Qc7
+12. g4 b5 13. g5 Nfd7 14. Be3 Nb6 15. Qd4 Nbc4 16. Bxc4 Qxc4
+17. f4 Qxd4 18. Bxd4 Ng6 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.07.31"]
+[EventDate "2001.07.02"]
+[Round "2"]
+[Result "0-1"]
+[White "David E Buckley"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C12"]
+[WhiteElo "2172"]
+[BlackElo "2359"]
+[PlyCount "64"]
+[ChessgamesWhiteID "52168"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1180173"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. exd5 Qxd5 6. Bxf6
+gxf6 7. Qd2 Qa5 8. Bd3 Bd7 9. Nge2 Bc6 10. Qf4 Nd7 11. Be4
+Bxe4 12. Qxe4 O-O-O 13. O-O-O f5 14. Qf3 Nb6 15. Kb1 Rd6
+16. Rd3 Nc4 17. Ka1 Rhd8 18. g4 fxg4 19. Qxf7 Ra6 20. Nc1 Nxb2
+21. Kxb2 Qa3+ 22. Kb1 Bxc3 23. Rxc3 Qxc3 24. Nb3 Qf3 25. Qxf3
+gxf3 26. Rg1 Rad6 27. Rg7 R6d7 28. Rg3 Rf7 29. c3 b6 30. Kc2
+e5 31. dxe5 Re8 32. Nd4 Rxe5 0-1
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.01"]
+[EventDate "2001.07.02"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Murray Chandler"]
+[ECO "E53"]
+[WhiteElo "2359"]
+[BlackElo "2540"]
+[PlyCount "57"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "11788"]
+[ChessgamesGameID "1180195"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5
+7. O-O cxd4 8. exd4 dxc4 9. Bxc4 a6 10. a3 Bxc3 11. bxc3 b5
+12. Bd3 Bb7 13. a4 Qd5 14. Qe2 Rc8 15. Bd2 Ne4 16. axb5 axb5
+17. Rxa8 Bxa8 18. Bxe4 Qxe4 19. Qxb5 f6 20. Re1 Qg6 21. Qb1
+Qf7 22. Qd3 Bd5 23. Bf4 Nd7 24. Nd2 Qg6 25. Qxg6 hxg6 26. Rc1
+Nb6 27. Bd6 Ra8 28. Rb1 Ra2 29. Rxb6 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.02"]
+[EventDate "2001.07.02"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Neil Berry"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D85"]
+[WhiteElo "2256"]
+[BlackElo "2359"]
+[PlyCount "77"]
+[ChessgamesWhiteID "22068"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1180238"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4
+Nxc3 7. bxc3 c5 8. Be3 Qa5 9. Qd2 O-O 10. Rc1 cxd4 11. cxd4
+Qxd2+ 12. Kxd2 Rd8 13. Ke1 b6 14. Bd3 Ba6 15. Bxa6 Nxa6
+16. Ke2 Rac8 17. Rxc8 Rxc8 18. Rc1 Rxc1 19. Bxc1 e6 20. Kd3 b5
+21. Ba3 Bf8 22. Bxf8 Kxf8 23. Kc3 f6 24. Ne1 Ke7 25. Nd3 Kd7
+26. f4 Kc6 27. g4 Nc7 28. Nb4+ Kd7 29. Kd3 f5 30. gxf5 gxf5
+31. d5 fxe4+ 32. Kxe4 Kd6 33. dxe6 a5 34. Nd3 Nxe6 35. f5 Ng5+
+36. Kf4 Nf7 37. Ke4 Ng5+ 38. Kf4 Nf7 39. Ke4 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.03"]
+[EventDate "2001.07.02"]
+[Round "5"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Aaron Summerscale"]
+[ECO "C11"]
+[WhiteElo "2359"]
+[BlackElo "2510"]
+[PlyCount "42"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "13772"]
+[ChessgamesGameID "1180268"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nce2 c5 6. c3 Nc6
+7. f4 b5 8. a3 a5 9. Nf3 Ba6 10. Ng3 g6 11. h4 h5 12. Ng5 cxd4
+13. cxd4 Qb6 14. Be3 Be7 15. b3 b4 16. Bxa6 Rxa6 17. a4 Bxg5
+18. hxg5 Ne7 19. Qd3 Ra8 20. Ne2 O-O 21. Kd2 Kg7 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.04"]
+[EventDate "2001.07.02"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Nicholas Pert"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D02"]
+[WhiteElo "2475"]
+[BlackElo "2359"]
+[PlyCount "65"]
+[ChessgamesWhiteID "48992"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1180299"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c6 4. Qc2 Bd6 5. g3 f5 6. Bg2 Nf6
+7. O-O O-O 8. Bf4 Bxf4 9. gxf4 Bd7 10. Nbd2 Qe7 11. Ne5 Ne4
+12. Nxe4 fxe4 13. f3 exf3 14. Rxf3 Be8 15. Qb3 a5 16. Bh3 Rf6
+17. Raf1 a4 18. Qe3 Nd7 19. f5 exf5 20. Bxf5 Nf8 21. Ng4 Qxe3+
+22. Rxe3 Rf7 23. Ne5 Re7 24. c5 Bg6 25. Ref3 Bxf5 26. Rxf5 Ng6
+27. Rf7 Rxf7 28. Nxf7 Rb8 29. e3 b6 30. cxb6 Rxb6 31. Rf2 c5
+32. dxc5 Rc6 33. h3 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.06"]
+[EventDate "2001.07.02"]
+[Round "7"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Mark Hebden"]
+[ECO "E97"]
+[WhiteElo "2359"]
+[BlackElo "2550"]
+[PlyCount "70"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "13751"]
+[ChessgamesGameID "1183021"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5
+7. O-O Nc6 8. d5 Ne7 9. b4 Nh5 10. Re1 Kh8 11. Nd2 Nf4 12. Bf1
+c6 13. Bb2 cxd5 14. cxd5 Ng8 15. Rc1 Nf6 16. Nc4 Ne8 17. Kh1
+f5 18. g3 Nh5 19. exf5 Nhf6 20. fxg6 Ng4 21. Kg1 Rxf2 22. Rc2
+Rf8 23. h3 Nh6 24. gxh7 Nf5 25. Rf2 Bd7 26. Ne4 b5 27. Ncd2
+Qb6 28. a4 a6 29. a5 Qa7 30. Nf3 Nf6 31. Nxf6 Rxf6 32. Nxe5
+dxe5 33. Bxe5 Rf7 34. Qa1 Raf8 35. g4 Bxe5 0-1
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.07"]
+[EventDate "2001.07.02"]
+[Round "8"]
+[Result "0-1"]
+[White "Joseph P Conlon"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B56"]
+[WhiteElo "2191"]
+[BlackElo "2359"]
+[PlyCount "82"]
+[ChessgamesWhiteID "52165"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1183062"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bb5
+Bd7 7. O-O e6 8. f4 Rc8 9. Kh1 Be7 10. Be3 O-O 11. Nf3 a6
+12. Bd3 Nb4 13. h3 Bc6 14. g4 d5 15. e5 Ne4 16. Bxe4 dxe4
+17. Nd4 Qc7 18. Nxc6 Qxc6 19. a3 Rfd8 20. Qe2 Nd5 21. Nxd5
+Rxd5 22. c3 Rcd8 23. Bd4 e3 24. Kg1 Bc5 25. Rad1 Bxd4 26. cxd4
+Rxd4 27. Rxd4 Rxd4 28. Qxe3 Qd5 29. Qf3 Qd7 30. Rc1 h5
+31. gxh5 Rd2 32. b4 Qd4+ 33. Kf1 Kh7 34. h4 Rd3 35. Qf2 Qd5
+36. Qg2 Rf3+ 37. Kg1 Qd4+ 38. Kh1 Qxf4 39. Qc2+ Kh6 40. Qc4
+Rh3+ 41. Kg1 Rg3+ 0-1
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.08"]
+[EventDate "2001.07.02"]
+[Round "9"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Brian Kelly"]
+[ECO "D44"]
+[WhiteElo "2359"]
+[BlackElo "2458"]
+[PlyCount "55"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "81477"]
+[ChessgamesGameID "1183092"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 dxc4 6. e4 b5
+7. e5 h6 8. Bh4 g5 9. Nxg5 hxg5 10. Bxg5 Nbd7 11. exf6 Bb7
+12. g3 c5 13. d5 Bh6 14. Bxh6 Rxh6 15. Qd2 Qxf6 16. Ne4 Qf3
+17. Nd6+ Ke7 18. Rg1 Bxd5 19. Qxh6 Kxd6 20. Bg2 Qf6 21. Qxf6
+Nxf6 22. Ke2 a5 23. a4 b4 24. Rac1 Nd7 25. f4 Nb6 26. Ra1 Rh8
+27. h4 f5 28. Bf3 1/2-1/2
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.09"]
+[EventDate "2001.07.02"]
+[Round "10"]
+[Result "0-1"]
+[White "Craig A Hanley"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A15"]
+[WhiteElo "2278"]
+[BlackElo "2359"]
+[PlyCount "76"]
+[ChessgamesWhiteID "50408"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1183132"]
+
+1. c4 Nf6 2. g3 c6 3. Nf3 d5 4. b3 dxc4 5. bxc4 e5 6. Bb2 e4
+7. Ne5 Bd6 8. Bg2 O-O 9. O-O Qe7 10. f4 Nbd7 11. Nxd7 Bxd7
+12. Qb3 Rfe8 13. Bxf6 Qxf6 14. Nc3 Bf5 15. e3 Re7 16. g4 Bxg4
+17. Nxe4 Qg6 18. Nxd6 Qxd6 19. d4 Rae8 20. Rae1 Bf5 21. Rf3 h5
+22. Bh3 Qd7 23. Bxf5 Qxf5 24. Rg3 h4 25. Rg5 Qh3 26. Re5 Rxe5
+27. fxe5 Re6 28. Re2 Rg6+ 29. Kf2 Qxh2+ 30. Ke1 Rg1+ 31. Kd2
+Rg2 32. Rxg2 Qxg2+ 33. Kc3 h3 34. Qxb7 h2 35. Qc8+ Kh7
+36. Qf5+ Kh6 37. Qf4+ Kg6 38. e6 fxe6 0-1
+
+
+[Event "Smith & Williamson ch-GBR"]
+[Site "Scarborough ENG"]
+[Date "2001.08.10"]
+[EventDate "2001.07.02"]
+[Round "11"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Christopher G Ward"]
+[ECO "A70"]
+[WhiteElo "2359"]
+[BlackElo "2493"]
+[PlyCount "220"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "14224"]
+[ChessgamesGameID "1183160"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6
+7. Qa4+ Bd7 8. Qb3 Qb6 9. e4 Na6 10. Qd1 Bg7 11. Be2 O-O
+12. Nd2 Qc7 13. O-O Rab8 14. Re1 Rfe8 15. Bf1 Nh5 16. h3 c4
+17. a4 f5 18. Nxc4 f4 19. e5 dxe5 20. b4 Kh8 21. Bb2 Nxb4
+22. Ne4 Rbd8 23. Ned6 Rf8 24. Qd2 a5 25. Rac1 Bxa4 26. Ra1 b5
+27. Nxa5 Nc2 28. Ndb7 Nxe1 29. Rxe1 Rd7 30. d6 Qb6 31. Qd5 Nf6
+32. Qxe5 Rxb7 33. Nxb7 Qxb7 34. Qxf4 Qd7 35. g4 g5 36. Qxg5
+Qxd6 37. Bxb5 h6 38. Qe5 Qxe5 39. Rxe5 Nd7 40. Bxd7 Bxd7
+41. Re2 Bb5 42. Bxg7+ Kxg7 43. Re6 Rf3 44. Kg2 Rc3 45. Rd6 Rc1
+46. Re6 Bf1+ 47. Kg3 Rc3+ 48. f3 Bc4 49. Re7+ Bf7 50. Re5 Bg6
+51. h4 Kf6 52. Rb5 Be4 53. g5+ hxg5 54. hxg5+ Kg6 55. Kf4 Bxf3
+56. Re5 Bh5 57. Re6+ Kf7 58. Rb6 Rf3+ 59. Ke4 Rc3 60. Kf5 Bg6+
+61. Ke5 Rc5+ 62. Kf4 Rc4+ 63. Ke5 Re4+ 64. Kd5 Re1 65. Rb7+
+Kg8 66. Kd4 Bf7 67. g6 Bxg6 68. Rc7 Bf7 69. Rc3 Kg7 70. Rf3
+Ra1 71. Rf2 Ra5 72. Rf1 Be6 73. Rf2 Bf5 74. Rf1 Kf6 75. Rf2
+Ke6 76. Rb2 Rd5+ 77. Kc4 Bd3+ 78. Kc3 Ke5 79. Rb8 Bf5 80. Kc4
+Rd4+ 81. Kc3 Be6 82. Rh8 Rc4+ 83. Kd3 Rc6 84. Re8 Ra6 85. Re7
+Ra3+ 86. Kd2 Kd6 87. Re8 Bd5 88. Rh8 Ke5 89. Rd8 Kd4 90. Kd1
+Ra2 91. Rd7 Ke4 92. Kc1 Rf2 93. Rd8 Bc4 94. Rd7 Bd3 95. Rd8
+Ke3 96. Rc8 Kd4 97. Kd1 Bc4 98. Rd8+ Kc3 99. Re8 Rf7 100. Re3+
+Bd3 101. Re8 Rf1+ 102. Re1 Rf8 103. Re7 Rf5 104. Re8 Rf7
+105. Re6 Bc4 106. Re3+ Kd4 107. Re8 Bd3 108. Rd8+ Ke3
+109. Re8+ Be4 110. Kc1 Rb7 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.17"]
+[EventDate "2001.08.16"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Jan Markos"]
+[ECO "B93"]
+[WhiteElo "2359"]
+[BlackElo "2479"]
+[PlyCount "71"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50250"]
+[ChessgamesGameID "1185296"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f4 Qc7
+7. Nf3 Nbd7 8. Bd3 g6 9. O-O Bg7 10. Qe1 O-O 11. Qh4 b5 12. f5
+Re8 13. Bh6 Bb7 14. Kh1 Bh8 15. a3 Rac8 16. Rae1 Nc5 17. Ng5
+e6 18. fxg6 fxg6 19. Re3 Qe7 20. Rg3 Ncd7 21. Ne2 e5 22. c3
+Bg7 23. Bb1 Rf8 24. Ba2+ d5 25. Bxg7 Qxg7 26. Rgf3 Rce8
+27. Qh3 Qe7 28. exd5 Bxd5 29. Bxd5+ Nxd5 30. Rf7 h5 31. Qd3
+Rxf7 32. Rxf7 Qd6 33. Ng3 Nc5 34. Nxh5 Rd8 35. Qxd5 gxh5
+36. Rf8+ 1-0
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.18"]
+[EventDate "2001.08.16"]
+[Round "3"]
+[Result "0-1"]
+[White "Levente Vajda"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C69"]
+[WhiteElo "2507"]
+[BlackElo "2359"]
+[PlyCount "80"]
+[ChessgamesWhiteID "11592"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1185316"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4
+7. dxe5 Qxd1 8. Rxd1 fxe5 9. Rd3 Bd6 10. Bg5 Nf6 11. Bxf6 gxf6
+12. Nbd2 b5 13. Nh4 O-O-O 14. h3 Be6 15. Nf1 c5 16. Rf3 Rhf8
+17. Nf5 c4 18. Ng7 Bg8 19. g4 Bc5 20. Kg2 Kb7 21. h4 a5 22. a4
+b4 23. Rc1 Bd4 24. c3 Bb6 25. Nh5 Rd3 26. Rxd3 cxd3 27. Nd2
+Be6 28. Kf3 Bd7 29. b3 Bc6 30. Ng7 h5 31. Kg3 hxg4 32. h5 Rh8
+33. cxb4 axb4 34. Rc4 Bd7 35. Nf1 Rh7 36. h6 Rxh6 37. Rxb4
+Rh3+ 38. Kg2 Rf3 39. a5 Rxf2+ 40. Kg1 d2 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.19"]
+[EventDate "2001.08.16"]
+[Round "4"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Emanuel Berg"]
+[ECO "C18"]
+[WhiteElo "2359"]
+[BlackElo "2496"]
+[PlyCount "158"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "19787"]
+[ChessgamesGameID "1185342"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7
+7. Qg4 f5 8. Qh5+ g6 9. Qd1 Bd7 10. Nf3 Ba4 11. Bd2 Nc6
+12. Bd3 h6 13. h4 Nge7 14. Qc1 O-O-O 15. Rh3 Rh7 16. Kf1 Rdh8
+17. Kg1 c4 18. Be2 Nd8 19. g3 Nec6 20. Nh2 g5 21. g4 h5
+22. gxf5 g4 23. Rg3 exf5 24. Nf1 Ne6 25. Ne3 Ne7 26. Ng2 Ng6
+27. Bg5 Rf8 28. Nf4 Ngxf4 29. Bxf4 Qe7 30. Rb1 Bxc2 31. Qxc2
+Nxf4 32. Bf1 Qxh4 33. Qa4 Kb8 34. Qc6 Rd8 35. a4 Qe7 36. a5
+Rc8 37. Qb5 Qd7 38. Qb4 Ne6 39. Re3 f4 40. Re2 f3 41. Reb2 Rc7
+42. Qa3 Qe7 43. Qa4 Nd8 44. Rb5 Qe6 45. Qa3 Rhf7 46. Qd6 Kc8
+47. Rxd5 Rfd7 48. Qxe6 Nxe6 49. Rdb5 Nf4 50. Re1 Rd5 51. Rb2
+Kd7 52. Re4 Nd3 53. Rd2 Nc5 54. Rf4 Nb3 55. Rd1 Nxa5 56. Rf5
+Ke6 57. Rxh5 Nb3 58. Rh6+ Kf5 59. Rf6+ Kg5 60. Re1 Nd2 61. Rf8
+Kg6 62. e6 Re7 63. Rf4 Rh5 64. Rxg4+ Kf5 65. Rg3 Rxe6 66. Rxe6
+Kxe6 67. Bh3+ Kf6 68. Bc8 b6 69. Bb7 Rg5 70. Ba6 Ra5 71. Bxc4
+Nxc4 72. Rxf3+ Rf5 73. Rh3 a5 74. Rh6+ Kg5 75. Rc6 a4 76. Rxc4
+a3 77. f4+ Kh5 78. d5 Rxd5 79. Re4 Rd1+ 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.20"]
+[EventDate "2001.08.16"]
+[Round "5"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Evgeny Postny"]
+[ECO "C67"]
+[WhiteElo "2359"]
+[BlackElo "2486"]
+[PlyCount "136"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "51579"]
+[ChessgamesGameID "1188484"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5
+Be7 7. Bd3 Nxe5 8. Rxe5 O-O 9. Nc3 c6 10. b3 Ne8 11. Bb2 d5
+12. Qf3 Bf6 13. Re2 Nc7 14. Ba3 Re8 15. Rae1 Rxe2 16. Nxe2 Ne6
+17. Ng3 g6 18. Bd6 Kg7 19. Be5 Bxe5 20. Rxe5 Qf6 21. Qxf6+
+Kxf6 22. Re1 a5 23. f3 Bd7 24. Kf2 c5 25. c4 Bc6 26. cxd5 Bxd5
+27. Ne4+ Kg7 28. Nc3 Rd8 29. Bb5 Kf6 30. Re2 Nc7 31. Bd3 b6
+32. Be4 Be6 33. f4 Bg4 34. Bf3 Bxf3 35. Kxf3 Ne6 36. Re5 Rd3+
+37. Re3 Nd4+ 38. Kg4 h5+ 39. Kh3 Ne6 40. Rxd3 Nxf4+ 41. Kg3
+Nxd3 42. Nd5+ Ke5 43. Nxb6 Kd4 44. Na4 g5 45. Nc3 f5 46. Nb5+
+Ke5 47. Kf3 f4 48. h3 Ne1+ 49. Kf2 Nd3+ 50. Kf3 Nc1 51. Na3
+Kf5 52. Nc4 g4+ 53. hxg4+ hxg4+ 54. Kf2 Nxa2 55. Nxa5 Nc1
+56. Ke1 Ke4 57. Nc4 Nxb3 58. Nd6+ Ke5 59. Nf7+ Kf6 60. Nd6 Ke6
+61. Ne4 Ke5 62. Nc3 Nc1 63. Kd1 Nd3 64. Ke2 c4 65. Nb5 Nc1+
+66. Kf2 Nb3 67. Ke2 Nd4+ 68. Nxd4 Kxd4 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.21"]
+[EventDate "2001.08.16"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Nicholas Pert"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A46"]
+[WhiteElo "2475"]
+[BlackElo "2359"]
+[PlyCount "51"]
+[ChessgamesWhiteID "48992"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1188505"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 c5 4. Bg2 Nc6 5. O-O cxd4 6. Nxd4
+Qb6 7. Nb3 d5 8. Nc3 Be7 9. a4 O-O 10. a5 Qd8 11. a6 bxa6
+12. e4 dxe4 13. Nxe4 Nxe4 14. Bxe4 Bb7 15. Re1 Qb6 16. Be3 Qb4
+17. Bd2 Qb5 18. Bc3 Rad8 19. Qg4 g6 20. Bg2 h5 21. Qf4 Rd7
+22. Na5 Bg5 23. Qa4 Nxa5 24. Qxa5 Bxg2 25. Kxg2 h4 26. Qa4
+1/2-1/2
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.23"]
+[EventDate "2001.08.16"]
+[Round "7"]
+[Result "1-0"]
+[White "Zviad Izoria"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D45"]
+[WhiteElo "2486"]
+[BlackElo "2359"]
+[PlyCount "97"]
+[ChessgamesWhiteID "49441"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1188529"]
+
+1. Nf3 d5 2. d4 c6 3. c4 e6 4. Qc2 Nf6 5. e3 Nbd7 6. Nc3 Bd6
+7. Bd3 O-O 8. Bd2 Qe7 9. O-O e5 10. cxd5 cxd5 11. e4 exd4
+12. Nxd5 Nxd5 13. exd5 Ne5 14. Nxe5 Qxe5 15. Bxh7+ Kh8 16. f4
+Qxd5 17. Be4 Qh5 18. Rae1 Be6 19. Bxb7 Rab8 20. Bf3 Qb5 21. b3
+Rfc8 22. Qd1 Rc5 23. Be4 Kg8 24. Qf3 Bf5 25. Bxf5 Rxf5 26. Re4
+Bf8 27. Rfe1 Rd8 28. a4 Qb8 29. Qd3 Rfd5 30. b4 Qc7 31. b5 Qd7
+32. Re5 g6 33. h3 Rc8 34. a5 Rxe5 35. Rxe5 Bg7 36. Re1 Qb7
+37. f5 gxf5 38. Qxf5 Rd8 39. Bg5 f6 40. Qe6+ Qf7 41. Bf4 Qxe6
+42. Rxe6 d3 43. b6 Kf7 44. Re1 axb6 45. axb6 Bf8 46. b7 Bc5+
+47. Kf1 d2 48. Rd1 Ba7 49. Rxd2 1-0
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.24"]
+[EventDate "2001.08.16"]
+[Round "8"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Adam Horvath"]
+[ECO "B47"]
+[WhiteElo "2359"]
+[BlackElo "2504"]
+[PlyCount "98"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "71484"]
+[ChessgamesGameID "1188577"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. f4
+Nxd4 7. Qxd4 a6 8. Be2 b5 9. Be3 Bb7 10. O-O-O Rc8 11. Rd2 Nf6
+12. Bf3 Be7 13. Rhd1 O-O 14. e5 b4 15. Na4 Bxf3 16. gxf3 Nd5
+17. Nb6 Nxb6 18. Qxb6 Qc4 19. b3 Qc3 20. Qd4 h5 21. Kb1 h4
+22. Qe4 f5 23. Qd3 Kf7 24. Qe2 a5 25. Rd3 Qc6 26. Qg2 h3
+27. Qf2 Rc7 28. Bb6 Rb7 29. Bd4 Rh8 30. Rg1 Rh6 31. Qf1 Rc7
+32. c4 bxc3 33. Rxc3 Qb7 34. Qd3 Rxc3 35. Bxc3 a4 36. Kc2 Qa7
+37. Rd1 Rg6 38. b4 Rg2+ 39. Rd2 Qg1 40. b5 Rxh2 41. Bd4 Rxd2+
+42. Qxd2 h2 43. b6 Qg3 44. b7 h1=Q 45. b8=Q Qhxf3 46. Qb5 Qe4+
+47. Kc1 Ba3+ 48. Bb2 Qg1+ 49. Qd1 Qb1+ 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.25"]
+[EventDate "2001.08.16"]
+[Round "9"]
+[Result "0-1"]
+[White "Frangiskos Sigalas"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B23"]
+[WhiteElo "2125"]
+[BlackElo "2359"]
+[PlyCount "44"]
+[ChessgamesWhiteID "51674"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1188609"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 6. O-O Nge7
+7. e5 d5 8. exd6 Nf5 9. d3 O-O 10. a3 Nxd6 11. Ba2 b6 12. Qe1
+Bb7 13. Ne4 Rc8 14. Neg5 h6 15. Nxe6 fxe6 16. Bxe6+ Kh7
+17. Bxc8 Qxc8 18. c3 Nf5 19. g4 Nfd4 20. cxd4 Nxd4 21. Ne5
+Bxe5 22. Qxe5 Re8 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.26"]
+[EventDate "2001.08.16"]
+[Round "10"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Pontus Carlsson"]
+[ECO "B78"]
+[WhiteElo "2359"]
+[BlackElo "2330"]
+[PlyCount "115"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50058"]
+[ChessgamesGameID "1188621"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 g6 6. Be3 Bg7
+7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Ne5
+12. Kb1 Nc4 13. Bxc4 Rxc4 14. g4 Qb8 15. g5 Nh5 16. Nd5 Re8
+17. Ne2 Be6 18. b3 Rcc8 19. Ng3 Bxd5 20. exd5 Qc7 21. Nxh5
+gxh5 22. f4 a5 23. f5 a4 24. Rhg1 axb3 25. cxb3 Qc3 26. f6
+Qxd2 27. Rxd2 Bf8 28. Bf4 e6 29. dxe6 Rxe6 30. Rgd1 Rc6 31. b4
+h6 32. Rd5 Rc4 33. R5d4 Rxd4 34. Rxd4 hxg5 35. Bxg5 Kh7 36. a4
+Kg6 37. Bh4 Kf5 38. b5 Bh6 39. Bg3 Kxf6 40. Rxd6 Rxd6 41. Bxd6
+Ke6 42. Bc7 Kd5 43. a5 Be3 44. Kc2 Kc4 45. a6 bxa6 46. b6 a5
+47. b7 Ba7 48. b8=Q Bxb8 49. Bxb8 a4 50. Bc7 a3 51. Bd8 Kd4
+52. Kd2 Ke5 53. Ba5 Kf4 54. Ke2 Kg4 55. Kf2 Kh3 56. Kg1 f5
+57. Bc3 a2 58. Bb2 1/2-1/2
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.27"]
+[EventDate "2001.08.16"]
+[Round "11"]
+[Result "0-1"]
+[White "Sam E Collins"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B76"]
+[WhiteElo "2194"]
+[BlackElo "2359"]
+[PlyCount "62"]
+[ChessgamesWhiteID "31504"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1190977"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. Qe1 e5 11. Nxc6 bxc6
+12. exd5 Nxd5 13. Bc4 Be6 14. Bc5 Qg5+ 15. Kb1 Rfd8 16. Ne4
+Qxg2 17. Rg1 Qxf3 18. Rf1 Qxd1+ 19. Qxd1 Nc3+ 20. Nxc3 Rxd1+
+21. Rxd1 Bxc4 22. Rd6 Rc8 23. Bxa7 f5 24. a4 e4 25. a5 Be5
+26. Rd7 Re8 27. Nd1 f4 28. Nf2 e3 29. Nd3 Bxd3 30. cxd3 Bb8
+31. Bd4 f3 0-1
+
+
+[Event "WJun"]
+[Site "Athens GRE"]
+[Date "2001.08.28"]
+[EventDate "2001.08.16"]
+[Round "12"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Dmitry Schneider"]
+[ECO "D32"]
+[WhiteElo "2359"]
+[BlackElo "2405"]
+[PlyCount "54"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56557"]
+[ChessgamesGameID "1190998"]
+
+1. Nf3 d5 2. c4 e6 3. d4 c5 4. e3 Nc6 5. Nc3 Nf6 6. Bd3 a6
+7. a3 Be7 8. O-O O-O 9. dxc5 Bxc5 10. b4 Ba7 11. Bb2 dxc4
+12. Bxc4 Qe7 13. Rc1 b5 14. Ba2 Bb7 15. Bb1 Rac8 16. Qc2 Nb8
+17. Rfd1 Nbd7 18. Qe2 Rc4 19. h3 Rfc8 20. Nd2 R4c7 21. Nde4
+Nxe4 22. Bxe4 Bxe4 23. Nxe4 Rxc1 24. Rxc1 Rxc1+ 25. Bxc1 Ne5
+26. Qc2 Nc4 27. Nd2 Qc7 1/2-1/2
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.21"]
+[EventDate "2001.10.06"]
+[Round "1"]
+[Result "0-1"]
+[White "Deniz Arman"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B33"]
+[WhiteElo "2122"]
+[BlackElo "2387"]
+[PlyCount "44"]
+[ChessgamesWhiteID "92045"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1204013"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5
+d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O
+12. Nc2 Rb8 13. Bd3 Be6 14. Ncb4 Nxb4 15. Nxb4 Qb6 16. O-O a5
+17. Nd5 Bxd5 18. exd5 g6 19. Kh1 Bg7 20. Qe2 f5 21. f3 Bh6
+22. a4 b4 0-1
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.22"]
+[EventDate "2001.10.06"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Anton Sitnikov"]
+[ECO "C18"]
+[WhiteElo "2387"]
+[BlackElo "2218"]
+[PlyCount "62"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "54627"]
+[ChessgamesGameID "1204025"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7
+7. Nf3 Ne7 8. a4 b6 9. Bb5+ Bd7 10. Bd3 Nbc6 11. O-O h6
+12. Re1 cxd4 13. cxd4 Nb4 14. Ba3 Nxd3 15. cxd3 Bc6 16. Rc1
+Qd7 17. a5 Ba4 18. Qd2 Nc6 19. Bd6 bxa5 20. Rc5 a6 21. h4 f5
+22. h5 Kf7 23. g4 g6 24. hxg6+ Kxg6 25. gxf5+ Kxf5 26. Nh4+
+Kg4 27. f3+ Kh5 28. Kf2 Qd8 29. Rh1 Ra7 30. Rcc1 Qg5 31. Qxg5+
+hxg5 1-0
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.23"]
+[EventDate "2001.10.06"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Jure Borisek"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B78"]
+[WhiteElo "2321"]
+[BlackElo "2387"]
+[PlyCount "68"]
+[ChessgamesWhiteID "35978"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1204034"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 O-O 8. Bc4 Nc6 9. Qd2 Bd7 10. O-O-O Qa5 11. Bb3 Rfc8
+12. h4 Ne5 13. Kb1 Nc4 14. Bxc4 Rxc4 15. Nb3 Qc7 16. Bd4 Be6
+17. h5 a5 18. a4 b5 19. Nxb5 Qb8 20. Nc3 Rb4 21. Rh4 Qb7
+22. Rdh1 Rb8 23. hxg6 hxg6 24. g4 Bxb3 25. cxb3 Rxd4 26. Qxd4
+Qxb3 27. R4h2 Nh5 28. Qe3 Bxc3 29. gxh5 Qa3 30. Qc1 Be5
+31. hxg6 Qd3+ 32. Ka1 Qa3+ 33. Kb1 Qd3+ 34. Ka1 Qa3+ 1/2-1/2
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.24"]
+[EventDate "2001.10.06"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "John Paul Gomez"]
+[ECO "C11"]
+[WhiteElo "2387"]
+[BlackElo "2287"]
+[PlyCount "36"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56574"]
+[ChessgamesGameID "1204053"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 a6 8. Qd2 b5 9. dxc5 Bxc5 10. Bxc5 Nxc5 11. Qf2 Qb6
+12. Bd3 b4 13. Ne2 a5 14. O-O Ba6 15. Kh1 g6 16. Rad1 Na4
+17. Qxb6 Nxb6 18. Nfg1 Ne7 1/2-1/2
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.25"]
+[EventDate "2001.10.06"]
+[Round "5"]
+[Result "1-0"]
+[White "Damir Husnutdinov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "?"]
+[BlackElo "2387"]
+[PlyCount "43"]
+[ChessgamesWhiteID "56576"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1204061"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. e5 Nfd7 6. c3 Nc6
+7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. Nf3 Bd6 11. O-O O-O
+12. Bf4 Bxf4 13. Nxf4 Ne4 14. Nh5 g6 15. Ng3 Nxg3 16. hxg3 Qb6
+17. Qa4 a6 18. Rfd1 Bd7 19. Rd2 Rad8 20. Qc2 Nxd4 21. Nxd4
+Qxd4 22. Bxg6 1-0
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.26"]
+[EventDate "2001.10.06"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Daniel Johannes Louw"]
+[ECO "A90"]
+[WhiteElo "2387"]
+[BlackElo "?"]
+[PlyCount "28"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56578"]
+[ChessgamesGameID "1204088"]
+
+1. d4 f5 2. c4 e6 3. g3 d5 4. Bg2 c6 5. Nf3 Nf6 6. O-O Bd6
+7. b3 Qe7 8. Bb2 O-O 9. Nbd2 Bd7 10. Ne5 Be8 11. Qc2 Nbd7
+12. Nd3 Bh5 13. Nf3 Ne4 14. Nfe5 g6 1-0
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.28"]
+[EventDate "2001.10.06"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Jan Smeets"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B76"]
+[WhiteElo "2312"]
+[BlackElo "2387"]
+[PlyCount "54"]
+[ChessgamesWhiteID "35886"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1204101"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 O-O 8. Qd2 Nc6 9. O-O-O d5 10. exd5 Nxd5 11. Nxc6 bxc6
+12. Bd4 e5 13. Bc5 Be6 14. Ne4 Rb8 15. h4 Qc7 16. Bd6 Qb6
+17. c4 Ne3 18. Bxb8 Rxb8 19. c5 Qb7 20. Nd6 Nxf1 21. Rhxf1 Qa6
+22. a3 e4 23. Nxe4 Bxb2+ 24. Qxb2 Rxb2 25. Kxb2 Qc4 26. Rfe1
+Qb3+ 27. Kc1 Qxa3+ 1/2-1/2
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.29"]
+[EventDate "2001.10.06"]
+[Round "8"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Leandro Perdomo"]
+[ECO "A45"]
+[WhiteElo "2387"]
+[BlackElo "2262"]
+[PlyCount "58"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56577"]
+[ChessgamesGameID "1205527"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. f3 Qa5+ 5. c3 Nf6 6. Nd2
+cxd4 7. Nb3 Qb6 8. Qxd4 Nc6 9. Qxb6 axb6 10. Nd4 Nxd4 11. cxd4
+d5 12. e3 Bd7 13. Bd3 e6 14. Ne2 Bb4+ 15. Kf2 Ke7 16. Rhc1
+Rhc8 17. a3 Bd6 18. Bxd6+ Kxd6 19. Ke1 Rxc1+ 20. Rxc1 Bc6
+21. Kd2 h6 22. g4 Nd7 23. Ng3 b5 24. e4 Nb6 25. Nh5 Rg8
+26. e5+ Ke7 27. b3 Nd7 28. Rc3 f6 29. exf6+ gxf6 1-0
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.10.30"]
+[EventDate "2001.10.06"]
+[Round "9"]
+[Result "1/2-1/2"]
+[White "Aaron Pixton"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A45"]
+[WhiteElo "2351"]
+[BlackElo "2387"]
+[PlyCount "49"]
+[ChessgamesWhiteID "50486"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1205533"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. c3 c5 6. Nf3 Nc6
+7. d5 Ne5 8. Be2 Nxf3+ 9. Bxf3 e5 10. Nd2 Be7 11. a4 O-O
+12. O-O Qg6 13. Bg4 d6 14. h3 f5 15. exf5 Bxf5 16. Re1 Bh4
+17. Nf3 Be7 18. Bxf5 Rxf5 19. Re4 Raf8 20. Rg4 Qf7 21. Qd3 Rf4
+22. Rxf4 Qxf4 23. Qe2 Bg5 24. Nxg5 Qxg5 25. g3 1/2-1/2
+
+
+[Event "WYB16"]
+[Site "Oropesa del Mar ESP"]
+[Date "2001.11.01"]
+[EventDate "2001.10.06"]
+[Round "10"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Erwin L'Ami"]
+[ECO "D82"]
+[WhiteElo "2387"]
+[BlackElo "2344"]
+[PlyCount "70"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "10945"]
+[ChessgamesGameID "1205554"]
+
+1. c4 Nf6 2. Nc3 d5 3. d4 g6 4. Bf4 Bg7 5. Qa4+ Bd7 6. Qb3 Bc6
+7. e4 e6 8. cxd5 exd5 9. e5 Nfd7 10. O-O-O Nb6 11. Nf3 O-O
+12. h4 h6 13. Bd3 Re8 14. Qc2 Bd7 15. Qd2 h5 16. Bg5 Qc8
+17. Bf6 Bf5 18. Qf4 Bxf6 19. exf6 Qd8 20. Ne5 N8d7 21. Bxf5
+Qxf6 22. Nxd7 Nxd7 23. Nxd5 Qxf5 24. Qxf5 gxf5 25. Rhe1 Kg7
+26. Kd2 Nf6 27. Nxc7 Rxe1 28. Rxe1 Rd8 29. Kd3 a6 30. Re5 Kg6
+31. f3 Rc8 32. Rc5 Nd7 33. Rc3 Rd8 34. Nd5 Ne5+ 35. dxe5 Rxd5+
+1/2-1/2
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.22"]
+[EventDate "2001.04.22"]
+[Round "1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Kerry Stead"]
+[ECO "C78"]
+[WhiteElo "2390"]
+[BlackElo "2135"]
+[PlyCount "69"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "36851"]
+[ChessgamesGameID "1222270"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7
+7. d4 Nxd4 8. Nxd4 exd4 9. e5 Ne4 10. Re1 Nc5 11. Qxd4 Nxb3
+12. axb3 Be7 13. Qg4 g6 14. Bh6 Bf8 15. Bg5 Be7 16. Bh6 Bf8
+17. Bxf8 Rxf8 18. c4 b4 19. c5 a5 20. Nd2 h5 21. Qf4 Bd5
+22. Qd4 c6 23. Nc4 Bxc4 24. Qxc4 Qc8 25. Rad1 Ra7 26. Rd6 g5
+27. h4 g4 28. Qf4 Qd8 29. Rf6 Qb8 30. Qf5 Qb5 31. e6 dxe6
+32. Rexe6+ Re7 33. Rxe7+ Kxe7 34. Rd6 Re8 35. Rd7+ 1-0
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.22"]
+[EventDate "2001.04.22"]
+[Round "2"]
+[Result "0-1"]
+[White "Scott Wastney"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A04"]
+[WhiteElo "2276"]
+[BlackElo "2390"]
+[PlyCount "62"]
+[ChessgamesWhiteID "58815"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222279"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 g6 5. e4 Bg7 6. Be3 Nf6
+7. Nc3 d6 8. Be2 O-O 9. O-O Bd7 10. Qd2 Nxd4 11. Bxd4 Bc6
+12. f3 a5 13. b3 Nd7 14. Be3 Nc5 15. Rab1 Qb6 16. Rfc1 Rfc8
+17. Rc2 h5 18. Nd5 Qd8 19. Bg5 Bxd5 20. cxd5 Kh7 21. Be3 Qd7
+22. Rbc1 b5 23. b4 axb4 24. Qxb4 Rcb8 25. Bxc5 dxc5 26. Qxc5
+Bh6 27. f4 Bxf4 28. Rf1 Rc8 29. Qb6 Rxc2 30. Rxf4 Rxe2
+31. Rxf7+ Kh6 0-1
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.23"]
+[EventDate "2001.04.22"]
+[Round "3"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Mark Chapman"]
+[ECO "C78"]
+[WhiteElo "2390"]
+[BlackElo "2338"]
+[PlyCount "32"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58812"]
+[ChessgamesGameID "1222288"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5
+7. c3 d6 8. d4 Bb6 9. a4 Rb8 10. axb5 axb5 11. Na3 O-O 12. Re1
+Bg4 13. d5 Ne7 14. Qd3 Nd7 15. Nd2 f5 16. Bc2 Bxf2+ 0-1
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.23"]
+[EventDate "2001.04.22"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Brett Tindall"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D87"]
+[WhiteElo "2225"]
+[BlackElo "2390"]
+[PlyCount "42"]
+[ChessgamesWhiteID "58807"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222297"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3
+Bg7 7. Bc4 c5 8. Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Na5
+12. Bxf7+ Rxf7 13. fxg4 Rxf1+ 14. Kxf1 cxd4 15. cxd4 e5 16. d5
+Nc4 17. Bf2 Qf6 18. Kg1 Rf8 19. Bc5 Rc8 20. Bf2 Rf8 21. Bc5
+Rc8 1/2-1/2
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.24"]
+[EventDate "2001.04.22"]
+[Round "5"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "L R Jones"]
+[ECO "B12"]
+[WhiteElo "2390"]
+[BlackElo "?"]
+[PlyCount "58"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58814"]
+[ChessgamesGameID "1222314"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bd3 Bxc5 6. Qg4 Bf8
+7. Nf3 Nc6 8. O-O Bd7 9. Re1 Qc7 10. Nc3 a6 11. Bf4 Nge7
+12. h4 Nb4 13. h5 Nxd3 14. cxd3 Qb6 15. Re2 h6 16. Be3 Qa5
+17. Bd2 Qb6 18. Be3 Qa5 19. Nd4 Nc6 20. Qg3 Nxd4 21. Bxd4 Qb4
+22. Qe3 Rc8 23. Rc2 Be7 24. Rac1 O-O 25. g3 Rc6 26. Ne2 Rfc8
+27. Bc3 Qg4 28. Nd4 Bc5 29. Qf3 Bxd4 1-0
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.24"]
+[EventDate "2001.04.22"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Leonid Veniaminovich Sandler"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E92"]
+[WhiteElo "2400"]
+[BlackElo "2390"]
+[PlyCount "67"]
+[ChessgamesWhiteID "12064"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222319"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. d4 d6 6. Be2 e5
+7. dxe5 dxe5 8. Qxd8 Rxd8 9. Bg5 c6 10. Nxe5 Re8 11. f4 Nh5
+12. Bxh5 gxh5 13. Bh4 Nd7 14. Bg3 Nxe5 15. fxe5 Bxe5 16. Bxe5
+Rxe5 17. O-O Be6 18. b3 Kf8 19. Rf4 Ke7 20. Rd1 Rg8 21. Rd2
+Rg4 22. Rxg4 hxg4 23. Kf2 a5 24. Kg3 f6 25. Kf4 Rh5 26. g3 Rg5
+27. Nd1 h6 28. Ne3 Re5 29. Rd1 b5 30. cxb5 Rxb5 31. Rc1 Kd7
+32. Rd1+ Ke7 33. Rc1 Kd7 34. Rd1+ 1/2-1/2
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.26"]
+[EventDate "2001.04.22"]
+[Round "7"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Andrew Allen"]
+[ECO "B12"]
+[WhiteElo "2390"]
+[BlackElo "2255"]
+[PlyCount "73"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58816"]
+[ChessgamesGameID "1222330"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 c5
+7. h4 h6 8. f4 Nc6 9. Be3 Qa5 10. Qd2 O-O-O 11. h5 Bh7 12. Bg2
+cxd4 13. Nxd4 Nxd4 14. Bxd4 Ne7 15. Ne2 Qxd2+ 16. Kxd2 Nc6
+17. Rhf1 Be7 18. Bh3 Be4 19. c3 Kb8 20. Bg1 Kc7 21. Nd4 Nxd4
+22. Bxd4 Kc6 23. Rg1 a6 24. Bg2 Bxg2 25. Rxg2 b5 26. Kd3 Rb8
+27. Rc2 Rbc8 28. a4 Ra8 29. b3 Rhb8 30. axb5+ Rxb5 31. b4 Kb7
+32. Rca2 Bf8 33. Rf1 Be7 34. f5 Rf8 35. fxe6 fxe6 36. Rxf8
+Bxf8 37. Rf2 1-0
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.26"]
+[EventDate "2001.04.22"]
+[Round "8"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Mikhail Gluzman"]
+[ECO "B03"]
+[WhiteElo "2390"]
+[BlackElo "2400"]
+[PlyCount "112"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "38756"]
+[ChessgamesGameID "1222338"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6
+7. Be3 Bg7 8. Rc1 O-O 9. b3 f5 10. d5 e5 11. dxe6 Nc6 12. Nh3
+Bxe6 13. Be2 h6 14. Nf4 Bf7 15. Nfd5 Nxd5 16. Nxd5 g5 17. O-O
+f4 18. Bd2 Ne5 19. Bc3 Be6 20. Bxe5 Bxe5 21. Bg4 Bf7 22. Re1
+b6 23. b4 Re8 24. Bh5 Bxh5 25. Qxh5 Kg7 26. Re4 Rc8 27. h4 b5
+28. Qe2 gxh4 29. c5 Qg5 30. Qf3 Rf8 31. Rce1 Rf7 32. cxd6 Bxd6
+33. Re6 Bf8 34. R1e5 Rf5 35. Rxf5 Rc1+ 36. Kh2 Qxf5 37. Nxf4
+Kg8 38. Re8 Rc4 39. Ng6 Qxf3 40. gxf3 Kf7 41. Rxf8+ Kxg6
+42. Ra8 Rc2 43. a4 Rxf2+ 44. Kh3 Rxf3+ 45. Kxh4 bxa4 46. Rxa7
+Rf4+ 47. Kg3 Rxb4 48. Ra6+ Kg5 49. Ra5+ Kf6 50. Ra6+ Ke5
+51. Rxh6 Kd4 52. Kf2 Kc3 53. Ke1 a3 54. Rh3+ Kb2 55. Rh2+ Kb1
+56. Kd2 Rb2+ 0-1
+
+
+[Event "Zone 3.2b (Oceana)"]
+[Site "Gold Coast AUS"]
+[Date "2001.04.27"]
+[EventDate "2001.04.22"]
+[Round "9"]
+[Result "1-0"]
+[White "Mirko Rujevic"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B23"]
+[WhiteElo "2332"]
+[BlackElo "2390"]
+[PlyCount "97"]
+[ChessgamesWhiteID "51334"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222351"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5 5. d3 Nf6 6. Bd2 Be7
+7. g3 b5 8. e5 b4 9. exf6 bxc3 10. fxe7 cxd2+ 11. Qxd2 Qxe7
+12. Bg2 O-O 13. O-O Rb8 14. c3 Ba6 15. Rf2 Rb6 16. Re1 Qd6
+17. Ne5 Ne7 18. d4 cxd4 19. cxd4 Rc8 20. Bh3 Bb5 21. a3 Ba4
+22. b4 Bb5 23. Qe3 Rb7 24. Nxf7 Kxf7 25. Bxe6+ Kf8 26. Bxc8
+Nxc8 27. Rc2 Nb6 28. Rc5 Bd7 29. Rec1 Nc4 30. Qf3 Nb6 31. Qh5
+Be8 32. Qe5 Rd7 33. Rc7 Qxe5 34. fxe5 Ke7 35. R1c5 Ke6 36. Kf2
+Nc4 37. R5c6+ Kf5 38. Rxd7 Bxd7 39. Rc7 Be8 40. Rxg7 Ke4
+41. Rxa7 Kxd4 42. e6 Nd6 43. e7 Ne4+ 44. Ke1 Ke3 45. Ra8 Nf6
+46. Rxe8 Nxe8 47. b5 d4 48. b6 Nd6 49. b7 1-0
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.13"]
+[EventDate "2001.04.13"]
+[Round "1"]
+[Result "0-1"]
+[White "Catherine Lip"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B47"]
+[WhiteElo "?"]
+[BlackElo "2390"]
+[PlyCount "70"]
+[ChessgamesWhiteID "58822"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222537"]
+
+1. e4 e6 2. Nf3 c5 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Ndb5
+Qb8 7. a4 Nf6 8. f3 a6 9. Na3 Bc5 10. Bg5 Bd6 11. Nc4 Bxh2
+12. Nb6 Qg3+ 13. Ke2 Qxg5 14. Rxh2 Qe5 15. Rh3 Rb8 16. Nc4 Qc5
+17. Ke1 d5 18. e5 dxc4 19. exf6 gxf6 20. Ne4 Qe3+ 21. Qe2
+Qxe2+ 22. Bxe2 Nd4 23. Kd2 Nxe2 24. Kxe2 Ke7 25. Rd1 Bd7
+26. Nc5 Bc6 27. Rdh1 Rhg8 28. R1h2 Bd5 29. Ne4 b5 30. a5 b4
+31. Rxh7 Rb5 32. R7h4 Rxa5 33. Nd2 Rc8 34. b3 c3 35. Nf1 Bxb3
+0-1
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.13"]
+[EventDate "2001.04.13"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Haris Muljadi"]
+[ECO "C00"]
+[WhiteElo "2390"]
+[BlackElo "2169"]
+[PlyCount "43"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58841"]
+[ChessgamesGameID "1222552"]
+
+1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7 5. d4 c5 6. dxc5 Nc6
+7. Bf4 Bxc5 8. Bd3 Qb6 9. O-O Qxb2 10. Nb5 Kd8 11. Bd2 d4
+12. Qe2 a6 13. Rfb1 Qxb1+ 14. Rxb1 axb5 15. Bxb5 Ke7 16. Qc4
+Rd8 17. Bxc6 bxc6 18. Nxd4 Ra6 19. Bg5+ f6 20. exf6+ gxf6
+21. Qxe6+ Kf8 22. Bh6+ 1-0
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.14"]
+[EventDate "2001.04.13"]
+[Round "3"]
+[Result "1-0"]
+[White "Darryl K Johansen"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B47"]
+[WhiteElo "2513"]
+[BlackElo "2390"]
+[PlyCount "122"]
+[ChessgamesWhiteID "47022"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222553"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6
+7. O-O Nf6 8. Be3 Bb4 9. Nxc6 bxc6 10. Na4 O-O 11. Nb6 Rb8
+12. Nxc8 Rfxc8 13. Bxa6 Rd8 14. Bd3 Bd6 15. Kh1 Be5 16. c3
+Rxb2 17. Qc1 Ng4 18. f4 Nxe3 19. Qxb2 Bxf4 20. Qf2 Nxf1
+21. Rxf1 g5 22. g3 Qd6 23. Be2 Be5 24. Qxf7+ Kh8 25. Rd1 Qf8
+26. Qxf8+ Rxf8 27. Rxd7 Bxc3 28. Bg4 Rf1+ 29. Kg2 Rb1 30. Bxe6
+Rb2+ 31. Kf3 Rxh2 32. Kg4 h6 33. Rc7 Bd4 34. a4 Rf2 35. Bf5
+Kg8 36. Rxc6 Rh2 37. a5 Kg7 38. Bg6 Ra2 39. a6 Ra1 40. Bh5 Ra5
+41. Rg6+ Kh7 42. Re6 Kg7 43. Rg6+ Kh7 44. Rd6 Bf2 45. Kf3 Bg1
+46. Bg6+ Kg7 47. Bf5 h5 48. Rg6+ Kf7 49. Rxg5 Rxa6 50. Rxh5
+Ra3+ 51. Kg2 Bd4 52. Rh7+ Kf6 53. Rh6+ Kg7 54. Re6 Re3 55. Kh3
+Bc3 56. Kg4 Be1 57. Rg6+ Kf7 58. Kf4 Bd2 59. Ke5 Ra3 60. Kd5
+Ra5+ 61. Kc4 Ra4+ 1-0
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.14"]
+[EventDate "2001.04.13"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Justin Tan"]
+[ECO "C04"]
+[WhiteElo "2390"]
+[BlackElo "2226"]
+[PlyCount "85"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "91681"]
+[ChessgamesGameID "1222564"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. Bb5 a6
+7. Bxc6 bxc6 8. O-O a5 9. Re1 c5 10. c4 Bb7 11. cxd5 Bxd5
+12. Qa4 Be7 13. dxc5 O-O 14. Qc2 Nxc5 15. b3 a4 16. b4 Na6
+17. a3 c5 18. b5 Nc7 19. Rb1 Qd7 20. Nc4 Rfb8 21. b6 Bxc4
+22. Qxc4 Nd5 23. Rd1 Qc8 24. Bg5 Bxg5 25. Nxg5 Rxb6 26. Qe4 g6
+27. Qh4 h5 28. Rxb6 Nxb6 29. Nxf7 Qc7 30. Nd6 Qg7 31. Qe4 Rf8
+32. Qc6 Nd5 33. Nc4 Qe7 34. Rb1 Qh4 35. Qxc5 Qe4 36. Nd2 Qd3
+37. Rb2 Qe2 38. g3 h4 39. Qd4 h3 40. Rb1 Nc3 41. Rf1 Nb5
+42. Qxa4 Qxe5 43. Qe4 1/2-1/2
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.15"]
+[EventDate "2001.04.13"]
+[Round "5"]
+[Result "1-0"]
+[White "Vladimir Smirnov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D31"]
+[WhiteElo "2227"]
+[BlackElo "2390"]
+[PlyCount "81"]
+[ChessgamesWhiteID "58837"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222578"]
+
+1. d4 e6 2. Nf3 d5 3. c4 c6 4. Nc3 dxc4 5. a4 Bb4 6. e3 b5
+7. Bd2 a5 8. Ne5 Bb7 9. Qg4 g6 10. Be2 Nd7 11. Qf4 f6 12. Nxd7
+Qxd7 13. Ne4 Bxd2+ 14. Kxd2 Kf7 15. Nc5 Qe7 16. Bf3 Rd8
+17. Kc2 e5 18. Qh4 b4 19. Rad1 Bc8 20. Bxc6 Kg7 21. f3 Nh6
+22. g4 Rd6 23. Bb5 Rhd8 24. Ne4 exd4 25. Nxd6 b3+ 26. Kb1 c3
+27. Rxd4 c2+ 28. Ka1 Rxd6 29. Qe1 Rxd4 30. exd4 Qd6 31. g5 Nf7
+32. Qc3 Bd7 33. Bxd7 Qxd7 34. gxf6+ Kh6 35. Qxb3 Qxd4 36. Qxc2
+Qxf6 37. Qd2+ g5 38. h4 Qxf3 39. hxg5+ Kg6 40. Qd6+ Kg7
+41. Qd4+ 1-0
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.15"]
+[EventDate "2001.04.13"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Brian Thomas"]
+[ECO "C00"]
+[WhiteElo "2390"]
+[BlackElo "?"]
+[PlyCount "33"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58843"]
+[ChessgamesGameID "1222586"]
+
+1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7 5. d4 c5 6. dxc5 Bxc5
+7. Bd3 Nc6 8. Bf4 f5 9. exf6 Nxf6 10. O-O O-O 11. Ne5 Bd6
+12. Qe2 Ne4 13. Nxe4 dxe4 14. Qxe4 Rxf4 15. Qxh7+ Kf8 16. Qh8+
+Ke7 17. Qxg7+ 1-0
+
+
+[Event "39th Doeberl Cup"]
+[Site "Canberra AUS"]
+[Date "2001.04.16"]
+[EventDate "2001.04.13"]
+[Round "7"]
+[Result "0-1"]
+[White "Jan De Gier"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B32"]
+[WhiteElo "?"]
+[BlackElo "2390"]
+[PlyCount "86"]
+[ChessgamesWhiteID "58828"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1222596"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Nf3
+Bb4 7. Bc4 O-O 8. Bg5 h6 9. Bxf6 Bxc3+ 10. bxc3 Qxf6 11. O-O
+d6 12. Qd3 Rd8 13. Rab1 b6 14. Ba6 Bxa6 15. Qxa6 Rac8 16. Rfd1
+Qe7 17. Rd5 Qc7 18. Rbd1 Ne7 19. R5d2 f5 20. exf5 Nxf5 21. Qd3
+Rf8 22. g4 Ne7 23. Nh4 Rf6 24. Qg3 Rcf8 25. Rd3 Qc5 26. R1d2
+Kh7 27. Rf3 e4 28. Re3 d5 29. g5 Rf4 30. Ng2 R4f5 31. h4 h5
+32. c4 Qxc4 33. Rc3 Qxa2 34. Kh2 Ng6 35. Rc6 Qa5 36. c3 Ne5
+37. g6+ Kg8 38. Ne3 Nxc6 39. Nxf5 Rxf5 40. Qd6 Rf6 41. Qd7 Qc5
+42. Qe8+ Qf8 43. Qxf8+ Kxf8 0-1
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.14"]
+[EventDate "?"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Kuan Kuan Tian"]
+[ECO "B32"]
+[WhiteElo "2297"]
+[BlackElo "2054"]
+[PlyCount "68"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "68953"]
+[ChessgamesGameID "1237348"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6
+7. Nc3 O-O 8. Be2 d6 9. O-O Bd7 10. Rc1 Nxd4 11. Bxd4 Bc6
+12. f3 a5 13. b3 Nd7 14. Be3 Nc5 15. Qd2 Qb6 16. Nd5 Bxd5
+17. exd5 Qb4 $11 18. Rfd1 Qa3 19. Rc2 Na6 20. Qc1 Qxc1 $11
+21. Rdxc1 a4 22. Rd2 a3 23. Bd3 Bb2 24. Rcd1 Nc5 25. Bc2 Rfe8
+26. Kf2 Bc3 27. Re2 Rad8 28. Bc1 Bb4 29. Bd2 Na6 30. Bxb4 Nxb4
+31. Be4 Rd7 32. Rde1 Rc8 33. Ke3 Rc5 34. Kd4 Rdc7 1/2-1/2
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.21"]
+[EventDate "?"]
+[Round "9"]
+[Result "0-1"]
+[White "George Xie Wendi"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C00"]
+[WhiteElo "2007"]
+[BlackElo "2297"]
+[PlyCount "50"]
+[ChessgamesWhiteID "98394"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1237853"]
+
+1. e4 e6 2. Qe2 c5 3. Nf3 Nc6 4. g3 g6 5. Bg2 Bg7 6. c3 Nge7
+7. O-O d6 8. Rd1 e5 9. a3 O-O 10. b4 h6 11. Bb2 Qb6 12. d3 Be6
+13. d4 cxd4 14. cxd4 Nxd4 15. Nxd4 exd4 16. Qd3 Rac8 17. h4
+Nc6 18. Nd2 Ne5 19. Qf1 Rc2 20. Bc1 Rfc8 21. Rb1 d3 22. Bb2
+Ba2 23. Rbc1 a5 24. Bxe5 Bxe5 25. Nf3 Bxg3 0-1
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.17"]
+[EventDate "?"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Gareth Charles"]
+[ECO "E50"]
+[WhiteElo "2297"]
+[BlackElo "1952"]
+[PlyCount "73"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "36852"]
+[ChessgamesGameID "1239090"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Nf3 O-O 6. Bd3 b6
+7. O-O cxd4 8. exd4 Bb7 9. Bg5 Be7 10. Re1 d5 11. Qe2 Nc6
+12. cxd5 exd5 13. Ba6 Bxa6 14. Qxa6 Qd7 15. Ne5 Nxe5 16. dxe5
+Ng4 17. Bxe7 Qxe7 18. Qe2 d4 19. Nb5 Qh4 20. h3 Nh6 21. Qd3
+Rfd8 22. Rad1 Rd7 23. Re4 Qg5 24. Rxd4 Rxd4 25. Qxd4 g6
+26. Nc7 Rc8 27. Qd7 Rb8 28. e6 fxe6 29. Nxe6 Qf6 30. Rc1 g5
+31. Rc7 Qg6 32. Qd5 Nf7 33. Nxg5 Rf8 34. Rxf7 Rxf7 35. Qxf7+
+Qxf7 36. Nxf7 Kxf7 37. Kf1 1-0
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.23"]
+[EventDate "?"]
+[Round "11"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Denis Bourmistrov"]
+[ECO "E81"]
+[WhiteElo "2297"]
+[BlackElo "1881"]
+[PlyCount "59"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "68945"]
+[ChessgamesGameID "1239815"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 Nf6 5. f3 O-O 6. Be3 c6
+7. Bd3 e5 8. d5 a6 9. Nge2 b5 10. Qd2 cxd5 11. cxd5 Nbd7
+12. b4 Nb6 13. a4 Nc4 14. Bxc4 bxc4 15. O-O Nh5 16. Qa2 Nf4
+17. Qxc4 Qg5 18. Nxf4 exf4 19. Bd4 Bh3 20. Ra2 Rfc8 21. Qd3
+Bxd4+ 22. Qxd4 Rc7 23. e5 dxe5 24. Qd3 Bf5 25. Ne4 Bxe4
+26. Qxe4 Rac8 27. d6 Rc3 28. Rd2 Re3 29. Qb7 Ra8 30. Qe7 1-0
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.18"]
+[EventDate "?"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "David Smerdon"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C56"]
+[WhiteElo "2304"]
+[BlackElo "2297"]
+[PlyCount "37"]
+[ChessgamesWhiteID "58830"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1246548"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O Nxe4 6. Re1
+d5 7. Bxd5 Qxd5 8. Nc3 Qh5 9. Nxe4 Be6 10. Bg5 Bd6 11. Nxd6+
+cxd6 12. Bf4 Qd5 13. c3 Kd7 14. Qa4 Qc4 15. Qa3 Qc5 16. Qxc5
+dxc5 17. cxd4 cxd4 18. Rad1 Rhd8 19. Nxd4 1/2-1/2
+
+
+[Event "AUS-chJ"]
+[Site "Camberra"]
+[Date "2001.01.22"]
+[EventDate "?"]
+[Round "10"]
+[Result "1/2-1/2"]
+[White "Samuel Chow"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C44"]
+[WhiteElo "1893"]
+[BlackElo "2297"]
+[PlyCount "86"]
+[ChessgamesWhiteID "68951"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1246570"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. Qa4 Bd7 5. exd5 Nd4 6. Qd1
+Nxf3+ 7. Qxf3 Bd6 8. Bc4 f5 9. d3 Nf6 10. Bg5 O-O 11. Nd2 h6
+12. Bxf6 Qxf6 13. g4 fxg4 14. Qxf6 Rxf6 15. O-O Raf8 16. Rae1
+Rf4 17. Ne4 g5 18. b4 b6 19. a3 Kg7 20. Ba6 Bf5 21. Ng3 Bg6
+22. Re3 Rf3 23. Ne4 Be7 24. Nd2 R3f4 25. Nc4 Bd6 26. Nxe5 h5
+27. d4 h4 28. Nxg6 Kxg6 29. Rd3 Rf3 30. Re3 g3 31. Rxf3 Rxf3
+32. fxg3 Rxc3 33. gxh4 Rxa3 34. Be2 gxh4 35. b5 Ra2 36. Rf2
+Kg5 37. Rg2+ Kf4 38. Kf2 Kf5 39. Kf1 Ra3 40. Kg1 Bf4 41. Rg7
+Be3+ 42. Kg2 Bf4 43. Rh7 Ra2 1/2-1/2
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.16"]
+[EventDate "2004.10.15"]
+[Round "1"]
+[Result "0-1"]
+[White "Ryo Shiomi"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A07"]
+[WhiteElo "2072"]
+[BlackElo "2410"]
+[PlyCount "68"]
+[ChessgamesWhiteID "53989"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1312658"]
+
+1. e4 e6 2. d3 c5 3. g3 Nc6 4. Bg2 g6 5. Nd2 Bg7 6. Ngf3 Nge7
+7. O-O O-O 8. c3 d6 9. Nb3 e5 10. d4 b6 11. dxc5 bxc5 12. Qe2
+a5 13. Rd1 Ba6 14. Qc2 Qc7 15. Nbd2 h6 16. Nf1 f5 17. exf5
+gxf5 18. Ne3 e4 19. Ne1 Rad8 20. Nd5 Nxd5 21. Rxd5 Ne7 22. Rd1
+d5 23. Rb1 Ng6 24. b4 f4 25. b5 Bb7 26. c4 d4 27. Bxe4 fxg3
+28. hxg3 d3 29. Bxd3 Bd4 30. Bf5 Qxg3+ 31. Kf1 Bxf2 32. Be6+
+Kh7 33. Rb3 Be3+ 34. Bf5 Qg1+ 0-1
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.17"]
+[EventDate "2004.10.15"]
+[Round "2"]
+[Result "1-0"]
+[White "Alexander Huzman"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D15"]
+[WhiteElo "2581"]
+[BlackElo "2410"]
+[PlyCount "51"]
+[ChessgamesWhiteID "11060"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1312733"]
+
+1. Nf3 Nf6 2. c4 c6 3. Nc3 d5 4. d4 a6 5. cxd5 cxd5 6. Bf4 Nc6
+7. Rc1 Bf5 8. Ne5 Rc8 9. e3 Nxe5 10. dxe5 Ne4 11. Nxe4 Rxc1
+12. Qxc1 Bxe4 13. e6 Qa5+ 14. Ke2 fxe6 15. f3 Bg6 16. Be5 Kd8
+17. Kf2 Rg8 18. Be2 Be8 19. b4 Qb6 20. Qc3 Qc6 21. Qb2 g6
+22. Rc1 Qb6 23. Bc7+ Qxc7 24. Rxc7 Kxc7 25. Qe5+ Kd7 26. Qb8
+1-0
+
+
+[Event "36th Olympiad"]
+[Site "Mallorca ESP"]
+[Date "2004.10.18"]
+[EventDate "2004.10.15"]
+[Round "4.17"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Xu Jun"]
+[ECO "B96"]
+[WhiteElo "2410"]
+[BlackElo "2589"]
+[PlyCount "73"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "28330"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1313655"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6
+7. f4 Qc7 8. Bxf6 gxf6 9. Qd2 Nc6 10. O-O-O Bd7 11. Kb1 Nxd4
+12. Qxd4 Be7 13. Be2 h5 14. Rhf1 O-O-O 15. Rf3 Kb8 16. f5 Qc5
+17. Qd2 Rdg8 18. Bd3 h4 19. Re1 Bd8 20. Nd1 Qa5 21. c3 Qe5
+22. h3 exf5 23. exf5 Rxg2 24. Rf2 Rxf2 25. Nxf2 Qd5 26. Qc2
+Re8 27. Rxe8 Bxe8 28. Be4 Qc5 29. Qd2 Bb6 30. Ng4 Bd7 31. b4
+Qc8 32. Qxd6+ Bc7 33. Qxf6 Qe8 34. Qd4 Bc8 35. Kb2 Qb5 36. Bd5
+Qf1 37. Be4 1/2-1/2
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.19"]
+[EventDate "2004.10.15"]
+[Round "5"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Alfonso Almeida Saenz"]
+[ECO "B75"]
+[WhiteElo "2410"]
+[BlackElo "2388"]
+[PlyCount "92"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "88680"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1314175"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 Nc6 8. Qd2 Bd7 9. O-O-O h5 10. Kb1 a6 11. f4 b5 12. Bd3
+Ng4 13. Nxc6 Bxc6 14. Bg1 Qa5 15. e5 b4 16. Be4 bxc3 17. Bxc6+
+Kf8 18. Qd5 Qxd5 19. Bxd5 Rb8 20. b3 dxe5 21. Ba7 Rb4 22. h3
+Nh6 23. Bc4 Bf6 24. Rd7 exf4 25. a3 Rxc4 26. bxc4 Kg7 27. c5
+Rc8 28. Bb6 Nf5 29. Rc7 Rb8 30. a4 a5 31. Ka2 Ne3 32. Rb1 Nxc2
+33. Bxa5 Ra8 34. Bb6 Nd4 35. a5 c2 36. Rc1 e5 37. c6 f3
+38. gxf3 Bg5 39. Kb2 Bxc1+ 40. Kxc1 Nb3+ 41. Kxc2 Nxa5 42. Kc3
+Nxc6 43. Rxc6 Ra3+ 44. Kd2 Rxf3 45. h4 Rf6 46. Rxf6 Kxf6
+1/2-1/2
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.22"]
+[EventDate "2004.10.15"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Bruno Laurent"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D11"]
+[WhiteElo "2335"]
+[BlackElo "2410"]
+[PlyCount "55"]
+[ChessgamesWhiteID "55220"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1314631"]
+
+1. Nf3 d5 2. c4 c6 3. d4 e6 4. Bg5 f6 5. Bf4 dxc4 6. a4 b5
+7. e4 Bb4+ 8. Bd2 Bxd2+ 9. Qxd2 Bd7 10. d5 Ne7 11. dxc6 Bxc6
+12. Qxd8+ Kxd8 13. axb5 Bxe4 14. Nbd2 Bxf3 15. Nxf3 e5
+16. Bxc4 Nd7 17. O-O Kc7 18. Nd2 Kb7 19. Nb3 Rad8 20. Ra6 Nb6
+21. Be2 Kb8 22. Rfa1 Nec8 23. Na5 Rd2 24. Bg4 Rxb2 25. Nc6+
+Kc7 26. Nxa7 Nd6 27. Rc1+ Kb7 28. Bd7 1/2-1/2
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.24"]
+[EventDate "2004.10.15"]
+[Round "9"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Milan Turpanov"]
+[ECO "D15"]
+[WhiteElo "2410"]
+[BlackElo "2307"]
+[PlyCount "57"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "53022"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1315219"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. cxd5 cxd5 6. Bf4 Nc6
+7. Rc1 Bf5 8. Ne5 e6 9. Nxc6 bxc6 10. e3 Qb6 11. Bd3 Qxb2
+12. Bxf5 exf5 13. O-O Be7 14. Na4 Qb7 15. Rb1 Qa7 16. Nb6 Rd8
+17. Qa4 O-O 18. Qxc6 Rfe8 19. Bc7 Rc8 20. Nxc8 Rxc8 21. Rb7
+Qa8 22. Qb6 Nd7 23. Qa7 Nf8 24. Qxa8 Rxa8 25. Rfb1 f6 26. Rb8
+Rxb8 27. Rxb8 Kf7 28. Ra8 Ne6 29. Bb6 1-0
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.25"]
+[EventDate "2004.10.15"]
+[Round "10"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Mihail Marin"]
+[ECO "A40"]
+[WhiteElo "2410"]
+[BlackElo "2511"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "14249"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1315461"]
+
+1. d4 g6 2. c4 Bg7 3. e4 c5 4. d5 d6 5. Nc3 Nf6 6. f3 O-O
+7. Bg5 e6 8. Qd2 h6 9. Be3 exd5 10. cxd5 Re8 11. Bb5 Bd7
+12. Bd3 Na6 13. Nge2 Kh7 14. O-O Nb4 15. Bc4 Qb8 16. a3 Na6
+17. Ng3 b5 18. Bd3 c4 19. Bc2 b4 20. axb4 Nxb4 21. Bb1 a5
+22. Bd4 Qc7 23. f4 Ng4 24. Bxg7 Kxg7 25. Qd4+ Nf6 26. Kh1 h5
+27. h3 Qa7 28. Qd2 h4 29. Nge2 Nh5 30. Ra3 Qb6 31. f5 Qd8
+32. Nd1 Re5 33. Ne3 Qg5 34. Qd4 Nf6 35. Nxc4 Bb5 36. fxg6 Bxc4
+37. Qxc4 Rf8 38. Raf3 fxg6 39. Nd4 Qd2 40. Ne6+ Rxe6 41. dxe6
+Qxb2 42. e7 1-0
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.27"]
+[EventDate "2004.10.15"]
+[Round "12"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Timur Gareyev"]
+[ECO "E94"]
+[WhiteElo "2410"]
+[BlackElo "2525"]
+[PlyCount "111"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56780"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1315957"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5
+7. O-O Nbd7 8. Be3 Qe7 9. d5 Ng4 10. Bg5 f6 11. Bh4 Nh6
+12. Nd2 Nf7 13. b4 h5 14. f3 Bh6 15. Bf2 f5 16. Nb5 Nf6
+17. Nxa7 Bd7 18. Nb5 g5 19. exf5 Bxf5 20. Nc3 Ra3 21. Nb5 Raa8
+22. Nc3 Ra3 23. Nde4 Bh7 24. Nxf6+ Qxf6 25. Nb5 Raa8 26. Nxc7
+Rac8 27. Ne6 Rfe8 28. Bd3 Nd8 29. Nxd8 Rexd8 30. Be3 g4
+31. Bxh7+ Kxh7 32. Bxh6 Qxh6 33. Qe2 Qf4 34. Rac1 b5 35. fxg4
+Qd4+ 36. Kh1 bxc4 37. Rf7+ Kg8 38. Qf3 Qxg4 39. Qf6 Rf8
+40. Rf1 Rxf7 41. Qxf7+ Kh8 42. h3 Qg7 43. Qxh5+ Qh7 44. Qg4
+Qg8 45. Qh4+ Qh7 46. Qf6+ Qg7 47. Qxd6 Rg8 48. Qf6 c3
+49. Qxg7+ Kxg7 50. Rc1 Rc8 51. d6 Kf6 52. d7 Rd8 53. Rxc3 Rxd7
+54. b5 e4 55. b6 Rd1+ 56. Kh2 1-0
+
+
+[Event "36th Olympiad"]
+[Site "Calvia ESP"]
+[Date "2004.10.28"]
+[EventDate "2004.10.15"]
+[Round "13"]
+[Result "1-0"]
+[White "Luke McShane"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "2629"]
+[BlackElo "2410"]
+[PlyCount "181"]
+[ChessgamesWhiteID "14287"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "43302"]
+[ChessgamesGameID "1316235"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6
+7. Ndf3 Qb6 8. a3 a5 9. b3 Be7 10. h4 f5 11. h5 cxd4 12. cxd4
+Ndb8 13. Bd3 Bd7 14. Ne2 Na6 15. Kf2 Na7 16. Bb2 O-O 17. g4
+fxg4 18. Nh2 g3+ 19. Kxg3 Bb5 20. Bc2 Rac8 21. Nf3 Rc7 22. Qd2
+Bd8 23. Neg1 Nc8 24. Rc1 Rcf7 25. Nh3 Ne7 26. Nh4 Nf5+
+27. Nxf5 exf5 28. Bd1 Nc7 29. Bf3 Bc6 30. Qe3 Ne6 31. Kh2 Rc7
+32. Rhg1 Be7 33. Rg2 Rcc8 34. Ng1 Qd8 35. Ne2 Qd7 36. Rcg1 Kh8
+37. Qd2 b6 38. Nc3 b5 39. Nd1 b4 40. a4 Rf7 41. Nf2 Qd8
+42. Bd1 Bf8 43. Nh3 Qh4 44. Rh1 Rfc7 45. Kg1 Qe7 46. Rhh2 Bb7
+47. Kh1 Ba6 48. Ng1 Qd7 49. Nf3 Be7 50. Ne1 Qe8 51. Bc2 Qf7
+52. Bb1 Bd8 53. Rg1 Be7 54. Rh3 Bf8 55. Ng2 Be7 56. Qf2 Rc3
+57. Bxc3 bxc3 58. Bc2 Bd8 59. Rd1 Bb6 60. Ne1 Rc6 61. Qe3 Bd8
+62. Nf3 Be7 63. Rh2 Kg8 64. Rg1 Rc7 65. Rh3 Rc8 66. Kh2 Kf8
+67. Nh4 Bxh4 68. Rxh4 Kg8 69. Rh3 Rc7 70. Qf2 Qf8 71. Rd1 Bc8
+72. Kg1 Ba6 73. Re3 Qb4 74. Rg3 Qf8 75. Qe3 Qf7 76. Qf3 Bb7
+77. Rh3 Kf8 78. Kf2 Ke8 79. Ke3 Kd8 80. Qf1 Kc8 81. Qd3 Kb8
+82. Qxf5 Qe7 83. Qxh7 Ka7 84. Qg6 Ba6 85. Rh2 Rc8 86. Qg4 Rh8
+87. f5 Nc5 88. Rg2 Rh7 89. dxc5 Qxe5+ 90. Kf2 Qe7 91. Qd4 1-0
+
+
+[Event "Australian Championship"]
+[Site "Brisbane AUS"]
+[Date "2005.12.30"]
+[EventDate "2005.12.05"]
+[Round "3"]
+[Result "1-0"]
+[White "Lubomir Ftacnik"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D45"]
+[WhiteElo "2612"]
+[BlackElo "2461"]
+[PlyCount "61"]
+[ChessgamesWhiteID "17586"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1400287"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. e3 Nbd7 6. Qc2 b6
+7. Bd3 Bb7 8. O-O Bd6 9. e4 dxe4 10. Nxe4 Nxe4 11. Bxe4 Qc7
+12. Be3 c5 13. Bxb7 Qxb7 14. Rad1 O-O 15. d5 e5 16. Ng5 f5
+17. g4 g6 18. Ne6 f4 19. Nxf8 Rxf8 20. Bc1 f3 21. Qe4 Qc8
+22. h3 Qd8 23. g5 Rf5 24. Rd3 Qf8 25. Kh1 b5 26. b3 bxc4
+27. bxc4 Nb6 28. Rg1 Qc8 29. Rxf3 Rxf3 30. Qxf3 Nxc4 31. Rg4
+1-0
+
+
+[Event "Queenstown Classic"]
+[Site "Queenstown NZL"]
+[Date "2006.01.22"]
+[EventDate "?"]
+[Round "8.6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Herman Claudius van Riemsdijk"]
+[ECO "E59"]
+[WhiteElo "2461"]
+[BlackElo "2358"]
+[PlyCount "43"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "14863"]
+[ChessgamesTournamentID "51341"]
+[ChessgamesGameID "1395638"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Bb4 5. e3 O-O 6. Bd3 c5
+7. O-O Nc6 8. a3 Bxc3 9. bxc3 dxc4 10. Bxc4 Qc7 11. Ba2 e5
+12. h3 e4 13. Nd2 Bf5 14. Bb2 $146 Rad8 15. Qe2 Bg6 16. a4
+Rfe8 17. Ba3 cxd4 18. cxd4 Qa5 19. Rfc1 Ne7 $2 20. Nc4 Qg5 $2
+21. Nd6 Rf8 22. Nxf7 1-0
+
+
+[Event "Queenstown Classic"]
+[Site "Queenstown NZL"]
+[Date "2006.01.23"]
+[EventDate "2006.01.??"]
+[Round "9.4"]
+[Result "0-1"]
+[White "Tibor Karolyi Jr."]
+[Black "Zhao Zong-Yuan"]
+[ECO "D82"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "98"]
+[ChessgamesWhiteID "18054"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "51341"]
+[ChessgamesGameID "1395726"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 c5 6. dxc5 Qa5
+7. Rc1 dxc4 8. Bxc4 O-O 9. Nge2 Qxc5 10. Qb3 Nc6 11. Nb5 Qh5
+12. Ng3 Qh4 13. Nc7 g5 14. Bxg5 Qxg5 15. Nxa8 Bd7 16. O-O Rxa8
+17. Qxb7 Rb8 18. Qc7 Rc8 19. Qf4 Qxf4 20. exf4 Bh6 21. Ne2 Rb8
+22. b3 e6 23. Rfd1 Bf8 24. Nd4 Nxd4 25. Rxd4 Bc5 26. Rd2 Bb6
+27. Be2 Kf8 28. Bf3 Ke7 29. g3 Bb5 30. Kg2 h6 31. Be2 Ne4
+32. Rdc2 Bd7 33. Bf3 Nd6 34. Bc6 Bc8 35. g4 Ba6 36. Rd1 Rc8
+37. Rdc1 Rg8 38. Kf3 h5 39. h3 hxg4+ 40. hxg4 Nb5 41. Bxb5
+Bxb5 42. Rc8 Rg7 43. Rb8 Rh7 44. a4 Bd7 45. a5 Bxa5 46. Rb7
+Rh3+ 47. Kg2 Rd3 48. Rxa7 Bc3 49. Rc2 Kd6 0-1
+
+
+[Event "Australian Championship"]
+[Site "Brisbane AUS"]
+[Date "2006.01.05"]
+[EventDate "2005.12.05"]
+[Round "8"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Murray Chandler"]
+[ECO "E52"]
+[WhiteElo "2461"]
+[BlackElo "2537"]
+[PlyCount "80"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "11788"]
+[ChessgamesGameID "1399781"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 b6
+7. O-O Bb7 8. a3 Bd6 9. cxd5 exd5 10. b4 a6 11. Qb3 Qe7 12. b5
+axb5 13. Nxb5 Nbd7 14. a4 c5 15. Ba3 Ba6 16. Rfd1 Bxb5
+17. Bxb5 c4 18. Bxd6 Qxd6 19. Qc2 g6 20. h3 Rfc8 21. Nd2 Nf8
+22. Nb1 Ne6 23. Nc3 Ng5 24. Rf1 Nge4 25. f3 Ng3 26. Rfe1 Nf5
+27. Rad1 Rd8 28. g4 Ng7 29. Kg2 Ne6 30. Qf2 Ra7 31. Qg3 Qb4
+32. Rc1 h6 33. Qe5 Kg7 34. e4 g5 35. Ne2 dxe4 36. fxe4 Re7
+37. Qg3 Nxe4 38. Qe3 Nf4+ 39. Nxf4 gxf4 40. Qxf4 Qb2+ 0-1
+
+
+[Event "Australian Championship"]
+[Site "Brisbane AUS"]
+[Date "2006.01.02"]
+[EventDate "2005.12.05"]
+[Round "5"]
+[Result "1-0"]
+[White "Roland Schmaltz"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B33"]
+[WhiteElo "2544"]
+[BlackElo "2461"]
+[PlyCount "99"]
+[ChessgamesWhiteID "25935"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1400296"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5
+d6 7. Bg5 a6 8. Na3 b5 9. Bxf6 gxf6 10. Nd5 f5 11. c3 Bg7
+12. exf5 Bxf5 13. Nc2 O-O 14. Nce3 Be6 15. g3 f5 16. Bh3 Rc8
+17. O-O Ne7 18. a4 Rc5 19. Nxe7+ Qxe7 20. axb5 f4 21. Bxe6+
+Qxe6 22. Ng2 axb5 23. Ra6 Rf6 24. gxf4 exf4 25. Qf3 h5 26. Rd1
+Bf8 27. h3 Rg5 28. Kh2 Qf7 29. Rd4 Rfg6 30. Nh4 Rf6 31. Ra8
+Kg7 32. Rb8 Kh6 33. Rb7 Qe8 34. Re4 Qc8 35. Rxf4 Rxf4 36. Qxf4
+Qxb7 37. Qf6+ Kh7 38. Qxg5 Qf7 39. Qf5+ Kg8 40. Kg3 d5
+41. Qg5+ Kh7 42. f4 b4 43. cxb4 Bxb4 44. Kf3 Qb7 45. Qxh5+ Kg8
+46. Qg6+ Kf8 47. Qf6+ Ke8 48. Qe6+ Kd8 49. Nf5 Qb5 50. Ne3 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.22"]
+[EventDate "2006.05.21"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Levente Vajda"]
+[ECO "D35"]
+[WhiteElo "2452"]
+[BlackElo "2511"]
+[PlyCount "129"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "11592"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1411777"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O
+7. Bd3 c6 8. Qc2 Nbd7 9. Nf3 Re8 10. O-O Nf8 11. h3 Be6
+12. Rfe1 Rc8 13. a3 Nh5 14. Bf4 Nxf4 15. exf4 Bd6 16. Qd2 f6
+17. Ne2 Qc7 18. f5 Bf7 19. g4 Re7 20. Kg2 Rce8 21. Ng3 Bf4
+22. Qc3 Nd7 23. Rxe7 Rxe7 24. Re1 Rxe1 25. Qxe1 c5 26. Ne2 Bd6
+27. Nc3 Qd8 28. Nb5 Bb8 29. dxc5 Nxc5 30. Qe3 Qb6 31. b4 Nxd3
+32. Qxd3 h6 33. Nbd4 Be5 34. Qe3 Qd6 35. Nb5 Qd7 36. Nbd4 Bc7
+37. Ne6 Bb6 38. Nfd4 Qc8 39. Qf4 Bxd4 40. Nxd4 Qe8 41. Qe3 Qd7
+42. Kg3 Kf8 43. Qf4 Qd8 44. a4 a5 45. bxa5 Kg8 46. Qd2 Qd6+
+47. Kg2 Be8 48. Qe3 Bd7 49. Nb5 Qb4 50. Qd4 Qb3 51. Nc3 Bc6
+52. Kg3 Kh7 53. Kh4 Qb2 54. Qe3 Qa1 55. Qd4 Qb2 56. Nb5 Qe2
+57. Nc7 Qf3 58. Ne6 Kg8 59. Qe3 Qg2 60. Qg3 Qxg3+ 61. Kxg3
+Bxa4 62. Nd8 Kf8 63. Nxb7 Bc6 64. Nc5 d4 65. Ne6+ 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.23"]
+[EventDate "2006.05.21"]
+[Round "3"]
+[Result "1-0"]
+[White "Timur Gareyev"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D11"]
+[WhiteElo "2522"]
+[BlackElo "2452"]
+[PlyCount "143"]
+[ChessgamesWhiteID "56780"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1412138"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. e3 e6 5. Bd3 Nbd7 6. O-O Bd6
+7. Nbd2 O-O 8. e4 dxe4 9. Nxe4 Nxe4 10. Bxe4 c5 11. Bc2 cxd4
+12. Qxd4 Bc5 13. Qg4 Qe7 14. Re1 Re8 15. Bh6 Qf8 16. Rad1 e5
+17. Bg5 Bb4 18. Re3 g6 19. Qh4 Bc5 20. Re4 f6 21. Bh6 Qf7
+22. b4 Be7 23. Qg3 Nf8 24. Bb3 Be6 25. h4 Rad8 26. Rxd8 Rxd8
+27. h5 Bxb4 28. Nh4 Bd2 29. hxg6 hxg6 30. Bxd2 Rxd2 31. Qe3
+Rd4 32. Rxd4 exd4 33. Qxd4 b6 34. f4 Qe7 35. Kh2 Kf7 36. Qe4
+Qd6 37. Kh1 Qc5 38. Nf3 Qh5+ 39. Kg1 Qc5+ 40. Kh2 Qf5 41. Qe3
+Qc5 42. Qe4 Qf5 43. Qb7+ Nd7 44. Qc7 Qc5 45. Qxa7 Ke7 46. Qb7
+Qd6 47. Qe4 Nc5 48. Qe3 g5 49. g3 gxf4 50. gxf4 Qd3 51. Qxd3
+Nxd3 52. Kg3 Kd6 53. Nd2 Kc5 54. Ne4+ Kd4 55. Nxf6 Bxc4
+56. Bxc4 Kxc4 57. f5 b5 58. Nd7 Kd5 59. Kg4 Kd6 60. Nb6 Ke7
+61. Nd5+ Kf7 62. Kf3 b4 63. Ke3 Nc5 64. Nxb4 Kf6 65. Kf4 Kf7
+66. Nd5 Nd3+ 67. Ke3 Nc1 68. a3 Nb3 69. Kd3 Nc5+ 70. Kd4 Nb7
+71. a4 Nd6 72. Ne3 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.25"]
+[EventDate "2006.05.21"]
+[Round "5"]
+[Result "0-1"]
+[White "Nicholas van der Nat"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B90"]
+[WhiteElo "2296"]
+[BlackElo "2452"]
+[PlyCount "62"]
+[ChessgamesWhiteID "103335"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1414486"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6
+7. Qe2 b5 8. O-O-O b4 9. Nb1 Bb7 10. Nd2 Nbd7 11. f4 Rc8
+12. Kb1 Qc7 13. Rc1 Be7 14. Bf2 Nc5 15. e5 dxe5 16. fxe5 Nfe4
+17. Be1 O-O 18. N2f3 Bd5 19. Qe3 a5 20. Be2 Rb8 21. h4 Rfc8
+22. Rf1 Qd7 23. Qf4 Qa4 24. Nb3 Nc3+ 25. bxc3 Nxb3 26. c4 Nxc1
+27. Kxc1 Qxa2 28. Bd3 Bxc4 29. Bxc4 Rxc4 30. Nd4 Qa1+ 31. Kd2
+Rxd4+ 0-1
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.27"]
+[EventDate "2006.05.21"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Luca Shytaj"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "2433"]
+[BlackElo "2452"]
+[PlyCount "72"]
+[ChessgamesWhiteID "86865"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1415071"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6
+7. Ndf3 Qb6 8. a3 a5 9. b3 Be7 10. h4 h5 11. Nh3 cxd4 12. cxd4
+f5 13. Be2 g6 14. Nf2 Ndb8 15. O-O Bd7 16. Be3 Na6 17. Nd3 Kf7
+18. Nb2 Rhc8 19. Na4 Qd8 20. Qe1 Rab8 21. Bb5 Kg7 22. Bd2 Be8
+23. Bxc6 Bxc6 24. Bxa5 b6 25. Bd2 Bb5 26. Rf2 Bxh4 27. Nxh4
+Qxh4 28. Nc3 Bd3 29. Qe3 Be4 30. Rc1 Qe7 31. Nb5 Rxc1+
+32. Bxc1 Nc7 33. Nd6 Ne8 34. Nb5 Nc7 35. Nd6 Ne8 36. Nb5 Nc7
+1/2-1/2
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.28"]
+[EventDate "2006.05.21"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Fred Berend"]
+[ECO "B46"]
+[WhiteElo "2452"]
+[BlackElo "2368"]
+[PlyCount "65"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "26768"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1415546"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Nxc6
+bxc6 7. Bd3 d5 8. O-O Nf6 9. Re1 Be7 10. e5 Nd7 11. Qg4 g6
+12. Na4 c5 13. c4 h5 14. Qe2 dxc4 15. Bxc4 Nb6 16. Rd1 Qc7
+17. Nxb6 Qxb6 18. h4 Rb8 19. Bg5 Bxg5 20. hxg5 O-O 21. Rd2 Rd8
+22. Rad1 Rd4 23. Qe3 Qxb2 24. Bb3 Rxd2 25. Rxd2 Qc1+ 26. Kh2
+Kh7 27. Qf4 Rb7 28. Bc2 Re7 29. Bxg6+ fxg6 30. Qf8 Qxd2
+31. Qxe7+ Kg8 32. Qe8+ Kg7 33. Qe7+ 1/2-1/2
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.29"]
+[EventDate "2006.05.21"]
+[Round "8"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Mohamad Naser Al Sayed"]
+[ECO "A25"]
+[WhiteElo "2452"]
+[BlackElo "2479"]
+[PlyCount "85"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "49491"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1415999"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Rb1 a5 6. a3 Nf6
+7. b4 axb4 8. axb4 O-O 9. e3 e4 10. Nxe4 Nxe4 11. Bxe4 Qe7
+12. d3 Nxb4 13. Bd2 Na6 14. Ne2 d6 15. Bg2 Nc5 16. Bb4 Bf5
+17. e4 Bg4 18. f3 Bd7 19. O-O Ne6 20. Qd2 Nd4 21. Nf4 c5
+22. Nd5 Qd8 23. Bc3 Bc6 24. Kh1 Bxd5 25. cxd5 Qd7 26. Rb6 Ra3
+27. Qb2 Qa4 28. Rxb7 Ra2 29. Qb1 Nc2 30. Rb2 Rxb2 31. Qxb2
+Bxc3 32. Qxc3 Ra8 33. Qd2 Qb3 34. e5 dxe5 35. f4 exf4 36. Qxf4
+Rf8 37. Be4 Nd4 38. Qf6 Qb7 39. h4 Qd7 40. Kg2 h5 41. Bxg6 Nc2
+42. Rf5 Ne3+ 43. Kg1 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.30"]
+[EventDate "2006.05.21"]
+[Round "9"]
+[Result "1/2-1/2"]
+[White "Ahmed Adly"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D76"]
+[WhiteElo "2460"]
+[BlackElo "2452"]
+[PlyCount "117"]
+[ChessgamesWhiteID "49127"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1416286"]
+
+1. Nf3 g6 2. g3 Bg7 3. d4 Nf6 4. c4 d5 5. cxd5 Nxd5 6. Bg2 Nb6
+7. Nc3 Nc6 8. e3 e5 9. d5 Ne7 10. e4 c6 11. d6 Ng8 12. b3 f6
+13. a4 Be6 14. Ba3 Nh6 15. Qc2 Nf7 16. O-O-O Nd7 17. h4 h5
+18. Bh3 Bxh3 19. Rxh3 O-O 20. Nh2 Nh6 21. Qe2 f5 22. Nf3 Qf6
+23. Ng5 Rae8 24. Kc2 Nf7 25. Bc1 Bh6 26. Qc4 Kg7 27. f4 fxe4
+28. Rh2 Qf5 29. Qxe4 Qxe4+ 30. Ncxe4 exf4 31. Bb2+ Kg8
+32. Nf6+ Nxf6 33. Bxf6 fxg3 34. Rg2 Bxg5 35. hxg5 Re3 36. d7
+h4 37. Rh1 Re4 38. Kd3 Re6 39. Rxh4 Ne5+ 40. Bxe5 Rxe5
+41. Rxg3 Rd8 42. Rh6 Rxd7+ 43. Kc3 Kg7 44. Rgh3 Rde7 45. Rh7+
+Kg8 46. Rh8+ Kf7 47. R3h7+ Ke6 48. Rxe7+ Kxe7 49. Rh7+ Kd6
+50. Rxb7 a5 51. b4 axb4+ 52. Kxb4 Rxg5 53. a5 Rg4+ 54. Kc3
+Rg3+ 55. Kd4 Rg4+ 56. Kc3 Ra4 57. Rg7 Rxa5 58. Rxg6+ Kc7
+59. Kd4 1/2-1/2
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.31"]
+[EventDate "2006.05.21"]
+[Round "10"]
+[Result "1-0"]
+[White "Colin McNab"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A37"]
+[WhiteElo "2437"]
+[BlackElo "2452"]
+[PlyCount "97"]
+[ChessgamesWhiteID "13783"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1416937"]
+
+1. c4 c5 2. Nf3 Nc6 3. g3 e5 4. Nc3 g6 5. Bg2 Bg7 6. a3 d6
+7. Rb1 a5 8. d3 Nge7 9. O-O O-O 10. Bg5 f6 11. Bd2 Be6 12. Ne1
+Rb8 13. Nc2 d5 14. cxd5 Nxd5 15. b4 Nxc3 16. Bxc3 cxb4
+17. axb4 a4 18. b5 Na5 19. d4 Qc7 20. Bxa5 Qxa5 21. d5 Rfd8
+22. Ne3 f5 23. Nc4 Qa7 24. e4 fxe4 25. Bxe4 Ra8 26. Ra1 Bf5
+27. Bxf5 gxf5 28. Ne3 Rf8 29. Qh5 e4 30. Nxf5 Bxa1 31. Rxa1
+Rxf5 32. Qg4+ Kh8 33. Qxf5 Qd4 34. Rc1 a3 35. Rc8+ Rxc8
+36. Qxc8+ Kg7 37. Qxb7+ Kg6 38. Qa6+ Kh5 39. Qxa3 Qd1+ 40. Kg2
+Qxd5 41. Qe3 Qxb5 42. Qxe4 Kh6 43. h4 Kg7 44. Qe7+ Kg6
+45. Qg5+ Qxg5 46. hxg5 Kxg5 47. Kh3 Kf5 48. Kh4 Ke4 49. f4 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.06.02"]
+[EventDate "2006.05.21"]
+[Round "11"]
+[Result "1/2-1/2"]
+[White "Adan Mazara"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B44"]
+[WhiteElo "2189"]
+[BlackElo "2452"]
+[PlyCount "54"]
+[ChessgamesWhiteID "67594"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1417405"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nxc6 bxc6 6. Bd3
+d5 7. Qe2 Nf6 8. Nd2 Be7 9. O-O O-O 10. Re1 Bb7 11. e5 Nd7
+12. c3 c5 13. Qh5 g6 14. Qh6 Bg5 15. Qh3 Rb8 16. Nf3 Bxc1
+17. Raxc1 Kg7 18. Qg3 Qa5 19. Bb1 d4 20. Ng5 Bd5 21. b4 cxb4
+22. c4 Bc6 23. Qh4 Rh8 24. Nxe6+ fxe6 25. Qe7+ Kh6 26. Qh4+
+Kg7 27. Qe7+ Kh6 1/2-1/2
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.06.03"]
+[EventDate "2006.05.21"]
+[Round "12"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Helgi Dam Ziska"]
+[ECO "A87"]
+[WhiteElo "2452"]
+[BlackElo "2306"]
+[PlyCount "85"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "98761"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1417934"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. c4 Bg7 5. Nf3 O-O 6. O-O d6
+7. Nc3 Qe8 8. d5 a5 9. Rb1 c6 10. Nd4 Bd7 11. b3 Na6 12. Na4
+Nc7 13. Bb2 cxd5 14. Nb6 Ra6 15. Nxd5 Nfxd5 16. cxd5 Ra8
+17. Qd2 Qf7 18. Rbc1 Rfc8 19. Ne6 Bxb2 20. Rxc7 Rxc7 21. Nxc7
+Rc8 22. Qxa5 Qf6 23. Qb6 Qc3 24. Ne6 Rb8 25. e3 Qc8 26. a4 Ba3
+27. a5 Ra8 28. b4 Rb8 29. Qd4 Bxe6 30. dxe6 Qc2 31. Qa7 Qc8
+32. Rb1 Kf8 33. Bd5 Kg8 34. Kg2 g5 35. Rb3 Bc1 36. Rc3 Qxc3
+37. Qxb8+ Kg7 38. Qe8 Bxe3 39. Qxe7+ Kh6 40. Qf8+ Kh5 41. Qxf5
+Bd4 42. Qxh7+ Kg4 43. h3+ 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.06.04"]
+[EventDate "2006.05.21"]
+[Round "13"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Marco Pacheco"]
+[ECO "E47"]
+[WhiteElo "2452"]
+[BlackElo "2331"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "51301"]
+[ChessgamesTournamentID "52250"]
+[ChessgamesGameID "1418187"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 b6 6. Nge2 Bb7
+7. a3 Bxc3+ 8. Nxc3 d5 9. cxd5 exd5 10. b4 Nbd7 11. Qb3 Re8
+12. O-O Nf8 13. a4 Ne4 14. a5 a6 15. f3 Nf6 16. Bd2 b5 17. Qc2
+Qd6 18. Ne2 Re7 19. Nc1 Rae8 20. Nb3 h6 21. Rac1 c6 22. Rfe1
+Ne6 23. Bf5 Nd7 24. Bc3 g6 25. Bd3 f5 26. Nc5 Ndxc5 27. dxc5
+Qd7 28. Bf6 Rf7 29. Bb2 Rfe7 30. Qc3 Kh7 31. Kf2 Bc8 32. g3
+Rf7 33. h4 Ng7 34. Rg1 Nh5 35. Qd4 Qc7 36. Rce1 Nf6 37. Ke2
+Nh5 38. Kd2 Nxg3 39. Rg2 Nh5 40. Reg1 Rf6 41. f4 Qf7 42. Be2
+1-0
+
+
+[Event "Xstrata ch-AUS"]
+[Site "Brisbane AUS"]
+[Date "2006.??.??"]
+[EventDate "?"]
+[Round "11"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Malcolm L Pyke"]
+[ECO "B78"]
+[WhiteElo "2461"]
+[BlackElo "2126"]
+[PlyCount "55"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "102489"]
+[ChessgamesGameID "1498455"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 Nc6 8. Qd2 O-O 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Ne5
+12. Kb1 Nc4 13. Bxc4 Rxc4 14. g4 Qb8 15. h4 Rfc8 16. h5 Rxc3
+17. bxc3 d5 18. e5 Ne8 19. hxg6 hxg6 20. Nb3 Bxe5 21. Bd4 f6
+22. Rde1 Bd6 23. Qh6 Kf7 24. Qh7+ Ng7 25. Rh6 Rg8 26. Qxg6+
+Kf8 27. Qxf6+ exf6 28. Rxf6# 1-0
+
+
+[Event "World Chess Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2007.11.24"]
+[EventDate "?"]
+[Round "11"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Magnus Carlsen"]
+[ECO "E12"]
+[WhiteElo "2491"]
+[BlackElo "2714"]
+[PlyCount "142"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "52948"]
+[ChessgamesTournamentID "63441"]
+[ChessgamesGameID "1479855"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Bg5 Be7 6. e3 h6
+7. Bh4 O-O 8. Bd3 c5 9. O-O cxd4 10. exd4 d5 11. Bxf6 Bxf6
+12. cxd5 exd5 13. Re1 Nc6 14. Bc2 Qd6 15. Qd3 g6 16. Bb3 Na5
+17. Ne5 Bg7 18. Re2 Nxb3 19. axb3 a6 20. Rae1 Rad8 21. h3 b5
+22. Qd2 Bc8 23. Na2 Rde8 24. Qb4 Re6 25. Qxd6 Rxd6 26. Nb4 g5
+27. Nbd3 Bf5 28. Nc5 b4 29. g4 Bc8 30. Ncd3 a5 31. Nc5 Kh7
+32. f3 f6 33. Ned3 f5 34. Re7 fxg4 35. fxg4 h5 36. Ne5 hxg4
+37. hxg4 Rf4 38. Ra1 Rxd4 39. Rxa5 Rd8 40. Raa7 Rg8 41. Kf2
+Kh6 42. Ncd7 Bxd7 43. Ra6+ Kh7 44. Nxd7 Kh8 45. Ne5 Rf8+
+46. Rf7 Rf4+ 47. Rxf4 Rxf4+ 48. Nf3 Rxg4 49. Rg6 Bd4+ 50. Nxd4
+Kh7 51. Rd6 Rxd4 52. Ke3 Re4+ 53. Kd3 Rf4 54. Rxd5 Kg6 55. Rb5
+Rf3+ 56. Kc2 Rf4 57. Kd3 Kh5 58. Ke2 Kg4 59. Rc5 Kh4 60. Ke3
+Rg4 61. Kf2 Kh3 62. Rc4 Rg2+ 63. Kf1 Rxb2 64. Rxb4 g4 65. Rb8
+Rb1+ 66. Ke2 g3 67. b4 Rb3 68. Rh8+ Kg2 69. Rb8 Kh2 70. Rh8+
+Kg1 71. Rh4 g2 { 72. Ke1 Rb2 } 0-1
+
+
+[Event "World Chess Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2007.11.25"]
+[EventDate "2007.11.24"]
+[Round "1.2"]
+[Result "1-0"]
+[White "Magnus Carlsen"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E11"]
+[WhiteElo "2714"]
+[BlackElo "2491"]
+[PlyCount "71"]
+[ChessgamesWhiteID "52948"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "63441"]
+[ChessgamesGameID "1480099"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Nc3
+Bxc3 7. Bxc3 Ne4 8. Qc2 Nxc3 9. Qxc3 O-O 10. Bg2 d6 11. d5 Nb8
+12. O-O e5 13. c5 Bg4 14. Rac1 a5 15. Rfe1 Na6 16. cxd6 cxd6
+17. Nd2 b6 18. Qe3 Nc5 19. b3 Bd7 20. a3 Bb5 21. b4 axb4
+22. axb4 Nd7 23. Ne4 Rfb8 24. Rc7 Qd8 25. Rc6 Bxc6 26. dxc6 d5
+27. cxd7 dxe4 28. Bxe4 Ra4 29. Bc6 Rxb4 30. Qxe5 Qf8 31. Rd1
+Rd8 32. Rd3 Rg4 33. Re3 Rg6 34. Qe7 Re6 35. Rxe6 fxe6
+36. Qxe6+ 1-0
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.22"]
+[EventDate "2008.01.22"]
+[Round "1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Espen Forsaa"]
+[ECO "D38"]
+[WhiteElo "2487"]
+[BlackElo "2285"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "123383"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1482436"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Bb4 5. cxd5 exd5 6. Bg5
+O-O 7. Qc2 Nbd7 8. a3 Bxc3+ 9. Qxc3 h6 10. Bh4 c6 11. e3 Ne4
+12. Qc2 Ndf6 13. Bd3 Bf5 14. Ne5 g5 15. Bg3 Nxg3 16. hxg3 Bxd3
+17. Qxd3 Kg7 18. f3 Rh8 19. O-O-O Nd7 20. f4 Nxe5 21. fxe5 f6
+22. e4 Re8 23. exd5 cxd5 24. Rxh6 Kxh6 25. Rh1+ Kg7 26. Rh7+
+Kf8 27. Qg6 Rc8+ 28. Kb1 Rc7 29. Rh8+ Ke7 30. Qxf6+ Kd7
+31. Qf5+ Kc6 32. Qg6+ Kb5 33. Rxe8 Qd7 34. Re6 Kc4 35. Qc2+
+Kxd4 36. Qd2+ Ke4 37. Qe2+ Kd4 38. Qd2+ Ke4 39. Rf6 Qb5
+40. Rf4+ Kxe5 41. Qe3+ Kd6 42. Rf6+ 1-0
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.23"]
+[EventDate "2008.01.22"]
+[Round "2"]
+[Result "1/2-1/2"]
+[White "Alexander Areshchenko"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C90"]
+[WhiteElo "2645"]
+[BlackElo "2487"]
+[PlyCount "86"]
+[ChessgamesWhiteID "10862"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1482502"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Be7
+7. O-O O-O 8. Re1 d6 9. c3 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1
+Re8 13. Ng3 Bf8 14. h3 g6 15. Be3 d5 16. Bg5 d4 17. a4 Rb8
+18. axb5 axb5 19. Qd2 Bg7 20. Rec1 Be6 21. cxd4 Nxd4 22. Nxd4
+Qxd4 23. Ne2 Qd6 24. Ra7 Ra8 25. Qa5 Rxa7 26. Qxa7 c4 27. dxc4
+bxc4 28. Nc3 Qb8 29. Qa2 Qb7 30. Rd1 Ra8 31. Qb1 Rb8 32. Na4
+Qc6 33. Nc3 Qb7 34. Qc1 h6 35. Bxf6 Bxf6 36. Qxh6 Qe7 37. Qc1
+Bg5 38. Qa1 Qc5 39. Nd5 Bh4 40. Rd2 Bg5 41. Rd1 Bh4 42. Rd2
+Bg5 43. Rd1 Bh4 1/2-1/2
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.24"]
+[EventDate "2008.01.22"]
+[Round "3"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Caspar J Bates"]
+[ECO "C99"]
+[WhiteElo "2487"]
+[BlackElo "?"]
+[PlyCount "69"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "113872"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1482617"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2
+cxd4 13. cxd4 Bb7 14. d5 Rac8 15. Bd3 Nd7 16. Nf1 Nc5 17. Bb1
+Nc4 18. b3 Nb6 19. Ne3 a5 20. Nf5 b4 21. Be3 Bf6 22. Nh2 Nbd7
+23. Ng4 Kh8 24. Qf3 Rce8 25. Nxf6 gxf6 26. Qh5 Rg8 27. Qxf7
+Ref8 28. Qe7 Rg6 29. Qxd6 Qxd6 30. Nxd6 Ba6 31. Bc2 Rfg8
+32. g3 Nd3 33. Bxd3 Bxd3 34. Rad1 Ba6 35. Rc1 1-0
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.25"]
+[EventDate "2008.01.22"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Sandipan Chanda"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B51"]
+[WhiteElo "2593"]
+[BlackElo "2487"]
+[PlyCount "131"]
+[ChessgamesWhiteID "53011"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1482851"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6
+7. Bf1 Bg4 8. d3 e6 9. Nbd2 Be7 10. h3 Bh5 11. g4 Bg6 12. Nh4
+d5 13. Nxg6 hxg6 14. e5 Nd7 15. Nf3 O-O 16. Bf4 b5 17. Bg2 a5
+18. h4 a4 19. Qd2 c4 20. d4 a3 21. Bg5 axb2 22. Qxb2 b4
+23. Reb1 Rb8 24. Bxe7 Qxe7 25. Ng5 Rb6 26. cxb4 Rxb4 27. Qc3
+Nb6 28. Rxb4 Qxb4 29. Qh3 Qd2 30. Nf3 Qb2 31. Re1 Nxd4 32. h5
+Nxf3+ 33. Qxf3 c3 34. Qf4 c2 35. Bf1 Qc3 36. Rc1 Nd7 37. Qe3
+Qxe3 38. fxe3 Rc8 39. hxg6 fxg6 40. Bd3 Nxe5 41. Rxc2 Rxc2
+42. Bxc2 Kf7 43. g5 Nf3+ 44. Kf2 Nxg5 45. a4 Ke7 46. a5 e5
+47. Bb3 Kd6 48. a6 Ne6 49. a7 Nc7 50. Kf3 Kc6 51. Kg4 Kb7
+52. Kg5 Kxa7 53. Kxg6 Kb6 54. Kf5 e4 55. Ke5 Kc5 56. Ba2 g5
+57. Bb3 g4 58. Kf4 Kb4 59. Bd1 Kc5 60. Bxg4 Nb5 61. Be2 Nc3
+62. Bf1 Nb1 63. Bh3 Nd2 64. Bf5 Kc4 65. Bg6 Kd3 66. Ke5
+1/2-1/2
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.26"]
+[EventDate "2008.01.22"]
+[Round "5"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Hikaru Nakamura"]
+[ECO "B03"]
+[WhiteElo "2487"]
+[BlackElo "2670"]
+[PlyCount "109"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "10084"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1483028"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 exd6 6. Nc3 Be7
+7. Bd3 Nc6 8. Nge2 Bg4 9. h3 Bh5 10. Be3 O-O 11. d5 Ne5 12. b3
+Bf6 13. Rc1 Bg5 14. f4 Bh4+ 15. Bf2 Bxe2 16. Bxe2 Bxf2+
+17. Kxf2 Qf6 18. g3 Rae8 19. Re1 Ned7 20. Bf3 Nc5 21. Qd2 a6
+22. Kg2 Qf5 23. Re3 Rxe3 24. Qxe3 Qd3 25. Qxd3 Nxd3 26. Rd1
+Nc5 27. Re1 Rd8 28. Re7 Ncd7 29. Be2 Kf8 30. Re3 Nb8 31. Bd3
+h6 32. g4 a5 33. Nb5 Na6 34. a3 g5 35. Kf3 Nc5 36. Bc2 Na6
+37. Bd3 Nc5 38. Bc2 gxf4 39. Kxf4 a4 40. Nxc7 axb3 41. Bxb3
+Nbd7 42. Nb5 Ne5 43. Ba2 Ncd3+ 44. Kf5 Nc1 45. Nxd6 Ng6
+46. Nxb7 Rb8 47. c5 Rxb7 48. Bc4 Rb2 49. Ke4 Ke7 50. Kd4+ Kd8
+51. c6 Nf4 52. d6 Rd2+ 53. Kc5 Ncd3+ 54. Kb6 Rc2 55. Bxf7 1-0
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.27"]
+[EventDate "2008.01.22"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Alexander Beliavsky"]
+[ECO "C93"]
+[WhiteElo "2487"]
+[BlackElo "2638"]
+[PlyCount "93"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "13755"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1483127"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 O-O 8. c3 d6 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. a3
+h6 13. Bc2 Nb8 14. b3 Nbd7 15. Bb2 g6 16. a4 Bg7 17. Bd3 c6
+18. Qc2 Qc7 19. c4 bxa4 20. c5 d5 21. bxa4 dxe4 22. Bxe4 exd4
+23. Bxd4 a5 24. Bd3 Ba6 25. Bxa6 Rxa6 26. Rxe8+ Nxe8 27. Re1
+Ra8 28. Ne4 Bxd4 29. Nxd4 Ndf6 30. Nd6 Nxd6 31. cxd6 Qxd6
+32. Qxc6 Qxc6 33. Nxc6 Ra6 34. Rc1 Nd7 35. Nb8 Nxb8 36. Rc8+
+Kg7 37. Rxb8 Rf6 38. Rb5 Rf5 39. Rxf5 gxf5 40. Kh2 f4 41. g3
+Kf6 42. gxf4 Ke6 43. Kg3 f5 44. Kh4 Kf6 45. Kh5 Kg7 46. f3 Kh7
+47. h4 1/2-1/2
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.28"]
+[EventDate "2008.01.22"]
+[Round "7"]
+[Result "1/2-1/2"]
+[White "Mikhail Gurevich"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D45"]
+[WhiteElo "2607"]
+[BlackElo "2487"]
+[PlyCount "75"]
+[ChessgamesWhiteID "13915"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1483229"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c6 5. e3 Nbd7 6. Qc2 Bd6
+7. e4 dxe4 8. Nxe4 Nxe4 9. Qxe4 e5 10. c5 Be7 11. Be3 exd4
+12. Bxd4 Qa5+ 13. Bc3 Qxc5 14. Bxg7 Qb4+ 15. Nd2 Qxe4+
+16. Nxe4 Bb4+ 17. Kd1 Rg8 18. Bd4 f5 19. a3 Be7 20. Nd2 Nc5
+21. Kc2 f4 22. Re1 Bf5+ 23. Kc1 O-O-O 24. Rxe7 Rxd4 25. Re5
+Nd3+ 26. Bxd3 Bxd3 27. g3 Bg6 28. gxf4 Rxf4 29. f3 Rh4 30. Re2
+Re8 31. Rxe8+ Bxe8 32. Re1 Bg6 33. Re2 Kc7 34. Ne4 Rf4 35. Re3
+Rh4 36. Re2 Rf4 37. Re3 Rh4 38. Re2 1/2-1/2
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.29"]
+[EventDate "2008.01.22"]
+[Round "8"]
+[Result "1-0"]
+[White "Yuri Aleksandrovich Kuzubov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D11"]
+[WhiteElo "2606"]
+[BlackElo "2487"]
+[PlyCount "65"]
+[ChessgamesWhiteID "66770"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1483330"]
+
+1. d4 Nf6 2. c4 c6 3. Nf3 d5 4. e3 e6 5. b3 Bb4+ 6. Nbd2 Ne4
+7. Bd3 O-O 8. Qc2 f5 9. Bb2 b6 10. O-O Bb7 11. a3 Bd6 12. b4
+Nd7 13. Rad1 Qe7 14. Nb3 a5 15. bxa5 bxa5 16. c5 Bc7 17. a4
+Ba6 18. Ne5 Bxe5 19. dxe5 Rfb8 20. Bxa6 Rxa6 21. Bd4 Rb4
+22. f3 Rc4 23. Qe2 Ndxc5 24. Nxc5 Nxc5 25. Rc1 Nd7 26. Rxc4
+dxc4 27. Qxc4 Nb8 28. Bc5 Qd7 29. Qb3 Ra8 30. Rd1 Qc8 31. Bb6
+Kf7 32. Rd8 Qa6 33. Bc5 1-0
+
+
+[Event "Gibraltar Chess Festival"]
+[Site "Gibraltar ENG"]
+[Date "2008.01.30"]
+[EventDate "2008.01.22"]
+[Round "9.24"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Gildas Goldsztejn"]
+[ECO "C96"]
+[WhiteElo "2487"]
+[BlackElo "2380"]
+[PlyCount "60"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "51986"]
+[ChessgamesTournamentID "63624"]
+[ChessgamesGameID "1483440"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 d5 11. d4 dxe4 12. Nxe5
+c5 13. Be3 Bb7 14. Nd2 Nd5 15. Nxe4 Nxe3 16. fxe3 Qd5 17. Nf3
+cxd4 18. exd4 f5 19. Ned2 Bd6 20. Qe2 Bg3 21. Qe6+ Qxe6
+22. Rxe6 Bd5 23. Re2 Rae8 24. Ne5 Nc6 25. Bb3 Bxb3 26. axb3
+Nxe5 27. dxe5 Bxe5 28. Nf3 Bh2+ 29. Kf1 Rxe2 30. Kxe2 Rf6 1-0
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.22"]
+[EventDate "2008.08.22"]
+[Round "1.3"]
+[Result "0-1"]
+[White "Oswaldo Zambrana"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B78"]
+[WhiteElo "2458"]
+[BlackElo "2561"]
+[PlyCount "82"]
+[ChessgamesWhiteID "51311"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504376"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7
+7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. O-O-O Rb8 11. Bb3 Na5
+12. Bh6 Bxh6 13. Qxh6 e5 14. Nde2 b5 15. h4 b4 16. Nd5 Nxb3+
+17. axb3 Nxd5 18. Rxd5 Rb6 19. h5 g5 20. f4 Bg4 21. Nd4 gxf4
+22. g3 fxg3 23. Rg1 Qh4 24. Kb1 f6 25. Ne6 Rf7 26. Rd3 Qxh5
+27. Qd2 Bxe6 28. Rdxg3+ Kf8 29. Rg8+ Ke7 30. Qe1 d5 31. exd5
+Bd7 32. Qf2 Kd6 33. Ra8 Qf5 34. Qe2 Bb5 35. Qe1 Qf4 36. Qd1
+Rbb7 37. Rag8 a5 38. R8g4 Qf2 39. R4g2 Qa7 40. Rd2 a4 41. Qg4
+Bd7 0-1
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.23"]
+[EventDate "2008.08.22"]
+[Round "2"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Akira Watanabe"]
+[ECO "B80"]
+[WhiteElo "2561"]
+[BlackElo "2353"]
+[PlyCount "105"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "102526"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504381"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6
+7. Qd2 Nc6 8. O-O-O Be7 9. f3 O-O 10. g4 Nxd4 11. Qxd4 b5
+12. g5 Nd7 13. h4 Ne5 14. f4 Nc6 15. Qd2 b4 16. Na4 Rb8
+17. Kb1 Qc7 18. h5 d5 19. exd5 exd5 20. g6 d4 21. Bf2 Bf5
+22. gxf7+ Kh8 23. h6 Bf6 24. hxg7+ Bxg7 25. Nc5 Qxf7 26. Bd3
+Qd5 27. Nb3 a5 28. Bxf5 Rxf5 29. Nxd4 Rd8 30. Nxf5 Qxd2
+31. Rxd2 Rxd2 32. Be3 Re2 33. Bc1 Nd4 34. Rd1 Ne6 35. Ng3 Rg2
+36. Ne4 Re2 37. Ng5 Bf6 38. a3 Bxg5 39. fxg5 Re5 40. axb4 axb4
+41. b3 Kg8 42. Rg1 Rb5 43. Kb2 Kf7 44. c3 bxc3+ 45. Kxc3 Rc5+
+46. Kb2 Rb5 47. Bd2 Nd4 48. b4 Ke6 49. Rf1 Kd5 50. Rf7 Kc4
+51. Rxh7 Nf3 52. Rc7+ Kd3 53. Rc5 1-0
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.24"]
+[EventDate "2008.08.22"]
+[Round "3"]
+[Result "1/2-1/2"]
+[White "Gilberto Milos"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C23"]
+[WhiteElo "2598"]
+[BlackElo "2561"]
+[PlyCount "27"]
+[ChessgamesWhiteID "46575"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504387"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Qxe5+ Qe7
+6. Qxe7+ Bxe7 7. Bb3 Nf5 8. Nf3 c6 9. d4 d5 10. Ne2 O-O
+11. O-O Nh4 12. Nxh4 Bxh4 13. Re1 Bf5 14. Ng3 1/2-1/2
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.25"]
+[EventDate "2008.08.22"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Felipe de Cresce El Debs"]
+[ECO "D45"]
+[WhiteElo "2561"]
+[BlackElo "2440"]
+[PlyCount "51"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "115185"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504390"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. e3 a6 5. Nc3 e6 6. c5 b6
+7. cxb6 Nbd7 8. Bd3 Be7 9. O-O O-O 10. b3 Nxb6 11. Bb2 Bb7
+12. Rc1 c5 13. Ne5 Nbd7 14. Nxd7 Nxd7 15. Na4 cxd4 16. exd4
+Rc8 17. Qe2 Qa5 18. Nc5 Bxc5 19. dxc5 Rxc5 20. Qg4 d4 21. Rxc5
+Nxc5 22. Qxd4 f6 23. b4 Qd8 24. bxc5 Qxd4 25. Bxd4 Rd8 26. Rd1
+1-0
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.27"]
+[EventDate "2008.08.22"]
+[Round "5"]
+[Result "1-0"]
+[White "John van der Wiel"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "2504"]
+[BlackElo "2561"]
+[PlyCount "57"]
+[ChessgamesWhiteID "16254"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504399"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6
+7. Ndf3 Qb6 8. a3 a5 9. Ne2 cxd4 10. cxd4 Be7 11. f5 O-O
+12. Nf4 Kh8 13. Be2 a4 14. fxe6 fxe6 15. h4 Na5 16. Qd3 Nb3
+17. Ng5 Rf5 18. g4 Nxd4 19. gxf5 Nxe5 20. Qc3 Bf6 21. Be3 Nc2+
+22. Qxc2 Qxe3 23. fxe6 g6 24. Qd2 Qg3+ 25. Kf1 Ng4 26. Bxg4
+Qxg4 27. Re1 b6 28. Kf2 Be7 29. Nxg6+ 1-0
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.28"]
+[EventDate "2008.08.22"]
+[Round "6"]
+[Result "1/2-1/2"]
+[White "Bernardo Roselli Mailhe"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D31"]
+[WhiteElo "2385"]
+[BlackElo "2561"]
+[PlyCount "88"]
+[ChessgamesWhiteID "53094"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504400"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. cxd5 exd5 5. Bf4 Qb6 6. Qd2 Nf6
+7. e3 Bf5 8. f3 h5 9. h4 Nbd7 10. Na4 Qd8 11. Bd3 Bxd3
+12. Qxd3 g6 13. Ne2 Bg7 14. Kf2 O-O 15. b4 b5 16. Nc5 Nb6
+17. a4 bxa4 18. b5 cxb5 19. Qxb5 Qe7 20. Nxa4 Nc4 21. Nac3
+Rac8 22. Nxd5 Nxd5 23. Qxd5 Bf6 24. g3 Rfe8 25. Qe4 Qd7
+26. Qd3 Re6 27. Ra2 Rec6 28. Kg2 a5 29. Rb1 Be7 30. e4 Bb4
+31. d5 Rc5 32. Nd4 Nb6 33. Rc2 Rc3 34. Rxc3 Rxc3 35. Qb5 Rc2+
+36. Kg1 Bc5 37. Be3 Qc7 38. Nxc2 Qxg3+ 39. Kf1 Bxe3 40. Nxe3
+Qxf3+ 41. Ke1 Qxe3+ 42. Kf1 Qf3+ 43. Kg1 Qg4+ 44. Kf1 Qf3+
+1/2-1/2
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.29"]
+[EventDate "2008.08.22"]
+[Round "7"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Nahuel Diaz Hollemaert"]
+[ECO "C99"]
+[WhiteElo "2561"]
+[BlackElo "2419"]
+[PlyCount "132"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "114699"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504409"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7
+7. Re1 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2
+cxd4 13. cxd4 Rd8 14. b3 Nc6 15. Bb2 Bb7 16. Rc1 Qb6 17. d5
+Nb4 18. Bb1 a5 19. Nf1 Na6 20. Ne3 Bf8 21. Qd2 Nc5 22. Nf5 Bc8
+23. N3h4 b4 24. Kh2 Nh5 25. Qg5 g6 26. Nh6+ Bxh6 27. Qxh6 Nd3
+28. Bxd3 Qxf2 29. Nf3 Bxh3 30. Qd2 Qg3+ 31. Kg1 Bxg2 32. Qg5
+Qh3 33. Nh4 h6 34. Qxg2 Qxh4 35. Re3 Nf4 36. Qg3 Qf6 37. Rf1
+Rdc8 38. Ref3 a4 39. Bc1 axb3 40. axb3 Rc3 41. Bc4 Ra2
+42. Rxc3 bxc3 43. Rf3 h5 44. Bf1 h4 45. Qg4 Rc2 46. Be3 Rb2
+47. Qc8+ Kh7 48. Qxc3 Qg5+ 49. Kh1 Qg4 50. Bxf4 exf4 51. Bh3
+Rb1+ 52. Rf1 Rxf1+ 53. Bxf1 Qd1 54. Qd3 Qe1 55. Qf3 Qd2
+56. Qd3 Qe1 57. Kg1 Kg7 58. Qd4+ f6 59. Qd3 h3 60. Qf3 g5
+61. Kh2 f5 62. exf5 Kf6 63. Bxh3 Qd2+ 64. Bg2 Qe1 65. Qh3 Qd2
+66. Qh6+ Kxf5 1-0
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.29"]
+[EventDate "2008.08.22"]
+[Round "8"]
+[Result "0-1"]
+[White "Carolina Lujan"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C45"]
+[WhiteElo "2361"]
+[BlackElo "2561"]
+[PlyCount "98"]
+[ChessgamesWhiteID "50017"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504411"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bb4+ 5. c3 Bc5 6. Nxc6
+bxc6 7. Bd3 Qh4 8. Qf3 Ne7 9. Qg3 Qxg3 10. hxg3 a5 11. Nd2 d6
+12. Nf3 Bb6 13. Nd4 a4 14. Bg5 f6 15. Be3 c5 16. Nc2 Be6
+17. Kd2 O-O 18. Na3 h6 19. Rhe1 c6 20. Bc4 d5 21. exd5 cxd5
+22. Bxh6 Kf7 23. Be2 Rh8 24. Be3 d4 25. Bf4 Rad8 26. Nc4 dxc3+
+27. Kxc3 Nd5+ 28. Kc2 Bf5+ 29. Kc1 Nxf4 30. gxf4 Bc7 31. g3
+Rh2 32. Ne3 Kg6 33. Nxf5 Kxf5 34. Kc2 Rxf2 35. Rad1 Rd4
+36. Rxd4 cxd4 37. Kd3 Rg2 38. g4+ Kxf4 39. Kxd4 Be5+ 40. Kd5
+Bxb2 41. Rf1+ Kg5 42. Bd1 a3 43. Rf5+ Kh4 44. Ke4 g6 45. Ra5
+Rd2 46. Bf3 Kg3 47. Ke3 Bc1 48. Ke4 Rxa2 49. Ra6 f5+ 0-1
+
+
+[Event "Euwe Simultan"]
+[Site "Sao Paulo"]
+[Date "2008.08.30"]
+[EventDate "2008.08.22"]
+[Round "9"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Everaldo Matsuura"]
+[ECO "D48"]
+[WhiteElo "2561"]
+[BlackElo "2464"]
+[PlyCount "89"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "26917"]
+[ChessgamesGametype "EXHIBITION"]
+[ChessgamesGameID "1504416"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4
+7. Bxc4 b5 8. Bd3 a6 9. e4 c5 10. d5 Qc7 11. O-O Bb7 12. Bc2
+O-O-O 13. dxe6 Ne5 14. Qe2 Nxf3+ 15. Qxf3 fxe6 16. Qh3 Kb8
+17. Bg5 Bd6 18. Rad1 h6 19. Bxf6 gxf6 20. Qxe6 Bxh2+ 21. Kh1
+Be5 22. Nd5 Qd7 23. Qxd7 Rxd7 24. b3 Rhd8 25. g4 Bxd5 26. exd5
+Rxd5 27. Rxd5 Rxd5 28. Rd1 Rxd1+ 29. Bxd1 Kc7 30. Kg2 Kb6
+31. Bf3 c4 32. bxc4 bxc4 33. Kf1 Kc5 34. Ke2 Kd4 35. Kd2 Bf4+
+36. Kc2 Bg5 37. Bb7 a5 38. f3 Bf4 39. Bc6 Be5 40. Bb7 Ke3
+41. Bc6 c3 42. Bb7 Kf4 43. Bc6 Kg5 44. Bb7 f5 45. Bc8 1/2-1/2
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.13"]
+[EventDate "2008.11.13"]
+[Round "1"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "David Navara"]
+[ECO "E34"]
+[WhiteElo "2567"]
+[BlackElo "2633"]
+[PlyCount "94"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "49665"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1519075"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. Nf3
+Qf5 7. Qxf5 exf5 8. a3 Bd6 9. Nb5 Be6 10. e3 Bd5 11. Bd3 Be4
+12. Be2 Nc6 13. O-O O-O-O 14. b4 Rhe8 15. Bb2 f4 16. Nxd6+
+Rxd6 17. b5 Nd8 18. Ne5 fxe3 19. fxe3 Nd5 20. Bg4+ f5 21. Rxf5
+Bxf5 22. Bxf5+ Kb8 23. Re1 g6 24. Bc2 Kc8 25. e4 Nb6 26. Rf1
+Ne6 27. d5 Nc5 28. Rf7 Ncd7 29. Nf3 Nc4 30. Bd4 Nxa3 31. Bd3
+a6 32. bxa6 bxa6 33. Rxh7 Nb5 34. Bf2 Nc3 35. Rh4 a5 36. Bd4
+Na2 37. Bb5 Kb7 38. Ng5 Re7 39. Ne6 Rdxe6 40. dxe6 Nb6
+41. Bxb6 Kxb6 42. Bd7 Nc3 43. e5 Kc5 44. Kf1 a4 45. Kg1 a3
+46. Rb4 a2 47. Kf2 Kxb4 1/2-1/2
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.14"]
+[EventDate "2008.11.13"]
+[Round "2"]
+[Result "1-0"]
+[White "Hector Leyva"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B33"]
+[WhiteElo "2399"]
+[BlackElo "2567"]
+[PlyCount "91"]
+[ChessgamesWhiteID "51390"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1519622"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Ndb5
+d6 7. Bf4 e5 8. Bg5 a6 9. Na3 b5 10. Nd5 Be7 11. Bxf6 Bxf6
+12. c4 b4 13. Nc2 a5 14. b3 O-O 15. g3 Bg5 16. Bg2 Ne7 17. O-O
+Nxd5 18. Qxd5 Be6 19. Qd3 Qb6 20. Rad1 Rad8 21. Kh1 f5 22. f4
+Bh6 23. Ne3 fxe4 24. Qxe4 Kh8 25. f5 Bg8 26. Nd5 Bxd5 27. Rxd5
+Be3 28. Rb5 Qd4 29. Rxa5 h6 30. Rd5 Qxe4 31. Bxe4 Bc5 32. Kg2
+h5 33. Rd3 Rf6 34. h3 Kh7 35. g4 Kh6 36. Rg3 g5 37. h4 gxh4
+38. g5+ Kh7 39. Rh3 Rg8 40. g6+ Kg7 41. Rxh4 Rh8 42. Rfh1 Be3
+43. Rxh5 Bh6 44. Kf3 Rff8 45. Bd5 Rf6 46. Ke4 1-0
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.16"]
+[EventDate "2008.11.13"]
+[Round "4"]
+[Result "0-1"]
+[White "Fred A Hamperl"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B12"]
+[WhiteElo "2076"]
+[BlackElo "2567"]
+[PlyCount "70"]
+[ChessgamesWhiteID "56917"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1520659"]
+
+1. e4 c6 2. Nc3 d5 3. Qf3 Nf6 4. e5 Nfd7 5. d4 c5 6. dxc5 e6
+7. Bb5 Nc6 8. Nge2 Nxc5 9. Nd4 Bd7 10. Nxc6 bxc6 11. Be2 Rb8
+12. O-O Be7 13. b3 O-O 14. Qg3 Kh8 15. Be3 Qa5 16. Bd2 Qc7
+17. b4 Nb7 18. Rfb1 c5 19. Nb5 Bxb5 20. Bxb5 cxb4 21. Bxb4
+Bxb4 22. Rxb4 Nc5 23. Rab1 Ne4 24. Qe3 Nc3 25. R1b3 Nxa2
+26. Rh4 Qxc2 27. g4 Rfc8 28. Qh3 Rxb5 29. Rxb5 Nc3 30. Rb4 a5
+31. Rb2 Ne2+ 32. Kg2 Nf4+ 33. Kg3 Qd3+ 34. Kxf4 Rc4+ 35. Kg5
+Qg6# 0-1
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.17"]
+[EventDate "2008.11.13"]
+[Round "5"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Enrique Paciencia"]
+[ECO "C78"]
+[WhiteElo "2567"]
+[BlackElo "2440"]
+[PlyCount "63"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "118970"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1521230"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5
+7. a4 b4 8. c3 d6 9. d4 Ba7 10. dxe5 dxe5 11. Qxd8+ Nxd8
+12. cxb4 Nc6 13. Bg5 Rb8 14. Rc1 Bd7 15. Bxf6 gxf6 16. b5 Nd4
+17. Nxd4 Bxd4 18. Rxc7 Bxb2 19. Ra2 Bd4 20. Nd2 Bb6 21. Rcc2
+axb5 22. a5 Bd4 23. Nf3 Be6 24. Bxe6 fxe6 25. Kf1 Ke7 26. a6
+Rhd8 27. Ke2 Ba7 28. Rab2 Rd6 29. Rc7+ Rd7 30. Rc6 Rd6
+31. Rc7+ Rd7 32. Rc6 1/2-1/2
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.19"]
+[EventDate "2008.11.13"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Viktor Korchnoi"]
+[ECO "A17"]
+[WhiteElo "2567"]
+[BlackElo "2584"]
+[PlyCount "87"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "15866"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1521641"]
+
+1. Nf3 e6 2. c4 Nf6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3 6. Qxc3
+a5 7. b3 d6 8. Bb2 e5 9. g3 c5 10. Bg2 Nc6 11. O-O Bg4
+12. Rfe1 Qb6 13. e3 a4 14. bxa4 Rxa4 15. d3 Rd8 16. Rab1 Qa5
+17. Qb3 Qa6 18. Nd2 Ra5 19. f4 Be6 20. Bc1 Bc8 21. Qb6 Qxb6
+22. Rxb6 Nd7 23. Rb3 Nf6 24. Bb2 Ra6 25. Bxc6 Rxc6 26. fxe5
+Ng4 27. exd6 Rcxd6 28. d4 Rh6 29. Nf3 Bf5 30. e4 Bc8 31. d5 b6
+32. Bc1 Rg6 33. Nh4 Rgd6 34. e5 Re8 35. Nf3 Rg6 36. h3 Nf6
+37. exf6 Rxg3+ 38. Kf2 Rxe1 39. Kxe1 gxf6 40. Kf2 Rxh3
+41. Rxb6 Bg4 42. Rxf6 Rh1 43. Bb2 Bxf3 44. Kxf3 1-0
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.20"]
+[EventDate "2008.11.13"]
+[Round "7"]
+[Result "1-0"]
+[White "Veselin Topalov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D35"]
+[WhiteElo "2791"]
+[BlackElo "2567"]
+[PlyCount "75"]
+[ChessgamesWhiteID "12089"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1522106"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O
+7. Bd3 Nbd7 8. Nge2 Re8 9. O-O Nf8 10. b4 Be6 11. b5 Ng6
+12. Qc2 Bd6 13. f4 Bg4 14. Bxf6 Qxf6 15. Nxd5 Qd8 16. Ng3 Rc8
+17. Bf5 Bxf5 18. Nxf5 c6 19. bxc6 bxc6 20. Nc3 Bb4 21. Ne4 a5
+22. Rad1 h6 23. Neg3 Nf8 24. e4 Ne6 25. e5 Qb6 26. Nh5 Red8
+27. Kh1 Kf8 28. Nfxg7 Nxg7 29. Nf6 Ke7 30. d5 Rh8 31. Qb3 Rcd8
+32. d6+ Kf8 33. f5 Qb5 34. Qg3 Qe2 35. Qf4 Ne8 36. Ne4 Rg8
+37. Qxh6+ Rg7 38. Ng3 1-0
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.21"]
+[EventDate "2008.11.13"]
+[Round "8"]
+[Result "1/2-1/2"]
+[White "Borki Predojevic"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A34"]
+[WhiteElo "2615"]
+[BlackElo "2567"]
+[PlyCount "59"]
+[ChessgamesWhiteID "54653"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1522649"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Nc6 6. Bg2
+Nc7 7. O-O e5 8. d3 Be7 9. Be3 O-O 10. Qa4 Bd7 11. Rfc1 b6
+12. a3 Rb8 13. Qd1 a5 14. Nd2 Nd4 15. Rab1 Kh8 16. Bxd4 exd4
+17. Nd5 Nxd5 18. Bxd5 a4 19. b3 axb3 20. Nf3 f6 21. Qxb3 b5
+22. Nd2 f5 23. Qa2 Bd6 24. Be6 Be8 25. Rc2 Qe7 26. Bd5 Bd7
+27. Rbc1 h6 28. Bf3 Rfc8 29. Bd5 Kh7 30. Nf3 1/2-1/2
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.22"]
+[EventDate "2008.11.13"]
+[Round "9"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Amanmurad Kakageldyev"]
+[ECO "B06"]
+[WhiteElo "2567"]
+[BlackElo "2449"]
+[PlyCount "99"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "14560"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1523975"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. Qd2 c6 6. Bh6 O-O
+7. O-O-O b5 8. Bxg7 Kxg7 9. e5 dxe5 10. dxe5 Qxd2+ 11. Rxd2
+Ng4 12. f4 Nd7 13. Nf3 Nc5 14. Nd4 b4 15. Nd1 Ne4 16. Re2 Bb7
+17. Nb3 c5 18. Na5 Bd5 19. c4 bxc3 20. Nxc3 Nxc3 21. bxc3 Rab8
+22. h3 Nh6 23. Rd2 e6 24. Bc4 Ba8 25. Re1 Nf5 26. g4 Ne7
+27. Rd7 Nd5 28. f5 Nb6 29. Rxa7 Nxc4 30. Nxc4 Bd5 31. Nd6 Ra8
+32. f6+ Kg8 33. Rxa8 Rxa8 34. Re2 Bxa2 35. c4 Bb3 36. g5 Ra1+
+37. Kd2 Rh1 38. Re3 Rh2+ 39. Kc1 Rh1+ 40. Kb2 Ba4 41. Ra3 Rh2+
+42. Kc1 Rh1+ 43. Kd2 Rh2+ 44. Ke1 Bc6 45. Rb3 Rh1+ 46. Kf2
+Rh2+ 47. Kg3 Rg2+ 48. Kh4 h6 49. Rb8+ Kh7 50. Nxf7 1-0
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.23"]
+[EventDate "2008.11.13"]
+[Round "10"]
+[Result "0-1"]
+[White "Darcy Gustavo Machado Vieira Lima"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B50"]
+[WhiteElo "2488"]
+[BlackElo "2567"]
+[PlyCount "68"]
+[ChessgamesWhiteID "49666"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1524444"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 Bd7 5. d3 Bc6 6. O-O Nbd7
+7. b4 e6 8. Bb2 a5 9. bxc5 Nxc5 10. Nd4 Ba4 11. Qd2 e5 12. Nf5
+g6 13. Ne3 b5 14. c4 b4 15. f4 Bh6 16. g4 Bxf4 17. Rxf4 exf4
+18. g5 Nfxe4 19. dxe4 fxe3 20. Qxe3 O-O 21. Nd2 Rc8 22. Bg4
+Nd7 23. Bxd7 Bxd7 24. Qf4 Qe7 25. Qh4 h5 26. Rf1 Qe6 27. Rf4
+Rc5 28. Bf6 a4 29. Qe1 Rb8 30. h4 Re5 31. Qa1 Re8 32. Qb2 Qh3
+33. Nf1 Bc6 34. Bxe5 dxe5 0-1
+
+
+[Event "Olympiad"]
+[Site "Dresden GER"]
+[Date "2008.11.25"]
+[EventDate "2008.11.13"]
+[Round "11"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Lazaro Bruzon Batista"]
+[ECO "D43"]
+[WhiteElo "2567"]
+[BlackElo "2622"]
+[PlyCount "115"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "49084"]
+[ChessgamesTournamentID "66285"]
+[ChessgamesGameID "1524902"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 Nbd7 6. e3 h6
+7. Bh4 Be7 8. Bd3 dxc4 9. Bxc4 O-O 10. O-O b5 11. Bd3 Bb7
+12. a3 a5 13. Rc1 Rc8 14. Qe2 b4 15. Bxf6 Nxf6 16. axb4 axb4
+17. Na4 c5 18. dxc5 Qa5 19. Ne5 Qxa4 20. c6 Bxc6 21. Nxc6 Rxc6
+22. Bb5 Rxc1 23. Bxa4 Rxf1+ 24. Kxf1 Rd8 25. Qc4 Kf8 26. Ke2
+h5 27. f3 g6 28. e4 Ra8 29. Qc6 Rd8 30. g3 h4 31. Qc7 hxg3
+32. hxg3 Ra8 33. Bc6 Ra1 34. g4 Rc1 35. Qc8+ Kg7 36. Qb7 Kf8
+37. e5 Ng8 38. Be4 Rh1 39. Kd3 g5 40. Kc4 Kg7 41. Qa7 Rc1+
+42. Kb3 Rc5 43. Qb8 Rc1 44. Qb5 Nh6 45. Bc2 Rh1 46. Qd3 Ng8
+47. Kc4 Kf8 48. Kb5 Kg7 49. b3 Kf8 50. Qe4 Rh4 51. Bd3 Kg7
+52. Kc6 Kf8 53. Qe3 Rh3 54. Kd7 Kg7 55. Ke8 Rh8 56. Be4 Rh1
+57. f4 gxf4 58. Qxf4 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.22"]
+[EventDate "2010.09.21"]
+[Round "2"]
+[Result "1-0"]
+[White "Levon Aronian"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A14"]
+[WhiteElo "2783"]
+[BlackElo "2583"]
+[PlyCount "55"]
+[ChessgamesWhiteID "17316"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1592309"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. O-O O-O 6. d4 dxc4
+7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bf4 a5 11. Nc3 Na6 12. Ne5
+Bxg2 13. Kxg2 Nd5 14. Rad1 c6 15. Bc1 Nab4 16. e4 Nb6 17. Qe2
+Nd7 18. Nf3 Re8 19. h4 Qb6 20. Ng5 h6 21. Rh1 Bf8 22. e5 f5
+23. Qh5 Re7 24. Qg6 hxg5 25. hxg5 c5 26. Nb5 Qc6+ 27. f3 cxd4
+28. Qh7+ 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.23"]
+[EventDate "2010.09.21"]
+[Round "3"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Mark Machin Rivera"]
+[ECO "E81"]
+[WhiteElo "2583"]
+[BlackElo "2229"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "127751"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1592904"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 Nf6 5. f3 O-O 6. Nge2 c5
+7. d5 e6 8. Ng3 exd5 9. cxd5 a6 10. a4 Re8 11. Be2 Nbd7
+12. O-O h5 13. Bg5 Qb6 14. Qd2 Nh7 15. a5 Qc7 16. Be3 h4
+17. Nh1 f5 18. Nf2 b5 19. axb6 Qxb6 20. Rfb1 Rb8 21. b4 Qd8
+22. bxc5 Rxb1+ 23. Rxb1 Nxc5 24. Bd4 Ng5 25. Bxg7 Kxg7 26. Nd3
+fxe4 27. Nxc5 dxc5 28. f4 Nf7 29. Na4 c4 30. Rb6 Kh7 31. Qd4
+Nd6 32. Nc3 e3 33. Qc5 Ne4 34. Nxe4 Rxe4 35. Rb8 Qf6 36. Qxc8
+Qa1+ 37. Bf1 e2 38. Rb7+ Kh6 39. Qf8+ Kh5 40. Rh7+ Kg4
+41. Rxh4+ Kxh4 42. Qh6+ 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.24"]
+[EventDate "2010.09.21"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Julio Ernesto Granda Zuniga"]
+[ECO "D26"]
+[WhiteElo "2583"]
+[BlackElo "2636"]
+[PlyCount "52"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "47009"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1593360"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O Nc6
+7. Nc3 a6 8. Qe2 b5 9. Bb3 Bb7 10. Rd1 Qb6 11. d5 Na5 12. e4
+c4 13. Bc2 Bc5 14. Bg5 O-O 15. Bxf6 gxf6 16. e5 f5 17. Ng5 h6
+18. Nce4 Bxd5 19. Nf6+ Kg7 20. Rxd5 exd5 21. Qf3 hxg5 22. Qxf5
+Rfd8 23. Qxg5+ Kf8 24. Nh7+ Ke8 25. Nf6+ Kf8 26. Nh7+ Ke8
+1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.25"]
+[EventDate "2010.09.21"]
+[Round "5"]
+[Result "0-1"]
+[White "Viktor Antonovich Bologan"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C53"]
+[WhiteElo "2690"]
+[BlackElo "2583"]
+[PlyCount "82"]
+[ChessgamesWhiteID "14216"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1593896"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 a6 6. Bb3 Ba7
+7. O-O d6 8. Re1 Ne7 9. d4 Ng6 10. h3 O-O 11. Nbd2 Re8 12. Ng5
+Re7 13. Ndf3 Qe8 14. Nxf7 Rxf7 15. Ng5 Nh8 16. f4 h6 17. Nxf7
+Nxf7 18. g4 Be6 19. Bc2 g5 20. fxe5 dxe5 21. Be3 Qe7 22. Kh1
+Rd8 23. Qd2 Kg7 24. Qf2 Bxg4 25. dxe5 Nxe5 26. Bxa7 Bf3+
+27. Kg1 b6 28. Re3 Bh5 29. Rg3 Ra8 30. Bxb6 cxb6 31. Qxb6 Rd8
+32. Qf2 Bg6 33. Re3 Nh5 34. Rd1 Rf8 35. Qe2 Nf4 36. Qxa6 g4
+37. Qd6 Qxd6 38. Rxd6 Nxh3+ 39. Rxh3 gxh3 40. Bd1 Bxe4 41. a4
+Rf2 0-1
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.27"]
+[EventDate "2010.09.21"]
+[Round "6"]
+[Result "0-1"]
+[White "Bayarsaikhan Gundavaa"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E04"]
+[WhiteElo "2460"]
+[BlackElo "2583"]
+[PlyCount "126"]
+[ChessgamesWhiteID "122065"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1594486"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 dxc4 5. Bg2 Nc6 6. Qa4 Bb4+
+7. Bd2 Nd5 8. Qb5 Bxd2+ 9. Nbxd2 c3 10. bxc3 Nxc3 11. Qd3 Nd5
+12. O-O O-O 13. Rfc1 Nb6 14. Rab1 Qe7 15. h4 h6 16. e4 Rd8
+17. Qe3 Bd7 18. g4 Be8 19. Nf1 a5 20. Ng3 a4 21. g5 hxg5
+22. hxg5 a3 23. Nh5 f6 24. gxf6 gxf6 25. Rb5 Ra5 26. Rxa5 Nxa5
+27. Rxc7 Qxc7 28. Nxf6+ Kf8 29. Qxa3+ Kg7 30. e5 Nac4 31. Qc1
+Bg6 32. Qg5 Rh8 33. Qg4 Nxe5 34. dxe5 Qc1+ 35. Bf1 Qh6 36. Qg2
+Qf4 37. Bd3 Qc1+ 38. Bf1 Qf4 39. Bd3 Qc1+ 40. Bf1 Nc4 41. Nd4
+Nxe5 42. Ne4 Rh4 43. Nxe6+ Kh8 44. Nf6 Qc3 45. Ng5 Qc6
+46. Qxc6 bxc6 47. Ne6 Bf7 48. Nc5 Kg7 49. Nfe4 Bxa2 50. Ng3
+Kf7 51. Bg2 Rf4 52. Be4 Bd5 53. Kg2 Ke7 54. Bxd5 cxd5 55. Nb3
+Nd3 56. Nh1 Kd6 57. Kg3 Re4 58. Kf3 Ne5+ 59. Kg2 Rb4 60. Nd2
+Rb2 61. Nf1 d4 62. Nhg3 Kd5 63. Nh5 Ng4 0-1
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.29"]
+[EventDate "2010.09.21"]
+[Round "8"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "David Navara"]
+[ECO "D76"]
+[WhiteElo "2583"]
+[BlackElo "2722"]
+[PlyCount "100"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "49665"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1595548"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6
+7. Nc3 Nc6 8. e3 O-O 9. O-O Re8 10. Re1 a5 11. h3 a4 12. Qe2
+Be6 13. Nd2 Nb4 14. Rd1 Qc8 15. a3 N4d5 16. Kh2 c5 17. Nxd5
+Bxd5 18. e4 Bb3 19. Nxb3 axb3 20. Be3 Na4 21. e5 c4 22. Rac1
+c3 23. Qb5 Nxb2 24. Rf1 Qc4 25. Qxc4 Nxc4 26. Rxc3 Nxe3
+27. fxe3 Rxa3 28. Rb1 Ra2 29. Rcxb3 Bh6 30. Rxb7 Bxe3 31. d5
+Ba7 32. R1b2 Rxb2 33. Rxb2 Bb8 34. Re2 h5 35. Kh1 Rc8 36. Bf3
+Rc3 37. Kg2 Kg7 38. h4 Kh6 39. Re1 Rc2+ 40. Re2 Rc3 41. Re1
+Bc7 42. Re2 Kg7 43. Re1 Rc2+ 44. Re2 Rc1 45. Kh3 Rc3 46. Kg2
+Rd3 47. Re1 Kf8 48. Rd1 Rxd1 49. Bxd1 Bxe5 50. Ba4 f5 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.09.30"]
+[EventDate "2010.09.21"]
+[Round "9"]
+[Result "1-0"]
+[White "Emanuel Berg"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B32"]
+[WhiteElo "2616"]
+[BlackElo "2583"]
+[PlyCount "61"]
+[ChessgamesWhiteID "19787"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1596121"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3
+Nf6 7. Bc4 O-O 8. Bb3 d6 9. f3 Bd7 10. Qd2 Na5 11. h4 Nxb3
+12. cxb3 Qa5 13. O-O-O b5 14. Kb1 b4 15. Nce2 Rfc8 16. h5 Nxh5
+17. g4 Nf6 18. Ng3 Nxg4 19. fxg4 Bxg4 20. Rdf1 Qe5 21. Rf4 h5
+22. Ndf5 gxf5 23. Nxh5 Bxh5 24. Rxh5 e6 25. exf5 Rc5 26. Bd4
+Rd5 27. Bxe5 Rxd2 28. Rg4 f6 29. Bxf6 Kf7 30. Bxg7 Rg8 31. Rh7
+1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.10.01"]
+[EventDate "2010.09.21"]
+[Round "10"]
+[Result "1-0"]
+[White "Zhong Zhang"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B31"]
+[WhiteElo "2582"]
+[BlackElo "2583"]
+[PlyCount "62"]
+[ChessgamesWhiteID "57666"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1596669"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 e5
+7. Be3 b6 8. a3 a5 9. Qd2 f6 10. Qc3 Ne7 11. Nbd2 O-O 12. Nc4
+Be6 13. O-O a4 14. b4 axb3 15. cxb3 Nd5 16. exd5 cxd5 17. Nxb6
+Qxb6 18. Bxc5 Rfc8 19. b4 Qb5 20. d4 e4 21. Nd2 f5 22. Qg3 Bh6
+23. Nb3 Bf7 24. Bd6 Rc2 25. Nc5 Bd2 26. a4 Qe8 27. b5 e3
+28. Be5 e2 29. Rfb1 Rc3 30. Qh4 g5 31. Qh6 Rxc5 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2010.10.03"]
+[EventDate "2010.09.21"]
+[Round "11"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Bunmi Olape"]
+[ECO "A22"]
+[WhiteElo "2583"]
+[BlackElo "2256"]
+[PlyCount "75"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "79568"]
+[ChessgamesTournamentID "72329"]
+[ChessgamesGameID "1597202"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Bb4 4. Bg2 O-O 5. Nf3 d6 6. O-O Nc6
+7. d3 Re8 8. Nd5 Nxd5 9. cxd5 Ne7 10. a3 Ba5 11. b4 Bb6
+12. Nd2 c6 13. dxc6 bxc6 14. Nc4 Bd4 15. Rb1 d5 16. Na5 Bb6
+17. Bd2 c5 18. Bc3 f6 19. Qa4 Bd7 20. Qb3 Be6 21. Nb7 Qd7
+22. bxc5 Qxb7 23. cxb6 axb6 24. Qxb6 Qxb6 25. Rxb6 Rxa3
+26. Bxe5 Bf7 27. Bb2 Ra2 28. Rc1 Nc8 29. Rb4 h6 30. Bf3 Nd6
+31. Rc7 Rd8 32. Bd4 Raa8 33. Bc5 Ne8 34. Re7 Rac8 35. Rbb7
+Rxc5 36. Rxf7 d4 37. Rfd7 Rcc8 38. Bh5 1-0
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.28"]
+[EventDate "2010.12.26"]
+[Round "5"]
+[Result "0-1"]
+[White "Daniel Lapitan"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "1638"]
+[BlackElo "2586"]
+[PlyCount "100"]
+[ChessgamesWhiteID "124445"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1635098"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6
+7. Ne2 cxd4 8. cxd4 f6 9. Nf4 Nxd4 10. Qh5+ Ke7 11. Ng6+ hxg6
+12. exf6+ Kxf6 13. Qxh8 Kf7 14. h4 Nc5 15. Bb1 Qf6 16. O-O Bd7
+17. Re1 Rc8 18. h5 gxh5 19. Qxh5+ g6 20. Qd1 Bd6 21. Nf3 Nxf3+
+22. Qxf3 Qxf3 23. gxf3 e5 24. Bd2 d4 25. Bb4 b6 26. a4 a5
+27. Ba3 Kf6 28. Kg2 Be6 29. Bc2 Bd5 30. Be4 Bb3 31. Rec1 Rd8
+32. Bxc5 bxc5 33. Bd3 Rb8 34. Bb5 Ke6 35. Bd3 Rb4 36. Kf1 c4
+37. Bc2 Bxc2 38. Rxc2 Kd5 39. Ra2 d3 40. Rd2 Kd4 41. Kg2 Rb8
+42. Kf1 Rh8 43. Kg2 Bb4 44. Rd1 d2 45. Raa1 Kd3 46. Rab1 Ke2
+47. Kg3 Rf8 48. Kg2 Rxf3 49. Rf1 e4 50. Kg1 Bc5 0-1
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.28"]
+[EventDate "2010.12.26"]
+[Round "6"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Laurent Lalo"]
+[ECO "C11"]
+[WhiteElo "2586"]
+[BlackElo "?"]
+[PlyCount "103"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "132191"]
+[ChessgamesGameID "1635100"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 Be7 8. Qd2 O-O 9. Be2 a6 10. O-O cxd4 11. Nxd4 Nxd4
+12. Bxd4 Bc5 13. Bxc5 Nxc5 14. Qd4 Qb6 15. Rad1 Nd7 16. Qxb6
+Nxb6 17. Rd4 Nd7 18. Bf3 Nb8 19. Na4 Nc6 20. Rd2 b5 21. Nc5
+Ra7 22. c3 Rc7 23. b4 Bb7 24. a4 bxa4 25. Ra1 a5 26. Rxa4 axb4
+27. cxb4 Rb8 28. Kf2 Bc8 29. Nd3 Rcb7 30. Rb2 g6 31. Ke3 Kg7
+32. Kd2 Rb6 33. Kc3 Bd7 34. Nc5 Be8 35. Be2 Ne7 36. Ra7 Nc6
+37. Ra4 Ne7 38. Ra7 Nc6 39. Rc7 Kf8 40. b5 Ne7 41. Na4 R6b7
+42. Rxb7 Rxb7 43. Nc5 Rb8 44. g4 Nc8 45. Kb4 Nb6 46. Ka5 Nc4+
+47. Bxc4 dxc4 48. b6 Bc6 49. b7 Ke7 50. Kb6 Bxb7 51. Nxb7 Kd7
+52. Rc2 1-0
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.29"]
+[EventDate "2010.12.26"]
+[Round "7"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Moulthun Ly"]
+[ECO "E80"]
+[WhiteElo "2586"]
+[BlackElo "2321"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "96001"]
+[ChessgamesGameID "1635101"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. f3 d6 6. Bg5 Nbd7
+7. Qd2 a6 8. Nh3 c5 9. d5 b5 10. cxb5 Qa5 11. Nf2 Nb6 12. a4
+axb5 13. Bxb5 Ba6 14. O-O Bxb5 15. axb5 Qxa1 16. Rxa1 Rxa1+
+17. Nfd1 Rfa8 18. Kf2 Nh5 19. g4 Bd4+ 20. Kg2 Nf6 21. Qe2 Na4
+22. Bd2 Nd7 23. Nxa4 R1xa4 24. Kg3 Rb8 25. Bc3 Bxc3 26. Nxc3
+h6 27. f4 g5 28. Qd2 gxf4+ 29. Qxf4 Kg7 30. g5 Rg8 31. Kh3
+hxg5 32. Qxg5+ Kf8 0-1
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.29"]
+[EventDate "2010.12.26"]
+[Round "8"]
+[Result "0-1"]
+[White "Jean Muller"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C91"]
+[WhiteElo "1957"]
+[BlackElo "2586"]
+[PlyCount "104"]
+[ChessgamesWhiteID "60974"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1635104"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 O-O 8. d4 d6 9. c3 Bg4 10. Be3 exd4 11. cxd4 Na5
+12. Bc2 Nc4 13. Bc1 c5 14. b3 Nb6 15. Nbd2 cxd4 16. Bb2 Rc8
+17. Bxd4 Nfd7 18. Rc1 Bf6 19. Bxf6 Qxf6 20. Bd3 Nc5 21. Bb1
+Rfe8 22. Nf1 Nbd7 23. Qd4 Bxf3 24. Qxf6 Nxf6 25. gxf3 g6
+26. Ne3 Ne6 27. Red1 Nh5 28. Nd5 Kg7 29. Bd3 Nhf4 30. Nxf4
+Nxf4 31. Bf1 Rc5 32. b4 Rxc1 33. Rxc1 d5 34. Rc6 Re6 35. exd5
+Nxd5 36. Rc5 Nxb4 37. a3 Nc6 38. a4 bxa4 39. Rc4 a5 40. Rxa4
+Re5 41. f4 Rc5 42. Kg2 Kf6 43. Kf3 Ke7 44. Bc4 Nd4+ 45. Ke3
+Ne6 46. Bf1 Nc7 47. Kf3 Nd5 48. Kg3 Nc3 49. Ra3 Ne4+ 50. Kg2
+Rc2 51. Rxa5 Rxf2+ 52. Kg1 Rxf4 0-1
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.29"]
+[EventDate "2010.12.26"]
+[Round "9"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "George Xie Wendi"]
+[ECO "C11"]
+[WhiteElo "2586"]
+[BlackElo "2478"]
+[PlyCount "47"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "98394"]
+[ChessgamesGameID "1635105"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 a6 8. Qd2 b5 9. a3 Bb7 10. Bd3 g5 11. fxg5 cxd4
+12. Nxd4 Ncxe5 13. O-O Bg7 14. Nce2 O-O 15. Ng3 Ng4 16. Rf4
+Nde5 17. Raf1 Nxe3 18. Qxe3 Nxd3 19. Rf6 Nc5 20. Nh5 Bh8
+21. Rh6 Ne4 22. Nf6+ Bxf6 23. gxf6 Qd6 24. Rh5 1-0
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.26"]
+[EventDate "2010.12.26"]
+[Round "1"]
+[Result "0-1"]
+[White "Graham Forsyth"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C05"]
+[WhiteElo "?"]
+[BlackElo "2586"]
+[PlyCount "82"]
+[ChessgamesWhiteID "132244"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1635452"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Ngf3 c5 6. c3 Nc6
+7. Be2 Qb6 8. Qb3 cxd4 9. Qxb6 axb6 10. cxd4 Nb4 11. O-O Rxa2
+12. Rxa2 Nxa2 13. Bb5 Be7 14. Nb3 Nxc1 15. Rxc1 Kd8 16. g3 Nb8
+17. h4 Bd7 18. Be2 Nc6 19. Kg2 Kc7 20. Rc2 h6 21. Nbd2 Ra8
+22. Nb1 Kd8 23. Nc3 Ra1 24. Nb5 Nb4 25. Rd2 Ra5 26. Nc3 b5
+27. h5 Na2 28. Ne1 Nc1 29. Nd3 Nb3 30. Rd1 b4 31. Nb1 Nxd4
+32. Kf1 Bb5 33. Nf4 Nxe2 34. Nxe2 Ra2 35. Ke1 Rxb2 36. Nd4 Ba4
+37. Rc1 b3 38. Nd2 Bb4 39. Nf3 Bb5 40. Ra1 Ra2 41. Rb1 Bd3 0-1
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.27"]
+[EventDate "2010.12.26"]
+[Round "3"]
+[Result "1-0"]
+[White "Andrew Brown"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A70"]
+[WhiteElo "2175"]
+[BlackElo "2586"]
+[PlyCount "54"]
+[ChessgamesWhiteID "101769"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1635455"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6
+7. e4 a6 8. a4 Bg4 9. Be2 Bxf3 10. Bxf3 Nbd7 11. O-O Bg7
+12. Bf4 Qe7 13. Qc2 O-O 14. h3 Rfe8 15. Rae1 Rac8 16. Bh2 c4
+17. g4 Nc5 18. Bg2 Nd3 19. Re2 g5 20. f4 gxf4 21. Bxf4 Nd7
+22. e5 N7xe5 23. Ne4 Nxf4 24. Rxf4 b5 25. g5 Qa7+ 26. Kh1 Nd3
+27. Rh4 Bxb2 1-0
+
+
+[Event "Surfers Paradise Open"]
+[Site "Gold Coast AUS"]
+[Date "2010.12.27"]
+[EventDate "2010.12.26"]
+[Round "4"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Sally Yu"]
+[ECO "C80"]
+[WhiteElo "2586"]
+[BlackElo "1889"]
+[PlyCount "59"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "101829"]
+[ChessgamesGameID "1635458"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5
+7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 Be7 11. Nd4 Nxd4
+12. cxd4 Nxb3 13. Nxb3 O-O 14. Be3 f6 15. Rc1 Rc8 16. Qd2 c6
+17. exf6 Rxf6 18. Bg5 Rg6 19. Bxe7 Qxe7 20. Rc3 Rc7 21. Re1
+Qf7 22. Nc5 Bc8 23. Qe2 Rf6 24. Re3 g6 25. Re8+ Kg7 26. Qe5 a5
+27. h3 h5 28. Re3 Kh7 29. Rf3 Bf5 30. g4 1-0
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.02"]
+[EventDate "2011.01.02"]
+[Round "1.1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Tony J Davis"]
+[ECO "D44"]
+[WhiteElo "2586"]
+[BlackElo "1895"]
+[PlyCount "51"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "101802"]
+[ChessgamesGameID "1627594"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 dxc4 6. e4 b5
+7. e5 h6 8. Bh4 g5 9. Bg3 Nh5 10. Be2 Bb7 11. a4 Qb6 12. Nxg5
+Nxg3 13. hxg3 Nd7 14. Bh5 hxg5 15. Bxf7+ Kxf7 16. Rxh8 Ke7
+17. Qg4 Kd8 18. a5 Qa6 19. Qxe6 Kc7 20. Rxf8 Rxf8 21. Qd6+ Kc8
+22. e6 Rd8 23. exd7+ Rxd7 24. Qc5 Kb8 25. Ne4 Rd5 26. Qf8+ 1-0
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.03"]
+[EventDate "2011.01.02"]
+[Round "2.1"]
+[Result "0-1"]
+[White "Peter Lay"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B43"]
+[WhiteElo "1987"]
+[BlackElo "2586"]
+[PlyCount "110"]
+[ChessgamesWhiteID "130821"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1627605"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. a3 Bb7
+7. Bd3 d6 8. O-O Nf6 9. Be3 Be7 10. f3 Nbd7 11. Qe1 O-O
+12. Rd1 Rc8 13. Nb3 Qc7 14. Qg3 Ne5 15. Be2 Rfe8 16. Kh1 g6
+17. Qf2 d5 18. Bb6 Qb8 19. Ba7 Qa8 20. Bd4 Nc4 21. Bxc4 Rxc4
+22. Na5 Rcc8 23. Nxb7 Qxb7 24. exd5 Nxd5 25. Nxd5 Qxd5 26. Bc3
+Qc4 27. Rd3 a5 28. Bxa5 Qxc2 29. Rd2 Qb3 30. Rfd1 Bf6 31. Qe2
+Rc4 32. Bd8 Bg7 33. h3 h5 34. Kh2 h4 35. Qe1 Bxb2 36. Rxb2
+Qxb2 37. Bxh4 Rc2 38. Qf1 Rec8 39. Rb1 Rxg2+ 40. Kh1 Rh2+
+41. Kg1 Qe2 42. Bg5 Rc2 43. Qxe2 Rhxe2 44. h4 Kg7 45. Rd1 Rg2+
+46. Kh1 Rh2+ 47. Kg1 Rcg2+ 48. Kf1 Rh1+ 49. Kxg2 Rxd1 50. Be7
+e5 51. Kf2 f5 52. Ke2 Rb1 53. Ke3 Rb3+ 54. Ke2 Kf7 55. Bc5 Ke6
+0-1
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.04"]
+[EventDate "2011.01.02"]
+[Round "3.1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Andrew Brown"]
+[ECO "B33"]
+[WhiteElo "2586"]
+[BlackElo "2175"]
+[PlyCount "53"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "101769"]
+[ChessgamesGameID "1627617"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5
+d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 Ne7
+12. Nxf6+ gxf6 13. Nc2 Bb7 14. Bd3 d5 15. exd5 Qxd5 16. Ne3
+Qe6 17. a4 e4 18. Be2 Rd8 19. Qc2 f5 20. axb5 f4 21. bxa6 fxe3
+22. axb7 exf2+ 23. Kf1 Nd5 24. Qa4+ Ke7 25. Qa7 Qd7 26. Rd1
+Ke6 27. c4 1-0
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.05"]
+[EventDate "2011.01.02"]
+[Round "4.1"]
+[Result "1/2-1/2"]
+[White "Max Illingworth"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B41"]
+[WhiteElo "2311"]
+[BlackElo "2586"]
+[PlyCount "63"]
+[ChessgamesWhiteID "121171"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1627629"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Bb4
+7. Bd3 Nc6 8. O-O Nxd4 9. e5 Be7 10. exf6 Bxf6 11. Be3 Nc6
+12. Ne4 O-O 13. c5 Bxb2 14. Rb1 Bd4 15. Bxd4 Nxd4 16. Nd6 Nb5
+17. Bxb5 axb5 18. Rxb5 Rxa2 19. Qb3 Ra6 20. Rb6 Qg5 21. Qb4
+Qd5 22. h3 Ra2 23. Qc3 f5 24. Re1 h6 25. Qe5 Qxe5 26. Rxe5 Ra5
+27. f4 g5 28. fxg5 hxg5 29. g4 Ra1+ 30. Kh2 Ra2+ 31. Kg1 Ra1+
+32. Kh2 1/2-1/2
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.06"]
+[EventDate "2011.01.02"]
+[Round "5.2"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Junta Ikeda"]
+[ECO "B43"]
+[WhiteElo "2586"]
+[BlackElo "2262"]
+[PlyCount "77"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "96079"]
+[ChessgamesGameID "1627638"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nf6
+7. O-O Bc5 8. Nb3 Be7 9. a4 O-O 10. a5 d6 11. Be3 Nbd7 12. f4
+g6 13. Qe2 Re8 14. Na4 Bf8 15. c4 Nh5 16. Nb6 Nxb6 17. Bxb6
+Qe7 18. e5 Bh6 19. g3 f6 20. exd6 Qxd6 21. Rad1 Qe7 22. Be4
+Ng7 23. Nc5 Rb8 24. b4 g5 25. Rd3 Kh8 26. Kh1 Qf7 27. fxg5
+Bxg5 28. Bg2 e5 29. Ne4 Bf5 30. Nxg5 fxg5 31. Rd5 Qe7 32. Bc5
+Qe6 33. Rd6 Qc8 34. Rf6 Qd7 35. Bd5 Bg6 36. Qe3 Nh5 37. Rd6
+Qg4 38. Qf3 Qh3 {time} 39. Qg2 0-1
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.07"]
+[EventDate "2011.01.02"]
+[Round "6.5"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Gustavo Salaberry"]
+[ECO "E32"]
+[WhiteElo "2586"]
+[BlackElo "2254"]
+[PlyCount "75"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "130799"]
+[ChessgamesGameID "1627650"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3
+b5 7. cxb5 c6 8. a4 cxb5 9. axb5 Qb6 10. e3 Bb7 11. Qa5 Rc8
+12. Ne2 Ne4 13. f3 Nd6 14. Nc3 Qxa5 15. Rxa5 Nc4 16. Ra4 Nb6
+17. Ra2 d6 18. Bd2 Nc4 19. Bxc4 Rxc4 20. Ke2 Nd7 21. Rha1 Rc7
+22. e4 Bc8 23. Bf4 e5 24. dxe5 dxe5 25. Be3 Rb7 26. Nd5 Nf6
+27. Nb6 Rab8 28. Rxa7 Rxa7 29. Rxa7 Be6 30. Kd3 h5 31. Kc3 Ne8
+32. Kb4 Rd8 33. Ra8 Rxa8 34. Nxa8 f5 35. exf5 Bxf5 36. Kc5 Bc8
+37. Kc6 Be6 38. Nc7 1-0
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.09"]
+[EventDate "2011.01.02"]
+[Round "7.4"]
+[Result "0-1"]
+[White "Michael Morris"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A02"]
+[WhiteElo "2112"]
+[BlackElo "2586"]
+[PlyCount "84"]
+[ChessgamesWhiteID "130806"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1627656"]
+
+1. f4 g6 2. Nf3 d5 3. e3 Bg7 4. d4 Nh6 5. Bd3 c5 6. c3 O-O
+7. O-O Bf5 8. Qe2 Nd7 9. Nbd2 Rc8 10. Bxf5 Nxf5 11. dxc5 Nxc5
+12. e4 dxe4 13. Nxe4 Nxe4 14. Qxe4 Qb6+ 15. Kh1 Rfd8 16. Qc2
+Rd5 17. Bd2 Rcd8 18. Rae1 h5 19. Bc1 Qc6 20. Qe2 b5 21. Rd1 a5
+22. a3 a4 23. Rxd5 Qxd5 24. Qf2 Bf6 25. Kg1 e6 26. Re1 Be7
+27. Qe2 Bc5+ 28. Kh1 h4 29. Qe5 Qc6 30. Qe4 Qxe4 31. Rxe4 Kg7
+32. Re1 Rh8 33. Ng5 Rd8 34. g4 hxg3 35. hxg3 Bf2 36. Re5 Bxg3
+37. Rxb5 Rd1+ 38. Kg2 Rxc1 39. Rb7 Rc2+ 40. Kf3 Rf2+ 41. Kg4
+Rxf4+ 42. Kh3 Rh4+ 0-1
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.10"]
+[EventDate "2011.01.02"]
+[Round "8.2"]
+[Result "0-1"]
+[White "George Xie Wendi"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D17"]
+[WhiteElo "2478"]
+[BlackElo "2586"]
+[PlyCount "120"]
+[ChessgamesWhiteID "98394"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1627663"]
+
+1. Nf3 d5 2. d4 c6 3. c4 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 e6
+7. Nxf5 exf5 8. a5 Bb4 9. Qa4 Nd5 10. Bd2 O-O 11. e3 f4 12. e4
+Qe7 13. e5 {White offered a draw.} b5 14. axb6 Nxb6 15. Qc2 c5
+16. dxc5 Qxe5+ 17. Be2 Bxc5 18. Qe4 N8d7 19. Bf3 Qxe4+
+20. Bxe4 Rad8 21. Bxf4 Nf6 22. O-O Nxe4 23. Nxe4 Bd4 24. Nc3
+Nd5 25. Bd2 Nf6 26. Ra4 Ng4 27. Bf4 Rfe8 28. Bg3 Ne5 29. Bxe5
+Bxe5 30. Rxc4 Rb8 31. Re4 f5 32. Re2 Bf6 33. Rc2 Rb3 34. g3
+Reb8 35. Nd5 Bxb2 36. Ne7+ Kf8 37. Nc6 Rc8 38. Rb1 a6 39. Rc4
+Rb5 40. Rd1 Bf6 41. Kg2 Rc7 42. Rd2 g6 43. Ra2 Rb6 44. Nb8 Ra7
+45. Rc6 Rxc6 46. Nxc6 Ra8 47. Ra5 Be7 48. Nxe7 Kxe7 49. h4 Kd6
+50. h5 Kc6 51. hxg6 hxg6 52. g4 Kb6 53. Re5 fxg4 54. Kg3 a5
+55. Kxg4 a4 56. Re2 a3 57. Ra2 Kc5 58. Kg5 Ra6 59. f4 Kc4
+60. Kg4 Ra5 0-1
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.11"]
+[EventDate "2011.01.02"]
+[Round "9.1"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Gregory J Canfell"]
+[ECO "B83"]
+[WhiteElo "2586"]
+[BlackElo "2297"]
+[PlyCount "52"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "13853"]
+[ChessgamesGameID "1627670"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Be2 Be7
+7. O-O O-O 8. f4 Nc6 9. Kh1 a6 10. Be3 Qc7 11. a4 Rd8 12. Bd3
+Nxd4 13. Bxd4 e5 14. Bg1 exf4 15. a5 Re8 16. Rxf4 Be6 17. Nd5
+Bxd5 18. exd5 g6 19. Bb6 Qc8 20. Qf3 Nd7 21. Bd4 Rf8 22. Rf1
+Qe8 23. Re1 Qd8 24. Rf1 Qe8 25. Re1 Qd8 26. Rf1 Qe8 1/2-1/2
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.12"]
+[EventDate "2011.01.02"]
+[Round "10.1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Vladimir Smirnov"]
+[ECO "D43"]
+[WhiteElo "2586"]
+[BlackElo "2382"]
+[PlyCount "93"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "58837"]
+[ChessgamesGameID "1627679"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. Bg5 Be7 6. e3 Nbd7
+7. Qc2 O-O 8. O-O-O Qa5 9. Kb1 Bb4 10. Nd2 Bxc3 11. Qxc3 Qxc3
+12. bxc3 dxc4 13. Bxc4 e5 14. Kb2 Re8 15. Bb3 h6 16. Bh4 exd4
+17. cxd4 g5 18. Bg3 Nb6 19. h4 g4 20. Be5 Kg7 21. f4 Bf5
+22. e4 Be6 23. Bc2 h5 24. f5 Bc4 25. Rhe1 Bb5 26. Bxf6+ Kxf6
+27. e5+ Kg7 28. Ne4 Rad8 29. Nc5 Nc4+ 30. Kc3 b6 31. Ne4 c5
+32. Nf6 cxd4+ 33. Rxd4 Nxe5 34. Nxh5+ Kh6 35. Rxd8 Rxd8
+36. Rxe5 Kxh5 37. Rxb5 Kxh4 38. Be4 Kg3 39. Rd5 Rc8+ 40. Kd4
+f6 41. Rd6 Rf8 42. a4 Kf4 43. Rd7 Re8 44. Bc6 Re2 45. Rxa7
+Kxf5 46. Rg7 Kf4 47. Rxg4+ 1-0
+
+
+[Event "Australian Open"]
+[Site "NSLCC, Cammeray NSW"]
+[Date "2011.01.13"]
+[EventDate "2011.01.02"]
+[Round "11.1"]
+[Result "1/2-1/2"]
+[White "Moulthun Ly"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C69"]
+[WhiteElo "2321"]
+[BlackElo "2586"]
+[PlyCount "32"]
+[ChessgamesWhiteID "96001"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1627689"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4
+7. dxe5 Qxd1 8. Rxd1 fxe5 9. Nbd2 O-O-O 10. Re1 Bd6 11. h3 Bh5
+12. g4 Bf7 13. Ng5 Bg6 14. Ngf3 Bf7 15. Ng5 Bg6 16. Ngf3 Bf7
+1/2-1/2
+
+
+[Event "World Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2011.08.28"]
+[EventDate "2011.08.28"]
+[Round "1.1"]
+[Result "1-0"]
+[White "Evgeny Tomashevsky"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E04"]
+[WhiteElo "2707"]
+[BlackElo "2570"]
+[PlyCount "85"]
+[ChessgamesWhiteID "49039"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "74901"]
+[ChessgamesGameID "1632961"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 a6 6. O-O Nc6
+7. e3 Bd7 8. Qe2 b5 9. b3 cxb3 10. axb3 Be7 11. Bb2 O-O
+12. Rc1 Nb4 13. Ne5 Rb8 14. Nd2 Rb6 15. Ndf3 Bc8 16. Ne1 Nd7
+17. N5d3 Nxd3 18. Nxd3 Bd6 19. e4 Bb7 20. Nc5 Bc8 21. Rc2 c6
+22. Qe3 Be7 23. Nd3 Bb7 24. Qe1 b4 25. Qe3 Rb5 26. h4 Ra5
+27. Rd1 Qb6 28. Qe2 Rd8 29. Rc4 h6 30. Qc2 Bf8 31. Rc1 Ra2
+32. Qb1 Ra5 33. e5 Rc8 34. Qc2 Qb5 35. Qb1 Nb6 36. Rc5 Bxc5
+37. Rxc5 Nd7 38. Rxb5 Rxb5 39. Qc2 a5 40. Nc5 Nxc5 41. dxc5
+Ba8 42. Bf1 Rbb8 43. Qe4 1-0
+
+
+[Event "World Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2011.08.29"]
+[EventDate "2011.08.28"]
+[Round "1.2"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Evgeny Tomashevsky"]
+[ECO "C89"]
+[WhiteElo "2570"]
+[BlackElo "2707"]
+[PlyCount "68"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "49039"]
+[ChessgamesTournamentID "74901"]
+[ChessgamesGameID "1633026"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6
+12. Re1 Bd6 13. g3 Re8 14. d4 Ra7 15. Rxe8+ Qxe8 16. Nd2 Re7
+17. Nf3 f6 18. c4 bxc4 19. Bxc4 Bg4 20. Bf1 Bb4 21. Qb3 Bxf3
+22. Qxf3 Re1 23. Qd3 Qg6 24. Qc4 Qe4 25. a3 Bc5 26. Ra2 Qb1
+27. Bd2 Rd1 28. Qe2 Be7 29. Kg2 Kf8 30. Qxa6 Rxd2 31. Qc8+ Kf7
+32. Bc4 Qe4+ 33. Kh3 Rxf2 34. Qxc6 Qf5+ 0-1
+
+
+[Event "Oceania Zonal Tt"]
+[Site "Rotorua NZL"]
+[Date "2011.01.26"]
+[EventDate "?"]
+[Round "2"]
+[Result "0-1"]
+[White "Stephen G Lukey"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "110"]
+[ChessgamesWhiteID "58806"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1795338"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Bg2
+Bxd2+ 7. Nbxd2 d6 8. O-O a5 9. e4 e5 10. d5 Nb8 11. Ne1 h5
+12. h3 h4 13. g4 Nbd7 14. Nd3 b6 15. Qc2 Nc5 16. b3 O-O
+17. Nb2 Nh7 18. a3 g6 19. b4 Nd7 20. Nd3 Ng5 21. c5 bxc5
+22. bxc5 Ba6 23. c6 Bxd3 24. Qxd3 Nc5 25. Qe3 a4 26. Rab1 f6
+27. Rb4 Rae8 28. Rfb1 Kg7 29. Kh1 Rf7 30. Rb7 Qd8 31. R1b5
+Ref8 32. Nc4 Re7 33. Rxc5 dxc5 34. Qxc5 Nf7 35. Qb4 Nd6
+36. Nxd6 cxd6 37. Rxe7+ Qxe7 38. Qb6 Rf7 39. Bf1 Qa7 40. Qxa7
+Rxa7 41. Kg2 Ra5 42. Kf3 Rc5 43. Ke3 Kf7 44. Kd2 Ke7 45. Bd3
+Kd8 46. Bc2 Kc7 47. Bd3 Kb6 48. Be2 f5 49. f3 fxe4 50. fxe4 g5
+51. Bd3 Ra5 52. Ke3 Ra8 53. Be2 Kc5 54. Bd1 Kc4 55. Kd2 Kd4
+0-1
+
+
+[Event "13th BCC Open"]
+[Site "Pattaya THA"]
+[Date "2013.04.20"]
+[EventDate "2013.04.14"]
+[Round "8.2"]
+[Result "0-1"]
+[White "Nigel Short"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A06"]
+[WhiteElo "2697"]
+[BlackElo "2537"]
+[PlyCount "129"]
+[ChessgamesWhiteID "12181"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1957192"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. d3 Bg4 5. Nbd2 Nbd7 6. h3 Bh5
+7. g4 Bg6 8. Nh4 e5 9. e3 Bd6 10. Qe2 O-O 11. Nxg6 fxg6 12. h4
+Qe7 13. g5 Nh5 14. c4 e4 15. dxe4 d4 16. exd4 Nf4 17. Qf1 c5
+18. d5 Ne5 19. Kd1 b5 20. cxb5 c4 21. f3 Rac8 22. Bh3 Rc7
+23. Nb1 Nfd3 24. Be6+ Kh8 25. Rh3 Bc5 26. Nc3 Nf2+ 27. Ke2
+Nxh3 28. Qxh3 Rxf3 29. Qxf3 Nxf3 30. Kxf3 Qf8+ 31. Bf4 Bd6
+32. Ne2 c3 33. bxc3 Bxf4 34. Nxf4 Rxc3+ 35. Kg4 Qa3 36. Rg1
+Re3 37. e5 Rxe5 38. Rg3 Qb4 39. Rb3 Qc4 40. Kg3 Qc5 41. Rf3
+Re1 42. Kh3 Re3 43. Rxe3 Qxe3+ 44. Kg4 h5+ 45. gxh6 gxh6
+46. Nxg6+ Kg7 47. Ne7 h5+ 48. Kf5 Qf3+ 49. Ke5 Qg3+ 50. Kf5
+Qxh4 51. Nc6 Qa4 52. Ke5 Qxb5 53. Kd6 h4 54. Kc7 Qb6+ 55. Kc8
+Kf6 56. a4 a5 57. Kd7 Qe3 58. Kc7 Qg3+ 59. Kb6 h3 60. Bxh3
+Qxh3 61. Kxa5 Qb3 62. d6 Qc3+ 63. Kb6 Ke6 64. Nd8+ Kd7 65. Nb7
+0-1
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.02"]
+[EventDate "?"]
+[Round "1"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Issa Ali Shamas Salim"]
+[ECO "C78"]
+[WhiteElo "2550"]
+[BlackElo "1932"]
+[PlyCount "111"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "154374"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1829776"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7
+7. Re1 d6 8. c3 Na5 9. Bc2 c5 10. d4 Qc7 11. Nbd2 cxd4
+12. cxd4 O-O 13. b3 Bd7 14. Bb2 Nc6 15. Rc1 Rac8 16. d5 Nb8
+17. Nf1 Rfe8 18. h3 Qb6 19. b4 a5 20. a3 Na6 21. Qd2 axb4
+22. axb4 Rc4 23. Bc3 Rec8 24. Bd3 R4c7 25. Ng3 h6 26. Qb2 Bf8
+27. Bd2 Rxc1 28. Bxc1 Qb7 29. Be3 Ne8 30. Ra1 Nec7 31. Nd2 Be7
+32. f4 exf4 33. Nh5 f6 34. Nxf4 Bd8 35. Nf3 Ne8 36. Nd4 Bb6
+37. Kh2 Nac7 38. Re1 Ra8 39. Nf5 Qa7 40. Qf2 Bxe3 41. Rxe3 Kf8
+42. Qf3 Qb6 43. Ng6+ Kf7 44. Nfe7 Ra1 45. e5 dxe5 46. Nxe5+
+Kxe7 47. Nc4+ Qxe3 48. Qxe3+ Kd8 49. Nb6 Nd6 50. Qc5 Nce8
+51. Nxd7 Kxd7 52. Bxb5+ Nxb5 53. Qxb5+ Ke7 54. Qc5+ Kd7
+55. Qc6+ Kd8 56. b5 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.03"]
+[EventDate "2016.09.02"]
+[Round "2.28"]
+[Result "1-0"]
+[White "Mladen Palac"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C65"]
+[WhiteElo "2623"]
+[BlackElo "2550"]
+[PlyCount "76"]
+[ChessgamesWhiteID "19757"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1830359"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. c3
+Bd6 7. h3 O-O 8. Bg5 Be7 9. O-O Nd7 10. Be3 c5 11. d4 exd4
+12. cxd4 cxd4 13. Nxd4 Ne5 14. f4 Nc4 15. Bf2 c5 16. Qc2 Ne5
+17. Nb3 Nd3 18. Rd1 c4 19. Nc1 Nb4 20. Qe2 Qc7 21. a3 Na6
+22. f5 Bf6 23. Nc3 Bxc3 24. bxc3 Re8 25. Qg4 Nc5 26. Bxc5
+Qxc5+ 27. Rd4 h5 28. Qh4 Bd7 29. Ra2 Bc6 30. Rf2 Qe5 31. Rf4
+f6 32. Ne2 Rad8 33. Qxh5 Rxd4 34. cxd4 Qd6 35. d5 Bd7 36. Rh4
+c3 37. Qg6 Kf8 38. Rh7 Ke7 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.04"]
+[EventDate "2016.09.02"]
+[Round "3.33"]
+[Result "1/2-1/2"]
+[White "Orlando Husbands"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C11"]
+[WhiteElo "2257"]
+[BlackElo "2550"]
+[PlyCount "66"]
+[ChessgamesWhiteID "150732"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1831040"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 Be7 8. Qd2 O-O 9. Be2 b6 10. O-O f5 11. Nd1 cxd4
+12. Nxd4 Nxd4 13. Bxd4 Nc5 14. Ne3 g5 15. Rad1 gxf4 16. Rxf4
+Bg5 17. Rf3 Bb7 18. Qe1 Qe7 19. Rh3 Kh8 20. Nf1 Ne4 21. Ng3
+Rg8 22. Nh5 Rg6 23. Bf3 Rh6 24. Rd3 Qf7 25. Qd1 Rg8 26. Ra3
+Bc6 27. Bxe4 dxe4 28. Nf6 Rd8 29. Rxh6 Bxh6 30. Rh3 Qg6
+31. Rg3 Qf7 32. Rh3 Qg6 33. Rg3 Qf7 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.06"]
+[EventDate "2016.09.02"]
+[Round "5.41"]
+[Result "0-1"]
+[White "Llambi Pasko"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A70"]
+[WhiteElo "2316"]
+[BlackElo "2550"]
+[PlyCount "68"]
+[ChessgamesWhiteID "124161"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1832241"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6
+7. e4 a6 8. a4 Bg4 9. Be2 Bxf3 10. Bxf3 Nbd7 11. O-O Bg7
+12. Be2 O-O 13. Qc2 Re8 14. Re1 Rb8 15. Bf4 Qc7 16. Bg3 c4
+17. f4 b5 18. axb5 axb5 19. Bf3 b4 20. Na4 Nh5 21. Bxh5 gxh5
+22. Bf2 Nf6 23. h3 Ra8 24. Rac1 Nd7 25. b3 c3 26. Ra1 Re7
+27. Re2 f5 28. e5 dxe5 29. Qxf5 Rf8 30. Qd3 e4 31. Rxe4 Rxe4
+32. Qxe4 Qxf4 33. Qe2 c2 34. Be3 Bd4 0-1
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.08"]
+[EventDate "2016.09.02"]
+[Round "6.31"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Rafael Duailibe Leitao"]
+[ECO "E21"]
+[WhiteElo "2550"]
+[BlackElo "2616"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "43109"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1832857"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 h6 6. Bh4 c5
+7. Rc1 cxd4 8. Nxd4 b6 9. Nb5 Nc6 10. e3 Bb7 11. Nd6 Bxd6
+12. Qxd6 g5 13. Bg3 Ne7 14. f3 Nf5 15. Qd2 Nxg3 16. hxg3 Kg7
+17. Kf2 d5 18. cxd5 Bxd5 19. e4 Bb7 20. Qxd8 Rfxd8 21. Ke3
+Rac8 22. Be2 Ne8 23. Nb5 a6 24. Nd4 Nd6 25. Bd3 Rxc1 26. Rxc1
+Rc8 27. Rxc8 Nxc8 28. b4 Kf8 29. Ne2 Ke7 30. Kd4 Na7 31. Kc3
+Nc6 32. b5 axb5 0-1
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.08"]
+[EventDate "2016.09.02"]
+[Round "6.31"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Rafael Duailibe Leitao"]
+[ECO "E21"]
+[WhiteElo "2550"]
+[BlackElo "2616"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "43109"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1833251"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 h6 6. Bh4 c5
+7. Rc1 cxd4 8. Nxd4 b6 9. Nb5 Nc6 10. e3 Bb7 11. Nd6 Bxd6
+12. Qxd6 g5 13. Bg3 Ne7 14. f3 Nf5 15. Qd2 Nxg3 16. hxg3 Kg7
+17. Kf2 d5 18. cxd5 Bxd5 19. e4 Bb7 20. Qxd8 Rfxd8 21. Ke3
+Rac8 22. Be2 Ne8 23. Nb5 a6 24. Nd4 Nd6 25. Bd3 Rxc1 26. Rxc1
+Rc8 27. Rxc8 Nxc8 28. b4 Kf8 29. Ne2 Ke7 30. Kd4 Na7 31. Kc3
+Nc6 32. b5 axb5 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.09"]
+[EventDate "2016.09.02"]
+[Round "7.16"]
+[Result "1-0"]
+[White "Jan-Krzysztof Duda"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C18"]
+[WhiteElo "2675"]
+[BlackElo "2550"]
+[PlyCount "111"]
+[ChessgamesWhiteID "126603"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1833688"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7
+7. Qg4 cxd4 8. Qxg7 Rg8 9. Qxh7 Qc7 10. Ne2 Nbc6 11. f4 dxc3
+12. Be3 Bd7 13. Qd3 O-O-O 14. Nd4 Nxd4 15. Bxd4 Nf5 16. O-O-O
+Nxd4 17. Qxd4 Kb8 18. h4 Rg4 19. Rd3 Rc8 20. g3 Rgg8 21. h5
+Bb5 22. Re3 Qa5 23. Qb4 Qxb4 24. axb4 d4 25. Re1 Bxf1
+26. Rexf1 Rxg3 27. Rd1 Rd8 28. Kb1 Kc8 29. h6 Rgg8 30. h7 Rh8
+31. Ka2 b5 32. Kb3 Rdf8 33. Rxd4 f6 34. Rh6 fxe5 35. fxe5 Rf7
+36. Rxe6 Rhxh7 37. Rd5 Rb7 38. Rc6+ Rhc7 39. Rcd6 Re7 40. Kxc3
+Rbc7+ 41. Kb3 Rb7 42. e6 Rb6 43. Rxb6 axb6 44. Re5 Kd8 45. c3
+Kc7 46. Kc2 Kd6 47. Rxb5 Rb7 48. Kd3 Kxe6 49. Rh5 Kd6 50. Rh6+
+Kd5 51. c4+ Ke5 52. Kc3 b5 53. cxb5 Kd5 54. b6 Rd7 55. Kb3 Rd6
+56. b7 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.11"]
+[EventDate "2016.09.02"]
+[Round "9.20"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Rinat Jumabayev"]
+[ECO "C95"]
+[WhiteElo "2550"]
+[BlackElo "2604"]
+[PlyCount "191"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "124518"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1835062"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 d6 8. c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2
+Re8 13. a4 Bf8 14. Bd3 c6 15. b3 g6 16. Bb2 Rc8 17. Bf1 exd4
+18. cxd4 d5 19. e5 Nh5 20. g3 b4 21. Bg2 c5 22. dxc5 Nxc5
+23. Nf1 Ne4 24. Ne3 f5 25. exf6 Nhxf6 26. Bd4 Qd6 27. Ng4 Nxg4
+28. hxg4 Rcd8 29. a5 Bh6 30. Qd3 Re7 31. Re2 Bc8 32. g5 Bf8
+33. Re3 Bf5 34. Qf1 Bd7 35. Bh3 Bb5 36. Qe1 Rde8 37. Kg2 Qd8
+38. Bb6 Qd6 39. Rd1 Nc3 40. Rd2 Bc6 41. Bd4 Rxe3 42. fxe3 Ne4
+43. Rc2 Bd7 44. Bxd7 Qxd7 45. Qh1 Bd6 46. Qh3 Qf7 47. Rc8 Nxg3
+48. Bc5 Nf5 49. Rxe8+ Qxe8 50. Bxd6 Nxd6 51. Qg4 Qe4 52. Qd7
+Nf7 53. Qc8+ Kg7 54. Kf2 Qd3 55. Qc6 Qf5 56. Qc7 Qe6 57. Ke2
+Qg4 58. Kf2 Qf5 59. Ke2 Qg4 60. Kf2 Qe6 61. Ke2 h5 62. gxh6+
+Kxh6 63. Nd4 Qg4+ 64. Kd2 Qg2+ 65. Ke1 Qg1+ 66. Ke2 Qg2+
+67. Ke1 Ng5 68. Qf4 Kh5 69. Qf2 Qh1+ 70. Qf1 Qxf1+ 71. Kxf1
+Ne4 72. Nc6 Nd2+ 73. Ke2 Nxb3 74. Nxb4 Nxa5 75. Nxa6 Nc6
+76. Nc7 Nb4 77. e4 d4 78. e5 g5 79. e6 Nc6 80. Nd5 Kg6 81. Kd3
+Kg7 82. Ke4 Kf8 83. Kd3 Ke8 84. Ke4 Kd8 85. Kd3 g4 86. e7+ Kd7
+87. e8=Q+ Kxe8 88. Nf6+ Ke7 89. Nxg4 Kd6 90. Ne3 Kc5 91. Nc2
+Ne5+ 92. Kd2 Nc4+ 93. Kd3 Nb2+ 94. Kd2 d3 95. Ne1 Kd4 96. Nxd3
+1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.12"]
+[EventDate "2016.09.02"]
+[Round "10.15"]
+[Result "1-0"]
+[White "Sebastien Maze"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B51"]
+[WhiteElo "2617"]
+[BlackElo "2550"]
+[PlyCount "141"]
+[ChessgamesWhiteID "51339"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1835701"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c3 Nf6 5. Qe2 a6 6. Ba4 e5
+7. O-O Be7 8. d4 b5 9. Bc2 O-O 10. Rd1 Qc7 11. d5 Re8 12. a4
+Rb8 13. b3 Nf8 14. Nbd2 Ng6 15. g3 Bd7 16. Nf1 Bf8 17. Bg5 Be7
+18. Ra2 h6 19. Bd2 Rec8 20. axb5 axb5 21. Rda1 Qd8 22. b4 Ra8
+23. bxc5 dxc5 24. Qd1 c4 25. Ne1 Rxa2 26. Rxa2 Ra8 27. Qa1
+Rxa2 28. Qxa2 Bc5 29. Be3 Qb6 30. Bxc5 Qxc5 31. Ne3 Ne8
+32. Kf1 Nd6 33. Qa5 Nf8 34. Nf3 f6 35. Nd2 Kf7 36. Bd1 Ke7
+37. Be2 Nb7 38. Qa8 Nd6 39. Nc2 Bh3+ 40. Ke1 Bc8 41. Nb4 Bb7
+42. Qb8 Qc8 43. Qa7 Nd7 44. Bg4 Qc5 45. Qa3 g6 46. Bxd7 Kxd7
+47. Qc1 f5 48. Qb1 Qa7 49. Qc1 fxe4 50. Nf1 g5 51. Ne3 h5
+52. h3 Kc7 53. Nec2 e3 54. Nxe3 Bc8 55. Nc6 Qa2 56. Nb4 Qa7
+57. Nc6 Qa2 58. Nd1 Bxh3 59. Qxg5 Nb7 60. Qxh5 Nc5 61. Qxe5+
+Kb6 62. Qb8+ Nb7 63. Nd8 Qa7 64. Qxb7+ Qxb7 65. Nxb7 Kxb7
+66. Ne3 Kc7 67. g4 Kd6 68. f3 Ke5 69. Kf2 b4 70. cxb4 c3
+71. Ke2 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Baku AZE"]
+[Date "2016.09.13"]
+[EventDate "2016.09.02"]
+[Round "11.21"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "John Paul Gomez"]
+[ECO "D17"]
+[WhiteElo "2550"]
+[BlackElo "2492"]
+[PlyCount "61"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "56574"]
+[ChessgamesTournamentID "88008"]
+[ChessgamesGameID "1835799"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7
+7. Nxc4 Nb6 8. Ne5 a5 9. h4 h5 10. f3 Nfd7 11. e4 Bh7 12. Nd3
+e6 13. Be3 Nc4 14. Bf2 e5 15. d5 Be7 16. g3 O-O 17. Bh3 Nf6
+18. dxc6 bxc6 19. b3 Nb6 20. Nxe5 Bb4 21. Qxd8 Rfxd8 22. Rc1
+Nbd5 23. exd5 Nxd5 24. Nxc6 Re8+ 25. Kd2 Nxc3 26. Rxc3 Bxc3+
+27. Kxc3 Re2 28. Bc5 Rc2+ 29. Kd4 Rf2 30. Re1 Rxf3 31. Bg2 1-0
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.13"]
+[EventDate "2016.12.07"]
+[Round "6.5"]
+[Result "1/2-1/2"]
+[White "Yan Fang"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C53"]
+[WhiteElo "2429"]
+[BlackElo "2544"]
+[PlyCount "46"]
+[ChessgamesWhiteID "143240"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1851564"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 d6 6. O-O a6
+7. a4 Ba7 8. Na3 O-O 9. Bg5 Be6 10. b4 h6 11. Bh4 Re8 12. b5
+Nb8 13. Nd2 c6 14. bxc6 bxc6 15. Bxe6 Rxe6 16. Nc2 Nbd7 17. a5
+Qc7 18. Nb4 Bc5 19. Qa4 Bxb4 20. cxb4 Nh5 21. Bg3 Ree8
+22. Rfc1 Rec8 23. Nc4 Rab8 1/2-1/2
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.14"]
+[EventDate "2016.12.07"]
+[Round "7.6"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Xiongjian Peng"]
+[ECO "A29"]
+[WhiteElo "2544"]
+[BlackElo "2362"]
+[PlyCount "88"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "156956"]
+[ChessgamesGameID "1851577"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6
+7. d3 a5 8. e3 Bb6 9. b3 h6 10. Bb2 Bf5 11. d4 exd4 12. Nd5
+Nxd5 13. cxd5 Nb4 14. Nxd4 Bg6 15. Qd2 Re8 16. Bc3 Nd3
+17. Rad1 Nc5 18. f3 Qg5 19. e4 Qxd2 20. Rxd2 f5 21. exf5 Bxf5
+22. Rfd1 Re3 23. Ba1 Bd7 24. Bf1 a4 25. b4 Na6 26. b5 Nc5
+27. Kg2 Rae8 28. Nc2 R3e7 29. Bc3 Kh8 30. g4 Rf8 31. Bd4 Ref7
+32. Ne3 Ba5 33. Rc2 Rxf3 34. Nc4 Bxg4 35. Be2 Bb6 36. Nxb6
+cxb6 37. Bg1 Bh3+ 38. Kh1 Bf5 39. Rxc5 Rf4 40. Be3 Be4+
+41. Kg1 bxc5 42. Bxf4 Rxf4 43. b6 Rf5 44. Bc4 Kg8 0-1
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.15"]
+[EventDate "2016.12.07"]
+[Round "8.12"]
+[Result "1/2-1/2"]
+[White "Chang Liu"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B30"]
+[WhiteElo "2334"]
+[BlackElo "2544"]
+[PlyCount "115"]
+[ChessgamesWhiteID "134840"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1851592"]
+
+1. e4 c5 2. Nf3 Nc6 3. g3 Nf6 4. Qe2 d5 5. exd5 Nxd5 6. Bg2 g6
+7. O-O Bg7 8. Nc3 Nc7 9. d3 O-O 10. Be3 b6 11. Qd2 Bb7 12. Bh6
+Ne6 13. Bxg7 Kxg7 14. Rae1 Rb8 15. a3 Ned4 16. Nxd4 Nxd4
+17. f4 Bxg2 18. Qxg2 Qd7 19. Rf2 Rfd8 20. Qe4 e6 21. a4 Rbc8
+22. b3 a6 23. g4 f5 24. Qe5+ Kf7 25. h3 Qd6 26. Qxd6 Rxd6
+27. Kg2 h5 28. Nd1 hxg4 29. hxg4 Rdd8 30. Ne3 b5 31. axb5 axb5
+32. Ra1 Ra8 33. Rff1 Kf6 34. Kg3 g5 35. gxf5 exf5 36. Rxa8
+Rxa8 37. Nd5+ Kg6 38. c3 Ne2+ 39. Kf3 Nxf4 40. Nxf4+ gxf4
+41. Kxf4 Rd8 42. Rf3 b4 43. cxb4 Rd4+ 44. Ke5 Rxb4 45. Kd5
+Rxb3 46. Kxc5 Kg5 47. Kc4 Ra3 48. Rf1 f4 49. d4 f3 50. d5 Kf4
+51. d6 Ra2 52. Kd5 f2 53. d7 Ke3 54. Ke6 Rd2 55. Ke7 Ke2
+56. Rxf2+ Kxf2 57. d8=Q Rxd8 58. Kxd8 1/2-1/2
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.16"]
+[EventDate "2016.12.07"]
+[Round "9.12"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Yuanhe Zhao"]
+[ECO "C42"]
+[WhiteElo "2544"]
+[BlackElo "2351"]
+[PlyCount "57"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "153852"]
+[ChessgamesGameID "1851601"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. c4 Nc6 6. Nc3
+Nxc3 7. dxc3 Be7 8. Bd3 Be6 9. O-O O-O 10. Bf4 Bf6 11. Re1 Re8
+12. Qc2 h6 13. h3 Re7 14. Nd2 Ne5 15. Bf1 Ng6 16. Bg3 Be5
+17. Bxe5 Nxe5 18. f4 Nc6 19. Bd3 Bd7 20. Nf3 Rxe1+ 21. Rxe1
+Qf6 22. Qd2 Re8 23. Rxe8+ Bxe8 24. Qe3 Qe7 25. Kf2 a5 26. Nd4
+Qxe3+ 27. Kxe3 Nxd4 28. cxd4 b6 29. f5 1/2-1/2
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.07"]
+[EventDate "2016.12.07"]
+[Round "1.9"]
+[Result "0-1"]
+[White "Tianlu Gu"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D63"]
+[WhiteElo "2251"]
+[BlackElo "2544"]
+[PlyCount "106"]
+[ChessgamesWhiteID "151565"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1852210"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 d5 4. Bd3 Nc6 5. O-O Bg4 6. Be2 e6
+7. Nbd2 Rc8 8. b3 cxd4 9. exd4 Qa5 10. a3 Be7 11. Bb2 O-O
+12. Ne5 Bxe2 13. Qxe2 Nxe5 14. dxe5 Nd7 15. Nf3 Qa6 16. Qxa6
+bxa6 17. Rac1 a5 18. a4 Bb4 19. Bd4 Rc7 20. c3 Bc5 21. b4 Bb6
+22. h3 Rfc8 23. Rb1 h6 24. Rfd1 Kf8 25. Kf1 Ke7 26. Rb3 Bxd4
+27. cxd4 Rc1 28. Rxc1 Rxc1+ 29. Ke2 Ra1 30. bxa5 Rxa4 31. Rb5
+Kd8 32. Kd3 Kc7 33. Nd2 a6 34. Rb3 Rxa5 35. Kc2 Ra2+ 36. Kc1
+Ra4 37. Rg3 Rxd4 38. Rxg7 Nxe5 39. Nf3 Rc4+ 40. Kd1 Kd6
+41. Nxe5 Kxe5 42. Rxf7 Rf4 43. Rh7 Rxf2 44. g4 Rf6 45. Ke2 Kf4
+46. Ra7 e5 47. Rd7 Ke4 48. Rg7 d4 49. g5 d3+ 50. Ke1 hxg5
+51. Rxg5 Rf3 52. Rh5 Kd4 53. Rh8 Ke3 0-1
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.08"]
+[EventDate "2016.12.07"]
+[Round "2.7"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Thi Mai Hung Nguyen"]
+[ECO "C11"]
+[WhiteElo "2544"]
+[BlackElo "2357"]
+[PlyCount "69"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "120295"]
+[ChessgamesGameID "1852220"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 Be7 8. Qd2 O-O 9. dxc5 Bxc5 10. Bxc5 Nxc5 11. O-O-O a6
+12. Qe3 Qb6 13. Kb1 Na4 14. Qxb6 Nxb6 15. Bd3 Bd7 16. g3 Rad8
+17. Rhe1 h6 18. Ne2 Nb4 19. Ned4 Nxd3 20. cxd3 Rc8 21. h4 Rfe8
+22. g4 Na4 23. f5 exf5 24. gxf5 Nc5 25. Re3 Rc7 26. h5 Kh7
+27. Rg1 Rg8 28. Nh2 Be8 29. Reg3 f6 30. exf6 Rf7 31. fxg7
+Rgxg7 32. Rg6 Rd7 33. Ng4 Rxg6 34. fxg6+ Kh8 35. Nf6 1-0
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.09"]
+[EventDate "2016.12.07"]
+[Round "3.4"]
+[Result "1/2-1/2"]
+[White "Zhamsaran Tsydypov"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B47"]
+[WhiteElo "2460"]
+[BlackElo "2544"]
+[PlyCount "192"]
+[ChessgamesWhiteID "141393"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1852229"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6
+7. O-O b5 8. Be3 Bb7 9. Re1 Nf6 10. Nb3 d6 11. a3 Ne5 12. Qd4
+Be7 13. f3 O-O 14. Qb6 Qc8 15. Na5 Bd8 16. Qxb7 Bxa5 17. Qxc8
+Rfxc8 18. Bd2 Nc4 19. Bxc4 Rxc4 20. Rad1 Rac8 21. Kf1 h6
+22. Re2 Bb6 23. Be1 Ne8 24. Rd3 Kf8 25. Red2 Ba5 26. Re2 Bb6
+27. Bd2 Ke7 28. Ke1 Nf6 29. Kd1 Rd4 30. Na2 Nd7 31. Bc3 Rxd3+
+32. cxd3 Nc5 33. Bxg7 Nxd3 34. Rd2 Rg8 35. Bxh6 Nf2+ 36. Kc2
+Rxg2 37. Bf4 Rg8 38. Bxd6+ Kf6 39. Bg3 Nh1 40. Bf4 Rh8 41. Nb4
+Rh3 42. Rd6 Bc5 43. Nd5+ Kg6 44. Rxa6 Rxf3 45. Bd2 Nf2 46. Nc3
+b4 47. axb4 Bxb4 48. Ra4 Nd3 49. Ra8 Nc5 50. Rg8+ Kh5 51. e5
+Rf2 52. Kd1 Bxc3 53. bxc3 Ne4 54. Be1 Rf5 55. Bg3 Nxc3+
+56. Kc2 Ne4 57. Rf8 Nxg3 58. hxg3 Kg6 59. Rg8+ Kh6 60. Kd3
+Rxe5 61. Rh8+ Kg6 62. Rh4 Kg5 63. Rh7 f5 64. Rg7+ Kf6 65. Rg8
+Re4 66. Rh8 Ke5 67. Rh1 Kf6 68. Rh8 Rg4 69. Rh3 Re4 70. Rh8
+Ke7 71. Rh7+ Kd6 72. Rh1 Kd5 73. Rh8 Rg4 74. Rh3 e5 75. Ke2
+Ra4 76. Rh5 Ra2+ 77. Ke3 Ra3+ 78. Ke2 Ke4 79. Rh4+ f4 80. gxf4
+exf4 81. Rh8 Ra2+ 82. Kf1 Ke3 83. Re8+ Kf3 84. Kg1 Ra1+
+85. Kh2 Kf2 86. Rb8 Rd1 87. Rb2+ Ke3 88. Kh3 f3 89. Rb3+ Ke2
+90. Kg3 Rg1+ 91. Kf4 f2 92. Rb2+ Ke1 93. Rb1+ Ke2 94. Rb2+ Ke1
+95. Rb1+ Kd2 96. Rb2+ Ke1 1/2-1/2
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.10"]
+[EventDate "2016.12.07"]
+[Round "4.3"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Alexey Vladislavovich Yermolinsky"]
+[ECO "B65"]
+[WhiteElo "2544"]
+[BlackElo "2486"]
+[PlyCount "53"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "12166"]
+[ChessgamesGameID "1852239"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6
+7. Qd2 Be7 8. O-O-O Nxd4 9. Qxd4 O-O 10. f4 h6 11. Bh4 Qa5
+12. Bc4 e5 13. fxe5 dxe5 14. Qd3 Bg4 15. Rdf1 Rac8 16. Bxf6
+Bxf6 17. Rxf6 gxf6 18. Nd5 Qc5 19. Bb3 Qf2 20. Ne7+ Kg7
+21. Nxc8 Qxg2 22. Qf1 Qxf1+ 23. Rxf1 Bxc8 24. Rg1+ Kh7 25. Rf1
+Kg6 26. Rg1+ Kh7 27. Rf1 1/2-1/2
+
+
+[Event "1st Hainan Open"]
+[Site "Danzhou CHN"]
+[Date "2016.12.11"]
+[EventDate "2016.12.07"]
+[Round "5.4"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Rinat Jumabayev"]
+[ECO "D85"]
+[WhiteElo "2544"]
+[BlackElo "2611"]
+[PlyCount "178"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "124518"]
+[ChessgamesGameID "1852250"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4
+Nxc3 7. bxc3 c5 8. Be3 Qa5 9. Qd2 Nc6 10. Rb1 cxd4 11. cxd4
+O-O 12. Bd3 Rd8 13. Qxa5 Nxa5 14. O-O Bg4 15. d5 e6 16. Bd2 b6
+17. Bxa5 bxa5 18. Ba6 Rd6 19. Bb7 Rad8 20. h3 Bxf3 21. gxf3
+Bd4 22. Kg2 Kg7 23. Rfd1 Be5 24. Rdc1 Bf4 25. Rc5 Rb6 26. Rcb5
+Bc7 27. a4 Kf6 28. Bc6 Rdb8 29. Rxb6 axb6 30. Rd1 Rd8 31. Rd3
+g5 32. Bb5 Bd6 33. Kf1 Ke5 34. Ke2 Rc8 35. Bc6 Bc5 36. Rd2 Bb4
+37. Rd3 Rg8 38. Kf1 Bc5 39. Kg2 h5 40. Kg3 Rc8 41. Kg2 Bd4
+42. Kg3 exd5 43. exd5 Bc5 44. Rd2 Rd8 45. Kg2 Kf5 46. Re2 Rd6
+47. Re4 Rf6 48. Bd7+ Kg6 49. Bb5 Kg7 50. Bc6 Bd6 51. Bd7 Bf4
+52. Bb5 Rf5 53. Bc6 Kf6 54. Re2 Bd6 55. Re4 Kg7 56. Re2 Rf6
+57. Re4 Rg6 58. Re2 g4 59. fxg4 hxg4 60. hxg4 Rxg4+ 61. Kf3
+Rf4+ 62. Kg2 Kf6 63. Re3 Rg4+ 64. Kf1 Bc5 65. Rd3 Ke5 66. Rf3
+Rb4 67. Rc3 Bd6 68. Re3+ Kd4 69. Re2 f6 70. Rd2+ Kc5 71. Re2
+Be5 72. Re3 Rb1+ 73. Re1 Rb4 74. Rc1+ Kd6 75. Rc2 Rb3 76. Kg2
+Ra3 77. Kf1 f5 78. Kg2 f4 79. Rd2 Rc3 80. Bb5 Rb3 81. Rd3 Rb1
+82. Kf3 Rh1 83. Ke4 Re1+ 84. Kf5 Rh1 85. Bc6 Rh2 86. f3 Rh5+
+87. Ke4 Kc5 88. Bb5 Kd6 89. Re3 Bb2 1/2-1/2
+
+
+[Event "NSW Open"]
+[Site "Chatswood AUS"]
+[Date "2016.06.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Igor Bjelobrk"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E90"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[Source "Ian Rogers, 'Chess', Sun-Herald, 19 June 2016"]
+[PlyCount "61"]
+[ChessgamesWhiteID "51336"]
+[ChessgamesBlackID "12082"]
+[ChessgamesGameID "1951410"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. h3 e5
+7. d5 a5 8. Be2 Na6 9. Bg5 Qe8 10. g4 Nd7 11. Qd2 Ndc5 12. Rg1
+Kh8 13. Nh4 Bd7 14. f3 c6 15. O-O-O cxd5 16. Nxd5 Ba4 17. Bh6
+Rg8 18. Bxg7+ Rxg7 19. Rdf1 Bb3 20. Qxa5 Bxa2 21. Qxa2 Nb4
+22. Nxb4 Rxa2 23. Nxa2 Nb3+ 24. Kb1 Qa4 25. Rd1 Rg8 26. Nc1
+Ra8 27. Nxb3 Qxb3 28. Rd3 Qa2+ 29. Kc2 Qxc4+ 30. Kd2 Qb4+
+31. Kc2 0-1
+
+
+[Event "Chinese Chess League"]
+[Site "China CHN"]
+[Date "2017.12.02"]
+[EventDate "2017.04.18"]
+[Round "19.6"]
+[Result "1/2-1/2"]
+[White "Wen Yang"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C78"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "60"]
+[ChessgamesWhiteID "52646"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "90173"]
+[ChessgamesGameID "1898902"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5
+7. Bb3 d6 8. a3 O-O 9. Nc3 Na5 10. Ba2 Be6 11. b4 Nb7 12. Bxe6
+fxe6 13. Ne2 a5 14. Bd2 Qd7 15. Ng3 c5 16. c3 Rfc8 17. Re1 Bd8
+18. h3 h6 19. Be3 Bb6 20. Re2 Ra6 21. Rb1 cxb4 22. Bxb6 Rxb6
+23. cxb4 axb4 24. axb4 Nd8 25. d4 Nf7 26. dxe5 Nxe5 27. Nxe5
+dxe5 28. Rd2 Qe7 29. Nh5 Rbc6 30. Nxf6+ Qxf6 1/2-1/2
+
+
+[Event "Chinese Chess League"]
+[Site "China CHN"]
+[Date "2017.12.03"]
+[EventDate "2017.04.18"]
+[Round "20.2"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Di Li"]
+[ECO "D35"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "45"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "153851"]
+[ChessgamesTournamentID "90173"]
+[ChessgamesGameID "1898909"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7
+7. Bd3 Nbd7 8. Nge2 O-O 9. O-O Re8 10. Rb1 h6 11. Bh4 Ne4
+12. Bxe7 Qxe7 13. b4 Ndf6 14. Bxe4 dxe4 15. Nf4 Qd6 16. h3 Bf5
+17. Qa4 g5 18. Nfe2 Qe6 19. Kh2 Qd6+ 20. Kg1 Qe6 21. Kh2 Qd6+
+22. Kg1 Qe6 23. Kh2 1/2-1/2
+
+
+[Event "Chinese Chess League"]
+[Site "China CHN"]
+[Date "2017.12.04"]
+[EventDate "2017.04.18"]
+[Round "21.5"]
+[Result "1/2-1/2"]
+[White "Ding Liren"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A18"]
+[WhiteElo "2777"]
+[BlackElo "2543"]
+[PlyCount "296"]
+[ChessgamesWhiteID "52629"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "90173"]
+[ChessgamesGameID "1898976"]
+
+1. c4 e6 2. Nc3 Nf6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. Nf3 Nc6
+7. Bb5 Nxc3 8. dxc3 Be7 9. O-O O-O 10. Re1 Bf5 11. Bxc6 bxc6
+12. Nd4 Qd7 13. Be3 a5 14. Qa4 c5 15. Nc6 Kh8 16. b3 Rfe8
+17. Nxe7 Qxa4 18. bxa4 Rxe7 19. Bxc5 Re6 20. Rad1 Rc6 21. Be7
+Rxc3 22. Rxd5 Rc4 23. a3 Rxa4 24. Rc1 c6 25. Rd2 Re4 26. Bd6
+c5 27. h3 Rd4 28. Rxd4 cxd4 29. g4 Rc8 30. Rd1 Be6 31. Rxd4
+Rc4 32. Rd2 h5 33. f3 Rc3 34. Kf2 hxg4 35. hxg4 Kh7 36. Rd4
+Bc8 37. Rf4 Kg6 38. Ra4 Rc2+ 39. Kg3 Rc3 40. Kf2 Rc2+ 41. Ke3
+Rc3+ 42. Ke2 Rb3 43. e6 Bxe6 44. Rxa5 f5 45. gxf5+ Bxf5
+46. Be5 Be6 47. f4 Kf5 48. Bd6+ Kf6 49. a4 g6 50. Rc5 Bf5
+51. a5 Ke6 52. Be5 Ra3 53. Bc3 Kd7 54. Kd2 Ra4 55. Be5 Ra2+
+56. Ke3 Ra4 57. Bc3 Kd6 58. Rb5 Kc6 59. Rb6+ Kc5 60. Bd2 Ra3+
+61. Ke2 Ra2 62. Rb8 Kc6 63. Rd8 Kb7 64. Kf2 Ra3 65. Rd6 Kc7
+66. Rf6 Ra4 67. Be3 Kb7 68. Rb6+ Ka8 69. Rb5 Bd3 70. Rd5 Bf5
+71. Kg3 Ra3 72. Re5 Kb7 73. Kh4 Ka6 74. Bd2 Ra2 75. Rd5 Ra3
+76. Rd6+ Kb7 77. Bb4 Ra4 78. Rb6+ Ka8 79. Kg5 Ra2 80. Kf6 Ka7
+81. Ke5 Ra1 82. Kd5 Ka8 83. Rf6 Kb7 84. Kc4 Rd1 85. a6+ Ka8
+86. Kb5 Rd8 87. Bd6 Ka7 88. Rf7+ Ka8 89. Be5 Re8 90. Bd6 Rd8
+91. Rf6 Rc8 92. Kb6 Rd8 93. Be5 Re8 94. Rf7 Re6+ 95. Ka5 Re8
+96. Bc7 Be4 97. Bd6 Rd8 98. Rf6 Bd3 99. Bc5 Bf5 100. Rf7 Re8
+101. Rg7 Be4 102. Ra7+ Kb8 103. Rd7 Ka8 104. Bd6 Bf5 105. Rf7
+Rd8 106. Be5 Re8 107. Rg7 Be4 108. Rd7 Bf5 109. Rf7 Be4
+110. Bd6 Rd8 111. Rf6 Bd3 112. Kb6 Bf5 113. Kc6 Rc8+ 114. Kb5
+Rd8 115. Kb6 Be4 116. Kc7 Re8 117. Kd7 Rh8 118. Bc5 Bf5+
+119. Kc6 Rc8+ 120. Kb6 Rb8+ 121. Ka5 Rd8 122. Rf7 Re8 123. Bd6
+Rd8 124. Be5 Re8 125. Rc7 Be4 126. Bd6 Rd8 127. Be7 Re8
+128. Kb6 Rb8+ 129. Ka5 Re8 130. Bf6 Bf5 131. Rc6 Rc8 132. Rd6
+Rc5+ 133. Kb6 Rc8 134. a7 Re8 135. Be7 Bc8 136. Rxg6 Rxe7
+137. Rg8 Re6+ 138. Kb5 Kxa7 139. Rxc8 Kb7 140. Rc5 Re4 141. f5
+Rf4 142. Ka5 Ka7 143. Kb5 Kb7 144. Rd5 Kc7 145. Kc5 Ra4
+146. Re5 Kd7 147. f6 Ra6 148. f7 Rf6 1/2-1/2
+
+
+[Event "Chinese Chess League"]
+[Site "China CHN"]
+[Date "2017.12.05"]
+[EventDate "2017.04.18"]
+[Round "22.3"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Wang Yue"]
+[ECO "E36"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "68"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "52672"]
+[ChessgamesTournamentID "90173"]
+[ChessgamesGameID "1899016"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3
+O-O 7. Nf3 dxc4 8. Qxc4 b6 9. Bg5 Ba6 10. Qa4 Qd7 11. Qc2 c5
+12. dxc5 Rc8 13. Bxf6 gxf6 14. Qe4 Qb5 15. b4 bxc5 16. e3 Qb7
+17. Qg4+ Kf8 18. b5 Bxb5 19. Rb1 a6 20. a4 f5 21. Qf4 Qe4
+22. Qxe4 fxe4 23. axb5 exf3 24. b6 Rd8 25. gxf3 Nc6 26. f4
+Rab8 27. Bg2 Nb4 28. b7 Nd5 29. O-O Rd7 30. Rfc1 Rdxb7
+31. Rxb7 Rxb7 32. Bxd5 exd5 33. Rxc5 d4 34. exd4 Rb4 1/2-1/2
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "1-0"]
+[White "David Klein"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A07"]
+[WhiteElo "2501"]
+[BlackElo "2537"]
+[PlyCount "31"]
+[ChessgamesWhiteID "114799"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913031"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. Qe2 d5 6. exd5 Nxd5
+7. O-O Be7 8. Rd1 Bf6 9. Nc3 O-O 10. Ne4 b6 11. Nxf6+ Qxf6
+12. c4 Nde7 13. d4 cxd4 14. Bg5 Qg6 15. Bxe7 Nxe7 16. Ne5 1-0
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "1-0"]
+[White "Nils Grandelius"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C48"]
+[WhiteElo "2647"]
+[BlackElo "2537"]
+[PlyCount "79"]
+[ChessgamesWhiteID "107935"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913084"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bd6 5. O-O O-O 6. d3 a6
+7. Ba4 b5 8. Bb3 Re8 9. a4 Rb8 10. axb5 axb5 11. Be3 h6
+12. Nd5 Nxd5 13. Bxd5 Qe7 14. g3 Qf6 15. Nh4 Bb7 16. Qh5 Nd8
+17. Bb3 Ne6 18. f4 g6 19. fxe5 Qg7 20. Qxh6 Qxh6 21. Bxh6 Bxe5
+22. c3 c5 23. Nf3 Bg7 24. Bxg7 Kxg7 25. Ne5 Re7 26. Bxe6 dxe6
+27. Ra7 Rc7 28. c4 f6 29. Ng4 bxc4 30. dxc4 f5 31. exf5 gxf5
+32. Ne5 Kf6 33. Re1 Rg7 34. Kf2 Rh8 35. h4 f4 36. gxf4 Rxh4
+37. Ke3 Rh3+ 38. Kd2 Rg2+ 39. Kc1 Bc8 40. Rf7# 1-0
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "1-0"]
+[White "Justin Tan"]
+[Black "Zhao Zong-Yuan"]
+[ECO "C50"]
+[WhiteElo "2466"]
+[BlackElo "2537"]
+[PlyCount "53"]
+[ChessgamesWhiteID "134352"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913147"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O O-O 6. h3 d5
+7. exd5 Nxd5 8. Nbd2 Nb6 9. Bb5 Nd4 10. Nxd4 exd4 11. Bc4 Nxc4
+12. Nxc4 b5 13. Qh5 f5 14. Na5 Bb6 15. b4 Qd5 16. Bf4 c5
+17. Rfe1 cxb4 18. Re7 Bd8 19. Re5 Qd7 20. Qf3 Rb8 21. Rd5 Qe8
+22. Bxb8 Bxa5 23. Re5 Qd7 24. Rae1 Bb7 25. Qf4 Rxb8 26. Re7
+Qd8 27. Qe5 1-0
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Avital Boruchovsky"]
+[ECO "C80"]
+[WhiteElo "2537"]
+[BlackElo "2542"]
+[PlyCount "52"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "113368"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913240"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5
+7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 Bf5 11. Nd4 Nxd4
+12. cxd4 Ne6 13. Nf3 Be7 14. Be3 Rc8 15. Bc2 Bxc2 16. Qxc2 c6
+17. a4 O-O 18. axb5 axb5 19. Ra7 f5 20. Rfa1 c5 21. dxc5 Bxc5
+22. Bxc5 Rxc5 23. Qd2 h6 24. h4 d4 25. R1a6 Qc8 26. Re7 Qxa6
+0-1
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Roman Yanchenko"]
+[ECO "C16"]
+[WhiteElo "2537"]
+[BlackElo "2436"]
+[PlyCount "83"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "152338"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913241"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 b6
+7. Qg4 Kf8 8. Nf3 Ba6 9. Bxa6 Nxa6 10. a4 c5 11. O-O Rc8
+12. a5 b5 13. Be3 cxd4 14. Nxd4 Rc4 15. Rfb1 Nc7 16. a6 Nf5
+17. Qe2 Nxe3 18. Qxe3 Qd7 19. Ra5 h6 20. Nxb5 Nxb5 21. Raxb5
+g5 22. Rb7 Qa4 23. Qxa7 Rf4 24. Qc5+ Kg7 25. a7 Ra8 26. h3 Kg6
+27. Kh2 Qe4 28. Qe3 Qxe3 29. fxe3 Ra4 30. Rf1 f5 31. exf6
+R4xa7 32. Rxa7 Rxa7 33. f7 Rxf7 34. Rxf7 Kxf7 35. Kg3 Kf6
+36. Kf3 Ke5 37. e4 dxe4+ 38. Ke3 Kd5 39. g4 Kc4 40. Kxe4 Kxc3
+41. Ke5 Kxc2 42. Kxe6 1-0
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Levan Pantsulaia"]
+[ECO "B41"]
+[WhiteElo "2537"]
+[BlackElo "2605"]
+[PlyCount "78"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "50101"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913242"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Qc7
+7. a3 Nxe4 8. Nxe4 Qe5 9. Bd3 Qxd4 10. O-O Nc6 11. Be3 Qxb2
+12. c5 f5 13. Nd2 Qf6 14. Rb1 Be7 15. f4 O-O 16. Nc4 Rb8
+17. Be2 Rd8 18. Qd3 Qf8 19. Nd6 b5 20. Rfc1 Bb7 21. a4 b4
+22. a5 Nxa5 23. Rxb4 Be4 24. Qa3 Rxb4 25. Qxb4 Nc6 26. Qa3
+Bxd6 27. cxd6 a5 28. Bb5 Rb8 29. Bxc6 Bxc6 30. Qxa5 Qxd6
+31. Qc5 Qxc5 32. Bxc5 Rb2 33. Bf2 h6 34. g3 g5 35. h4 gxf4
+36. gxf4 Kf7 37. Rc3 Kg6 38. Kf1 Kh5 39. Rg3 Rb4 0-1
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Noel Studer"]
+[ECO "C11"]
+[WhiteElo "2537"]
+[BlackElo "2476"]
+[PlyCount "120"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "134838"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913243"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6
+7. Be3 a6 8. Qd2 b5 9. a3 Qa5 10. Ra2 Qc7 11. Be2 Bb7 12. O-O
+Be7 13. Nd1 cxd4 14. Nxd4 Nc5 15. Nf2 O-O 16. Raa1 Rfd8
+17. Nxc6 Qxc6 18. Bd4 Ne4 19. Qd3 Rac8 20. c3 Bc5 21. Rfd1 Qb6
+22. Bf3 f5 23. exf6 Nxf6 24. Qe3 Re8 25. Nd3 Bxd4 26. cxd4 Ne4
+27. Bxe4 dxe4 28. Nc5 Bd5 29. Rd2 Red8 30. b4 a5 31. Re1 axb4
+32. axb4 Rd6 33. Ra1 Ra8 34. Rxa8+ Bxa8 35. Ra2 Bd5 36. Ra6
+Qb8 37. Ra5 Qe8 38. Nxe4 Rd8 39. Nc3 Bc4 40. Ra7 Qg6 41. Qe5
+h6 42. h3 Rf8 43. Kh2 Bf1 44. Ra2 Rf5 45. Qe4 Bc4 46. Ra8+ Kh7
+47. g4 Rf7 48. Rh8+ Kxh8 49. Qxg6 Rxf4 50. Qe8+ Kh7 51. Qd8
+Rf3 52. Ne4 Bd5 53. Nc5 Rf2+ 54. Kg1 Rg2+ 55. Kf1 Rg3 56. Qe7
+Rf3+ 57. Kg1 Rg3+ 58. Kf2 Rf3+ 59. Ke2 Rf6 60. Qxe6 Bxe6 0-1
+
+
+[Event "Pro Chess League"]
+[Site "chess.com INT"]
+[Date "2018.02.24"]
+[EventDate "2018.01.18"]
+[Round "7"]
+[Result "1-0"]
+[White "Ori Kobo"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A33"]
+[WhiteElo "2477"]
+[BlackElo "2537"]
+[PlyCount "71"]
+[ChessgamesWhiteID "139508"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "92417"]
+[ChessgamesGametype "RAPID"]
+[ChessgamesGameID "1913282"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g3 Bc5
+7. Nb3 Bb6 8. c5 Bc7 9. Nb5 Ba5+ 10. Bd2 Bxd2+ 11. Qxd2 O-O
+12. Bg2 b6 13. Nd6 a5 14. Rc1 a4 15. Nd4 bxc5 16. Rxc5 Ra6
+17. Nxc6 dxc6 18. Nxc8 Qxc8 19. O-O Nd5 20. Rfc1 Qb7 21. e4
+Ne7 22. h4 h6 23. R1c2 Rb6 24. Ra5 Ra8 25. Rxa8+ Qxa8 26. Qd6
+Rb7 27. h5 Qb8 28. Qd4 Ra7 29. Rd2 e5 30. Qc5 Qc7 31. Bh3 Kh7
+32. Rd7 Qxd7 33. Bxd7 Rxd7 34. Qxe5 Kg8 35. Qb8+ Kh7 36. Qb4
+1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.09.24"]
+[EventDate "2018.09.24"]
+[Round "1.42"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Husein Aziz Nezad"]
+[ECO "C53"]
+[WhiteElo "2523"]
+[BlackElo "2412"]
+[PlyCount "69"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "103198"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1926587"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. O-O Ba7
+7. Bb3 d6 8. Re1 h6 9. Nbd2 O-O 10. Nf1 Be6 11. Bxe6 fxe6
+12. Ng3 Qe8 13. d4 exd4 14. cxd4 Qf7 15. h3 Rad8 16. Be3 e5
+17. d5 Bxe3 18. Rxe3 Ne7 19. Rb3 c6 20. Rxb7 cxd5 21. Nf5 Rfe8
+22. Qb3 Kf8 23. Nxe7 Rxe7 24. Rxe7 Qxe7 25. exd5 Qc7 26. Nh4
+Rb8 27. Qa3 Nxd5 28. Rd1 Nb4 29. Nf5 d5 30. Rxd5 Qc1+ 31. Kh2
+Qf4+ 32. Ng3 h5 33. Rd3 Kg8 34. Rf3 Qg5 35. Qb3+ 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.09.26"]
+[EventDate "2018.09.24"]
+[Round "3.26"]
+[Result "1-0"]
+[White "Robert Aloma Vidal"]
+[Black "Zhao Zong-Yuan"]
+[ECO "E32"]
+[WhiteElo "2428"]
+[BlackElo "2523"]
+[PlyCount "122"]
+[ChessgamesWhiteID "92734"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1927240"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Nf3 Bb7 8. g3
+a5 9. b3 d6 10. Bg2 Nbd7 11. O-O Qe7 12. Bb2 Ne4 13. Qc2 f5 14. b4 Nef6 15. d5
+exd5 16. Nd4 g6 17. cxd5 Bxd5 18. Qxc7 Bxg2 19. Kxg2 Rfc8 20. Qb7 Qe4+ 21. Qxe4
+Nxe4 22. Rfc1 Ne5 23. Nb5 Nc4 24. Bd4 Ned2 25. Rd1 Nb3 26. Rab1 Ncd2 27. Rb2
+Nxd4 28. Nxd4 Nc4 29. Rb3 axb4 30. axb4 Kf7 31. h3 Ke7 32. g4 f4 33. Rf3 Rf8 34.
+Nc6+ Ke6 35. Rc3 d5 36. Nd4+ Kd6 37. Nf3 Ne5 38. Nxe5 Kxe5 39. Rc7 Ra4 40. Rd7
+Rxb4 41. R1xd5+ Ke6 42. R5d6+ Ke5 43. Rc6 f3+ 44. exf3 Rb3 45. Rxh7 Rbxf3 46.
+Rxg6 Rxf2+ 47. Kg3 R2f3+ 48. Kh4 Rb8 49. Rhh6 Rb3 50. Kg5 b5 51. h4 b4 52. h5
+Rh3 53. Rb6 Rxb6 54. Rxb6 b3 55. h6 Kd4 56. Kg6 Kc3 57. h7 b2 58. Kg7 Kc2 59.
+h8=Q Rxh8 60. Kxh8 b1=Q 61. Rxb1 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.09.27"]
+[EventDate "2018.09.24"]
+[Round "4.23"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "Davit Maghalashvili"]
+[ECO "B42"]
+[WhiteElo "2523"]
+[BlackElo "2508"]
+[PlyCount "82"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "126948"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1927593"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 g6 6. O-O Bg7 7. Nb3 Ne7 8. c4
+O-O 9. Nc3 Nbc6 10. Be2 d6 11. Bf4 Ne5 12. Qd2 Qc7 13. Rac1 b6 14. Bh6 Bxh6 15.
+Qxh6 f5 16. Qd2 Bb7 17. Rfd1 Rad8 18. f4 N5c6 19. Bf3 Na5 20. Nxa5 Qc5+ 21. Kh1
+Qxa5 22. Qe2 e5 23. exf5 Bxf3 24. Qxf3 Nxf5 25. fxe5 Qxe5 26. Re1 Qd4 27. Qd5+
+Qxd5 28. Nxd5 Nh4 29. Re2 b5 30. cxb5 axb5 31. g3 Nf5 32. Rc7 Rc8 33. Nf6+ Rxf6
+34. Rxc8+ Kg7 35. Rc7+ Kh6 36. Kg2 d5 37. Rd7 d4 38. h4 g5 39. hxg5+ Kxg5 40.
+Rd5 Kg6 41. Kh3 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.09.28"]
+[EventDate "2018.09.24"]
+[Round "5.26"]
+[Result "1-0"]
+[White "Zhao Zong-Yuan"]
+[Black "John Rodgaard"]
+[ECO "C18"]
+[WhiteElo "2523"]
+[BlackElo "2331"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "40509"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1929140"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 c5 7. Qg4 Kf8 8. a4
+b6 9. a5 Ba6 10. axb6 axb6 11. Nf3 Qc8 12. dxc5 bxc5 13. Bd3 Nd7 14. O-O h6 15.
+Be3 Bxd3 16. cxd3 Ng6 17. c4 Qc6 18. cxd5 Qxd5 19. Rxa8+ Qxa8 20. d4 Kg8 21.
+dxc5 Ndxe5 22. Nxe5 Nxe5 23. Qd4 f6 24. Bf4 Nc6 25. Qd7 e5 26. Be3 Kf8 27. Rd1
+Qe8 28. Qb7 Ne7 29. Rd7 Kf7 30. c6 Ke6 31. g4 f5 32. Qb3+ 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.09.30"]
+[EventDate "2018.09.24"]
+[Round "6.17"]
+[Result "1/2-1/2"]
+[White "Viktor Erdos"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D38"]
+[WhiteElo "2609"]
+[BlackElo "2523"]
+[PlyCount "60"]
+[ChessgamesWhiteID "56768"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1929468"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Rc1
+dxc4 9. Bxc4 c5 10. O-O cxd4 11. Ne4 Qd8 12. exd4 Nc6 13. d5 exd5 14. Bxd5 Qb6
+15. Qb3 Be7 16. Qxb6 axb6 17. a3 Bd7 18. Nfd2 Rfd8 19. Nc4 Be8 20. Rfd1 b5 21.
+Ne3 Rd7 22. h3 Kf8 23. Nc5 Bxc5 24. Rxc5 b4 25. Ra1 bxa3 26. Rxa3 Rxa3 27. bxa3
+Ne7 28. Bf3 Rd3 29. Ra5 Nc6 30. Ra8 Rd8 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.10.01"]
+[EventDate "2018.09.24"]
+[Round "7.37"]
+[Result "1/2-1/2"]
+[White "Wynn Zaw Htun"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A07"]
+[WhiteElo "2473"]
+[BlackElo "2523"]
+[PlyCount "90"]
+[ChessgamesWhiteID "11053"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1929912"]
+
+1. Nf3 c5 2. e4 e6 3. d3 d5 4. Nbd2 Nf6 5. g3 Nc6 6. Bg2 Be7 7. O-O O-O 8. e5
+Nd7 9. Re1 Qc7 10. Qe2 b5 11. Nf1 Bb7 12. h4 Rfc8 13. Bf4 Qd8 14. Bh3 Bf8 15.
+N1h2 d4 16. Ng5 Qe8 17. Qe4 g6 18. Qe2 Nb4 19. Ng4 h6 20. Ne4 Bxe4 21. dxe4 h5
+22. Nf6+ Nxf6 23. exf6 c4 24. Red1 d3 25. cxd3 Nxd3 26. Be3 Qd8 27. e5 Qc7 28.
+f4 Bc5 29. Bg2 Nxb2 30. Rd6 Rab8 31. Rc6 Bxe3+ 32. Qxe3 Qd8 33. Rd6 Qf8 34. f5
+exf5 35. Rd7 Rd8 36. Re7 Rb6 37. Qg5 Nd3 38. e6 Rxe6 39. Rxe6 fxe6 40. Qxg6+ Kh8
+41. Qxh5+ Kg8 42. Qg6+ Kh8 43. Qh5+ Kg8 44. Qg5+ Kh7 45. Qh5+ Kg8 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.10.02"]
+[EventDate "2018.09.24"]
+[Round "8.24"]
+[Result "1/2-1/2"]
+[White "Ottomar Ladva"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D32"]
+[WhiteElo "2500"]
+[BlackElo "2523"]
+[PlyCount "98"]
+[ChessgamesWhiteID "132526"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1930227"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Bb5 cxd4 8.
+Nxd4 Bd7 9. O-O Bd6 10. Be2 O-O 11. b3 Nxd4 12. Qxd4 Qc7 13. f4 Bc5 14. Qd3 Qb6
+15. Kh1 d4 16. exd4 Bxd4 17. Bb2 Bc5 18. Qg3 Bc6 19. Bf3 Rfe8 20. Rac1 Bf8 21.
+Bxc6 Qxc6 22. Na4 Ne4 23. Qe3 Qh6 24. Bd4 Bb4 25. f5 Qxe3 26. Bxe3 b5 27. Nc5
+Nc3 28. Bf2 Nxa2 29. Rc2 Rac8 30. Rxa2 Bxc5 31. Bxc5 Rxc5 32. h3 Re7 33. f6 gxf6
+34. Rxf6 Rc3 35. b4 Rc4 36. Rb2 Kg7 37. Ra6 Ree4 38. Rxa7 Rxb4 39. Rd2 Rbd4 40.
+Rc2 b4 41. Rb7 h5 42. g3 Re6 43. Kh2 Red6 44. Rg2 Kg6 45. h4 f6 46. Rb5 R6d5 47.
+Rb6 Rd6 48. Rb5 R6d5 49. Rb6 Rd6 1/2-1/2
+
+
+[Event "Chess Olympiad"]
+[Site "Batumi GEO"]
+[Date "2018.10.05"]
+[EventDate "2018.09.24"]
+[Round "11.28"]
+[Result "0-1"]
+[White "Bernardo Roselli Mailhe"]
+[Black "Zhao Zong-Yuan"]
+[ECO "D38"]
+[WhiteElo "2439"]
+[BlackElo "2523"]
+[PlyCount "86"]
+[ChessgamesWhiteID "53094"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "94047"]
+[ChessgamesGameID "1933362"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O
+7. Bd2 dxc4 8. Bxc4 Bd6 9. Nb5 Be7 10. Qc2 a6 11. Nc3 b5
+12. Be2 Nb4 13. Qb1 c5 14. dxc5 Bxc5 15. O-O Bb7 16. Rd1 Qe7
+17. Ng5 h6 18. Nge4 Nxe4 19. Nxe4 Bb6 20. a3 Nd5 21. a4 f5
+22. Nc3 Qg5 23. Bf1 Nf6 24. h3 b4 25. Ne2 Ne4 26. Be1 f4
+27. Nxf4 Rxf4 28. exf4 Qxf4 29. Qc2 Rf8 30. Rd7 Nxf2 31. Bxf2
+Bxf2+ 32. Kh1 Be4 33. Qc4 Qf5 34. Rd3 a5 35. Rad1 Bb6 36. Rb3
+Qe5 37. Qb5 Qxb5 38. axb5 Bc2 39. Rbd3 Rxf1+ 40. Rxf1 Bxd3
+41. Rd1 Bxb5 42. Rd6 Bc7 43. Rxe6 Kf7 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.07.29"]
+[EventDate "2019.07.29"]
+[Round "1.33"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Himal Gusain"]
+[ECO "B07"]
+[WhiteElo "2529"]
+[BlackElo "2407"]
+[PlyCount "91"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "117409"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1968204"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nge2 c6 5. a4 Nbd7 6. g3 g6
+7. Bg2 Bg7 8. O-O O-O 9. h3 Re8 10. Be3 Nb6 11. b3 exd4
+12. Bxd4 a5 13. g4 d5 14. e5 Nfd7 15. f4 f6 16. exf6 Nxf6
+17. Ng3 Rf8 18. f5 g5 19. Qd2 h6 20. Qf2 Nbd7 21. Rfe1 b6
+22. Re6 Bb7 23. Rae1 Rf7 24. Nd1 c5 25. Bb2 Nf8 26. R6e2 d4
+27. c4 Ra7 28. Bxb7 Rfxb7 29. Bc1 Re7 30. Nb2 Rxe2 31. Qxe2
+Kf7 32. Nd3 Re7 33. Qxe7+ Qxe7 34. Rxe7+ Kxe7 35. Kg2 N8d7
+36. Bd2 Kd6 37. Be1 Ne5 38. Nxe5 Kxe5 39. Kf3 Kd6 40. Nf1 Nd7
+41. Nd2 Be5 42. Ne4+ Ke7 43. Nf2 Bf4 44. Nd3 Ne5+ 45. Nxe5
+Bxe5 46. Ke4 1/2-1/2
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.07.30"]
+[EventDate "2019.07.29"]
+[Round "2.29"]
+[Result "0-1"]
+[White "Qi b Chen"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B62"]
+[WhiteElo "2414"]
+[BlackElo "2529"]
+[PlyCount "46"]
+[ChessgamesWhiteID "155018"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1968236"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6
+7. Qd2 a6 8. Nxc6 bxc6 9. O-O-O d5 10. Bc4 Be7 11. Bxf6 Bxf6
+12. Bb3 O-O 13. Kb1 Rb8 14. f4 Qc7 15. Rhf1 a5 16. g4 Ba6
+17. g5 Bxc3 18. Qxc3 Bxf1 19. Rxf1 Rb4 20. exd5 Rxf4 21. Rd1
+Rd8 22. a3 a4 23. Ba2 Qd6 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.07.31"]
+[EventDate "2019.07.29"]
+[Round "3.8"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "David Anton Guijarro"]
+[ECO "D35"]
+[WhiteElo "2529"]
+[BlackElo "2678"]
+[PlyCount "93"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "131813"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970306"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 c6
+7. Bd3 Nbd7 8. Qc2 Nh5 9. Bxe7 Qxe7 10. O-O-O Nb6 11. Kb1 Be6
+12. Nf3 g6 13. Rc1 Ng7 14. Na4 Nd7 15. Nc5 Nxc5 16. Qxc5 Bf5
+17. Qxe7+ Kxe7 18. Kc2 f6 19. Kd2 Bxd3 20. Kxd3 Nf5 21. Nd2 a5
+22. a4 Nd6 23. Rhe1 Kd7 24. e4 dxe4+ 25. Nxe4 Nxe4 26. Rxe4
+Rhe8 27. Rxe8 Rxe8 28. d5 cxd5 29. Rc5 b6 30. Rxd5+ Kc6
+31. Rd4 Re1 32. g4 g5 33. Re4 Rd1+ 34. Kc2 Kd5 35. Re7 Rf1
+36. Rxh7 Rxf2+ 37. Kc3 Rf3+ 38. Kc2 Rf4 39. Rb7 Kc5 40. Rc7+
+Kd5 41. Rb7 Rxg4 42. Rxb6 f5 43. Rb5+ Ke4 44. b4 Rg2+ 45. Kb3
+axb4 46. h4 Rg3+ 47. Kb2 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.01"]
+[EventDate "2019.07.29"]
+[Round "4.14"]
+[Result "1/2-1/2"]
+[White "Zhao Zong-Yuan"]
+[Black "Le Quang Liem"]
+[ECO "B12"]
+[WhiteElo "2529"]
+[BlackElo "2713"]
+[PlyCount "64"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "99199"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970348"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 Qa5+
+7. Nd2 e6 8. Nf3 Nh6 9. O-O Nf5 10. c4 Be7 11. g3 O-O 12. b3
+Rd8 13. Bb2 c5 14. Qe2 Nc6 15. dxc5 Bxc5 16. Kg2 Bd4 17. Rfb1
+Bxb2 18. Rxb2 Rac8 19. Ng5 Qc3 20. Ndf3 dxc4 21. Ne4 Qd3
+22. bxc4 b6 23. Rc1 Qxe2 24. Rxe2 Rd3 25. Neg5 Kf8 26. Rb2
+Nfd4 27. Nxd4 Nxd4 28. c5 Ra3 29. Rd1 bxc5 30. Rb7 Kg8
+31. Rxf7 Rxa2 32. Rb1 Rf8 1/2-1/2
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.02"]
+[EventDate "2019.07.29"]
+[Round "5.21"]
+[Result "0-1"]
+[White "Minghui Xu"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A07"]
+[WhiteElo "2401"]
+[BlackElo "2529"]
+[PlyCount "116"]
+[ChessgamesWhiteID "153855"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970391"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. h3 Bh5
+7. c4 e6 8. Qb3 Nc5 9. Qc2 Bd6 10. b4 Ncd7 11. c5 Bc7 12. Bb2
+O-O 13. a4 e5 14. e4 Re8 15. Nbd2 a6 16. Rfe1 h6 17. Rac1 Bg6
+18. Qb3 Bh7 19. Re2 Qb8 20. Nh4 g5 21. Nhf3 d4 22. Ba3 Bg6
+23. Nc4 Re6 24. Rb2 Qa7 25. Qc2 Bd8 26. Ncxe5 Nxe5 27. Nxd4
+Re8 28. f4 Ned7 29. e5 Nd5 30. Bxd5 cxd5 31. Qb3 Nxe5 32. fxe5
+Rxe5 33. Re2 Qb8 34. Bb2 Bf6 35. c6 Rxe2 36. Nxe2 Bxb2
+37. Qxb2 bxc6 38. Rxc6 Qe8 39. Nd4 Qe3+ 40. Qf2 Qxd3 41. Rc5
+Qb1+ 42. Kh2 Qxb4 43. Nc6 Qe4 44. Rxd5 Rc8 45. Qf6 Qe2+
+46. Kg1 Re8 47. Re5 Qd1+ 48. Kh2 Qc2+ 49. Kg1 Qc1+ 50. Kh2
+Qb2+ 51. Kg1 Rxe5 52. Nxe5 Qd4+ 53. Kh2 a5 54. Ng4 Qxf6
+55. Nxf6+ Kg7 56. Nd7 Bc2 57. Ne5 Bxa4 58. Nc4 Bb3 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.03"]
+[EventDate "2019.07.29"]
+[Round "6.9"]
+[Result "1-0"]
+[White "Constantin Lupulescu"]
+[Black "Zhao Zong-Yuan"]
+[ECO "B48"]
+[WhiteElo "2649"]
+[BlackElo "2529"]
+[PlyCount "112"]
+[ChessgamesWhiteID "50239"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970415"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6
+7. a3 b5 8. Nxc6 dxc6 9. Qg4 e5 10. Qg3 h5 11. f4 h4 12. Qf2
+exf4 13. Bb6 Qe5 14. O-O-O Be7 15. Bd4 Qg5 16. e5 Bf5 17. Qf3
+Rc8 18. Ne4 Qg4 19. Nd6+ Bxd6 20. exd6 Qxf3 21. gxf3 f6
+22. Rg1 Rh7 23. d7+ Bxd7 24. Bd3 f5 25. Bxg7 Be6 26. Be5 Ne7
+27. Bxf4 Kf7 28. Rde1 Rhh8 29. Bd6 Rhg8 30. Rxg8 Nxg8 31. Rg1
+Nf6 32. Rg5 Rd8 33. Be5 Rg8 34. Rxg8 Nxg8 35. b3 Ne7 36. c4
+Ng6 37. Bd4 Ke7 38. Kd2 Kd6 39. Kc3 bxc4 40. bxc4 c5 41. Bf6
+Bd7 42. Bf1 Bc6 43. f4 Bf3 44. Bg5 Ke6 45. Kd2 Kd6 46. Ke3 Bd1
+47. Bg2 Ba4 48. Bb7 a5 49. Bd8 Bc6 50. Bxc6 Kxc6 51. Bxa5 Kb7
+52. h3 Kc6 53. Bd8 Kb7 54. a4 Kc6 55. a5 Kb7 56. Kf3 Ka6 1-0
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.04"]
+[EventDate "2019.07.29"]
+[Round "7.20"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Xiongjian Peng"]
+[ECO "C53"]
+[WhiteElo "2529"]
+[BlackElo "2467"]
+[PlyCount "56"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "156956"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970462"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 d6 6. O-O O-O
+7. Bg5 h6 8. Bh4 g5 9. Bg3 a5 10. Re1 g4 11. Nfd2 Nh5 12. Nf1
+Qg5 13. a4 Be6 14. Na3 Nxg3 15. hxg3 Bxc4 16. Nxc4 f5 17. Nce3
+f4 18. gxf4 exf4 19. Nf5 h5 20. d4 Bb6 21. Qb3+ Kh8 22. Qb5
+Ne5 23. Kh1 Rae8 24. Rad1 Re6 25. Nh2 g3 26. Qf1 Rxf5 27. fxg3
+Rff6 28. dxe5 fxg3 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.05"]
+[EventDate "2019.07.29"]
+[Round "8.25"]
+[Result "0-1"]
+[White "Yan Fang"]
+[Black "Zhao Zong-Yuan"]
+[ECO "A45"]
+[WhiteElo "2424"]
+[BlackElo "2529"]
+[PlyCount "102"]
+[ChessgamesWhiteID "143240"]
+[ChessgamesBlackID "12082"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970856"]
+
+1. d4 Nf6 2. g3 c5 3. c3 d5 4. Bg2 e6 5. Nf3 Be7 6. O-O O-O
+7. dxc5 Bxc5 8. c4 Nc6 9. Nbd2 h6 10. cxd5 exd5 11. Nb3 Bb6
+12. Nfd4 Re8 13. a4 Bg4 14. Bf4 Rc8 15. h3 Bh5 16. g4 Bg6
+17. e3 Ne5 18. a5 Bc7 19. a6 bxa6 20. Nf5 h5 21. Nbd4 hxg4
+22. Bxe5 Bxe5 23. hxg4 Qb6 24. g5 Ne4 25. f4 Bxf5 26. fxe5 Bg6
+27. Qg4 Rcd8 28. e6 fxe6 29. Bxe4 dxe4 30. Rf2 Rxd4 31. exd4
+Bf5 32. Qg3 Qxd4 33. Re1 Rd8 34. Qe3 Qb6 35. g6 Bxg6 36. Qg5
+Rf8 37. Qe3 Bf5 38. Kg2 Rf6 39. Rc2 Rg6+ 40. Kf2 Rh6 41. Qxb6
+axb6 42. Ke3 Kf7 43. b4 Rh3+ 44. Kd4 Kf6 45. Rc6 Rd3+ 46. Kc4
+b5+ 47. Kc5 Rc3+ 48. Kb6 Rxc6+ 49. Kxc6 Ke5 50. Kc5 g5 51. Ra1
+e3 0-1
+
+
+[Event "Belt and Road Hunan Open"]
+[Site "Changsha CHN"]
+[Date "2019.08.06"]
+[EventDate "2019.07.29"]
+[Round "9.21"]
+[Result "0-1"]
+[White "Zhao Zong-Yuan"]
+[Black "Jiner Zhu"]
+[ECO "C95"]
+[WhiteElo "2529"]
+[BlackElo "2454"]
+[PlyCount "110"]
+[ChessgamesWhiteID "12082"]
+[ChessgamesBlackID "153849"]
+[ChessgamesTournamentID "96863"]
+[ChessgamesGameID "1970962"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5
+7. Bb3 O-O 8. c3 d6 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2
+Re8 13. Nf1 Bf8 14. Ng3 g6 15. Bg5 h6 16. Bd2 c6 17. Qc1 Kh7
+18. h4 Bg7 19. h5 Ng4 20. Qd1 Nf8 21. Ng5+ hxg5 22. Qxg4 Bc8
+23. Qf3 g4 24. Qd3 Qf6 25. hxg6+ fxg6 26. d5 c5 27. Nf1 Bh6
+28. Bxh6 Kxh6 29. b4 c4 30. Qe3+ Kg7 31. a4 Bd7 32. axb5 axb5
+33. Ra5 Nh7 34. Rea1 Rad8 35. Ra7 Re7 36. Rb7 Be8 37. Raa7
+Rdd7 38. Rxd7 Bxd7 39. Bd1 Rf7 40. Nh2 Qh4 41. Ra6 Ng5
+42. Rxd6 g3 43. Nf3 Nxf3+ 44. Bxf3 Qh2+ 45. Kf1 Qh1+ 46. Ke2
+Bg4 47. Bxg4 Rxf2+ 48. Qxf2 gxf2 49. Kxf2 Qh4+ 50. Kf3 Qe1
+51. Rc6 Qxc3+ 52. Kf2 Qd4+ 53. Kf3 Qd3+ 54. Kf2 Qxe4 55. Rc7+
+Kh6 0-1
+
+
