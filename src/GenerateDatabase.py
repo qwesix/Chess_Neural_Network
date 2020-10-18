@@ -56,7 +56,6 @@ def process_file(path):
     print("Processing file ", path, "...")
 
     while (game := chess.pgn.read_game(pgn)) is not None:
-        # game = chess.pgn.read_game(pgn)
         white = game.headers["White"]
         black = game.headers["Black"]
 
@@ -105,8 +104,11 @@ def add_to_database(db_: TinyDB, states_: mp.Queue):
 
 
 if __name__ == '__main__':
-    pgn_folder = sys.argv[1]
-    database_path = sys.argv[2]
+    # pgn_folder = sys.argv[1]
+    # database_path = sys.argv[2]
+
+    pgn_folder = "../pgn/"
+    database_path = "../database/chess_db.json"
 
     paths = list()
     for x in os.scandir(pgn_folder):
