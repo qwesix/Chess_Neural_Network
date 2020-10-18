@@ -87,14 +87,14 @@ def process_file(path):
     print("Successfully processed ", path)
 
 
-def add_to_database(db_: TinyDB, states_):
+def add_to_database(db_: TinyDB, states_: mp.Queue):
     """
     Constantly inserts the game states created by the other processes into the TinyDB
     :param states_: Queue with the data collected by the processes
     :param db_: The TinyDB to add the data in.
     """
     index = 0
-    while states_.not_empty():
+    while not states_.empty():
         print("Data to db")
         data = states_.get()
         data["index"] = index
