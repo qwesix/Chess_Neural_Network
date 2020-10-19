@@ -28,7 +28,7 @@ class ChessANN(nn.Module):
         self.hidden3 = nn.Linear(1000, 50)
         self.flat_bn3 = nn.BatchNorm1d(50)
 
-        self.hidden4 = nn.Linear(50, 1)
+        self.hidden4 = nn.Linear(50, 3)
 
         self.flat_dropout = nn.Dropout(P_DROPOUT)
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
@@ -58,12 +58,17 @@ class ChessANN(nn.Module):
         x = F.relu(self.hidden3(x))
         x = self.flat_dropout(x)
 
-        x = F.relu(self.hidden4(x))
+        x = F.softmax(self.hidden4(x))
 
         return x
 
+    def train(self):
+        pass
+
+
 
 if __name__ == '__main__':
+    # tests if an example tensor propagates correctly through the network
     tensor = torch.zeros([1, 2, 8, 8])
     print(tensor)
     ANN = ChessANN()
