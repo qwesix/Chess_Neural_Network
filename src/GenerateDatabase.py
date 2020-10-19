@@ -53,7 +53,8 @@ def process_file(path) -> list:
     print("Processing file ", path)
     states_ = list()
 
-    while (game := chess.pgn.read_game(pgn)) is not None:
+    game = chess.pgn.read_game(pgn)
+    while game is not None:
         try:
             white = game.headers["White"]
             black = game.headers["Black"]
@@ -84,6 +85,8 @@ def process_file(path) -> list:
 
         except Exception:
             print("Something gone wrong!")
+
+        game = chess.pgn.read_game(pgn)
 
     print("Successfully processed ", path)
     return states_
@@ -124,7 +127,7 @@ if __name__ == '__main__':
     print("Add collected data to database...")
     db = TinyDB(database_path)
     db.drop_tables()
-    table = db.table('default_table', cache_size=50000)
+    table = db.table('default_table', cache_size=5000)
     nr_examples_added = add_to_database(table, states)
     print(f"Examples in the database: {len(table)} ({nr_examples_added} newly added)")
     db.close()
