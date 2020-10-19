@@ -8,50 +8,11 @@ import functools
 import operator
 
 
-# Stores for every piece the channel it gets saved in and the value:
-channel_encoder = {
-    'K': [0, 0],
-    'Q': [0, 1],
-    'R': [0, 2],
-    'N': [0, 3],
-    'B': [0, 4],
-    'P': [0, 5],
-
-    'k': [1, 0],
-    'q': [1, 1],
-    'r': [1, 2],
-    'n': [1, 3],
-    'b': [1, 4],
-    'p': [1, 5]
-}
-
-
-def process_epd(epd_: str) -> torch.Tensor:
-    tensor = torch.zeros([2, 8, 8])
-
-    # 2 channels -> for every color one
-    # figures encoded like in channel encode
-    rows = epd_.split(" ")[0].split("/")
-    for i in range(8):
-        row = list(rows[i])
-
-        j = 0
-        while j < 8:
-            if row[j] in channel_encoder:
-                encoded = channel_encoder[row[j]]
-                tensor[encoded[0]][i][j] = encoded[1]
-            else:
-                j += int(row[j])
-
-            j += 1
-
-    return tensor
-
-
 def process_file(path) -> list:
     pgn = open(path, encoding="iso-8859-15")
     print("Processing file ", path)
-    states_ = list()
+    games = list()
+    # saves for every game an entry, that holds meta information and a list with all game states
 
     game = chess.pgn.read_game(pgn)
     while game is not None:
@@ -67,21 +28,18 @@ def process_file(path) -> list:
                 result_encoded = -1
 
             board = game.board()
+            states_ = list()
 
             for move in game.mainline_moves():
                 board.push(move)
-                epd = game.board().epd().split(" ")
-                board_state = epd[0]
-                on_turn = epd[1]  # 'w' or 'b'
-                board_tensor = process_epd(game.board().epd())
+                states_.append(board.epd())
 
-                states_.append({'white': white,
-                                'black': black,
-                                'result': result_encoded,
-                                'state': board_state,
-                                'tensor': board_tensor.tolist(),
-                                'on_turn': on_turn
-                                })
+            new_entry = {'white': white,
+                         'black': black,
+                         'result': result_encoded,
+                         'states': states_,
+                         }
+            games.append(new_entry)
 
         except Exception:
             print("Something gone wrong!")
@@ -89,7 +47,7 @@ def process_file(path) -> list:
         game = chess.pgn.read_game(pgn)
 
     print("Successfully processed ", path)
-    return states_
+    return games
 
 
 def add_to_database(db_, states_: list) -> int:
@@ -112,14 +70,14 @@ if __name__ == '__main__':
     # database_path = sys.argv[2]
 
     pgn_folder = "../pgn/"
-    database_path = "../database/chess_db.json"
+    database_path = "../database/chess_db_sample.json"
 
     paths = list()
     for x in os.scandir(pgn_folder):
         paths.append(x.path)
 
     with mp.Pool(mp.cpu_count()) as pool:
-        results = pool.map_async(process_file, paths, chunksize=100)
+        results = pool.map_async(process_file, paths[:2], chunksize=100)
         results = results.get()
 
     states = functools.reduce(operator.iconcat, results, [])
