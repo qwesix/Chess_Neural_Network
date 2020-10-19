@@ -93,6 +93,7 @@ if __name__ == '__main__':
     table = db.table('default_table')
     start_time = time.time()
     data = table.all()
+    db.close()
     end_time = time.time()
     print(f'Collecting data from db needed {time.time() - start_time:.0f} seconds. '
           f'{len(data)} games available')
@@ -101,17 +102,20 @@ if __name__ == '__main__':
     features = []
 
     start_time = time.time()
-    for entry in data[:200]:
+    for entry in data[:20]:
         result = entry["result"] + 1
         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
         game = entry["states"]
 
         for state in game:
-            features.append(process_epd(state))
+            features.append(process_epd(state).unsqueeze(0))
             labels.append(result)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
+    print(features_tensor.shape)
+
     torch.cat(features, out=features_tensor)
+    print(features_tensor.shape)
 
     labels_tensor = torch.LongTensor(labels)
     end_time = time.time()
@@ -130,7 +134,7 @@ if __name__ == '__main__':
 
     start_time = time.time()
     for i in range(10):
-        pred = model(features_tensor)
+        pred = model(features_tensor, train=True)
 
         loss = criterion(pred, labels_tensor)
         losses.append(loss)
@@ -150,6 +154,6 @@ if __name__ == '__main__':
     plt.plot(losses)
     plt.ylabel('loss')
     plt.xlabel('epoch')
+    axes = plt.gca()
+    axes.set_ylim([0, None])
     plt.show()
-
-

@@ -33,7 +33,7 @@ class ChessANN(nn.Module):
         self.flat_dropout = nn.Dropout(P_DROPOUT)
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
 
-    def forward(self, input_features) -> torch.Tensor:
+    def forward(self, input_features, train=False) -> torch.Tensor:
         x = self.conv1(input_features)
         x = F.relu(x)
         x = self.conv1_bn(x)
@@ -47,7 +47,10 @@ class ChessANN(nn.Module):
         x = self.conv3(x)
         x = F.relu(x)
 
-        x = torch.flatten(x)
+        if train:
+            x = torch.flatten(x, start_dim=1)  # From multidimensional to one dimensional
+        else:
+            x = torch.flatten(x)  # From multidimensional to one dimensional
 
         x = F.relu(self.hidden1(x))
         x = self.flat_dropout(x)
@@ -58,15 +61,15 @@ class ChessANN(nn.Module):
         x = F.relu(self.hidden3(x))
         x = self.flat_dropout(x)
 
-        x = F.softmax(self.hidden4(x))
+        x = F.softmax(self.hidden4(x), dim=-1)
 
         return x
 
 
 if __name__ == '__main__':
     # tests if an example tensor propagates correctly through the network
-    tensor = torch.zeros([1, 2, 8, 8])
+    tensor = torch.zeros([5, 2, 8, 8])
     print(tensor)
     ANN = ChessANN()
-    y = ANN.forward(tensor)
+    y = ANN.forward(tensor, train=True)
     print(y)
