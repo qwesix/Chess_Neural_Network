@@ -62,10 +62,6 @@ class ChessANN(nn.Module):
 
         return x
 
-    def train(self):
-        pass
-
-
 
 if __name__ == '__main__':
     # tests if an example tensor propagates correctly through the network
