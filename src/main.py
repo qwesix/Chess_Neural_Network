@@ -3,7 +3,8 @@ import torch
 
 if __name__ == '__main__':
     # board = chess.Board()
-    pgn = open("../pgn/Magnus-Carlsen_vs_Jeffery-Xiong_2020.01.13.pgn", encoding="utf-8")
+    pgn = open("../pgn/Alexhine Grischuk.pgn", encoding="utf-8")
+    # pgn = open("../pgn/Magnus-Carlsen_vs_Jeffery-Xiong_2020.01.13.pgn", encoding="utf-8")
     game = chess.pgn.read_game(pgn)
 
     print(game.headers["Event"])
@@ -18,5 +19,5 @@ if __name__ == '__main__':
 
     for move in game.mainline_moves():
         board.push(move)
-        print(board)
+        print(board.epd())
 

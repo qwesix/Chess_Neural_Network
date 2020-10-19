@@ -119,7 +119,37 @@ if __name__ == '__main__':
     print(f'Processing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
+    if device != "cpu":
+        labels_tensor.to(device)
+        features_tensor.to(device)
+
     # ===== Training loop =====
     losses = []
     criterion = nn.CrossEntropyLoss().to(device)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=0.1)
+
+    start_time = time.time()
+    for i in range(10):
+        pred = model(features_tensor)
+
+        loss = criterion(pred, labels_tensor)
+        losses.append(loss)
+
+        correct = 0
+        for idx in range(len(labels)):
+            if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
+                correct += 1
+        print(f'epoch: {i:3}  loss: {loss.item():11.8f}  accuracy: {100 * correct / len(labels):3.2f}%')
+
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+    print(f'Training needed {time.time() - start_time:.0f} seconds')
+
+    plt.plot(losses)
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.show()
+
+
