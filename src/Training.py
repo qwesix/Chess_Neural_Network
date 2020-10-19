@@ -12,7 +12,7 @@ from tinydb import TinyDB
 from src.ChessANN import ChessANN
 
 
-DATABASE_PATH = "../database/chess_db.json"
+DATABASE_PATH = "../database/chess_db_sample.json"
 USE_GPU = True
 
 
@@ -49,6 +49,20 @@ if __name__ == '__main__':
 
     # ===== Get features and labels =====
     db = TinyDB(DATABASE_PATH)
+    table = db.table('default_table')
+    start_time = time.time()
+    data = table.all()
+    end_time = time.time()
+    print(f'Collecting data from db needed {time.time() - start_time:.0f} seconds. '
+          f'{len(data)} training examples available')
+
+    features = []
+    labels = []
+    for entry in data[0:10]:
+        labels.append(entry["result"])
+        labels.append(entry["tensor"])
+
+
 
     # ===== Training loop =====
     losses = []

@@ -99,10 +99,10 @@ def add_to_database(db_, states_: list) -> int:
     :param db_: The TinyDB to add the states in.
     """
     index = 0
-    for state in states:
+    for state in states_:
         state["index"] = index
         index += 1
-    db_.insert_multiple(states)
+    db_.insert_multiple(states_)
 
     return index
 
