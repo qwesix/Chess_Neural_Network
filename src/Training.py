@@ -97,28 +97,29 @@ if __name__ == '__main__':
     print(f'Collecting data from db needed {time.time() - start_time:.0f} seconds. '
           f'{len(data)} games available')
 
-    games = []
     labels = []
     features = []
 
     start_time = time.time()
-    for entry in data:
-        result = entry["result"]
+    for entry in data[:200]:
+        result = entry["result"] + 1
+        # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
         game = entry["states"]
-        # games.append(game)
 
         for state in game:
             features.append(process_epd(state))
             labels.append(result)
 
-        features_tensor = torch.Tensor(len(features), 2, 8, 8)
-        torch.cat(features, out=features_tensor)
+    features_tensor = torch.Tensor(len(features), 2, 8, 8)
+    torch.cat(features, out=features_tensor)
 
+    labels_tensor = torch.LongTensor(labels)
     end_time = time.time()
+
     print(f'Processing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
     # ===== Training loop =====
     losses = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.9)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.1)
