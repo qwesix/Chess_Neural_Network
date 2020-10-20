@@ -45,7 +45,7 @@ if __name__ == '__main__':
     # ===== Create model =====
     model = ChessANN()
     model.train()
-    model.to(device)
+    model = model.to(device)
 
     # ===== Get features and labels =====
     db = TinyDB(DATABASE_PATH)
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     features = []
 
     start_time = time.time()
-    for entry in data[0:200]:
+    for entry in data[:450]:
         result = entry["result"] + 1
         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
         game = entry["states"]
@@ -74,38 +74,66 @@ if __name__ == '__main__':
     torch.cat(features, out=features_tensor)
 
     labels_tensor = torch.LongTensor(labels)
-    end_time = time.time()
 
+    train_x, test_x, train_y, test_y = train_test_split(features_tensor,
+                                                        labels_tensor,
+                                                        test_size=0.3,
+                                                        random_state=42)
+
+    train_x = torch.FloatTensor(train_x)
+    test_x = torch.FloatTensor(test_x)
+    train_y = torch.LongTensor(train_y)   #.reshape(-1, 1)
+    test_y = torch.LongTensor(test_y)   #.reshape(-1, 1)
+
+    end_time = time.time()
     print(f'Processing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
     if device != "cpu":
-        labels_tensor.to(device)
-        features_tensor.to(device)
+        train_x = train_x.to(device)
+        train_y = train_y.to(device)
 
     # ===== Training loop =====
+    print("Starting training...")
     losses = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.1)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
 
     start_time = time.time()
-    for i in range(10):
-        pred = model(features_tensor, train=True)
 
-        loss = criterion(pred, labels_tensor)
+    half_size = int(len(labels_tensor)/2)
+    for i in range(20):
+        pred = model(train_x, train=True)
+
+        loss = criterion(pred, train_y)
         losses.append(loss)
 
         correct = 0
-        for idx in range(len(labels)):
+        for idx in range(half_size):
             if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
                 correct += 1
-        print(f'epoch: {i:3}  loss: {loss.item():11.8f}  accuracy: {100 * correct / len(labels):3.2f}%')
+        print(
+            f'epoch: {i:3}  loss: {loss.item():11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
 
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
+    del train_x
+    del train_y
+
     print(f'Training needed {time.time() - start_time:.0f} seconds')
+    print("Validating with test data...")
+    test_x = test_x.to(device)
+    test_y = test_y.to(device)
+    pred = model(test_x, train=True)
+    loss = criterion(pred, test_y)
+
+    correct = 0
+    for idx in range(len(test_x)):
+        if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
+            correct += 1
+    print(f'On Validation data: loss: {loss.item():11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
 
     plt.plot(losses)
     plt.ylabel('loss')
