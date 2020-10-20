@@ -71,10 +71,7 @@ if __name__ == '__main__':
             labels.append(result)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
-    print(features_tensor.shape)
-
     torch.cat(features, out=features_tensor)
-    print(features_tensor.shape)
 
     labels_tensor = torch.LongTensor(labels)
     end_time = time.time()
@@ -116,3 +113,7 @@ if __name__ == '__main__':
     axes = plt.gca()
     axes.set_ylim([0, None])
     plt.show()
+
+    name = input("Save model? >>> ")
+    if name != "":
+        torch.save(model.state_dict(), "../models/" + name)
