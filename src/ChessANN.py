@@ -7,6 +7,23 @@ P_DROPOUT = 0.25
 
 
 class ChessANN(nn.Module):
+    # Stores for every piece the channel it gets saved in and the value:
+    channel_encoder = {
+        'K': [0, 0],
+        'Q': [0, 1],
+        'R': [0, 2],
+        'N': [0, 3],
+        'B': [0, 4],
+        'P': [0, 5],
+
+        'k': [1, 0],
+        'q': [1, 1],
+        'r': [1, 2],
+        'n': [1, 3],
+        'b': [1, 4],
+        'p': [1, 5]
+    }
+
     def __init__(self):
         super().__init__()
         self.conv1 = nn.Conv2d(in_channels=2, out_channels=4, kernel_size=2, padding=1)
@@ -62,6 +79,29 @@ class ChessANN(nn.Module):
         x = F.softmax(self.hidden4(x), dim=-1)
 
         return x
+
+    def process_epd(self, epd_: str) -> torch.Tensor:
+        tensor = torch.zeros([2, 8, 8])
+
+        # 2 channels -> for every color one
+        # figures encoded like in channel encode
+        rows = epd_.split(" ")[0].split("/")
+        for i in range(8):
+            row = list(rows[i])
+
+            j = 0
+            pos = 0
+            while j < 8:
+                if row[pos] in self.channel_encoder:
+                    encoded = self.channel_encoder[row[pos]]
+                    tensor[encoded[0]][i][j] = encoded[1]
+                else:
+                    j += int(row[pos])
+
+                j += 1
+                pos += 1
+
+        return tensor
 
 
 if __name__ == '__main__':
