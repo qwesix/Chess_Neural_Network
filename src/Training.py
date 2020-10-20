@@ -102,7 +102,7 @@ if __name__ == '__main__':
     features = []
 
     start_time = time.time()
-    for entry in data[:20]:
+    for entry in data[0:200]:
         result = entry["result"] + 1
         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
         game = entry["states"]

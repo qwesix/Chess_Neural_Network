@@ -17,7 +17,25 @@ if __name__ == '__main__':
 
     print(game.board().epd())
 
-    for move in game.mainline_moves():
-        board.push(move)
-        print(board.epd())
+    # for move in game.mainline_moves():
+    #     board.push(move)
+    #     print(board.epd())
+
+    board_before = game.board().__str__()
+    board = game.board()
+
+    print([x for x in board.legal_moves])
+
+    # make two moves
+    board.push([x for x in board.legal_moves][0])
+    board.push([x for x in board.legal_moves][0])
+
+    # redo the moves
+    board.pop()
+    board.pop()
+
+    if board.__str__() == board_before:
+        print("equal")
+
+    print(board.is_game_over())
 
