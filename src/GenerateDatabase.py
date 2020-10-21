@@ -70,14 +70,14 @@ if __name__ == '__main__':
     # database_path = sys.argv[2]
 
     pgn_folder = "../pgn/"
-    database_path = "../database/chess_db_sample.json"
+    database_path = "../database/chess_db.json"
 
     paths = list()
     for x in os.scandir(pgn_folder):
         paths.append(x.path)
 
     with mp.Pool(mp.cpu_count()) as pool:
-        results = pool.map_async(process_file, paths[:2], chunksize=100)
+        results = pool.map_async(process_file, paths, chunksize=500)
         results = results.get()
 
     states = functools.reduce(operator.iconcat, results, [])

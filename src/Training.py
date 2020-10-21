@@ -4,6 +4,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.backends import cudnn
+from torchvision import datasets, transforms
+
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
@@ -14,6 +16,9 @@ from src.ChessANN import ChessANN
 
 DATABASE_PATH = "../database/chess_db_sample.json"
 USE_GPU = True
+BATCH_SIZE = 50000
+NR_EPOCHS = 20
+torch.manual_seed(42)
 
 
 def print_gpu_information(device_, use_gpu: bool):
@@ -41,6 +46,7 @@ if __name__ == '__main__':
 
     # Select device to use:
     device = "cuda" if cuda_available and USE_GPU else "cpu"
+    torch.backends.cudnn.benchmark = True
 
     # ===== Create model =====
     model = ChessANN()
@@ -61,7 +67,7 @@ if __name__ == '__main__':
     features = []
 
     start_time = time.time()
-    for entry in data[:450]:
+    for entry in data:
         result = entry["result"] + 1
         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
         game = entry["states"]
@@ -71,13 +77,15 @@ if __name__ == '__main__':
             labels.append(result)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
+    features_tensor.requires_grad_(False)
     torch.cat(features, out=features_tensor)
 
     labels_tensor = torch.LongTensor(labels)
+    labels_tensor.requires_grad_(False)
 
     train_x, test_x, train_y, test_y = train_test_split(features_tensor,
                                                         labels_tensor,
-                                                        test_size=0.3,
+                                                        test_size=0.2,
                                                         random_state=42)
 
     train_x = torch.FloatTensor(train_x)
@@ -85,8 +93,14 @@ if __name__ == '__main__':
     train_y = torch.LongTensor(train_y)   #.reshape(-1, 1)
     test_y = torch.LongTensor(test_y)   #.reshape(-1, 1)
 
+    validation_set = train_x[0:10000]
+    validation_set = train_y[0:10000]
+
+    train_dataset = torch.utils.data.TensorDataset(train_x, train_y)
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, pin_memory=True)
+
     end_time = time.time()
-    print(f'Processing data needed {time.time() - start_time:.0f} seconds. '
+    print(f'Preparing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
     if device != "cpu":
@@ -97,30 +111,30 @@ if __name__ == '__main__':
     print("Starting training...")
     losses = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
+    optimizer = torch.optim.SGD(params=model.parameters(), lr=0.1)
 
     start_time = time.time()
 
     half_size = int(len(labels_tensor)/2)
-    for i in range(20):
-        pred = model(train_x, train=True)
+    for i in range(NR_EPOCHS):
+        total_loss = 0
 
-        loss = criterion(pred, train_y)
-        losses.append(loss)
+        for features, labels in train_loader:
+            pred = model(train_x.to(device), train=True)
+            loss = criterion(pred, labels.to(device))
+            total_loss += loss.item()
+
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+        losses.append(total_loss)
 
         correct = 0
         for idx in range(half_size):
             if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
                 correct += 1
-        print(
-            f'epoch: {i:3}  loss: {loss.item():11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
-
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-    del train_x
-    del train_y
+        print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
 
     print(f'Training needed {time.time() - start_time:.0f} seconds')
     print("Validating with test data...")
