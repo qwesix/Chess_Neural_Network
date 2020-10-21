@@ -18,7 +18,7 @@ from src.ChessANN import ChessANN
 DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 25000
-NR_EPOCHS = 25
+NR_EPOCHS = 30
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -108,10 +108,6 @@ if __name__ == '__main__':
     print(f'Preparing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
-    # if device != "cpu":
-    #     train_x = train_x.to(device)
-    #     train_y = train_y.to(device)
-
     # ===== Training loop =====
     print("Starting training...")
     losses = []
@@ -147,22 +143,22 @@ if __name__ == '__main__':
 
     print(f'Training needed {time.time() - start_time:.0f} seconds')
     print("Validating with test data...")
-    test_x = test_x.to(device)
-    test_y = test_y.to(device)
-    pred = model(test_x, train=True)
-    loss = criterion(pred, test_y)
-
+    torch.cuda.empty_cache()
     correct = 0
-    for idx in range(len(test_x)):
-        if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
-            correct += 1
+    with torch.no_grad():
+        test_x = test_x.to(device)
+        test_y = test_y.to(device)
+        pred = model(test_x, train=True)
+        loss = criterion(pred, test_y)
+
+        for idx in range(len(test_x)):
+            if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
+                correct += 1
     print(f'On Validation data: loss: {loss.item():11.8f}  accuracy: {100 * correct / len(test_x):3.2f}%')
 
     plt.plot(losses)
     plt.ylabel('loss')
     plt.xlabel('epoch')
-    # axes = plt.gca()
-    # axes.set_ylim([0, None])
     plt.show()
 
     plt.plot(percentages)
