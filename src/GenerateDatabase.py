@@ -42,7 +42,7 @@ def process_file(path) -> list:
             games.append(new_entry)
 
         except Exception:
-            print("Something gone wrong!")
+            print("Something gone wrong! File: ", path)
 
         game = chess.pgn.read_game(pgn)
 
@@ -77,7 +77,7 @@ if __name__ == '__main__':
         paths.append(x.path)
 
     with mp.Pool(mp.cpu_count()) as pool:
-        results = pool.map_async(process_file, paths, chunksize=500)
+        results = pool.map_async(process_file, paths, chunksize=2)
         results = results.get()
 
     states = functools.reduce(operator.iconcat, results, [])

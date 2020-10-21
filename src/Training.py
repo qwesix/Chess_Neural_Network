@@ -6,6 +6,7 @@ import torch.nn as nn
 from torch.backends import cudnn
 from torchvision import datasets, transforms
 
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
@@ -14,11 +15,12 @@ from tinydb import TinyDB
 from src.ChessANN import ChessANN
 
 
-DATABASE_PATH = "../database/chess_db_sample.json"
+DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
-BATCH_SIZE = 50000
-NR_EPOCHS = 20
+BATCH_SIZE = 25000
+NR_EPOCHS = 25
 torch.manual_seed(42)
+sns.set_style("darkgrid")
 
 
 def print_gpu_information(device_, use_gpu: bool):
@@ -85,7 +87,7 @@ if __name__ == '__main__':
 
     train_x, test_x, train_y, test_y = train_test_split(features_tensor,
                                                         labels_tensor,
-                                                        test_size=0.2,
+                                                        test_size=0.1,
                                                         random_state=42)
 
     train_x = torch.FloatTensor(train_x)
@@ -93,8 +95,11 @@ if __name__ == '__main__':
     train_y = torch.LongTensor(train_y)   #.reshape(-1, 1)
     test_y = torch.LongTensor(test_y)   #.reshape(-1, 1)
 
-    validation_set = train_x[0:10000]
-    validation_set = train_y[0:10000]
+    val_size = 10000
+    validation_set = train_x[0:val_size]
+    validation_set = validation_set.to(device)
+    validation_labels = train_y[0:val_size]
+    validation_labels = validation_labels.to(device)
 
     train_dataset = torch.utils.data.TensorDataset(train_x, train_y)
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, pin_memory=True)
@@ -103,24 +108,24 @@ if __name__ == '__main__':
     print(f'Preparing data needed {time.time() - start_time:.0f} seconds. '
           f'{len(labels)} data points available')
 
-    if device != "cpu":
-        train_x = train_x.to(device)
-        train_y = train_y.to(device)
+    # if device != "cpu":
+    #     train_x = train_x.to(device)
+    #     train_y = train_y.to(device)
 
     # ===== Training loop =====
     print("Starting training...")
     losses = []
+    percentages = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.SGD(params=model.parameters(), lr=0.1)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
 
     start_time = time.time()
 
-    half_size = int(len(labels_tensor)/2)
     for i in range(NR_EPOCHS):
         total_loss = 0
 
         for features, labels in train_loader:
-            pred = model(train_x.to(device), train=True)
+            pred = model(features.to(device), train=True)
             loss = criterion(pred, labels.to(device))
             total_loss += loss.item()
 
@@ -128,13 +133,17 @@ if __name__ == '__main__':
             loss.backward()
             optimizer.step()
 
-        losses.append(total_loss)
+            pred = None
 
+        losses.append(total_loss)
+        pred = model(validation_set, train=True)
         correct = 0
-        for idx in range(half_size):
-            if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
+        for idx in range(val_size):
+            if torch.argmax(pred[idx]).float() == validation_labels[idx].item():
                 correct += 1
-        print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
+        accuracy = 100 * correct / val_size
+        percentages.append(accuracy)
+        print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {accuracy:3.2f}%')
 
     print(f'Training needed {time.time() - start_time:.0f} seconds')
     print("Validating with test data...")
@@ -147,13 +156,20 @@ if __name__ == '__main__':
     for idx in range(len(test_x)):
         if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
             correct += 1
-    print(f'On Validation data: loss: {loss.item():11.8f}  accuracy: {100 * correct / half_size:3.2f}%')
+    print(f'On Validation data: loss: {loss.item():11.8f}  accuracy: {100 * correct / len(test_x):3.2f}%')
 
     plt.plot(losses)
     plt.ylabel('loss')
     plt.xlabel('epoch')
+    # axes = plt.gca()
+    # axes.set_ylim([0, None])
+    plt.show()
+
+    plt.plot(percentages)
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
     axes = plt.gca()
-    axes.set_ylim([0, None])
+    axes.set_ylim([0, 100])
     plt.show()
 
     name = input("Save model? >>> ")
