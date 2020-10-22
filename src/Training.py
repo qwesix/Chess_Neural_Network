@@ -98,8 +98,6 @@ if __name__ == '__main__':
                                                         test_size=0.1 if len(labels_tensor) < 200000 else 20000/len(labels_tensor),
                                                         random_state=42)
 
-    print(20000/len(labels_tensor) * len(labels_tensor))
-
     train_x = torch.FloatTensor(train_x)
     test_x = torch.FloatTensor(test_x)
     train_y = torch.LongTensor(train_y)   # .reshape(-1, 1)
