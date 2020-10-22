@@ -4,6 +4,8 @@ import torch.nn.functional as F
 
 
 P_DROPOUT = 0.2
+# TODO: Überanpassung? Weniger Schichten!
+# TODO: Multiprocessing im Training!
 
 
 class ChessANN(nn.Module):

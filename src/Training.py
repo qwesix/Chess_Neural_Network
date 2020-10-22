@@ -18,7 +18,7 @@ from src.ChessANN import ChessANN
 DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 25000
-NR_EPOCHS = 30
+NR_EPOCHS = 15
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -35,6 +35,14 @@ def print_gpu_information(device_, use_gpu: bool):
         print('torch version: ' + torch.__version__,
               "\tAvailable GPUs: " + str(torch.cuda.device_count()),
               "\tGPU used? NO")
+
+
+def time_string(seconds: float) -> str:
+    seconds = int(seconds)
+    hours = int(seconds/3600)
+    minutes = int((seconds - 3600*hours) / 60)
+    rest_seconds = int(seconds - 3600*hours - 60*minutes)
+    return f'{hours} hrs {minutes} min {rest_seconds} sec'
 
 
 if __name__ == '__main__':
@@ -62,7 +70,7 @@ if __name__ == '__main__':
     data = table.all()
     db.close()
     end_time = time.time()
-    print(f'Collecting data from db needed {time.time() - start_time:.0f} seconds. '
+    print(f'Collecting data from db needed {time_string(time.time() - start_time)}. '
           f'{len(data)} games available')
 
     labels = []
@@ -87,13 +95,15 @@ if __name__ == '__main__':
 
     train_x, test_x, train_y, test_y = train_test_split(features_tensor,
                                                         labels_tensor,
-                                                        test_size=0.1,
+                                                        test_size=0.1 if len(labels_tensor) < 200000 else 20000/len(labels_tensor),
                                                         random_state=42)
+
+    print(20000/len(labels_tensor) * len(labels_tensor))
 
     train_x = torch.FloatTensor(train_x)
     test_x = torch.FloatTensor(test_x)
-    train_y = torch.LongTensor(train_y)   #.reshape(-1, 1)
-    test_y = torch.LongTensor(test_y)   #.reshape(-1, 1)
+    train_y = torch.LongTensor(train_y)   # .reshape(-1, 1)
+    test_y = torch.LongTensor(test_y)   # .reshape(-1, 1)
 
     val_size = 10000
     validation_set = train_x[0:val_size]
@@ -105,7 +115,7 @@ if __name__ == '__main__':
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, pin_memory=True)
 
     end_time = time.time()
-    print(f'Preparing data needed {time.time() - start_time:.0f} seconds. '
+    print(f'Preparing data needed {time_string(time.time() - start_time)}. '
           f'{len(labels)} data points available')
 
     # ===== Training loop =====
@@ -118,6 +128,9 @@ if __name__ == '__main__':
     start_time = time.time()
 
     for i in range(NR_EPOCHS):
+        if i == 5:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
+
         total_loss = 0
 
         for features, labels in train_loader:
@@ -132,16 +145,17 @@ if __name__ == '__main__':
             pred = None
 
         losses.append(total_loss)
-        pred = model(validation_set, train=True)
-        correct = 0
-        for idx in range(val_size):
-            if torch.argmax(pred[idx]).float() == validation_labels[idx].item():
-                correct += 1
-        accuracy = 100 * correct / val_size
-        percentages.append(accuracy)
-        print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {accuracy:3.2f}%')
+        with torch.no_grad():
+            pred = model(validation_set, train=True)
+            correct = 0
+            for idx in range(val_size):
+                if torch.argmax(pred[idx]).float() == validation_labels[idx].item():
+                    correct += 1
+            accuracy = 100 * correct / val_size
+            percentages.append(accuracy)
+            print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {accuracy:3.2f}%')
 
-    print(f'Training needed {time.time() - start_time:.0f} seconds')
+    print(f'Training needed {time_string(time.time() - start_time)}')
     print("Validating with test data...")
     torch.cuda.empty_cache()
     correct = 0
