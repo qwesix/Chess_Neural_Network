@@ -1,5 +1,4 @@
 from tinydb import TinyDB
-import torch
 import chess.pgn
 
 import os
@@ -77,7 +76,7 @@ if __name__ == '__main__':
         paths.append(x.path)
 
     with mp.Pool(mp.cpu_count()) as pool:
-        results = pool.map_async(process_file, paths, chunksize=2)
+        results = pool.map_async(process_file, paths, chunksize=10)
         results = results.get()
 
     states = functools.reduce(operator.iconcat, results, [])

@@ -1,4 +1,5 @@
 import time
+import multiprocessing as mp
 
 import numpy as np
 import torch
@@ -15,7 +16,7 @@ from tinydb import TinyDB
 from src.ChessANN import ChessANN
 
 
-DATABASE_PATH = "../database/chess_db.json"
+DATABASE_PATH = "../database/chess_db_sample.json"
 USE_GPU = True
 BATCH_SIZE = 25000
 NR_EPOCHS = 15
@@ -77,14 +78,20 @@ if __name__ == '__main__':
     features = []
 
     start_time = time.time()
-    for entry in data:
-        result = entry["result"] + 1
-        # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
-        game = entry["states"]
+    with mp.Pool(mp.cpu_count()) as pool:
+        for entry in data:
+            result = entry["result"] + 1
+            # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+            game = entry["states"]
 
-        for state in game:
-            features.append(model.process_epd(state).unsqueeze(0))
-            labels.append(result)
+            labels.extend([result for x in range(len(game))])
+
+            # for state in game:
+            #     features.append(ChessANN.process_epd(state))
+
+            processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=8)
+            results = processed_epds.get()
+            features.extend(results)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
     features_tensor.requires_grad_(False)
@@ -95,7 +102,8 @@ if __name__ == '__main__':
 
     train_x, test_x, train_y, test_y = train_test_split(features_tensor,
                                                         labels_tensor,
-                                                        test_size=0.1 if len(labels_tensor) < 200000 else 20000/len(labels_tensor),
+                                                        test_size=0.1 if len(labels_tensor) < BATCH_SIZE*10 else BATCH_SIZE/len(labels_tensor),
+                                                        # Size of test data <= batch size
                                                         random_state=42)
 
     train_x = torch.FloatTensor(train_x)
@@ -121,12 +129,14 @@ if __name__ == '__main__':
     losses = []
     percentages = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.002)
 
     start_time = time.time()
 
     for i in range(NR_EPOCHS):
         if i == 5:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+        elif i == 10:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
 
         total_loss = 0
