@@ -3,8 +3,7 @@ import re
 import chess
 
 from PlayingEngine import PlayingEngine
-from ValueFunction import ChessANNValueFunction
-
+from ValueFunction import ChessANNValueFunction, DumbValueFunction
 
 uci_re = re.compile('[a-h][0-8][a-h][0-8]', re.IGNORECASE)
 
@@ -17,8 +16,8 @@ def get_player_move(board_: chess.Board) -> chess.Move:
     return chess.Move.from_uci(inp)
 
 
-def play_against_black(board_: chess.Board):
-    computer = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), 2, PlayingEngine.BLACK)
+def play_against_black(board_: chess.Board, depth=2):
+    computer = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), depth, PlayingEngine.BLACK)
 
     white_on_turn = True
     while not board.is_game_over():
@@ -28,7 +27,7 @@ def play_against_black(board_: chess.Board):
             print(board)
 
         else:
-            move = computer.min_max_search(board)
+            move = computer.min_max_parallel(board)
             board.push(move)
             print(board)
 
@@ -37,8 +36,8 @@ def play_against_black(board_: chess.Board):
     print("Result: ", board.result())
 
 
-def play_against_white(board_: chess.Board):
-    computer = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), 2, PlayingEngine.WHITE)
+def play_against_white(board_: chess.Board, depth=2):
+    computer = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), depth, PlayingEngine.WHITE)
 
     white_on_turn = True
     while not board.is_game_over():
@@ -70,8 +69,6 @@ if __name__ == '__main__':
     print(board)
 
     if player_color == "w":
-        play_against_black(board)
+        play_against_black(board, 3)
     else:
-        play_against_white(board)
-
-
+        play_against_white(board, 3)
