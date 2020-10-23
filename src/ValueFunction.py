@@ -38,7 +38,7 @@ class DumbValueFunction(ValueFunction):
 class ChessANNValueFunction(ValueFunction):
     def __init__(self, model_path: str):
         self.model = ChessANN()
-        self.model.load_state_dict(torch.load(model_path))
+        self.model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
         self.model.eval()
 
     def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
@@ -64,4 +64,5 @@ class ChessANNValueFunction(ValueFunction):
         win_chance_enemy = nn_out[2] if color == ValueFunction.BLACK else nn_out[0]
         chance_for_draw = nn_out[1]
 
-        return 2*win_chance_player + chance_for_draw - 2*win_chance_enemy
+        # return 2*win_chance_player + chance_for_draw - 2*win_chance_enemy
+        return win_chance_player + chance_for_draw  # chance for not loosing
