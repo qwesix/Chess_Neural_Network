@@ -32,15 +32,18 @@ class PlayingEngine:
                 temp = board.copy(stack=False)
                 temp.push(move)
                 result = self._alpha_beta_min_(temp, 1, alpha=-10000, beta=10000)
+                # Normally maximize must be called, but this method replaces maximise at the beginning
                 if result > best_result:
                     best_result = result
                     best_move = move
-
         else:
             for move in board.legal_moves:
                 temp = board.copy(stack=False)
                 temp.push(move)
                 result = self._minimize_(temp, 1)
+                # Because of that we call minimize
+                # Normally maximize must be called, but this method replaces maximise at the beginning
+                # Because of that we call minimize
                 if result > best_result:
                     best_result = result
                     best_move = move
