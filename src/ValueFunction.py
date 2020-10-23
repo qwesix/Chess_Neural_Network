@@ -65,4 +65,4 @@ class ChessANNValueFunction(ValueFunction):
         chance_for_draw = nn_out[1]
 
         # return 2*win_chance_player + chance_for_draw - 2*win_chance_enemy
-        return win_chance_player + chance_for_draw - win_chance_enemy
+        return win_chance_player + chance_for_draw  # chance for not loosing
