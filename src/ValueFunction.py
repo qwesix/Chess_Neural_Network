@@ -42,12 +42,26 @@ class ChessANNValueFunction(ValueFunction):
         self.model.eval()
 
     def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
-        in_features = ChessANN.process_epd(board.epd())
-        in_features
-        nn_out = self.model.forward(in_features)
+        if board.is_game_over():
+            # no need to evaluate with neural net
+            result = board.result()
+            if result == '1-0':     # white won
+                return 100 if color == ValueFunction.WHITE else -100
 
-        win_chance_player = nn_out[0] if color == ValueFunction.WHITE else nn_out[2]
-        win_chance_enemy = nn_out[2] if color == ValueFunction.WHITE else nn_out[0]
+            elif result == "0-1":   # black won
+                return 100 if color == ValueFunction.BLACK else -100
+
+            else:
+                return 0
+
+        with torch.no_grad():
+            in_features = ChessANN.process_epd(board.epd())
+            nn_out = self.model.forward(in_features)
+
+        nn_out = nn_out.tolist()
+
+        win_chance_player = nn_out[0] if color == ValueFunction.BLACK else nn_out[2]
+        win_chance_enemy = nn_out[2] if color == ValueFunction.BLACK else nn_out[0]
         chance_for_draw = nn_out[1]
 
         return 2*win_chance_player + chance_for_draw - 2*win_chance_enemy

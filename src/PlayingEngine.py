@@ -1,8 +1,9 @@
-import sys
+import time
 
 import chess
 
-from ValueFunction import ValueFunction, DumbValueFunction
+from Training import time_string
+from ValueFunction import ValueFunction, DumbValueFunction, ChessANNValueFunction
 
 
 class PlayingEngine:
@@ -19,8 +20,11 @@ class PlayingEngine:
         Tries to find an optimal move via mini maxi algorithm and returns that move.
         :param board:
         """
+        start_time = time.time()
         result, move = self.maximize(board.copy(stack=False), 0)
-        print("Value: ", result)
+        end_time = time.time()
+
+        print(f"Value: {result:4f} Computation time: {time_string(end_time-start_time)}")
         print("Make move: ", move)
 
         return move
@@ -66,9 +70,9 @@ class PlayingEngine:
 if __name__ == '__main__':
     board = chess.Board()
     print(board)
-    black = PlayingEngine(DumbValueFunction(), 2, PlayingEngine.BLACK)
+    black = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), 2, PlayingEngine.BLACK)
 
-    for i in range(8):
+    while not board.is_game_over():
         inp = input("Enter your move >>> ")
         board.push_uci(inp)
         print(board)
