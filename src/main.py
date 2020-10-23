@@ -22,10 +22,6 @@ def play_against_black(board_: chess.Board):
 
     white_on_turn = True
     while not board.is_game_over():
-        if board.is_game_over():
-            print("Result: ", board.result())
-            return
-
         if white_on_turn:
             move = get_player_move(board_)
             board.push(move)
@@ -37,6 +33,8 @@ def play_against_black(board_: chess.Board):
             print(board)
 
         white_on_turn = not white_on_turn
+
+    print("Result: ", board.result())
 
 
 def play_against_white(board_: chess.Board):
@@ -59,6 +57,8 @@ def play_against_white(board_: chess.Board):
             print(board)
 
         white_on_turn = not white_on_turn
+
+    print("Result: ", board.result())
 
 
 if __name__ == '__main__':
