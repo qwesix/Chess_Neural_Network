@@ -49,7 +49,7 @@ def play_against_white(board_: chess.Board):
             return
 
         if white_on_turn:
-            move = computer.min_max_search(board)
+            move = computer.min_max_parallel(board)
             board.push(move)
             print(board)
 
