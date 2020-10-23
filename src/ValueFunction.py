@@ -43,7 +43,7 @@ class ChessANNValueFunction(ValueFunction):
 
     def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
         in_features = ChessANN.process_epd(board.epd())
-        in_features.unsqueeze(0)
+        in_features
         nn_out = self.model.forward(in_features)
 
         win_chance_player = nn_out[0] if color == ValueFunction.WHITE else nn_out[2]

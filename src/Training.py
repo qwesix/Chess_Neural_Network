@@ -79,61 +79,70 @@ if __name__ == '__main__':
 
     start_time = time.time()
 
-    epds_white_wins = []
-    epds_black_wins = []
-    epds_remis = []
-
-    for entry in data:
-        result = entry["result"]
-        if result == 1:     # white wins
-            epds_white_wins.extend(entry["states"])
-
-        elif result == -1:  # black wins
-            epds_black_wins.extend(entry["states"])
-
-        else:   # draw/remis
-            epds_remis.extend(entry["states"])
-
-    # we want to use the same amount of examples for every possible end -> crop the last
-    max_length = min(len(epds_white_wins), len(epds_black_wins), len(epds_remis))
-    labels.extend([0] * max_length)     # black wins
-    labels.extend([1] * max_length)     # remis
-    labels.extend([2] * max_length)     # white wins
-
-    epds = epds_black_wins[:max_length]
-    epds.extend(epds_remis[:max_length])
-    epds.extend(epds_white_wins[:max_length])
-
-    with mp.Pool(mp.cpu_count()-1) as pool:
-        # process all examples with black as winner and add them to the features list
-        processed_epds = pool.imap(ChessANN.process_epd, epds, chunksize=1000)
-        # results =
-        features = list(processed_epds)#.get())
-
-        # # process all with remis/draw
-        # processed_epds = pool.map_async(ChessANN.process_epd, epds_remis[:max_length], chunksize=1000)
-        # results = processed_epds.get()
-        # features.extend(results)
-        #
-        # # process all with white
-        # processed_epds = pool.map_async(ChessANN.process_epd, epds_white_wins[:max_length], chunksize=1000)
-        # results = processed_epds.get()
-        # features.extend(results)
-
-    # with mp.Pool(mp.cpu_count()) as pool:
-    #     for entry in data[:3000]:
-    #         result = entry["result"] + 1
-    #         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
-    #         game = entry["states"]
+    # epds_white_wins = []
+    # epds_black_wins = []
+    # epds_remis = []
     #
-    #         labels.extend([result] * len(game))
+    # for entry in data:
+    #     result = entry["result"]
+    #     if result == 1:     # white wins
+    #         epds_white_wins.extend(entry["states"])
     #
-    #         # for state in game:
-    #         #     features.append(ChessANN.process_epd(state))
+    #     elif result == -1:  # black wins
+    #         epds_black_wins.extend(entry["states"])
     #
-    #         processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=1)
-    #         results = processed_epds.get()
-    #         features.extend(results)
+    #     else:   # draw/remis
+    #         epds_remis.extend(entry["states"])
+    #
+    # # we want to use the same amount of examples for every possible end -> crop the last
+    # max_length = min(len(epds_white_wins), len(epds_black_wins), len(epds_remis))
+    # labels.extend([0] * max_length)     # black wins
+    # labels.extend([1] * max_length)     # remis
+    # labels.extend([2] * max_length)     # white wins
+    #
+    # epds = epds_black_wins[:max_length]
+    # epds.extend(epds_remis[:max_length])
+    # epds.extend(epds_white_wins[:max_length])
+    #
+    # with mp.Pool(mp.cpu_count()-1) as pool:
+    #     # process all examples with black as winner and add them to the features list
+    #     processed_epds = pool.imap(ChessANN.process_epd, epds, chunksize=1000)
+    #     # results =
+    #     features = list(processed_epds)#.get())
+    #
+    #     # # process all with remis/draw
+    #     # processed_epds = pool.map_async(ChessANN.process_epd, epds_remis[:max_length], chunksize=1000)
+    #     # results = processed_epds.get()
+    #     # features.extend(results)
+    #     #
+    #     # # process all with white
+    #     # processed_epds = pool.map_async(ChessANN.process_epd, epds_white_wins[:max_length], chunksize=1000)
+    #     # results = processed_epds.get()
+    #     # features.extend(results)
+
+    with mp.Pool(mp.cpu_count()) as pool:
+        for entry in data[:3000]:
+            result = entry["result"] + 1
+            # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+            game = entry["states"]
+
+            labels.extend([result] * len(game))
+
+            # for state in game:
+            #     features.append(ChessANN.process_epd(state))
+
+            processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=1)
+            results = processed_epds.get()
+            features.extend(results)
+
+    # for entry in data:
+    #     result = entry["result"] + 1
+    #     # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+    #     game = entry["states"]
+    #
+    #     for state in game:
+    #         features.append(model.process_epd(state))
+    #         labels.append(result)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
     features_tensor.requires_grad_(False)
@@ -177,15 +186,15 @@ if __name__ == '__main__':
 
     for i in range(NR_EPOCHS):
         if i == 5:
-            optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
-        elif i == 10:
-            optimizer = torch.optim.Adam(model.parameters(), lr=0.005)
-        elif i == 15:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-        elif i == 25:
+        elif i == 10:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
-        elif i == 30:
+        elif i == 15:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
+        elif i == 25:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.00005)
+        elif i == 30:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.00001)
 
         total_loss = 0
 
