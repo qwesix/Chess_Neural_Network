@@ -21,15 +21,15 @@ class PlayingEngine:
         :param board:
         """
         start_time = time.time()
-        result, move = self.maximize(board.copy(stack=False), 0)
+        result, move = self._maximize_(board.copy(stack=False), 0)
         end_time = time.time()
 
-        print(f"Value: {result:4f} Computation time: {time_string(end_time-start_time)}")
+        print(f"Value: {result:.4f} Computation time: {time_string(end_time-start_time)}")
         print("Make move: ", move)
 
         return move
 
-    def minimize(self, board: chess.Board, depth: int, move_done=None) -> (float, chess.Move):
+    def _minimize_(self, board: chess.Board, depth: int, move_done=None) -> (float, chess.Move):
         if depth > self.search_depth:
             return self.value_function.evaluate_position(board, self.player_color), move_done
 
@@ -40,7 +40,7 @@ class PlayingEngine:
             for move in board.legal_moves:
                 temp = board.copy(stack=False)
                 temp.push(move)
-                val, mov = self.maximize(temp, depth + 1, move)
+                val, mov = self._maximize_(temp, depth + 1, move)
 
                 if val < min_val:
                     min_val = val
@@ -48,7 +48,7 @@ class PlayingEngine:
 
             return min_val, best_move
 
-    def maximize(self, board: chess.Board, depth: int, move_done=None) -> (float, chess.Move):
+    def _maximize_(self, board: chess.Board, depth: int, move_done=None) -> (float, chess.Move):
         if depth > self.search_depth or board.is_game_over():
             return self.value_function.evaluate_position(board, self.player_color), move_done
 
@@ -59,24 +59,10 @@ class PlayingEngine:
             for move in board.legal_moves:
                 temp = board.copy(stack=False)
                 temp.push(move)
-                val, mov = self.minimize(temp, depth + 1, move)
+                val, mov = self._minimize_(temp, depth + 1, move)
                 if val > max_val:
                     max_val = val
                     best_move = move
 
             return max_val, best_move
 
-
-if __name__ == '__main__':
-    board = chess.Board()
-    print(board)
-    black = PlayingEngine(ChessANNValueFunction("../models/v1.pt"), 2, PlayingEngine.BLACK)
-
-    while not board.is_game_over():
-        inp = input("Enter your move >>> ")
-        board.push_uci(inp)
-        print(board)
-
-        move = black.min_max_search(board)
-        board.push(move)
-        print(board)
