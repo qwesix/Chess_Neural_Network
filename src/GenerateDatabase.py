@@ -88,4 +88,3 @@ if __name__ == '__main__':
     nr_examples_added = add_to_database(table, states)
     print(f"Examples in the database: {len(table)} ({nr_examples_added} newly added)")
     db.close()
-

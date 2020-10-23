@@ -73,5 +73,3 @@ if __name__ == '__main__':
         play_against_black(board)
     else:
         play_against_white(board)
-
-

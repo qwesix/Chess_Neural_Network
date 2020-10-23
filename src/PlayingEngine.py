@@ -22,7 +22,6 @@ class PlayingEngine:
         :param use_alpha_beta: If true the algorithm uses alpha-beta-search with pruning
         :param board:
         """
-
         start_time = time.time()
         best_move = None
         best_result = -10000
