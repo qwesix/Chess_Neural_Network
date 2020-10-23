@@ -90,7 +90,7 @@ class PlayingEngine:
         return best_move
 
     def _minimize_(self, board: chess.Board, depth: int) -> (float, chess.Move):
-        if depth > self.search_depth:
+        if depth > self.search_depth or board.is_game_over():
             return self.value_function.evaluate_position(board, self.player_color)
 
         else:
@@ -125,7 +125,7 @@ class PlayingEngine:
     def _alpha_beta_min_(self, board: chess.Board, depth: int, alpha: int, beta: int) -> (float, chess.Move):
         # alpha = current maximum; beta = current minimum
 
-        if depth > self.search_depth:
+        if depth > self.search_depth or board.is_game_over():
             return self.value_function.evaluate_position(board, self.player_color)
 
         else:
@@ -144,7 +144,7 @@ class PlayingEngine:
             return min_val
 
     def _alpha_beta_max_(self, board: chess.Board, depth: int, alpha: int, beta: int) -> (float, chess.Move):
-        if depth > self.search_depth:
+        if depth > self.search_depth or board.is_game_over():
             return self.value_function.evaluate_position(board, self.player_color)
 
         else:
