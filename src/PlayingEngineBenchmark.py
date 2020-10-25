@@ -42,16 +42,14 @@ if __name__ == '__main__':
 
     nr_repetitions = 5
     board = chess.Board()
-    engine = PlayingEngine(ChessANNValueFunction("../models/v4.pt"), search_depth=2, player_color=PlayingEngine.WHITE)
-    # engine = PlayingEngine(DumbValueFunction(), search_depth=3, player_color=PlayingEngine.WHITE)
+    # engine = PlayingEngine(ChessANNValueFunction("../models/v4.pt"), search_depth=2, player_color=PlayingEngine.WHITE)
+    engine = PlayingEngine(DumbValueFunction(), search_depth=3, player_color=PlayingEngine.WHITE)
 
     bench(engine.min_max_search, nr_repetitions, "mini max", board, False, True)
-    # bench(engine.min_max_parallel, nr_repetitions, "mini max /w mp", board, False, True)
-    #
-    # bench(engine.min_max_search, nr_repetitions, "alpha beta", board, True, True)
-    # bench(engine.min_max_parallel, nr_repetitions, "alpha beta /w mp", board, False, True)
+    bench(engine.min_max_parallel, nr_repetitions, "mini max /w mp", board, False, True)
 
-    bench(engine.min_max_cached, nr_repetitions, "mini max cached", board, True, True)
+    bench(engine.min_max_search, nr_repetitions, "alpha beta", board, True, True)
+    bench(engine.min_max_parallel, nr_repetitions, "alpha beta /w mp", board, False, True)
 
 # With copying:
 # Avg mini max:                 21.8467 sec.
