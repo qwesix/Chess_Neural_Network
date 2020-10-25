@@ -108,8 +108,9 @@ class PlayingEngine:
 
                 board.pop()     # redo last move
 
-                if val < min_val:
-                    min_val = val
+                # if val < min_val:
+                #     min_val = val
+                min_val = val * (val < min_val) + min_val * (val >= min_val)
 
             return min_val
 
@@ -128,8 +129,9 @@ class PlayingEngine:
 
                 board.pop()  # redo last move
 
-                if val > max_val:
-                    max_val = val
+                # if val > max_val:
+                #     max_val = val
+                max_val = val * (val > max_val) + max_val * (val <= max_val)
 
             return max_val
 
@@ -151,8 +153,8 @@ class PlayingEngine:
 
                 board.pop()
 
-                if val < min_val:
-                    min_val = val
+                min_val = val * (val < min_val) + min_val * (val >= min_val)
+
                 if min_val <= alpha:
                     return min_val
 
@@ -174,8 +176,8 @@ class PlayingEngine:
 
                 board.pop()
 
-                if val > max_val:
-                    max_val = val
+                max_val = val * (val > max_val) + max_val * (val <= max_val)
+
                 if max_val > beta:
                     return max_val
 
