@@ -18,8 +18,8 @@ from src.ChessANN import ChessANN
 
 DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
-BATCH_SIZE = 35000
-NR_EPOCHS = 60
+BATCH_SIZE = 40000
+NR_EPOCHS = 105
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -197,17 +197,17 @@ if __name__ == '__main__':
     start_time = time.time()
 
     for i in range(NR_EPOCHS):
-        if i == 5:
+        if i == 30:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-        elif i == 10:
+        elif i == 50:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
-        elif i == 15:
+        elif i == 65:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
-        elif i == 25:
+        elif i == 75:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00005)
-        elif i == 35:
+        elif i == 85:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00001)
-        elif i == 45:
+        elif i == 95:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.000001)
 
         total_loss = 0
