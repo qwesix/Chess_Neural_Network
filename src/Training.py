@@ -46,11 +46,11 @@ def time_string(seconds: float) -> str:
     return f'{hours} hrs {minutes} min {rest_seconds} sec'
 
 
-def printProgressBar(i, max, postText=""):
+def print_process_bar(i, max, post_text=""):
     n_bar = 40   # size of progress bar
     j = i/max
     sys.stdout.write('\r')
-    sys.stdout.write(f"[{'=' * int(n_bar * j):{n_bar}s}] {int(100 * j)}%  {postText}")
+    sys.stdout.write(f"[{'=' * int(n_bar * j):{n_bar}s}] {int(100 * j)}%  {post_text}")
     sys.stdout.flush()
 
 
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     i = 0
     data_length = len(data)
     for entry in data:
-        printProgressBar(i, data_length, "of data processing completed.")
+        print_process_bar(i, data_length, "of data processing completed.")
 
         result = entry["result"] + 1
         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
