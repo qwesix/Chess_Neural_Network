@@ -1,3 +1,4 @@
+import sys
 import time
 import multiprocessing as mp
 
@@ -12,14 +13,13 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
-
 from src.ChessANN import ChessANN
 
 
 DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
-BATCH_SIZE = 25000
-NR_EPOCHS = 40
+BATCH_SIZE = 35000
+NR_EPOCHS = 60
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -44,6 +44,14 @@ def time_string(seconds: float) -> str:
     minutes = int((seconds - 3600*hours) / 60)
     rest_seconds = int(seconds - 3600*hours - 60*minutes)
     return f'{hours} hrs {minutes} min {rest_seconds} sec'
+
+
+def printProgressBar(i, max, postText=""):
+    n_bar = 40   # size of progress bar
+    j = i/max
+    sys.stdout.write('\r')
+    sys.stdout.write(f"[{'=' * int(n_bar * j):{n_bar}s}] {int(100 * j)}%  {postText}")
+    sys.stdout.flush()
 
 
 if __name__ == '__main__':
@@ -77,63 +85,64 @@ if __name__ == '__main__':
     labels = []
     features = []
 
+    states_white_wins = []
+    states_black_wins = []
+    states_draw = []
+
     start_time = time.time()
 
-    # epds_white_wins = []
-    # epds_black_wins = []
-    # epds_remis = []
-    #
-    # for entry in data:
-    #     result = entry["result"]
-    #     if result == 1:     # white wins
-    #         epds_white_wins.extend(entry["states"])
-    #
-    #     elif result == -1:  # black wins
-    #         epds_black_wins.extend(entry["states"])
-    #
-    #     else:   # draw/remis
-    #         epds_remis.extend(entry["states"])
-    #
-    # # we want to use the same amount of examples for every possible end -> crop the last
-    # max_length = min(len(epds_white_wins), len(epds_black_wins), len(epds_remis))
-    # labels.extend([0] * max_length)     # black wins
-    # labels.extend([1] * max_length)     # remis
-    # labels.extend([2] * max_length)     # white wins
-    #
-    # epds = epds_black_wins[:max_length]
-    # epds.extend(epds_remis[:max_length])
-    # epds.extend(epds_white_wins[:max_length])
-    #
-    # with mp.Pool(mp.cpu_count()-1) as pool:
-    #     # process all examples with black as winner and add them to the features list
-    #     processed_epds = pool.imap(ChessANN.process_epd, epds, chunksize=1000)
-    #     # results =
-    #     features = list(processed_epds)#.get())
-    #
-    #     # # process all with remis/draw
-    #     # processed_epds = pool.map_async(ChessANN.process_epd, epds_remis[:max_length], chunksize=1000)
-    #     # results = processed_epds.get()
-    #     # features.extend(results)
-    #     #
-    #     # # process all with white
-    #     # processed_epds = pool.map_async(ChessANN.process_epd, epds_white_wins[:max_length], chunksize=1000)
-    #     # results = processed_epds.get()
-    #     # features.extend(results)
+    i = 0
+    data_length = len(data)
+    for entry in data:
+        printProgressBar(i, data_length, "of data processing completed.")
 
-    with mp.Pool(mp.cpu_count()) as pool:
-        for entry in data[:3000]:
-            result = entry["result"] + 1
-            # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
-            game = entry["states"]
+        result = entry["result"] + 1
+        # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+        game = entry["states"]
 
-            labels.extend([result] * len(game))
+        processed_epds = []
+        for state in game:
+            processed_epds.append(model.process_epd(state))
 
-            # for state in game:
-            #     features.append(ChessANN.process_epd(state))
+        if result == 0:  # black wins
+            states_black_wins.extend(processed_epds)
 
-            processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=1)
-            results = processed_epds.get()
-            features.extend(results)
+        elif result == 2:  # white wins
+            states_white_wins.extend(processed_epds)
+
+        else:
+            states_draw.extend(processed_epds)
+
+        processed_epds = None
+        i += 1
+
+    # The same number of examples for every possible game ending:
+    min_length = min(len(states_black_wins), len(states_draw), len(states_white_wins))
+    labels = [0] * min_length     # black
+    labels.extend([1] * min_length)     # draw
+    labels.extend([2] * min_length)     # white
+
+    features = states_black_wins[:min_length]
+    states_black_wins = None
+    features.extend(states_draw[:min_length])
+    states_draw = None
+    features.extend(states_white_wins[:min_length])
+    states_white_wins = None
+
+    # with mp.Pool(mp.cpu_count()) as pool:
+    #     for entry in data[:3000]:
+    #         result = entry["result"] + 1
+    #         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+    #         game = entry["states"]
+    #
+    #         labels.extend([result] * len(game))
+    #
+    #         # for state in game:
+    #         #     features.append(ChessANN.process_epd(state))
+    #
+    #         processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=1)
+    #         results = processed_epds.get()
+    #         features.extend(results)
 
     # for entry in data:
     #     result = entry["result"] + 1
@@ -147,22 +156,25 @@ if __name__ == '__main__':
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
     features_tensor.requires_grad_(False)
     torch.cat(features, out=features_tensor)
+    features = None
 
     labels_tensor = torch.LongTensor(labels)
     labels_tensor.requires_grad_(False)
+    labels = None
 
     train_x, test_x, train_y, test_y = train_test_split(features_tensor,
                                                         labels_tensor,
                                                         test_size=0.1 if len(labels_tensor) < BATCH_SIZE*10 else BATCH_SIZE/len(labels_tensor),
                                                         # Size of test data <= batch size
                                                         random_state=42)
+    labels_tensor = features_tensor = None
 
     train_x = torch.FloatTensor(train_x)
     test_x = torch.FloatTensor(test_x)
     train_y = torch.LongTensor(train_y)   # .reshape(-1, 1)
     test_y = torch.LongTensor(test_y)   # .reshape(-1, 1)
 
-    val_size = 10000
+    val_size = 10000 if len(train_y) >= 10000 else len(train_y)
     validation_set = train_x[0:val_size]
     validation_set = validation_set.to(device)
     validation_labels = train_y[0:val_size]
@@ -172,8 +184,8 @@ if __name__ == '__main__':
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, pin_memory=True)
 
     end_time = time.time()
-    print(f'Preparing data needed {time_string(time.time() - start_time)}. '
-          f'{len(labels)} data points available')
+    print(f'\nPreparing data needed {time_string(time.time() - start_time)}. \n'
+          f'{len(train_y) + len(test_y)} data points for training available.')
 
     # ===== Training loop =====
     print("Starting training...")
@@ -193,8 +205,10 @@ if __name__ == '__main__':
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
         elif i == 25:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00005)
-        elif i == 30:
+        elif i == 35:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00001)
+        elif i == 45:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.000001)
 
         total_loss = 0
 
@@ -231,7 +245,7 @@ if __name__ == '__main__':
         loss = criterion(pred, test_y)
 
         for idx in range(len(test_x)):
-            if torch.argmax(pred[idx]).float() == labels_tensor[idx].item():
+            if torch.argmax(pred[idx]).float() == test_y[idx].item():
                 correct += 1
     print(f'On Validation data: loss: {loss.item():11.8f}  accuracy: {100 * correct / len(test_x):3.2f}%')
 
