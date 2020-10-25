@@ -16,6 +16,8 @@ class PlayingEngine:
         self.player_color = player_color
         self.value_function = value_function
 
+        self._cache_ = dict()
+
     def min_max_search(self, board: chess.Board, use_alpha_beta=False, mute=False) -> chess.Move:
         """
         Tries to find an optimal move via mini maxi algorithm and returns that move.
@@ -101,12 +103,9 @@ class PlayingEngine:
             min_val = 10000
 
             for move in board.legal_moves:
-                # temp = board.copy(stack=False)
-                # temp.push(move)
                 board.push(move)
                 val = self._maximize_(board, depth + 1)
-
-                board.pop()     # redo last move
+                board.pop()  # redo last move
 
                 # if val < min_val:
                 #     min_val = val
@@ -122,11 +121,8 @@ class PlayingEngine:
             max_val = -10000
 
             for move in board.legal_moves:
-                # temp = board.copy(stack=False)
-                # temp.push(move)
                 board.push(move)
                 val = self._minimize_(board, depth + 1)
-
                 board.pop()  # redo last move
 
                 # if val > max_val:
@@ -145,9 +141,6 @@ class PlayingEngine:
             min_val = 10000
 
             for move in board.legal_moves:
-                # temp = board.copy(stack=False)
-                # temp.push(move)
-
                 board.push(move)
                 val = self._alpha_beta_max_(board, depth + 1, alpha, beta)
 
@@ -168,9 +161,6 @@ class PlayingEngine:
             max_val = -10000
 
             for move in board.legal_moves:
-                # temp = board.copy(stack=False)
-                # temp.push(move)
-
                 board.push(move)
                 val = self._alpha_beta_min_(board, depth + 1, alpha, beta)
 
