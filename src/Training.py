@@ -1,14 +1,11 @@
 import sys
 import time
-import multiprocessing as mp
 
-import numpy as np
 import torch
 import torch.nn as nn
 from torch.backends import cudnn
-from torchvision import datasets, transforms
 
-import seaborn as sns
+# import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
@@ -21,7 +18,7 @@ USE_GPU = True
 BATCH_SIZE = 40000
 NR_EPOCHS = 105
 torch.manual_seed(42)
-sns.set_style("darkgrid")
+# sns.set_style("darkgrid")
 
 
 def print_gpu_information(device_, use_gpu: bool):
@@ -69,6 +66,7 @@ if __name__ == '__main__':
 
     # ===== Create model =====
     model = ChessANN()
+    # model.load_state_dict(torch.load("../models/v6.pt"))  # improve already trained parameters
     model.train()
     model = model.to(device)
 
@@ -128,30 +126,6 @@ if __name__ == '__main__':
     states_draw = None
     features.extend(states_white_wins[:min_length])
     states_white_wins = None
-
-    # with mp.Pool(mp.cpu_count()) as pool:
-    #     for entry in data[:3000]:
-    #         result = entry["result"] + 1
-    #         # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
-    #         game = entry["states"]
-    #
-    #         labels.extend([result] * len(game))
-    #
-    #         # for state in game:
-    #         #     features.append(ChessANN.process_epd(state))
-    #
-    #         processed_epds = pool.map_async(ChessANN.process_epd, game, chunksize=1)
-    #         results = processed_epds.get()
-    #         features.extend(results)
-
-    # for entry in data:
-    #     result = entry["result"] + 1
-    #     # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
-    #     game = entry["states"]
-    #
-    #     for state in game:
-    #         features.append(model.process_epd(state))
-    #         labels.append(result)
 
     features_tensor = torch.Tensor(len(features), 2, 8, 8)
     features_tensor.requires_grad_(False)
