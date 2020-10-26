@@ -15,7 +15,7 @@ The alpha beta algorithm uses the CNN as evaluation function. It simulates a few
 # Performance
 In one word: bad. I use the [python-chess](https://python-chess.readthedocs.io/en/latest/) Board class and it's slow. 
 On a 4-core Processor (i7-4790) simulating 4 moves ahead needs up to 20 minutes. (Without using a neural network) 
-In future I want to improve the performance of by exchanging the the chess engine or using C++.
+In future I want to improve the performance by exchanging the the chess engine or using C++.
 
 # Play a game
 There is no Graphical User Interface now, it's only possible to play on console. Just start the main script.
