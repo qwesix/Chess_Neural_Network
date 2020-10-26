@@ -21,9 +21,9 @@ def process_file(path) -> list:
 
             result_ = game.headers["Result"]
             result_encoded = 0
-            if result_ == "1-0":  # white won
+            if result_ == "1-0":    # white won
                 result_encoded = 1
-            elif result_ == "0-1":
+            elif result_ == "0-1":  # black won
                 result_encoded = -1
 
             board = game.board()

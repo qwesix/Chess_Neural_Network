@@ -38,13 +38,13 @@ class ChessANN(nn.Module):
         self.conv3 = nn.Conv2d(8, 16, kernel_size=2, padding=1)
 
         # self.flat_bn1 = nn.BatchNorm1d(1936)
-        self.hidden1 = nn.Linear(1936, 100)
+        self.hidden1 = nn.Linear(1936, 1500)
 
-        # self.flat_bn2 = nn.BatchNorm1d(2000)
-        # self.hidden2 = nn.Linear(2000, 50)
+        self.flat_bn2 = nn.BatchNorm1d(1500)
+        self.hidden2 = nn.Linear(1500, 50)
 
         # self.flat_bn3 = nn.BatchNorm1d(100)
-        self.hidden3 = nn.Linear(100, 3)
+        self.hidden3 = nn.Linear(50, 3)
 
         self.hidden4 = nn.Linear(3, 3)
 
@@ -77,7 +77,7 @@ class ChessANN(nn.Module):
         x = F.relu(self.hidden1(x))
 
         # x = self.flat_bn2(x)
-        # x = F.relu(self.hidden2(x))
+        x = F.relu(self.hidden2(x))
 
         # x = self.flat_bn3(x)
         x = self.flat_dropout(x)

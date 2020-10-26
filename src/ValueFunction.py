@@ -23,8 +23,7 @@ class ValueFunction:
 class DumbValueFunction(ValueFunction):
     def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
         positions = board.epd().split(" ")[0]
-        white_pieces = 0
-        black_pieces = 0
+        white_pieces, black_pieces = 0, 0
         for c in positions:
             if c.isalpha():
                 if c.isupper():
@@ -58,11 +57,14 @@ class ChessANNValueFunction(ValueFunction):
             in_features = ChessANN.process_epd(board.epd())
             nn_out = self.model.forward(in_features)
 
-        nn_out = nn_out.tolist()
+        # nn_out = nn_out.tolist()
+        b, chance_for_draw, w = nn_out[0].item(), nn_out[1].item(), nn_out[2].item()
 
         win_chance_player = nn_out[0] if color == ValueFunction.BLACK else nn_out[2]
-        win_chance_enemy = nn_out[2] if color == ValueFunction.BLACK else nn_out[0]
-        chance_for_draw = nn_out[1]
+        win_chance_player = b * (color == ValueFunction.BLACK) + w * (color == ValueFunction.WHITE)
+        # win_chance_enemy = nn_out[2] if color == ValueFunction.BLACK else nn_out[0]
+        win_chance_enemy = b * (color != ValueFunction.BLACK) + w * (color != ValueFunction.WHITE)
+        # chance_for_draw = nn_out[1]
 
-        # return 2*win_chance_player + chance_for_draw - 2*win_chance_enemy
-        return win_chance_player + chance_for_draw  # chance for not loosing
+        return 3*win_chance_player + chance_for_draw - 3*win_chance_enemy
+        # return win_chance_player + chance_for_draw  # chance for not loosing
