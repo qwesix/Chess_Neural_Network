@@ -107,8 +107,6 @@ class PlayingEngine:
                 val = self._maximize_(board, depth + 1)
                 board.pop()  # redo last move
 
-                # if val < min_val:
-                #     min_val = val
                 min_val = val * (val < min_val) + min_val * (val >= min_val)
 
             return min_val
@@ -125,8 +123,6 @@ class PlayingEngine:
                 val = self._minimize_(board, depth + 1)
                 board.pop()  # redo last move
 
-                # if val > max_val:
-                #     max_val = val
                 max_val = val * (val > max_val) + max_val * (val <= max_val)
 
             return max_val
