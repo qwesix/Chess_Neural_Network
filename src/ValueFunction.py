@@ -17,12 +17,12 @@ class ValueFunction:
     BLACK = 1
 
     @abstractmethod
-    def evaluate_position(self, board: chess.Board, color=WHITE) -> float:
+    def evaluate_position(self, board: chess.Board, color=WHITE, on_turn=WHITE) -> float:
         raise NotImplementedError
 
 
 class DumbValueFunction(ValueFunction):
-    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
+    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE, on_turn=ValueFunction.WHITE) -> float:
         positions = board.epd().split(" ")[0]
         white_pieces, black_pieces = 0, 0
         for c in positions:
@@ -41,7 +41,7 @@ class ChessANNValueFunction(ValueFunction):
         self.model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
         self.model.eval()
 
-    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
+    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE, on_turn=ValueFunction.WHITE) -> float:
         if board.is_game_over():
             # no need to evaluate with neural net
             result = board.result()
@@ -73,7 +73,7 @@ class ChessANNv2ValueFunction(ValueFunction):
         self.model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
         self.model.eval()
 
-    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE) -> float:
+    def evaluate_position(self, board: chess.Board, color=ValueFunction.WHITE, on_turn=ValueFunction.WHITE) -> float:
         if board.is_game_over():
             # no need to evaluate with neural net
             result = board.result()
@@ -88,8 +88,8 @@ class ChessANNv2ValueFunction(ValueFunction):
 
         with torch.no_grad():
             in_features = ChessANN.process_epd(board.epd())
-            player_feature = torch.Tensor([0 if color == ValueFunction.WHITE else 1])
-            nn_out = self.model.forward(in_features, player_feature)
+            player_feature = torch.Tensor([0 if on_turn == ValueFunction.WHITE else 1])
+            nn_out = self.model.forward(in_features, player_feature, eval=True)
 
         b, chance_for_draw, w = nn_out[0].item(), nn_out[1].item(), nn_out[2].item()
 

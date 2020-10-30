@@ -69,6 +69,6 @@ if __name__ == '__main__':
     print(board)
 
     if player_color == "w":
-        play_against_black(board, 2)
+        play_against_black(board, 1)
     else:
-        play_against_white(board, 2)
+        play_against_white(board, 1)
