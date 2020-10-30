@@ -107,7 +107,7 @@ class ChessANNv2(nn.Module):
         return tensor.unsqueeze(0)
 
 
-class FaceLandmarksDataset(torch.utils.data.Dataset):
+class ChessANN2Dataset(torch.utils.data.Dataset):
     """ Special dataset that is used for ChessANNv2 and delivers two input tensors in stead of one. """
 
     def __init__(self, conv_input, player_input, result):
