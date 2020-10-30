@@ -17,6 +17,11 @@ In one word: bad. I use the [python-chess](https://python-chess.readthedocs.io/e
 On a 4-core Processor (i7-4790) simulating 4 moves ahead needs up to 20 minutes. (Without using a neural network) 
 In future I want to improve the performance by exchanging the the chess engine or using C++.
 
+# Problems
+Because of the bad performance the AI does not think very far ahead and makes sometimes dumb moves.
+
+The Neural Net got just trained with 3,5 million example positions. Possible are around 10^43 positions in chess.
+
 # Play a game
 There is no Graphical User Interface now, it's only possible to play on console. Just start the main script.
 
