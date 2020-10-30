@@ -47,8 +47,8 @@ class ChessANNv2(nn.Module):
         self.flat_dropout = nn.Dropout(P_DROPOUT)
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
 
-    def forward(self, chess_position, player_on_turn) -> torch.Tensor:
-        x = self.conv0_bn(chess_position)
+    def forward(self, x, player_on_turn) -> torch.Tensor:
+        x = self.conv0_bn(x)
 
         x = self.conv1(x)
         x = F.relu(x)
@@ -65,12 +65,8 @@ class ChessANNv2(nn.Module):
 
         x = torch.flatten(x, start_dim=1)  # From multidimensional to one dimensional
 
-        print(x.shape)
-        print(player_on_turn.shape)
-
         x = torch.cat([x, player_on_turn], -1)
-
-        print(x.shape)
+        del player_on_turn
 
         x = self.flat_dropout(x)
         x = F.relu(self.hidden1(x))
@@ -119,7 +115,7 @@ class ChessANN2Dataset(torch.utils.data.Dataset):
         return len(self.result)
 
     def __getitem__(self, idx):
-        return self.conv_input[idx], self.player_input[idx], self.result
+        return self.conv_input[idx], self.player_input[idx], self.result[idx]
 
 
 if __name__ == '__main__':
@@ -132,3 +128,8 @@ if __name__ == '__main__':
     ANN = ANN.eval()
     y = ANN.forward(tensor1, tensor2)
     print(y)
+
+    t = torch.Tensor(5)
+    print(t)
+    t.resize_([len(t), 1])
+    print(t)

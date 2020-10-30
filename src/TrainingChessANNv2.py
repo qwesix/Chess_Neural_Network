@@ -11,14 +11,13 @@ from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
 from ChessANNv2 import ChessANNv2, ChessANN2Dataset
-from src.ChessANN import ChessANN
 from Training import print_gpu_information, print_process_bar, time_string
 
 
 DATABASE_PATH = "../database/chess_db_sample.json"
 USE_GPU = True
-BATCH_SIZE = 40000
-NR_EPOCHS = 105
+BATCH_SIZE = 512
+NR_EPOCHS = 100
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -38,7 +37,7 @@ if __name__ == '__main__':
 
     # ===== Create model =====
     model = ChessANNv2()
-    # model.load_state_dict(torch.load("../models/ChessANNv2/v1.pt"))  # improve already trained parameters
+    model.load_state_dict(torch.load("../models/ChessANNv2v3-90_82.pt"))  # improve already trained parameters
     model.train()
     model = model.to(device)
 
@@ -141,12 +140,14 @@ if __name__ == '__main__':
                                                      # Size of test data <= batch size (That test data fits on gpu completely)
                                                      random_state=42)
 
-    labels_tensor = position_features_tensor = labels_tensor = None
+    labels_tensor = position_features_tensor = on_turn_tensor = None
 
     position_train = torch.FloatTensor(position_train)
     position_test = torch.FloatTensor(position_test)
     on_turn_train = torch.FloatTensor(on_turn_train)
+    on_turn_train.resize_([len(on_turn_train), 1])
     on_turn_test = torch.FloatTensor(on_turn_test)
+    on_turn_test.resize_([len(on_turn_test), 1])
     labels_train = torch.LongTensor(labels_train)   # .reshape(-1, 1)
     labels_test = torch.LongTensor(labels_test)     # .reshape(-1, 1)
 
@@ -154,7 +155,7 @@ if __name__ == '__main__':
     validation_set = position_train[0:val_size]
     validation_set = validation_set.to(device)
     validation_turns = on_turn_train[0:val_size]
-    validation_turns = on_turn_train[0:val_size]
+    validation_turns = validation_turns.to(device)
     validation_labels = labels_train[0:val_size]
     validation_labels = validation_labels.to(device)
 
@@ -171,12 +172,14 @@ if __name__ == '__main__':
     losses = []
     percentages = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.002)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.003)
 
     start_time = time.time()
 
     for i in range(NR_EPOCHS):
-        if i == 30:
+        if i == 10:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.002)
+        elif i == 30:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
         elif i == 50:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
@@ -212,7 +215,7 @@ if __name__ == '__main__':
                     correct += 1
             accuracy = 100 * correct / val_size
             percentages.append(accuracy)
-            print(f'epoch: {i:3}  loss: {total_loss:11.8f}  accuracy: {accuracy:3.2f}%')
+            print(f'epoch: {i:3}  loss: {total_loss/number_of_batches:11.8f}  accuracy: {accuracy:3.2f}%')
 
     print(f'Training needed {time_string(time.time() - start_time)}')
     print("Validating with test data...")
