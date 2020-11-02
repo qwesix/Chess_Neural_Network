@@ -29,20 +29,22 @@ class ChessANNv2(nn.Module):
         super().__init__()
         self.conv0_bn = nn.BatchNorm2d(2)
 
-        self.conv1 = nn.Conv2d(in_channels=2, out_channels=4, kernel_size=2, padding=1)
-        self.conv1_bn = nn.BatchNorm2d(4)
+        self.conv1 = nn.Conv2d(in_channels=2, out_channels=8, kernel_size=2, padding=1)
+        self.conv1_bn = nn.BatchNorm2d(8)
 
-        self.conv2 = nn.Conv2d(in_channels=4, out_channels=8, kernel_size=2, padding=1)
-        self.conv2_bn = nn.BatchNorm2d(8)
+        self.conv2 = nn.Conv2d(in_channels=8, out_channels=16, kernel_size=2, padding=1)
+        self.conv2_bn = nn.BatchNorm2d(16)
 
-        self.conv3 = nn.Conv2d(8, 16, kernel_size=2, padding=1)
+        self.conv3 = nn.Conv2d(16, 32, kernel_size=2, padding=1)
 
-        self.hidden1 = nn.Linear(1937, 1500)
+        self.hidden1 = nn.Linear(3873, 3000)
 
-        self.flat_bn2 = nn.BatchNorm1d(1500)
-        self.hidden2 = nn.Linear(1500, 50)
+        self.flat_bn2 = nn.BatchNorm1d(3000)
+        self.hidden2 = nn.Linear(3000, 1500)
 
-        self.hidden3 = nn.Linear(50, 3)
+        self.hidden3 = nn.Linear(1500, 50)
+
+        self.hidden4 = nn.Linear(50, 3)
 
         self.flat_dropout = nn.Dropout(P_DROPOUT)
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
@@ -72,15 +74,19 @@ class ChessANNv2(nn.Module):
         x = torch.cat([x, player_on_turn], -1)
 
         if not eval:
-            del player_on_turn
+            del player_on_turn  # delete while training because of memory issues
 
         x = self.flat_dropout(x)
         x = F.relu(self.hidden1(x))
 
+        x = self.flat_dropout(x)
         x = F.relu(self.hidden2(x))
 
         x = self.flat_dropout(x)
-        x = F.softmax(self.hidden3(x), dim=-1)
+        x = F.relu(self.hidden3(x))
+
+        x = self.flat_dropout(x)
+        x = F.softmax(self.hidden4(x), dim=-1)
 
         return x
 

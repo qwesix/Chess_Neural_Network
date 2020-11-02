@@ -14,7 +14,7 @@ from ChessANNv2 import ChessANNv2, ChessANN2Dataset
 from Training import print_gpu_information, print_process_bar, time_string
 
 
-DATABASE_PATH = "../database/chess_db_sample.json"
+DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 512
 NR_EPOCHS = 100
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     # ===== Create model =====
     model = ChessANNv2()
-    model.load_state_dict(torch.load("../models/ChessANNv2v3-90_82.pt"))  # improve already trained parameters
+    # model.load_state_dict(torch.load("../models/ChessANNv2v3-90_82.pt"))  # improve already trained parameters
     model.train()
     model = model.to(device)
 
