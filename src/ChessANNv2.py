@@ -37,14 +37,14 @@ class ChessANNv2(nn.Module):
 
         self.conv3 = nn.Conv2d(16, 32, kernel_size=2, padding=1)
 
-        self.hidden1 = nn.Linear(3873, 3000)
+        self.hidden1 = nn.Linear(3873, 2000)
 
-        self.flat_bn2 = nn.BatchNorm1d(3000)
-        self.hidden2 = nn.Linear(3000, 1500)
+        # self.flat_bn2 = nn.BatchNorm1d(3000)
+        self.hidden2 = nn.Linear(2000, 500)
 
-        self.hidden3 = nn.Linear(1500, 50)
+        self.hidden3 = nn.Linear(500, 3)
 
-        self.hidden4 = nn.Linear(50, 3)
+        # self.hidden4 = nn.Linear(50, 3)
 
         self.flat_dropout = nn.Dropout(P_DROPOUT)
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
@@ -82,11 +82,11 @@ class ChessANNv2(nn.Module):
         x = self.flat_dropout(x)
         x = F.relu(self.hidden2(x))
 
-        x = self.flat_dropout(x)
-        x = F.relu(self.hidden3(x))
+        # x = self.flat_dropout(x)
+        # x = F.relu(self.hidden3(x))
 
         x = self.flat_dropout(x)
-        x = F.softmax(self.hidden4(x), dim=-1)
+        x = F.softmax(self.hidden3(x), dim=-1)
 
         return x
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     y = ANN.forward(tensor1, tensor2)
     print(y)
 
-    t = torch.Tensor(5)
-    print(t)
-    t.resize_([len(t), 1])
-    print(t)
+    # t = torch.Tensor(5)
+    # print(t)
+    # t.resize_([len(t), 1])
+    # print(t)

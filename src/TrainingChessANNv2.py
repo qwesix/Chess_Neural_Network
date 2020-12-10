@@ -17,7 +17,7 @@ from Training import print_gpu_information, print_process_bar, time_string
 DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 512
-NR_EPOCHS = 100
+NR_EPOCHS = 50
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -172,25 +172,25 @@ if __name__ == '__main__':
     losses = []
     percentages = []
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.003)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.001)
 
     start_time = time.time()
 
     for i in range(NR_EPOCHS):
         if i == 10:
-            optimizer = torch.optim.Adam(model.parameters(), lr=0.002)
-        elif i == 30:
-            optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-        elif i == 50:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
-        elif i == 65:
+        elif i == 30:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
-        elif i == 75:
+        elif i == 50:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00005)
-        elif i == 85:
+        elif i == 65:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.00001)
-        elif i == 95:
+        elif i == 75:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.000005)
+        elif i == 85:
             optimizer = torch.optim.Adam(model.parameters(), lr=0.000001)
+        elif i == 95:
+            optimizer = torch.optim.Adam(model.parameters(), lr=0.0000001)
 
         total_loss = 0
 

@@ -83,7 +83,7 @@ class PlayingEngine:
         max_value = -10000
         best_move = None
         for result, move in results:
-            print(result)
+            # print(result)
             if result > max_value:
                 max_value = result
                 best_move = move
