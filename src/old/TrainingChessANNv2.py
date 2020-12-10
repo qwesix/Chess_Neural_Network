@@ -14,7 +14,7 @@ from ChessANNv2 import ChessANNv2, ChessANN2Dataset
 from Training import print_gpu_information, print_process_bar, time_string
 
 
-DATABASE_PATH = "../database/chess_db.json"
+DATABASE_PATH = "../../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 512
 NR_EPOCHS = 50
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
     i = 0
     data_length = len(data)
-    for entry in data:
+    for entry in data[:2000]:
         print_process_bar(i, data_length, "of data processing completed.")
 
         result = entry["result"] + 1
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
         for state in game:
             processed_epds.append(model.process_epd(state))
-            on_turns.append(torch.Tensor([0]) if white_on_turn else torch.Tensor([1]))
+            on_turns.append(torch.HalfTensor([0]) if white_on_turn else torch.Tensor([1]))
             white_on_turn = not white_on_turn
 
         if result == 0:  # black wins

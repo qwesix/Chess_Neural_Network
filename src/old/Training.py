@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
-from src.ChessANN import ChessANN
+from old.ChessANN import ChessANN
 
 
-DATABASE_PATH = "../database/chess_db.json"
+DATABASE_PATH = "../../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 40000
 NR_EPOCHS = 105

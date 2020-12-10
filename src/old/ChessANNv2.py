@@ -6,36 +6,34 @@ import torch.nn.functional as F
 P_DROPOUT = 0.2
 
 # Stores for every piece the channel it gets saved in and the value:
+# (The values of the peaces are normed to be between 0 and 1)
 channel_encoder = {
     'K': [0, 0],
-    'Q': [0, 1],
-    'R': [0, 2],
-    'N': [0, 3],
-    'B': [0, 4],
-    'P': [0, 5],
+    'Q': [0, 0.2],
+    'R': [0, 0.4],
+    'N': [0, 0.6],
+    'B': [0, 0.8],
+    'P': [0, 1],
 
     'k': [1, 0],
-    'q': [1, 1],
-    'r': [1, 2],
-    'n': [1, 3],
-    'b': [1, 4],
-    'p': [1, 5]
+    'q': [1, 0.2],
+    'r': [1, 0.4],
+    'n': [1, 0.6],
+    'b': [1, 0.8],
+    'p': [1, 1],
 }
 
 
 class ChessANNv2(nn.Module):
-
     def __init__(self):
         super().__init__()
-        self.conv0_bn = nn.BatchNorm2d(2)
-
-        self.conv1 = nn.Conv2d(in_channels=2, out_channels=8, kernel_size=2, padding=1)
+        self.conv1 = nn.Conv2d(in_channels=2, out_channels=8, kernel_size=2, padding=1) #, bias=False)
         self.conv1_bn = nn.BatchNorm2d(8)
 
-        self.conv2 = nn.Conv2d(in_channels=8, out_channels=16, kernel_size=2, padding=1)
+        self.conv2 = nn.Conv2d(in_channels=8, out_channels=16, kernel_size=2, padding=1) #, bias=False)
         self.conv2_bn = nn.BatchNorm2d(16)
 
-        self.conv3 = nn.Conv2d(16, 32, kernel_size=2, padding=1)
+        self.conv3 = nn.Conv2d(16, 32, kernel_size=2, padding=1) #, bias=False)
 
         self.hidden1 = nn.Linear(3873, 2000)
 
@@ -50,8 +48,6 @@ class ChessANNv2(nn.Module):
         self.dropout2d = nn.Dropout2d(P_DROPOUT)
 
     def forward(self, x, player_on_turn, eval=False) -> torch.Tensor:
-        x = self.conv0_bn(x)
-
         x = self.conv1(x)
         x = F.relu(x)
         x = self.conv1_bn(x)
@@ -92,7 +88,7 @@ class ChessANNv2(nn.Module):
 
     @staticmethod
     def process_epd(epd_: str) -> torch.Tensor:
-        tensor = torch.zeros([2, 8, 8])
+        tensor = torch.zeros([2, 8, 8], dtype=torch.float16)
 
         # 2 channels -> for every color one
         # figures encoded like in channel encode
