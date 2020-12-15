@@ -1,5 +1,6 @@
 import torch
 import Model
+from functools import lru_cache
 
 
 class CustomDataset(torch.utils.data.Dataset):
@@ -11,6 +12,7 @@ class CustomDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.positions)
 
+    @lru_cache(1000000)
     def __getitem__(self, idx):
         sample = self.positions[idx]
         # position, on turn, label
