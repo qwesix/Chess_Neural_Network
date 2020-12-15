@@ -17,7 +17,7 @@ def get_player_move() -> chess.Move:
 
 
 def play_against_black(board_: chess.Board, depth=2):
-    computer = PlayingEngine(ChessANNv2ValueFunction("../../models/ChessANNv2v4.pt"), depth, PlayingEngine.BLACK)
+    computer = PlayingEngine(ChessANNv2ValueFunction("../models/ChessANNv2blub.pt"), depth, PlayingEngine.BLACK)
 
     white_on_turn = True
     while not board_.is_game_over():
@@ -37,7 +37,7 @@ def play_against_black(board_: chess.Board, depth=2):
 
 
 def play_against_white(board_: chess.Board, depth=2):
-    computer = PlayingEngine(ChessANNv2ValueFunction("../../models/ChessANNv2v4.pt"), depth, PlayingEngine.WHITE)
+    computer = PlayingEngine(ChessANNv2ValueFunction("../models/ChessANNv2blub.pt"), depth, PlayingEngine.WHITE)
 
     white_on_turn = True
     while not board_.is_game_over():

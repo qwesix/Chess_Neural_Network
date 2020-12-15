@@ -4,7 +4,7 @@ import multiprocessing as mp
 import chess
 
 from Training import time_string
-from ValueFunction import ValueFunction, DumbValueFunction, ChessANNValueFunction
+from ValueFunction import ValueFunction
 
 
 class PlayingEngine:

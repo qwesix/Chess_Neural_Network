@@ -1,4 +1,3 @@
-import sys
 import time
 
 import torch
@@ -14,10 +13,10 @@ from ChessANNv2 import ChessANNv2, ChessANN2Dataset
 from Training import print_gpu_information, print_process_bar, time_string
 
 
-DATABASE_PATH = "../../database/chess_db.json"
+DATABASE_PATH = "../database/chess_db.json"
 USE_GPU = True
 BATCH_SIZE = 512
-NR_EPOCHS = 50
+NR_EPOCHS = 10
 torch.manual_seed(42)
 sns.set_style("darkgrid")
 
@@ -247,4 +246,4 @@ if __name__ == '__main__':
 
     name = input("Save model? >>> ")
     if name != "":
-        torch.save(model.state_dict(), "../models/ChessANNv2" + name)
+        torch.save(model.state_dict(), "../../models/ChessANNv2" + name)
