@@ -19,7 +19,7 @@ DATABASE_PATH = "../../database/chess_db_sample.json"
 USE_GPU = True
 BATCH_SIZE = 5  # 512
 NR_EPOCHS = 2
-TEST_SIZE = 0.9  # between 0 and 1
+TEST_SIZE = 0.1  # between 0 and 1
 GLOBAL_SEED = 42
 NUMBER_WORKERS = multiprocessing.cpu_count() / 4
 
@@ -120,13 +120,16 @@ if __name__ == '__main__':
 
         pred = None
         losses.append(total_loss / number_of_batches)
-        print(f'epoch: {i:3}  loss: {total_loss / number_of_batches:11.8f}  accuracy: {100 * correct / games_for_train:3.2f}%')
+
+        accuracy = 100 * correct / games_for_train
+        percentages.append(accuracy)
+        print(f'epoch: {i:3}  loss: {total_loss / number_of_batches:11.8f}  accuracy: {accuracy:3.2f}%')
 
     # Validate:
     with torch.no_grad():
         model.eval()
-        correct = 0
         total_loss = 0
+        correct = 0
 
         for positions, on_turns, labels in test_loader:
             pred = model(positions.to(device), on_turns.to(device))
@@ -143,3 +146,20 @@ if __name__ == '__main__':
 
         pred = None
         print(f'On Validation data: loss: {total_loss:11.8f}  accuracy: {100 * correct / len(test_dataset):3.2f}%')
+
+    # plot the collected data:
+    plt.plot(losses)
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.show()
+
+    plt.plot(percentages)
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    axes = plt.gca()
+    axes.set_ylim([0, 100])
+    plt.show()
+
+    name = input("Save model? >>> ")
+    if name != "":
+        torch.save(model.state_dict(), "../../models/ChessANNv2" + name)
