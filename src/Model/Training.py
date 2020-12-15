@@ -14,12 +14,14 @@ from CustomDataset import CustomDataset
 from Utils import print_gpu_information, print_process_bar, time_string, seed_everything
 
 # ===== PREFERENCES =====
-DATABASE_PATH = "../database/chess_db.json"
+DATABASE_PATH = "../../database/chess_db_sample.json"
 USE_GPU = True
 BATCH_SIZE = 512
 NR_EPOCHS = 10
+TEST_SIZE = 0.1  # between 0 and 1
+GLOBAL_SEED = 42
 
-seed_everything(42)     # set the seed for everything to 42 to guarantee reproducibility
+seed_everything(GLOBAL_SEED)     # set the seed for everything to 42 to guarantee reproducibility
 sns.set_style("darkgrid")
 
 
@@ -39,3 +41,18 @@ if __name__ == '__main__':
     model = model.to(device)
 
     # ===== Get features and labels =====
+    db = TinyDB(DATABASE_PATH)
+    table = db.table('default_table')
+    start_time = time.time()
+    data = table.all()
+    db.close()
+    end_time = time.time()
+
+    nr_of_games = len(data)
+    print(f'Collecting data from db needed {time_string(time.time() - start_time)}. '
+          f'{nr_of_games} games available')
+
+    # Typically the samples get splitted but here we split the games so that the positions in the
+    # test and training samples are from different games.
+    games_for_train, games_for_test = train_test_split(data, test_size=TEST_SIZE, random_state=GLOBAL_SEED)
+
