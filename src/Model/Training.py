@@ -126,6 +126,9 @@ if __name__ == '__main__':
         print(f'epoch: {i:3}  loss: {total_loss / number_of_batches:11.8f}  accuracy: {accuracy:3.2f}%')
 
     # Validate:
+    train_loader = None
+    train_dataset = None
+
     with torch.no_grad():
         model.eval()
         total_loss = 0
