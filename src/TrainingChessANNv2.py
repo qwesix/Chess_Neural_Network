@@ -26,7 +26,6 @@ if __name__ == '__main__':
     cuda_available = torch.cuda.is_available()
 
     device = torch.device("cuda:0" if (cuda_available and USE_GPU) else "cpu")
-    cudnn.benchmark = True
 
     print_gpu_information(device, cuda_available and USE_GPU)
 
