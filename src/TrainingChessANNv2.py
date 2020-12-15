@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
-from Model import Model, ChessANN2Dataset
+from Model import *
 from Training import print_gpu_information, print_process_bar, time_string
 
 
