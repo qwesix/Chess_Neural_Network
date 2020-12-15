@@ -81,7 +81,7 @@ class Model(nn.Module):
 
 
 def process_epd(epd_: str) -> torch.Tensor:
-    tensor = torch.zeros([2, 8, 8], dtype=torch.float16)
+    tensor = torch.zeros([2, 8, 8]) #, dtype=torch.float16)
 
     # 2 channels -> for every color one
     # figures encoded like in channel encode
@@ -101,10 +101,10 @@ def process_epd(epd_: str) -> torch.Tensor:
             j += 1
             pos += 1
 
-    return tensor.unsqueeze(0)
+    return tensor
 
 
-def process_and_add_to_tensor(self, epd: str, tensor: torch.Tensor, index: int):
+def process_and_add_to_tensor(epd: str, tensor: torch.Tensor, index: int):
     # 2 channels -> for every color one
     # figures encoded like in channel_encoder
     rows = epd.split(" ")[0].split("/")

@@ -1,16 +1,17 @@
 import torch
+import Model
 
 
 class CustomDataset(torch.utils.data.Dataset):
     """ Special dataset that is used for ChessANNv2 and delivers two input tensors in stead of one. """
 
-    def __init__(self, positions_list):
-        self.conv_input = conv_input
-        self.player_input = player_input
-        self.result = result
+    def __init__(self, positions_list: list):
+        self.positions = positions_list
 
     def __len__(self):
-        return len(self.result)
+        return len(self.positions)
 
     def __getitem__(self, idx):
-        return self.conv_input[idx], self.player_input[idx], self.result[idx]
+        sample = self.positions[idx]
+        # position, on turn, label
+        return Model.process_epd(sample[0]), sample[1], sample[2]
