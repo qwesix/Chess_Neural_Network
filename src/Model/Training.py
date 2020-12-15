@@ -25,6 +25,19 @@ seed_everything(GLOBAL_SEED)     # set the seed for everything to 42 to guarante
 sns.set_style("darkgrid")
 
 
+def games_to_list(tinydb_entries):
+    positions_list = []
+    for game in tinydb_entries:
+        result = game["result"] + 1
+        # entry["result"] in {-1, 0, 1} but result is categorical label -> result in {0, 1, 2}
+        positions = game["states"]
+
+        for position in positions:
+            positions_list.append((position, result))
+
+    return positions_list
+
+
 if __name__ == '__main__':
     # ===== Handle GPU: =====
     use_cuda = torch.cuda.is_available() and USE_GPU
@@ -56,3 +69,5 @@ if __name__ == '__main__':
     # test and training samples are from different games.
     games_for_train, games_for_test = train_test_split(data, test_size=TEST_SIZE, random_state=GLOBAL_SEED)
 
+    train_positions = games_to_list(games_for_train)
+    test_positions = games_to_list(games_for_test)
