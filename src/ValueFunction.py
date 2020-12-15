@@ -4,7 +4,7 @@ import torch
 import chess
 
 from ChessANN import ChessANN
-from ChessANNv2 import ChessANNv2
+from Model import Model
 
 
 class ValueFunction:
@@ -69,7 +69,7 @@ class ChessANNValueFunction(ValueFunction):
 
 class ChessANNv2ValueFunction(ValueFunction):
     def __init__(self, model_path: str):
-        self.model = ChessANNv2()
+        self.model = Model()
         self.model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
         self.model.eval()
 

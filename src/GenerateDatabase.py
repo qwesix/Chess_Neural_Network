@@ -65,8 +65,8 @@ def add_to_database(db_, states_: list) -> int:
 
 
 if __name__ == '__main__':
-    # pgn_folder = sys.argv[1]
-    # database_path = sys.argv[2]
+    # database_path = sys.argv[1]
+    # pgn_folder = sys.argv[2]
 
     pgn_folder = "../pgn/"
     database_path = "../database/chess_db_big.json"

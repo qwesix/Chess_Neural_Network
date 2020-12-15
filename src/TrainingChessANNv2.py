@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
-from ChessANNv2 import ChessANNv2, ChessANN2Dataset
+from Model import Model, ChessANN2Dataset
 from Training import print_gpu_information, print_process_bar, time_string
 
 
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     torch.backends.cudnn.benchmark = True
 
     # ===== Create model =====
-    model = ChessANNv2()
+    model = Model()
     # model.load_state_dict(torch.load("../models/ChessANNv2v3-90_82.pt"))  # improve already trained parameters
     model.train()
     model = model.to(device)
