@@ -4,7 +4,7 @@ import multiprocessing as mp
 import chess
 
 from Training import time_string
-from ValueFunction import ValueFunction, DumbValueFunction, ChessANNValueFunction
+from ValueFunction import ValueFunction
 
 
 class PlayingEngine:
@@ -82,6 +82,7 @@ class PlayingEngine:
         max_value = -10000
         best_move = None
         for result, move in results:
+            # print(result)
             if result > max_value:
                 max_value = result
                 best_move = move
@@ -112,7 +113,7 @@ class PlayingEngine:
 
     def _maximize_(self, board: chess.Board, depth: int) -> (float, chess.Move):
         if depth > self.search_depth or board.is_game_over():
-            return self.value_function.evaluate_position(board, self.player_color)
+            return self.value_function.evaluate_position(board, self.player_color, not self.player_color)
 
         else:
             max_val = -10000
@@ -130,7 +131,7 @@ class PlayingEngine:
         # alpha = current maximum; beta = current minimum
 
         if depth > self.search_depth or board.is_game_over():
-            return self.value_function.evaluate_position(board, self.player_color)
+            return self.value_function.evaluate_position(board, self.player_color, self.player_color)
 
         else:
             min_val = 10000
@@ -150,7 +151,7 @@ class PlayingEngine:
 
     def _alpha_beta_max_(self, board: chess.Board, depth: int, alpha: int, beta: int) -> (float, chess.Move):
         if depth > self.search_depth or board.is_game_over():
-            return self.value_function.evaluate_position(board, self.player_color)
+            return self.value_function.evaluate_position(board, self.player_color, not self.player_color)
 
         else:
             max_val = -10000

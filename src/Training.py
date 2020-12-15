@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
-from src.ChessANN import ChessANN
+from ChessANN import ChessANN
 
 
 DATABASE_PATH = "../database/chess_db.json"

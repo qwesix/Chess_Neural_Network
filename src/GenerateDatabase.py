@@ -69,7 +69,7 @@ if __name__ == '__main__':
     # database_path = sys.argv[2]
 
     pgn_folder = "../pgn/"
-    database_path = "../database/chess_db.json"
+    database_path = "../database/chess_db_big.json"
 
     paths = list()
     for x in os.scandir(pgn_folder):
