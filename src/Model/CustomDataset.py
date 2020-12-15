@@ -4,7 +4,7 @@ import torch
 class CustomDataset(torch.utils.data.Dataset):
     """ Special dataset that is used for ChessANNv2 and delivers two input tensors in stead of one. """
 
-    def __init__(self, conv_input, player_input, result):
+    def __init__(self, positions_list):
         self.conv_input = conv_input
         self.player_input = player_input
         self.result = result

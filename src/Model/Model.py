@@ -79,30 +79,49 @@ class Model(nn.Module):
 
         return x
 
-    @staticmethod
-    def process_epd(epd_: str) -> torch.Tensor:
-        tensor = torch.zeros([2, 8, 8], dtype=torch.float16)
 
-        # 2 channels -> for every color one
-        # figures encoded like in channel encode
-        rows = epd_.split(" ")[0].split("/")
-        for i in range(8):
-            row = list(rows[i])
+def process_epd(epd_: str) -> torch.Tensor:
+    tensor = torch.zeros([2, 8, 8], dtype=torch.float16)
 
-            j = 0
-            pos = 0
-            while j < 8:
-                if row[pos] in channel_encoder:
-                    encoded = channel_encoder[row[pos]]
-                    tensor[encoded[0]][i][j] = encoded[1]
-                else:
-                    j += int(row[pos])
+    # 2 channels -> for every color one
+    # figures encoded like in channel encode
+    rows = epd_.split(" ")[0].split("/")
+    for i in range(8):
+        row = list(rows[i])
 
-                j += 1
-                pos += 1
+        j = 0
+        pos = 0
+        while j < 8:
+            if row[pos] in channel_encoder:
+                encoded = channel_encoder[row[pos]]
+                tensor[encoded[0]][i][j] = encoded[1]
+            else:
+                j += int(row[pos])
 
-        return tensor.unsqueeze(0)
+            j += 1
+            pos += 1
 
+    return tensor.unsqueeze(0)
+
+
+def process_and_add_to_tensor(self, epd: str, tensor: torch.Tensor, index: int):
+    # 2 channels -> for every color one
+    # figures encoded like in channel_encoder
+    rows = epd.split(" ")[0].split("/")
+    for i in range(8):
+        row = list(rows[i])
+
+        j = 0
+        pos = 0
+        while j < 8:
+            if row[pos] in channel_encoder:
+                encoded = channel_encoder[row[pos]]
+                tensor[index][encoded[0]][i][j] = encoded[1]
+            else:
+                j += int(row[pos])
+
+            j += 1
+            pos += 1
 
 
 if __name__ == '__main__':

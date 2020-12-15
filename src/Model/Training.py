@@ -71,3 +71,5 @@ if __name__ == '__main__':
 
     train_positions = games_to_list(games_for_train)
     test_positions = games_to_list(games_for_test)
+
+    
