@@ -43,3 +43,8 @@ if __name__ == '__main__':
 
     bench(engine.min_max_search, nr_repetitions, "alpha beta", board, True, True)
     bench(engine.min_max_parallel, nr_repetitions, "alpha beta /w mp", board, False, True)
+
+# Avg mini max:                 21.4820 sec.
+# Avg mini max /w mp:           9.7185 sec.
+# Avg alpha beta:               20.5185 sec.
+# Avg alpha beta /w mp:         10.1899 sec.
