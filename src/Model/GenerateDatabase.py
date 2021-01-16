@@ -8,6 +8,11 @@ import operator
 
 
 def process_file(path) -> list:
+    """
+    Goes thru the games in the given file and processes their moves.
+    :param path: Path to a .png file with >= 1 game.
+    :return: A list that contains for every game from the file an entry with result, game state and additional information.
+    """
     pgn = open(path, encoding="iso-8859-15")
     print("Processing file ", path)
     games = list()
@@ -68,8 +73,8 @@ if __name__ == '__main__':
     # database_path = sys.argv[1]
     # pgn_folder = sys.argv[2]
 
-    pgn_folder = "../pgn/"
-    database_path = "../database/chess_db_big.json"
+    pgn_folder = "../pgn/"                              # folder with the pgns which should be processed
+    database_path = "../database/chess_db_new.json"     # where to store the newly generated database
 
     paths = list()
     for x in os.scandir(pgn_folder):
@@ -86,5 +91,6 @@ if __name__ == '__main__':
     db.drop_tables()
     table = db.table('default_table', cache_size=5000)
     nr_examples_added = add_to_database(table, states)
+
     print(f"Examples in the database: {len(table)} ({nr_examples_added} newly added)")
     db.close()
