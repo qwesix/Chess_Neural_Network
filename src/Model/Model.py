@@ -80,12 +80,16 @@ class Model(nn.Module):
         return x
 
 
-def process_epd(epd_: str) -> torch.Tensor:
+def process_epd(epd: str) -> torch.Tensor:
+    """
+    Processes the epd and creates an tensor.
+    :rtype: The created tensor
+    """
     tensor = torch.zeros([2, 8, 8]) #, dtype=torch.float16)
 
     # 2 channels -> for every color one
     # figures encoded like in channel encode
-    rows = epd_.split(" ")[0].split("/")
+    rows = epd.split(" ")[0].split("/")
     for i in range(8):
         row = list(rows[i])
 
@@ -105,6 +109,13 @@ def process_epd(epd_: str) -> torch.Tensor:
 
 
 def process_and_add_to_tensor(epd: str, tensor: torch.Tensor, index: int):
+    """
+    Processes the epd and adds it to the tensor. That saves from creating a new tensor for every
+    epd and then stacking them.
+    :param epd: An epd to process
+    :param tensor: An existing tensor to which the processed epd gets added
+    :param index: Adds the processed epd at the index to the tensor
+    """
     # 2 channels -> for every color one
     # figures encoded like in channel_encoder
     rows = epd.split(" ")[0].split("/")
