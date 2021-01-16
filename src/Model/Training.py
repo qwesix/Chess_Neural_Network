@@ -10,12 +10,13 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from tinydb import TinyDB
 
+import Model
 from Model import Model
 from CustomDataset import CustomDataset
 from Utils import print_gpu_information, print_process_bar, time_string, seed_everything
 
 # ===== PREFERENCES =====
-DATABASE_PATH = "../../database/chess_db.json"
+DATABASE_PATH = "../../database/chess_db_sample.json"
 USE_GPU = True
 BATCH_SIZE = 256
 NR_EPOCHS = 4
@@ -27,6 +28,10 @@ sns.set_style("darkgrid")
 
 
 def games_to_list(tinydb_entries):
+    """
+    Takes a list with games (tinyDB entries) and returns a list with the positions of the games.
+    :return: lists consisting of tuples (position epd, player on turn, result)
+    """
     positions_list = []
     for game in tinydb_entries:
         result = game["result"] + 1
@@ -39,6 +44,24 @@ def games_to_list(tinydb_entries):
             half_move_clock = (half_move_clock + 1) % 2
 
     return positions_list
+
+
+def positions_list_to_tensors(positions_list: list):
+    """
+    Takes a list created by the method 'games_to_list'
+    :param positions_list: list created by the method 'games_to_list'
+    """
+    length = len(positions_list)
+    positions_tensor = torch.zeros([length, 2, 8, 8])   # 2 = nr of channels => black / white
+    player_on_turn_tensor = torch.zeros([length, 1])
+    result_tensor = torch.zeros([length])
+
+    counter = 0
+    for position in positions_list:
+        Model.process_and_add_to_tensor(position[0], positions_tensor, counter)
+        player_on_turn_tensor[counter][0] = position[1]     # TODO: Testen ob = auch durch += ersetzt werden kann
+        result_tensor[counter] = position[2]
+        counter += 1
 
 
 if __name__ == '__main__':
@@ -56,7 +79,7 @@ if __name__ == '__main__':
     model.train()
     model = model.to(device)
 
-    # ===== Get features and labels =====
+    # ===== Get features and labels from database =====
     db = TinyDB(DATABASE_PATH)
     table = db.table('default_table')
     start_time = time.time()
@@ -66,10 +89,10 @@ if __name__ == '__main__':
 
     nr_of_games = len(data)
     print(f'Collecting data from db needed {time_string(time.time() - start_time)}. '
-          f'{nr_of_games} games available')
+          f'{nr_of_games} games available.')
 
-    # Typically the samples get splitted but here we split the games so that the positions in the
-    # test and training samples are from different games.
+    # Typically the samples get split but here we split between complete games so that the positions in the
+    # test and training samples are from different games. (So they don't correlate)
     games_for_train, games_for_test = train_test_split(data, test_size=TEST_SIZE, random_state=GLOBAL_SEED)
 
     train_positions = games_to_list(games_for_train)
